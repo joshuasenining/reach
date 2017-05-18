@@ -1,0 +1,258 @@
+
+/* Fonts
+-------------------------------------------------- */
+@font-face {
+	font-family: HelveticaNeueLight;
+	src: url(../fonts/helvetica-neue/light.eot);
+	src: url(../fonts/helvetica-neue/light.eot) format('embedded-opentype'), url(../fonts/helvetica-neue/light.woff) format('woff'), url(../fonts/helvetica-neue/light.ttf) format('truetype'), url(../fonts/helvetica-neue/light.svg#HelveticaNeueLight) format('svg')
+}
+@font-face {
+	font-family: HelveticaNeue;
+	src: url(../fonts/helvetica-neue/regular.eot);
+	src: url(../fonts/helvetica-neue/regular.eot?#iefix) format('embedded-opentype'), url(../fonts/helvetica-neue/regular.woff) format('woff'), url(../fonts/helvetica-neue/regular.ttf) format('truetype'), url(../fonts/helvetica-neue/light.svg#HelveticaNeueRegular) format('svg')
+}
+@font-face {
+	font-family: HelveticaNeueMedium;
+	src: url(../fonts/helvetica-neue/medium.eot);
+	src: url(../fonts/helvetica-neue/medium.eot?#iefix) format('embedded-opentype'), url(../fonts/helvetica-neue/medium.woff) format('woff'), url(../fonts/helvetica-neue/medium.ttf) format('truetype'), url(../fonts/helvetica-neue/medium.svg#HelveticaNeueMedium) format('svg')
+}
+@font-face {
+	font-family: HelveticaNeueBold;
+	src: url(../fonts/helvetica-neue/bold.eot);
+	src: url(../fonts/helvetica-neue/bold.eot?#iefix) format('embedded-opentype'), url(../fonts/helvetica-neue/bold.woff) format('woff'), url(../fonts/helvetica-neue/bold.ttf) format('truetype'), url(../fonts/helvetica-neue/bold.svg#HelveticaNeueBold) format('svg')
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+@font-face {
+  font-family: mck-icons;
+  src: url(../fonts/icons/mck-icons.eot?urk1lg);
+  src: url(../fonts/icons/mck-icons.eot?#iefixurk1lg) format('embedded-opentype'), url(../fonts/icons/mck-icons.woff?urk1lg) format('woff'), url(../fonts/icons/mck-icons.ttf?urk1lg) format('truetype'), url(../fonts/icons/mck-icons.svg?urk1lg#mck-icons) format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+[class*=mck-icon__], [class^=mck-icon__] {
+  font-family: mck-icons!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.mck-icon__plus-circle:before {
+    content: "\e648";
+}
+.mck-icon__minus-circle:before {
+    content: "\e63e";
+}
+.mck-icon__download:before {
+    content: "\e627";
+}
+.mck-icon__arrow-right:before {
+	content: "\e60f";
+	color: #000000;
+	padding-left: 10px;
+}
+.pull-right{
+	float:right;
+}
+.pull-left{
+	float:left;
+}
+.lightgraybk{
+	background-color: #f5f5f5
+}
+.text-uppercase{
+	    text-transform: uppercase;
+}
+hr{
+	border-top:rgba(151,151,151,.6);
+}
+#index-banner {		
+    background-image:url('../images/patterns.png'), linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+
+  	background-image: url('../images/patterns.png'), -moz-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image:url('../images/patterns.png'), -webkit-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image: url('../images/patterns.png'), -webkit-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image:url('../images/patterns.png'), -o-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image:url('../images/patterns.png'), -ms-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+    background-size: contain, cover;
+    height: 335px;
+    background-position: right, left;
+    background-repeat: no-repeat;
+}
+.intro-text{
+	font-family: HelveticaNeueLight;
+}
+#index-banner h1{
+	color:#00ADEF;
+	margin:0;	
+	font-family: HelveticaNeueLight;
+}
+#index-banner .container{
+	padding:50px 0 20px 0;
+}
+#index-banner img{
+	max-height: 260px;
+}
+#index-banner h3{
+	font-size:36px;
+	color:#fff;
+	line-height: 40px;
+	margin:0;
+}
+#index-banner h1, #index-banner h3, .intro h5,.card h5,.filters .card-panel p{
+	transition: font 0.3s ease
+}
+/* get inspired*/
+.intro h5{
+	line-height: 30px;
+	font-size: 20px;
+}
+.card{
+	margin:0 0 30px 0;
+}
+.card h5{
+	font:22px HelveticaNeueMedium;
+	color:#1D335E;
+	margin-top:0;
+}
+.card small{
+	font:14px HelveticaNeueMedium;
+	color:#9B9B9B;
+	padding: 0 0 20px 0
+}
+.card ul{
+	font-size: 1rem;
+}
+.card ul li{
+	padding:3px 0;
+}
+.shadow{
+	box-shadow:  0 2px 19px 0 rgba(0,0,0,0.08);
+	-webkit-box-shadow:  0 2px 19px 0 rgba(0,0,0,0.08);
+  	-moz-box-shadow: 0 2px 19px 0 rgba(0,0,0,0.08);
+  	float:left;
+  	width:100%;
+}
+.filter-button.is-checked
+{
+	color:#2E60AD;
+	text-decoration: none;
+}
+a{
+  color: #00ADEF;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.filter-button{
+	cursor: pointer
+}
+.sidebarfilter-button{
+	color:#fff!important;
+	cursor: pointer;
+}
+.filters .card p{
+	color:#666666;
+}
+.filters .card-panel .row .col.s2 img{
+	text-align: center
+}
+.filters .card-panel p{
+	font-size:18px;
+}
+.tabs li{
+	display:inline-block;
+    text-align: center;
+    line-height: 48px;
+    height: 48px;
+    padding: 0 7px;
+    margin: 0;
+}
+.tabs li span{
+	color:#666666;
+    width: 100%;
+    height: 100%;
+    font: 16px HelveticaNeueBold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color .28s ease;
+}
+.filters .card a,.filters .card h5{
+	font:18px HelveticaNeueMedium;
+	color:#2E60AD;
+}
+
+
+.sidebar{
+	padding:20px;
+}
+.sidebar .blue{
+	padding:15px 0;
+	margin:0 0 20px 0;
+}
+.sidebar .blue small{
+	padding: 1rem;
+	float:left;
+	width:100%;
+	color:#fff;
+}
+/* get inspire ends*/
+/* story*/
+.story-title{
+	font:40px HelveticaNeue;
+	line-height: 52px
+}
+.story{
+	padding:0;
+}
+.story .xl9 img{
+	padding:0 15px 15px 15px;
+}
+.quote .card-panel{
+	background-color: transparent;
+	font-family: Georgia, HelveticaNeue,Arial;
+	margin:0;
+}
+.quote .row{
+	margin-bottom:0;
+}
+.quote{
+	margin:0 0 20px 0;
+}
+.story .xl9 .collapsible-header{
+	padding:15px 10px;
+}
+.story .xl9 .collapsible-body{
+	padding: 15px;
+}
+.contacts h6{
+	font:15px HelveticaNeueMedium;
+}
+.valign-wrapper small{
+	font-size: 13px;
+}
+.valign-wrapper .mck-icon__download{
+	padding:0 10px 0 0;
+}
+.valign-wrapper small a{
+	color:#000;
+}
+/* story ends*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	font-family: inherit;
+}

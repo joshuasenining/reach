@@ -1,0 +1,8 @@
+name = Reach Theme
+description = Theme for Reach site based on Materialized
+base theme = materialize
+core = 7.x
+
+
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/mobile.css

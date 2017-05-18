@@ -73,31 +73,22 @@
  * @ingroup themeable
  */
 ?>
-
-    <nav class="nav-extended">
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="images/logo.png"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-            <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
-                <li><a href="index.html">What is R&amp;R</a></li>
-                <li><a href="getinspired.html">Get Inspired</a></li>
-                <li><a href="playbook.html">Playbook</a></li>
-
-            </ul>
+<div id="page">
+  <nav class="teal lighten-1" id="nav" role="navigation">
+    <div class="nav-wrapper container">
+      <?php if ($logo): ?>
+        <a class="brand-logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a>
+      <?php endif; ?>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <?php if (!empty($primary_nav)): ?>
+        <div class="right hide-on-med-and-down">
+          <?php print render($primary_nav); ?>
         </div>
-        <div class="nav-content">
-
-            <ul class="menutabs" id="nav-mobile">
-
-                <li class="portaltitle active"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
-                <li class="active"><a href="index.html">What is R&amp;R</a></li>
-                <li><a href="getinspired.html">Get Inspired</a></li>
-                <li><a href="playbook.html">Playbook</a></li>
-
-                <li id="magic-line" style="width: 156px; left: 27px; display: none;"></li></ul>
-        </div>
-    </nav>
+      <?php endif; ?>
+    </div>
+  </nav>
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
@@ -158,4 +149,4 @@
     </footer>
   <?php endif; ?>
 
-
+</div> <!-- /#page -->

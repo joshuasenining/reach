@@ -1,1 +1,0 @@
-All the folder are for this theme except the "mck-ui", this folder contain all the MCK UI framework. 
