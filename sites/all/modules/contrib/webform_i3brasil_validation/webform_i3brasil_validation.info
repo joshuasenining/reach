@@ -1,0 +1,10 @@
+name = webform_i3brasil_validation
+description = Custom Module for the Our Brand ( extension to obnoxious i3 Brasil Site )
+package = public-action
+version = VERSION
+core = 7.x
+files[] = webform_i3brasil_validation.module
+; Information added by drupal.org packaging script on 2014-07-11
+version = "7.0-alpha3"
+project = "drupal"
+datestamp = "1269192313"

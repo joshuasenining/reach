@@ -1,0 +1,48 @@
+{
+    "screenSize": {
+        "small": 519,
+        "medium": 759,
+        "large": 1024
+    },
+    "_defaultLanguage": "en",
+    "_defaultDirection": "ltr",
+    "_questionWeight": 1,
+    "_accessibility": {
+        "_isEnabled": true,
+        "_shouldSupportLegacyBrowsers": true,
+        "_isTextProcessorEnabled": true
+    },
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_spoor": {
+        "_isEnabled": true,
+        "_tracking": {
+            "_requireCourseCompleted": true,
+            "_requireAssessmentPassed": false,
+            "_shouldSubmitScore": false,
+            "_shouldStoreResponses": false,
+            "_shouldRecordInteractions": true
+        },
+        "_reporting": {
+            "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+            "_onTrackingCriteriaMet": "completed",
+            "_onAssessmentFailure": "incomplete"
+        },
+        "_advancedSettings": {
+            "_scormVersion": "2004",
+            "_showDebugWindow": false
+        }
+    },
+    "_inspector": {
+        "_isEnabled": false,
+        "_disableOnTouch": true,
+        "_tracUrl": "https://dev.kineo.com/trac/kus16039"
+    },
+    "_devtools": {
+        "_isEnabled": false,
+        "_theme": "theme-dark"
+    }
+}

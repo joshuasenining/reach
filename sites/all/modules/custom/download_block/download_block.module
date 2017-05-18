@@ -1,0 +1,68 @@
+<?php 
+
+function download_block_block_info() {
+  $blocks = array();
+  $blocks['downloads'] = array(
+    'info' => t('Download Block for Subpages'),
+    'status' => TRUE,
+    'region' => 'sidebar_second',
+    'visibility' => BLOCK_VISIBILITY_LISTED,
+    'pages' => 'node/*',
+  );
+
+  return $blocks;
+}
+
+//implementation of hook_block_view
+function download_block_block_view($delta='') {
+  $block = array();
+
+  switch($delta) {
+    case 'downloads' :
+      $variables = array(
+      	'links' => getData("link"),
+      	'ext' => getData("ext"),
+      ); //do stuff here
+      $block['content'] = theme('downloadblock', $variables);
+      break;
+  }
+  return $block;
+}
+
+
+//implementation of hook_theme
+function download_block_theme() {
+  return array(
+    'downloadblock' => array(
+      'variables' => array(),
+      'template' => 'templates/downloadblock',
+    ),
+  );
+}
+
+function getData($type) {
+$nid = arg(1);
+$node = node_load($nid);
+
+	$files = $node->field_download_asset_zip['und'];
+	$link = array();
+	$ext = array();
+	foreach($files as $file) {
+	    $name = !empty($file['description']) ? $file['description'] : $file['filename'];
+		$url = drupal_realpath($file['uri']);
+		$link[] = l($name, $url); 
+		$filename = $file['filename'];
+
+		$path_parts = pathinfo($filename);
+		$ext[] = $path_parts['extension'];
+	}
+
+	switch ($type) {
+		case "link": 	return $link;
+				break;
+
+		case "ext" :	return $ext;
+				break;
+	}
+
+}

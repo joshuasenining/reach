@@ -1,0 +1,877 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"all",
+				"allItems"
+			],
+			[
+				"backgo",
+				"background-image"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"theme",
+				"theme-dark-grey"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"a",
+				"initial"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"repeat",
+				"repeat-y"
+			],
+			[
+				"backgorund-c",
+				"background-color"
+			],
+			[
+				"Conflic",
+				"ConflictRecovery"
+			],
+			[
+				"ConflictR",
+				"ConflictRecovery_MyPartner"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"save",
+				"saveValue"
+			],
+			[
+				"Surfa",
+				"SurfaceHidden_Example"
+			],
+			[
+				"Three",
+				"‘ThreeStressors_1’"
+			],
+			[
+				"Overall",
+				"OverallRelationshipSatisfaction"
+			],
+			[
+				"transl",
+				"translateX()"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgorund-",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-light"
+			],
+			[
+				"c",
+				"contain"
+			],
+			[
+				"device",
+				"device-width-large"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"adapt-te",
+				"adapt-textInput\tAdapt 2.0"
+			],
+			[
+				"adapt-a",
+				"adapt-accordion\tAdapt 2.0"
+			],
+			[
+				"adapt-m",
+				"adapt-media\tAdapt 2.0"
+			],
+			[
+				"adapt",
+				"adapt-hotgraphic\tAdapt 2.0"
+			],
+			[
+				"ada",
+				"adapt-text\tAdapt 2.0"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"i",
+				"isolation"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"x",
+				"translateX()"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"repea",
+				"repeat-x"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"component",
+				"component"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ad",
+				"adapt-hotgraphic\tAdapt 2.0"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"adap",
+				"adapt-graphic\tAdapt 2.0"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: Install",
+		"selected_items":
+		[
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m05/course/en/components.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/_config.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/fonts/UniversLTStd-Light.otf",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m10/course/en/articles.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/navigation.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/templates/navigation.hbs",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/en/course.json",
+		"/C/working/Adapt/Adapt Kineo Theme/dev/src/components/adapt-contrib-narrative/properties.schema",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m10/course/en/components.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/en/articles.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/core/templates/navigation.hbs",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/navigation.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/package.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m10/course/config.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m10/course/en/course.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m10/course/en/contentObjects.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/en/contentObjects.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/articleBlockSlider.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/custom-block-classes.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/articleBlockSlider.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/article.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/core/js/views/navigationView.js",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/custom-page-classes.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/theme-extras.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/config.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/page-headers.less",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m07/course/en/course.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m07/course/en/contentObjects.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/plugins.js",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/templates/templates.js",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/src/core/less/base.less",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/src/theme/adapt-kineo-theme/less/src/navigation.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/en/blocks.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/m05/course/en/components.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/extensions/adapt-start-controller/example.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m120/course/en/components.json",
+		"/C/working/Adapt/kus16039 - McKinsey/build/Test Packages/Adapt 1.2 Assessment 0%/imsmanifest.xml",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m115/course/en/components.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m10/course/en/components.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m105/course/en/components.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m115/course/config.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m115/course/en/course.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m115/course/en/contentObjects.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m115/course/en/blocks.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/boxmenu.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/menu-item.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/menu/adapt-contrib-boxmenu/less/boxmenu.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/menu.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/components/adapt-contrib-accordion/js/adapt-contrib-accordion.js",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/extensions/adapt-article-reveal/js/adapt-article-reveal.js",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/_theme-core.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/_config.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/article-reveal.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/en/course.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/en/contentObjects.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/src/menu/adapt-contrib-boxMenu/js/adapt-contrib-boxmenu.js",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/menu/adapt-contrib-boxmenu/js/adapt-contrib-boxmenu.js",
+		"/C/working/Adapt/Adapt Kineo Theme/dev/builds/p101/course/en/course.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/article.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/extensions/adapt-article-reveal/less/adapt-article-reveal.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/components/adapt-contrib-media/less/media.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/media.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/page-level-progress-menu-item.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/buttons.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/buttons.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/mcq.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/matching.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/media.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/quick-nav.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/narrative.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/accordion.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/accordion.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/hotgraphic.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/trickle.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/assessment.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/block.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/component.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/gmcq.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/hotgrid.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/logo.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/chevron/page.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/extensions/adapt-article-reveal/templates/adapt-article-reveal.hbs",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/theme/adapt-kineo-theme/less/src/trickle.less",
+		"/C/working/Adapt/Adapt Sandbox/SCORM-test/build/course/en/components.json",
+		"/C/working/Adapt/Adapt Sandbox/SCORM-test/build/course/en/articles.json",
+		"/C/working/Adapt/Adapt Sandbox/SCORM-test/build/course/en/course.json",
+		"/C/working/Adapt/Adapt Sandbox/SCORM-test/build/course/config.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/cover-menu.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/en/components.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/en/blocks.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/animations.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/custom.less",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/en/blocks.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/extensions/adapt-article-reveal/example.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/en/articles.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/en/components.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/src/theme/adapt-kineo-theme/less/src/backgrounds.less",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m07/adapt/css/adapt.css",
+		"/C/working/Adapt/kus16031 - Chevron/dev/src/components/adapt-contrib-blank/example.json",
+		"/C/working/Adapt/kus16031 - Chevron/dev/builds/p101/course/config.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/en/articles.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/custom-m05.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/buttons.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/_theme-core.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m05/course/en/course.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m05/course/en/contentObjects.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m05/course/config.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/config.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/en/course.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/builds/m10/course/en/contentObjects.json",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/custom-m10.less",
+		"/C/working/Adapt/Adapt Sandbox/Hover-master/less/effects/background-transitions/_radial-out.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/src/_radial-out.less",
+		"/C/working/Adapt/Adapt Sandbox/Hover-master/less/hover.less",
+		"/C/working/Adapt/Adapt Sandbox/Hover-master/less/_hacks.less",
+		"/C/working/Adapt/Adapt Sandbox/Hover-master/less/_mixins.less",
+		"/C/working/Adapt/Adapt Sandbox/Hover-master/less/_options.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/theme/adapt-kineo-theme/less/color-palettes.less",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/menu/adapt-cover-menu/js/adapt-cover.js",
+		"/C/working/Adapt/kus16035 - Marc Jacobs/dev/src/menu/adapt-cover-menu/templates/cover-item.hbs",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m40/course/en/articles.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m110/course/en/components.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/config.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/en/course.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/en/contentObjects.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/en/articles.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/en/blocks.json",
+		"/C/working/Adapt/tus16003 - Our Relationship (Git)/builds/m90/course/en/components.json"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"C:\\working\\Adapt\\Adapt Kineo Theme\\dev\\src",
+			"C:\\working\\Adapt\\Adapt Kineo Theme\\dev\\builds\\p101\\course\\en",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Adapt\\Adapt Kineo Theme",
+			"C:\\working\\Adapt\\kus16031 - Chevron\\dev\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Adapt\\kus16031 - Chevron\\dev\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds\\m30\\course",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16031 - Chevron\\dev\\src\\theme\\adapt-kineo-theme\\less\\src\\chevron",
+			"C:\\working\\Adapt\\kus16031 - Chevron\\dev\\src\\theme",
+			"C:\\working\\Adapt\\kus16031 - Chevron\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16035 - Marc Jacobs\\dev\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16028 - US Beef\\dev\\src\\theme\\adapt-kineous-theme\\less",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Adapt\\kus16035 - Marc Jacobs\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\Adapt\\kus16035 - Marc Jacobs\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16035 - Marc Jacobs\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\extensions\\adapt-variables\\js",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Misc\\Side Projects\\ALFA\\2016 Construction\\2016_Contstruction_Master\\src\\course\\en",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\builds",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\theme",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev",
+			"C:\\working\\Adapt\\kus16021 - Dolby",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\theme",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\components",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\extensions",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\core",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\theme\\adapt-kineo-theme",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\extensions\\adapt-contrib-spoor",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Adapt\\kus15018 - US Beef (Dev)\\src\\theme\\adapt-kineous-theme\\less",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship (Git)\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\tus16003 - Our Relationship\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds",
+			"C:\\working\\Adapt\\Adapt Sandbox\\Animations\\src\\theme\\adapt-contrib-vanilla\\less\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\kus16015 - Univision\\dev\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\src",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds\\p101",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds\\p101",
+			"C:\\working\\Adapt\\kus16021 - Dolby\\dev\\builds",
+			"C:\\working\\Adapt\\kus16010 - Qualcomm\\dev\\src",
+			"C:\\working\\Adapt\\kus16010 - Qualcomm\\dev",
+			"C:\\working\\Adapt\\kus16010 - Qualcomm\\dev\\src\\extensions\\adapt-contrib-spoor",
+			"C:\\working\\Adapt\\kus16015 - Univision\\dev\\src",
+			"C:\\working\\Adapt\\Adapt Kineo Theme\\dev\\src",
+			"C:\\working\\kus16010 - Qualcomm\\dev\\src",
+			"C:\\working\\Adapt Kineo Theme\\dev\\src",
+			"C:\\working\\Adapt Kineo Theme\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\tus16003 - Our Relationship\\dev\\src\\theme\\adapt-kineo-theme",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src\\theme\\adapt-kineous-theme\\less",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\Adapt Sandbox\\Animations\\src\\theme\\adapt-contrib-vanilla\\less",
+			"C:\\working\\ken15072 - PWC\\dev\\src\\theme\\adapt-kineo-theme-aurora_v2.0",
+			"C:\\working\\ken15072 - PWC\\dev\\src",
+			"C:\\working\\ken15072 - PWC\\dev\\src\\theme\\adapt-kineo-theme-aurora_v2.0\\less",
+			"C:\\working\\ken15072 - PWC\\dev\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\builds\\p101\\course\\en",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\extensions\\adapt-help",
+			"C:\\working\\ken15072 - PWC\\dev\\src",
+			"C:\\working\\ken15072 - PWC\\dev",
+			"C:\\working\\ken15072 - PWC\\dev\\src",
+			"C:\\working\\ken15179 - BP\\dev",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\kus16010 - Qualcomm\\dev\\src\\theme",
+			"C:\\working\\kus16010 - Qualcomm\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\ken15179 - BP\\dev\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less",
+			"C:\\working\\kus16015 - Univision\\dev\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\ius15010 - Management_Essentials (Project)\\dev\\src\\theme",
+			"C:\\working\\kus16003 - Compass\\dev\\src\\theme",
+			"C:\\working\\kus16003 - Compass\\dev\\src\\theme\\adapt-contrib-vanilla\\less\\src",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme",
+			"C:\\working\\kus16015 - Univision\\dev\\src\\theme\\adapt-kineo-theme\\less\\src",
+			"C:\\working\\ius15010 - Management_Essentials (Project)\\dev\\src\\theme\\adapt-contrib-vanilla\\less\\src",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src\\theme\\adapt-kineous-theme\\less",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src\\courses",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src",
+			"C:\\working\\kus15018 - US Beef (Dev)\\src\\courses",
+			"C:\\working\\Adapt Sandbox\\Animations\\src",
+			"C:\\working\\Adapt Sandbox\\Animations\\build",
+			"C:\\working\\Adapt Sandbox\\Animations\\src",
+			"C:\\working\\Adapt Sandbox\\Animations\\src\\theme\\adapt-contrib-vanilla\\less",
+			"C:\\working\\Adapt Sandbox\\Animations\\src\\core\\js",
+			"C:\\working\\Adapt Sandbox\\Animations\\src\\theme\\adapt-contrib-vanilla\\less\\src",
+			"C:\\working\\Adapt Sandbox\\Animations\\src\\theme\\adapt-contrib-vanilla\\less",
+			"C:\\working\\US_Operations\\Sales\\eLearning Sales Demo\\adapt\\dev\\src\\theme\\adapt-contrib-vanilla\\less\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"instruction",
+			"mobileInstruction",
+			"replaceInstructions",
+			"instruction",
+			"mobileinstruction",
+			"mobile",
+			"title",
+			".navigation-back-button",
+			"display-none",
+			".display-none",
+			"display-none",
+			"navigation-back-button",
+			"RespondConvRating",
+			"href",
+			"container",
+			"menu-block-padding-top:",
+			"index",
+			"resources",
+			"@item-color",
+			"@item",
+			"@item-text-color-hover",
+			";\n",
+			"\t.article-reveal-close-button {\n\t\tborder-radius: 50%;\n\t}",
+			"hover",
+			"background-color",
+			"components-color",
+			"component-color",
+			"background-color",
+			"20%",
+			"hover",
+			"20",
+			"@chevron_blue",
+			"@chevron_navy",
+			"@chevron_darker_blue",
+			"@chevron_dark_blue",
+			"@chevron_blue",
+			"@components-color",
+			"components-color",
+			"disabled",
+			"spoor",
+			"tha",
+			"bounce",
+			"icon",
+			"disabled",
+			"font-size",
+			"reveal",
+			"padding",
+			"@components-color",
+			"components-color",
+			"co-400",
+			"transition",
+			"route",
+			"Tees",
+			"media",
+			"pulse",
+			"phase",
+			"Production",
+			"title",
+			"blockquote",
+			"\"articleReveal\"",
+			"articleReveal",
+			"menu-item-wrapper",
+			"plp",
+			"needle",
+			"\"_articleReveal\":{",
+			"font",
+			"RecoveryPatternChange_1_MyPartner",
+			"co-500",
+			"co-700",
+			"c-50",
+			"\"course\"",
+			"font-size",
+			"audio",
+			"c-100",
+			"mp3",
+			"font",
+			"hotgrid",
+			"<ul>",
+			"<ol>",
+			"Vogue",
+			"m120",
+			"narrative-progress",
+			"narrative-indicators",
+			"selected",
+			"narrative-progress",
+			"progress",
+			"narrative-progress",
+			"disabled",
+			"visited",
+			"@components-color-inverted",
+			"hotgraphic",
+			"<blockquote>",
+			"26292a",
+			"over",
+			"nonSt",
+			"popup",
+			"background-image",
+			"button",
+			"menu-item-route",
+			"[index]",
+			"ndex",
+			"each",
+			"narrative-content-item",
+			"narrative-content",
+			"article-instruction",
+			"menu-title",
+			"menu-title-font-family",
+			"\"_component\":\"media\",",
+			"\"media\",",
+			"media",
+			"Can you identify",
+			"padding-bottom",
+			"bodyheight",
+			"height",
+			"blank",
+			"<ul>",
+			"m05",
+			"textInput",
+			"c-265",
+			"c-230-",
+			"hotgrid",
+			"m05",
+			"menu-intro-screen",
+			"narrative-indicators",
+			"indicators",
+			"//",
+			"icon-pin",
+			"media"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@chevron-navy",
+			"@chevron-darker-blue",
+			"@chevron-dark-blue",
+			"@chevron-blue",
+			"co-500",
+			"\"m05\"",
+			"video",
+			"c-40",
+			"mp4",
+			"m10",
+			"c-200-",
+			"m10",
+			"? ",
+			". ",
+			"\"_isEnabled\": true,",
+			"\"_isContinuous\": \"global\",",
+			"topic-",
+			"camera",
+			"(@block-padding/2)",
+			"",
+			"url(../../course/en/images/a-115.png);",
+			"left: 50%",
+			"@block-padding",
+			"m05\t",
+			"m05",
+			"GMCQ",
+			"margin: @block-margin 0;",
+			"30px",
+			". ",
+			"? ",
+			". ",
+			"c-150-",
+			"checkmark",
+			"\"m10\"",
+			"200%",
+			"100%",
+			"icon-pin",
+			"local",
+			"\"_showScrollButton\": false,",
+			"@kineo-green",
+			"@theme",
+			"40%",
+			"25%",
+			"Interrogate",
+			"r/L ",
+			"? ",
+			". ",
+			"! ",
+			"MyPartnersCoreIssue_MyPartnersCoreIssue",
+			"RecoveryPatternChange_2_MyPartnersCoreIssue_MyPartner",
+			"RecoveryPatternChange_1_MyPartnersCoreIssue_MyPartner",
+			"RoleOfApologies_MyPartnersCoreIssue",
+			"RecoverySpeed_MyPartnersCoreIssue",
+			"ConflictRecovery_MyPartnersCoreIssue",
+			"TypicalBehavior_MyPartnersCoreIssue",
+			"MyPartnersCoreIssue_BehaviorChange_2",
+			"MyPartnersCoreIssue_BehaviorChange_1",
+			"TypicalBehavior_MyPartnersCoreIssue_MyPartner",
+			"a-3",
+			"b-3",
+			"c-3",
+			"c-160",
+			"",
+			"“",
+			"",
+			"2",
+			"{{partner.ChangesToMake_3}}",
+			"type=\\\"a\\\"",
+			"type=\"a\"",
+			"</li><li>",
+			"<li>",
+			". ",
+			"</li><br>",
+			"<br><br>{{",
+			"</li><br>",
+			"",
+			"{{ChangesToMake_1_MyPartner}}",
+			"{{partner.ChangesToMake_3}}",
+			"{{partner.ChangesToMake_2}}",
+			"{{partner.ChangesToMake_1}}",
+			"{{ChangesToMake_3}}",
+			"{{ChangesToMake_2}}",
+			"{{ChangesToMake_1}}",
+			"Enter your thoughts in the text box and then press Save.",
+			"{{RecoveryPatternChange_2_MyPartner}}",
+			"{{RecoveryPatternChange_1_MyPartner}}",
+			"{{firstname}}",
+			"{{partner.RecoveryPatternChange_2_MyPartner}}",
+			"{{partner.RecoveryPatternChange_1_MyPartner}}",
+			"{{partner.RecoveryPatternChange_2}}",
+			"{{partner.RecoveryPatternChange_1}}",
+			"{{partner.RecoveryPatternChange_2}}",
+			"{{partner.RecoveryPatternChange_1}}",
+			"{{partner.RoleofApologies}}",
+			"{{partner.ConflictRecovery}}",
+			"{{RecoverySpeed_MyPartner}}",
+			"{{RoleOfApologies}}",
+			"{{ConflictRecovery}}",
+			"{{RecoverySpeed}}",
+			"{{partner.firstname}}",
+			"{{partner.ChangesToMake_3_MyPartner}}",
+			"{{partner.ChangesToMake_2_MyPartner}}",
+			"{{partner.ChangesToMake_1_MyPartner}}",
+			"{{ChangesToMake_3_MyPartner}}",
+			"{{ChangesToMake_2_MyPartner}}",
+			". ",
+			"{{partner.firstname}}",
+			"{{firstname}}",
+			"{{partner.TypicalBehavior_MyPartner}}",
+			"{{partner.TypicalBehavior}}",
+			"{{TypicalBehavior_MyPartner}}",
+			"{{partner.firstname}}",
+			"{{TypicalBehavior}}",
+			"{{firstname}}",
+			"",
+			"<br><br><ul>",
+			"ul>",
+			"RoleOfApologies",
+			"",
+			". ",
+			"</strong>",
+			"",
+			". ",
+			"",
+			". ",
+			"",
+			"\"poster\": \"\"",
+			".mp3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 174.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 387.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

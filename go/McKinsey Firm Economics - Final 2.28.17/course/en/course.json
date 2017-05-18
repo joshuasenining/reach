@@ -1,0 +1,435 @@
+﻿{
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels.",
+                "instruction": ""
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below.",
+                "instruction": ""
+            },
+            "_graphic": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below",
+                "instruction": ""
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript.",
+                "instruction": ""
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative.",
+                "instruction": ""
+            },
+            "_text": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_hotgrid": {
+                "ariaRegion": "This component contains selectable grid items. Select an item to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "instruction": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPopupLabel": "Hotgraphic popup",
+                "ariaPoupupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button.",
+                "instruction": ""
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below.",
+                "instruction": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            },
+            "_tabs": {
+                "ariaRegion": "This component is comprised of hidden content panels that can contain text and images. Select the tab item titles to reveal the content panels.",
+                "instruction": ""
+            },
+            "_blank": {
+                "ariaRegion": "",
+                "instruction": ""
+            },
+            "_hotGraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "instruction": ""
+            },
+            "_textInput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below.",
+                "instruction": ""
+            },
+            "_confidenceSlider": {
+                "ariaRegion": "",
+                "instruction": ""
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "You have completed ",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            },
+            "_filterMenu": {
+                "filtersNotification": "Remove filters",
+                "toggleOff": "Off",
+                "toggleOn": "On",
+                "progress": " complete",
+                "stripEmpty": "No results (All items filtered)",
+                "durationLabel": "Duration: ",
+                "openDashboardAria": "Open Filter Menu Dashboard",
+                "disableFiltersAria": "Disable filters",
+                "dashboardAria": "Filter Menu dashboard",
+                "filtersAria": "Filters",
+                "tagsAria": "Tags",
+                "dashboardEndAria": "You have reached the end of the dashboard.",
+                "closeDashboardAria": "Close Filter Menu dashboard",
+                "menuAria": "Menu",
+                "stripAria": "Strip",
+                "progressAria": "You have completed ",
+                "menuItemAria": "Menu item",
+                "togglePinAria": "Toggle pin",
+                "menuItemEndAria": "End of menu item",
+                "menuEndAria": "You have reached the end of the menu.",
+                "_ariaLabels": {
+                    "openDashboard": "Open Filter Menu dashboard",
+                    "disableFilters": "Disable filters",
+                    "dashboard": "Filter Menu dashboard",
+                    "filters": "Filters",
+                    "tags": "Tags",
+                    "dashboardEnd": "You have reached the end of the dashboard.",
+                    "closeDashboard": "Close Filter Menu dashboard",
+                    "menu": "Menu",
+                    "progress": "You have completed ",
+                    "strip": "Strip",
+                    "menuItem": "Menu item",
+                    "togglePin": "Toggle pin",
+                    "menuItemEnd": "End of menu item",
+                    "menuEnd": "You have reached the end of the menu."
+                }
+            }
+        },
+        "_accessibility": {
+            "_accessibilityToggleTextOn": "Turn accessibility on?",
+            "_accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "menuItem": "Menu item. Select to view.",
+                "menuViewButton": "Select here to enter.",
+                "page": "",
+                "pageLoaded": "Page Loaded.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Open course resources and search.",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "drawerBack": "Back to drawer",
+                "drawer": "Side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "incorrect",
+                "correct": "correct",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "sliderHandle": "Slider handle. Use the left and right arrow keys to move the slider and give your answer. Then tab to the submit button below and press enter.",
+                "hotgraphicPopUp": "Hotgraphic popup.",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "menuIndicatorHeading": "Menu item heading ",
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "You have completed "
+            }
+        }
+    },
+    "screenSize": {
+        "small": 519,
+        "medium": 759,
+        "large": 1024
+    },
+    "_id": "m05",
+    "_type": "course",
+    "title": "Engagement Economics Essentials",
+    "displayTitle": "Engagement Economics Essentials",
+    "body": "This course will help you know what to do to effectively set up, monitor, and manage the economics of an engagement. <a href='http://mdcc.intranet.mckinsey.com/wix/p48933446.aspx' target='_blank'>Select here</a> to rate it.",
+    "_triggered": {
+        "_isEnabled": true
+    },
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page"
+    },
+    "_resources": {
+        "title": "Resources",
+        "description": "Click here to view resources for this course",
+        "_filterButtons": {
+            "all": "All",
+            "document": "PDF",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_filterAria": {
+            "allAria": "View all resources",
+            "documentAria": "View document resources",
+            "mediaAria": "View media resources",
+            "linkAria": "View resource links"
+        },
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Infographic: Flow of engagement economic data",
+                "description": "",
+                "_link": "course/en/pdf/Infographic.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "Navigating a CER guide",
+                "description": "",
+                "_link": "course/en/pdf/Navigating_a_CER.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "Local accounting contacts",
+                "description": "",
+                "_link": "course/en/pdf/Local_Accounting_contacts.pdf"
+            },
+            {
+                "_type": "document",
+                "title": "WIP resource guide",
+                "description": "",
+                "_link": "course/en/pdf/WIP_Resource_Guide.pdf"
+            }
+        ]
+    },
+    "_search": {
+        "_isEnabled": true,
+        "title": "Search",
+        "description": "Type in search words and enter",
+        "noResultsMessage": "Sorry, no results were found",
+        "awaitingResultsMessage": "Formulating results...",
+        "_showHighlights": true,
+        "_showFoundWords": true,
+        "_previewWords": 15,
+        "_previewCharacters": 30
+    },
+    "_glossary": {
+        "_isEnabled": true,
+        "title": "Glossary",
+        "description": "Click here to view glossary for this course",
+        "searchPlaceholder": "Search",
+        "searchWithInDescriptionLabel": "Search within Description",
+        "itemNotFoundMessage": "Sorry! No results to display",
+        "_glossaryItems": [
+            {
+                "term": "A/R Reserve",
+                "description": "A reserve is a reduction in revenue. An Accounts Receivable Reserve (A/R Reserve) is placed when there is deemed risk that an invoice may not be collected. Reserves are automatically placed on engagements that have an aging Accounts Receivable balance. They do not accrue interest."
+            },
+            {
+                "term": "WIP Balance Reserve",
+                "description": "A reserve is a reduction in revenue. A Work in Progress (WIP) Balance Reserve is placed when there is deemed risk that a WIP Balance may not be billed or an invoice may not be collected. Reserves are automatically placed on engagements that have an aging WIP Balance. They do not accrue interest."
+            },
+            {
+                "term": "Reserve",
+                "description": "A reserve is a reduction in revenue. It is placed when there is deemed risk that a WIP Balance may not be billed or an invoice may not be collected. They do not accrue interest."
+            },
+            {
+                "term": "CER",
+                "description": "The Client Engagement Report (CER) is the itemized budget for the engagement and an agreement with the Firm regarding what will be billed and incurred for the engagement. It is completed before the engagement start."
+            },
+            {
+                "term": "Credit Interest",
+                "description": "Interest that is earned and added to the engagement budget on any negative WIP balance (Billing > Incurred) as well as if invoices are paid within 30 days of issue."
+            },
+            {
+                "term": "Debit Interest",
+                "description": "Interest that is charged to the engagement on any positive WIP balances (Billing < Incurred) as well as if there are any outstanding invoices > 30 days in age."
+            },
+            {
+                "term": "Run Rate",
+                "description": "The extrapolation of current results into future periods."
+            },
+            {
+                "term": "WIP Report",
+                "description": "The Work in Progress (WIP) report is the primary tool used to manage the economics of the engagement. It is a three-page report that shows actual fees and expenses charged to the engagement to date compared to the fees and expenses budgeted in the CER for the life of the engagement. It is automatically sent to Partners listed in the CER as ED, BD, or DCS."
+            },
+            {
+                "term": "WIP Balance",
+                "description": "The Work in Progress (WIP) Balance = Total fees and expenses incurred +/- Transfers +/- Value Adjustments – Total Billed.<br><br>A negative () WIP Balance is favorable. It’s called a credit hold or value bill (Total Billed > Total Incurred).<br><br>A positive WIP Balance is unfavorable. It’s called a debit balance or overrun (Total Incurred > Total Billed)."
+            },
+            {
+                "term": "Total Incurred",
+                "description": "The total fees and expenses charged to the engagement at that month’s end."
+            },
+            {
+                "term": "WIP Position",
+                "description": "The Work In Progress (WIP) position is the status of the WIP Balance: whether it is positive or negative."
+            },
+            {
+                "term": "Billed",
+                "description": "The Billed column in WIP report shows the amount the client has been invoiced (not the amount collected)."
+            },
+            {
+                "term": "Variance",
+                "description": "Variance column in the WIP report shows the difference between the Total Incurred up to the end of the WIP reporting month and the budgeted amount for the life of the engagement shown in the CER column."
+            },
+            {
+                "term": "Prior",
+                "description": "The Prior column in WIP report shows the total amount from previous months."
+            },
+            {
+                "term": "Client Investment",
+                "description": "The Client Investment (CI) is a pricing structure for engagements performed for a percentage of the usual per diem rates without an expectation for billing full fees at any time in the future."
+            },
+            {
+                "term": "Investment",
+                "description": "The Investment column in the WIP report shows the total amount reduced as a result of Client Investment or Fees at Risk Arrangements applied to CSS time charges per team member."
+            },
+            {
+                "term": "Debit balance",
+                "description": "A positive WIP Balance any time during the engagement when the Total Incurred > Total Billed. It is also called an overrun."
+            },
+            {
+                "term": "Credit hold",
+                "description": "A negative WIP Balance anytime during the engagement when the Total Billed > Total Incurred. It is also called a value bill."
+            },
+            {
+                "term": "Overrun",
+                "description": "Overruns are a financial loss to the Firm. (Total Incurred > Total Billed) They are also called debit balances."
+            },
+            {
+                "term": "Value bill",
+                "description": "A value bill, also called a credit hold, is the remaining credit of the engagement. The credit remains on the code and is typically used for client development, client investment, pre-engagement expenses, and overruns within the same CST."
+            },
+            {
+                "term": "Per diem",
+                "description": "Professional fees that are billed per day, varying by individual."
+            },
+            {
+                "term": "Write-off",
+                "description": "A financial loss to the Firm. It is a type of Net Value Adjustment made to resolve a positive WIP balance (Total Incurred > Total Billed) to close a charge code."
+            },
+            {
+                "term": "All-in",
+                "description": "An expense charge arrangement type where the expense charge is included with the team bundle calculation. Also known as Include in Fees."
+            },
+            {
+                "term": "Include in Fees",
+                "description": "An expense charge arrangement type where the expense charge is included with the team bundle calculation. Also known as All-in."
+            },
+            {
+                "term": "Lump sum",
+                "description": "The expense charge arrangement type based on an agreed-upon fixed amount. Also known as Fixed Amount."
+            },
+            {
+                "term": "Fixed percentage",
+                "description": "An expense charge arrangement type where the total expected expenses are calculated based on a percentage of total fees."
+            },
+            {
+                "term": "Collections",
+                "description": "The process of following up on outstanding invoices until they are paid."
+            },
+            {
+                "term": "Net Value Adjustment",
+                "description": "Net Value Adjustments, or NVAs, can be write-offs (losses) or write-ups (profits). They are shared across offices in proportion to CSS fees."
+            },
+            {
+                "term": "MSA",
+                "description": "A Master Service Agreement (MSA) is a type of contract that applies to multiple engagements over a number of years and details terms of working with the client."
+            },
+            {
+                "term": "LOC",
+                "description": "A Letter of Confirmation (LOC) is a contract that confirms basic working arrangements, including engagement scope, timing, team, and payment terms."
+            },
+            {
+                "term": "SOW",
+                "description": "A Statement of Work (SOW) provides a detailed description of the specific services or tasks that the Firm will perform under the contract."
+            },
+            {
+                "term": "LOW",
+                "description": "The Location of Work (LOW) is the office location where most of the services will be performed."
+            },
+            {
+                "term": "Redline",
+                "description": "In context of contract negotiations, this means to mark up a document requesting changes."
+            },
+            {
+                "term": "SOE",
+                "description": "An abbreviation that stands for State-owned enterprise."
+            },
+            {
+                "term": "Fees at Risk arrangement",
+                "description": "Pricing structure of an engagement where all or a portion of fees are not billed until criteria agreed upon with the client are met. The satisfaction criteria can be qualitative (satisfaction), quantitative (contingent on impact), or both."
+            },
+            {
+                "term": "Pro rata",
+                "description": "With regard to invoicing, this means that the amount billed is in proportion to the work completed."
+            },
+            {
+                "term": "Charge plan",
+                "description": "The number of days each Partner, AP, AP equivalent, and expert can charge over the life of the engagement as entered in the CER."
+            }
+        ]
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "page",
+        "title": "Bookmarking",
+        "body": "Would you like to continue where you left off?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_latestTrackingId": 113
+}

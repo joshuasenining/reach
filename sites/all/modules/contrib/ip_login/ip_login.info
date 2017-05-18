@@ -1,0 +1,10 @@
+name = Our Brand Login API for Firm's streamlined access
+description = This module allows Firm's users to login without authentication and authenticates non-firm users.
+core = 7.x
+version = "7.x-2.x-dev"
+dependencies[] = user
+version = "7.x-2.0"
+core = "7.x"
+project = "ip_login"
+datestamp = "1337436359"
+

@@ -1,0 +1,885 @@
+﻿[
+	{
+		"_id": "co-100",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co100",
+		"menuHeaderText": "Understand Key Principles",
+		"title": "Follow the Flow of Economic Data",
+		"displayTitle": "Follow the Flow of Economic Data",
+		"pageBody": "Understanding how engagement economics are determined, recorded, and managed will help you price a engagement, create a budget, and manage a WIP.<br><br>Here, you’ll learn what economic data is collected and when, as well as how that data flows through the lifecycle of an engagement and into Firm financial statements.<br><br><em>Estimated time to complete:</em> 4 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-1.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "engagement economics", "follow the flow of economic data", "economic data", "foundation", "negotiations", "confirmation", "end of engagment", "client investment", "financial statements", "infographic"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": true,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-200",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co200",
+		"menuHeaderText": "",
+		"title": "Apply Our Financial Guiding Principles",
+		"displayTitle": "Apply Our Financial Guiding Principles",
+		"pageBody": "This course provides essential info about the Firm’s financial policies and processes. In practice, economic decisions and trade-offs are more complex, and circumstances vary widely. Knowing how Firm Values apply to engagement economics will help you make sound decisions that benefit both the client and the Firm.<br><br>Here, you’ll connect the Firm’s distinct values to the responsibilities of managing engagement economics.<br><br><em>Estimated time to complete:</em> 4 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-1.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "Firm", "values", "professional standards", "environment", "exceptional people", "key principles", "managing economics", "overruns", "financial guiding principles", "adhere to the highest professional standards", "values", "resources", "Partner", "engagement economics", "One-Firm", "Firm economics pool", "revenue", "client service", "client hours", "guarantee fairness", "Partners", "clients", "Client Investment", "Fees at Risk", "Accounting", "global", "protect", "clients", "Firm" 
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-300",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co300",
+		"menuHeaderText": "Confirm the Engagement",
+		"title": "Execute Contracts in Partnership with Legal and Accounting",
+		"displayTitle": "Execute Contracts in Partnership with Legal and Accounting",
+		"pageBody": "The Firm cannot bill and collect for work without some type of contract and/or documentation in place. You must work with the engagement office’s Legal and Accounting teams to execute contracts because the contract type(s) and supporting documentation required can vary significantly for each engagement.<p/><br>Here, you’ll learn how to partner with Legal and Accounting when executing contracts and supporting documentation.<br><br><em>Estimated time to complete:</em> 6 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-2.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "execute contracts", "contract negotiation", "Legal", "contract approval", "SOW", "MSA","billing terms", "contract terms", "billing", "contract type", "different contracts", "confirmation", "contract details", "local differences", "billing schedule", "billing practices", "invoicing schedule", "prebilling", "mid-month", "end-of-month", "deliverables-based", "late billing", "risks", "engagement", "FAQ", "client contracts", "LOW", "location of work", "Purchase Order", "Letter of Confirmation", "sign contracts", "authorization to sign", "non-compete", "audit", "intellectual property", "provisions", "itemized expenses"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-400",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co400",
+		"title": "Accurately Complete the CER",
+		"displayTitle": "Accurately Complete the CER",
+		"pageBody": "The Client Engagement Report, or CER, is the report used by the Firm to start an engagement. Completing the CER in detail is the first step in proactive WIP management because it functions as an itemized budget.<br><br>Here, you’ll learn how to complete a CER and what information you’ll need to enter into the CER system, including how to break down the engagement price into the time and expenses generating an accurate budget for the engagement.<br><br><em>Estimated time to complete:</em> 6 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-2.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "accurately complete the CER", 
+	            "WIP report", 
+	            "get the point", 
+	            "CER", 
+	            "engagement terms", 
+	            "invoice", 
+	            "overrun", 
+	            "WIP", 
+	            "Accounting", 
+	            "EA", 
+	            "see how it’s done", 
+	            "Staffing", 
+	            "local", 
+	            "client agreement", 
+	            "gather information", 
+	            "Firm", 
+	            "risks", 
+	            "financial details", 
+	            "industry information", 
+	            "Client Investment", 
+	            "CI", 
+	            "Fees at Risk", 
+	            "CSS", 
+	            "CSSS", 
+	            "regional", 
+	            "HB", 
+	            "SS", 
+	            "include in fees", 
+	            "fixed amount", 
+	            "fixed percentage", 
+	            "fill out the form", 
+	            "approval", 
+	            "review", 
+	            "FAQ", 
+	            "questions", 
+	            "complete"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-500",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co500",
+		"title": "Confirm the CST and Utilize the Client Code",
+		"displayTitle": "Confirm the CST and Utilize the Client Code",
+		"pageBody": "Team time, for many studies, is the largest portion of the budget. Be sure to line up your CST's per diems and hours/days to meet the engagement scope and budget.<br><br>Here, you’ll learn how to confirm a staffing plan and charge plan that meet the engagement budget, as well as early steps to utilize the client code.<br><br><em>Estimated time to complete:</em> 5 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-2.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "Confirm staffing and charge plans", "Staffing", "leadership", "preventing overruns", "confirm details", "client investment", "timesheets", "CER", "LOC", "charge plan", "staffing plan", "WIP", "charge code", "client code", "local", "Partner", "bill of work", "per diems", "working for experience", "AP", "PE"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-600",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co600",
+		"title": "Get Oriented to the WIP",
+		"displayTitle": "Get Oriented to the WIP",
+		"menuHeaderText": "Manage the WIP",
+		"pageBody": "The WIP report is your primary tool to manage the economics of an engagement. The three pages of the report, Project Summary, Time Summary, and Expense Summary, show actual fees and expenses charged to the engagement to date compared to the fees and expenses budgeted in the CER.<br><br>In order to manage the WIP, you first need know how the WIP report is organized. Here, you’ll take a tour.<br><br>This topic is best viewed on a laptop or iPad.<br><br><em>Estimated time to complete:</em> 5 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-3.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "Get oriented to the WIP", "WIP report", "engagement economics", "WIP review", "incurred fees", "expenses", "billing", "time charges", "CER", "WIP errors", "engagement economics", "WIP orientation", "WIP walkthrough", "overall WIP position", "total incurred", "billed", "WIP balance", "WIP reserve", "WIP variance", "CSS Time", "expense summary", "WIP investigation", "WIP discrepancies", "overruns", "red flag", "CSS", "expenses"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-700",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co700",
+		"title": "Evaluate Whether the Engagement Is on Budget",
+		"displayTitle": "Evaluate Whether the Engagement Is on Budget",
+		"menuHeaderText": "",
+		"pageBody": "Insights into the economics of the engagement are derived from comparing your knowledge of the engagement to the information shown in the WIP report.<br><br>Here, you’ll learn how to review the Project Summary page to compare the summary of actual fees and expenses to the CER budget.<br><br>This topic is best viewed on a laptop or iPad.<br><br><em>Estimated time to complete:</em> 5 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-3.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "WIP report", "budget", "CER", "time charges", "top line review","evaluate whether the engagement is on budget", "WIP review", "WIP", "incurred fees", "expenses", "billing", "time charges", "CER", "WIP errors", "engagement economics", "WIP review steps", "costs", "target", "budget", "Total", "Variance", "overrun", "reasonable run rate", "monthly columns", "Prior", "budget", "WIP position", "WIP balance", "positive", "negative"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-800",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co800",
+		"title": "Identify and Resolve Errors in Time Charges and Expenses",
+		"displayTitle": "Identify and Resolve Errors in Time Charges and Expenses",
+		"menuHeaderText": "",
+		"pageBody": "Errors in time and expense charges to an engagement are common. If left unresolved, they can lead to an overrun. Errors need to be identified and resolved in a timely manner or you risk denial of adjustments.<br><br>Here, you’ll learn how to closely review time charges and expenses as well as how to handle errors.<br><br>This topic is best viewed on a laptop or iPad.<br><br><em>Estimated time to complete:</em> 6 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-3.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "WIP review", "WIP", "incurred fees", "expenses", "billing", "time charges", "CER", "WIP errors", "engagement economics", "identify and resolve errors in time charges and expenses", "Time charges", "staffing plan", "Name column", "NO NAME", "Actuals to Date", "Actuals Higher/Lower Than CER", "investment", "errors", "names", "days", "per diems", "Actuals to Date", "per diem", "CER", "external contractor", "people investments", "rate change", "Investment", "CSSS time", "CSSA time", "Firm", "fees", "research", "Current Month Detail for Expenses", "Engagement to Date Expense Summary", "reporting", "WIP balance", "time charges", "charged", "CER estimates", "Current month detail for expenses", "engagement to date expense summary", "expense summary", "unresolved errors", "monthly review", "AP"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-900",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co900",
+		"title": "Manage Invoicing and Collections",
+		"displayTitle": "Manage Invoicing and Collections",
+		"menuHeaderText": "",
+		"pageBody": "The more efficiently you manage invoicing and allow Accounting to play an active role, the sooner the Firm collects. This optimizes cash flow, reduces WIP balances, and minimizes debit interest charges.<br><br>Here, you’ll see how to manage invoicing and collections to avoid debit interest and reserves.<br><br><em>Estimated time to complete:</em> 5 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-3.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "Manage invoices", "accounts receivable", "collections", "interest", "credit", "cash flow", "WIP balances", "interest charges", "invoice", "billing", "reserve", "Accounting", "billing", "risk", "tax", "audit requirements", "send invoices", "deliverable", "billing practices", "prebilling", "fees", "mid-month billing", "end-of-month billing", "deliverables-based billing", "late billing", "draft invoices", "partnership", "identify", "follow up", "outstanding invoices", "receipt", "near due", "A/R Interest", "monthly", "charge", "invoice", "finance", "client", "engagement", "stakeholders", "collections", "invoices", "CER", "risk", "A/R reserve"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": false,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	},
+	{
+		"_id": "co-1000",
+		"_parentId": "m05",
+		"_type": "page",
+		"_classes": "m05-co1000",
+		"title": "Close Out the Engagement",
+		"displayTitle": "Close Out the Engagement",
+		"menuHeaderText": "End the Engagement",
+		"pageBody": "The client code remains open up to two years after the team rolls off the engagement and the last invoice is sent. During this time, you need to continue to manage the WIP. The client code is closed only after:<br><br><ul></li><li>Three months have passed since the team rolled off the engagement</li><li>The final invoice is sent</li><li>You’ve collected all payments due</li><li>You've reached a nominal WIP balance +/- USD2500<br><br></ul>A nominal WIP balance is achieved by clearing an overrun or utilizing a value bill.<br><br>Here, you’ll learn how to manage the economics of an engagement after the team rolls off until the client code is closed.<br><br><em>Estimated time to complete</em>: 5 minutes",
+		"body": " ",
+		"instruction": "Scroll down to get started.",
+		"_graphic": {
+			"alt": "",
+			"src": "",
+			"pageHeaderProgress": "course/en/images/Progress-4.png"
+		},
+		"linkText": "",
+		"durationLabel": "",
+		"duration": "",
+	    "_pageLevelProgress": {
+	        "_isEnabled": true
+	    },
+        "_theme": {
+        	"_themePalette": "",
+            "_headings": {
+            	"_isEnabled": false,
+            	"_articleHeading": "magazine",
+            	"_blockHeading": "magazine",
+            	"_componentHeading": "magazine"
+            },
+            "_pageHeader": {
+                "_isEnabled": true,
+                "_showScrollButton": true,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 0,
+                    "_medium": 0,
+                    "_small": 0
+                }
+            },
+            "_pageFooter": {
+                "_isEnabled": false,
+                "_backgroundColor": "",
+                "_minimumHeights": {
+                    "_large": 300,
+                    "_medium": 300,
+                    "_small": 200
+                }
+            }
+        },
+	    "_search": {
+	        "_isEnabled": true,
+	        "keywords": [
+	            "soft close", "close out the engagement", "hard close", "engagement", "WIP balance", "Value bill", "overrun", "charge code", "Accounting", "WIP position", "engagement economics", "credit hold", "debit balance", "finance", "Firm", "incurred fees and expenses", "PE", "Net Value Adjustment", "invoice", "time charges", "expenses", "CSS", "CST", "WIP", "CER", "A/R", "NVA", "WIP report", "overcharges", "leadership", "expert viewpoint", "charge code"
+	        ]
+	    },
+        "_quicknav": {
+		    "_isEnabled": true,
+		    "_isContinuous": "global",
+		    "_injectIntoSelector": "",
+		    "_buttons": {
+		    	"_hasIcons": true,
+		        "_root": {
+		            "_isHidden": false,
+		            "text": "Menu",
+		            "_icon": "icon-home"
+		        },
+		        "_up": {
+		            "_isHidden": true,
+		            "text": "Back to menu",
+		            "_icon": "icon-home"
+		        },
+		        "_previous": {
+		            "_isHidden": false,
+		            "text": "Previous",
+		            "_icon": "icon-controls-left"
+		        },
+		        "_next": {
+		            "_isHidden": true,
+		            "text": "Next",
+		            "_icon": "icon-controls-right"
+		        }
+		    }
+		}
+	}
+]

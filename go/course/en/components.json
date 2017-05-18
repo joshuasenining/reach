@@ -1,0 +1,3219 @@
+﻿[
+	{
+		"_id": "c-100",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>The economic engagement lifecycle has four phases:</strong> Negotiations, Confirmation, Engagement, and End of engagement. Financial information flows through different systems from one phase to the next.<ul><li><strong>Negotiations:</strong> Both parties discuss the scope and fixed fee or price of an engagement.</li><li><strong>Confirmation:</strong> The client agrees to our price and terms, and a Client Engagement Report (<a href='#' data-glossaryterm='CER' tabindex='0'>CER</a>) is created.</li><li><strong>Engagement:</strong> Time charges and expenses charged to the charge code are shown on the WIP, the client is billed, and payments are collected.</li><li><strong>End of engagement:</strong> The team rolls off of the engagement, all fees are billed, and all bills are paid.</li></ul></li><li><strong>Studies end in a <a href='#' data-glossaryterm='Value Bill' tabindex='0'>value bill</a>, or <a href='#' data-glossaryterm='Credit hold' tabindex='0'>credit hold</a>, when the total billing is greater than the total fees and expenses incurred.</li><li><strong>Studies end in an <a href='#' data-glossaryterm='Overrun' tabindex='0'>overrun</a>, or <a href='#' data-glossaryterm='Debit balance' tabindex='0'>debit balance</a>,</strong> when the total fees and expenses are greater than the total billing.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-105",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-105.svg",
+			"large": "course/en/images/c-105.svg",
+			"medium": "course/en/images/c-105.svg",
+			"small": "course/en/images/c-105.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+	    "_id": "c-110",
+	    "_parentId": "b-105",
+	    "_type": "component",
+	    "_component": "media",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "The four phases of engagement economics",
+	    "displayTitle": "",
+	    "body": "Take a guided tour of an infographic that illustrates the flow of engagement economic data. <a href='course/en/pdf/Infographic.pdf' target='_blank'>Select here</a> for a downloadable version.",
+	    "instruction": "Grab your headphones and select play for a quick tour.",
+	    "_setCompletionOn": "inview",
+	    "_useClosedCaptions": false,
+	    "_media": {
+	        "mp4": "course/en/video/c-110.mp4",
+			"ogv": "",
+			"poster": "course/en/video/c-110.jpg",
+	        "cc": [
+	            {
+					"srclang": "en",
+					"src": "course/en/video/media.vtt"
+				}
+	        ]
+	    },
+	    "_transcript": {
+	        "_inlineTranscript": true,
+	        "_externalTranscript": false,
+	        "inlineTranscriptButton": "Transcript",
+	        "inlineTranscriptCloseButton": "Close Transcript",
+	        "inlineTranscriptBody": "We’ve created a graphic to show the flow of engagement economic data, starting with responsible pricing and ending with how credit holds and write-offs appear on the Firm’s financial statements.<br><br>Let’s take a look at each of the four phases.<br><br>The first phase is Negotiations. Economic stewardship starts with responsible pricing. Pricing should be at or above team bundle rates, which will allow a margin, or room in the WIP for small contingencies.<br><br>Some studies include a Client Investment or Fees at Risk arrangement. For Fees at Risk arrangements, a percentage is billed when the Firm meets the pre-determined criteria.<br><br>The Firm’s philosophy is to price for value and team costs. We don’t price our engagements by time and materials. This means that the client is guaranteed the scope of the impact for the fee agreed to. If we underestimate the price, the Firm must cover the additional cost.<br><br>The Confirmation phase is when the client agrees to our price and terms and you complete a Client Engagement Report—or CER—and confirm the staffing and charge plans. The completed CER is your engagement’s itemized budget. Complete it by entering the financial details for the engagement, among other information. The financial details include total fees and the forecasted New Service Capabilities, time charges, and expenses required to deliver on the engagement scope. They also include details about Client Investment or Fees at Risk when applicable. The CER is automatically populated with the client code once it’s assigned.<br><br>During the Engagement phase, team members, leaders, experts, and support staff charge time and expenses to the client code. Each month, a WIP report—or Work-in-Progress report—is generated for that client code, including ALL received charges to the client code. WIP reports also include the itemized budget from the CER and show the variance, or difference, between the actuals to date and the forecasted budget for the life of the engagement. Invoice and collection data are also included on the WIP. Efficient management of invoices and collections optimizes the Firm’s working capital.<br><br>One indicator of the state of the economics of an engagement is the WIP balance. A negative balance is favorable because it means that the total billed is greater than the total fees and expenses incurred. A positive balance is unfavorable because it means that the total fees and expenses incurred are greater than the total billed.<br><br>The End-of-engagement phase starts when the team rolls off and the last invoice is sent. Be mindful that there's normally a lag in some expenses showing on the WIP, and time can still be charged. If, at the End-of-engagement phase, you have a positive WIP balance, it means that you went over budget, and you have an overrun. If you have a negative WIP balance, the engagement stayed under budget, and you have a credit hold, or value bill.<br><br>The client code is closed when the final WIP position is around USD2,500, all unpaid invoices are cleared, and it is at least three months after the end of the engagement.<br><br>The economics of each engagement are part of the office, region, and Firm financial statements.<br><br>On Office and Firm P&L reports, revenue is generated when time and expenses are charged to a client code with revenue flowing to the office that individual belongs to.<br><br>Net Value Adjustments are corrections to revenue and comprised of write-offs and write-ups—or permanent adjustments—and reserves—or temporary provisions—applied to WIP / AR balances due to age. On the office and Firm balance sheet WIP, AR and reserve balances are reflected in current assets.<br><br>Engagement economics is easier to follow when you know how the data flows.",
+	        "transcriptLinkButton": "Transcript",
+	        "transcriptLink": "assets/transcript.pdf"
+	    },
+	    "_playerOptions": {
+        	"features": ["playpause","current","progress","duration","tracks","volume","fullscreen"],
+        	"showPosterWhenEnded": true
+	    },
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-115",
+		"_parentId": "b-110",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Follow the Flow of Economic Data: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Apply Our Financial Guiding Principles.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-200",
+		"_parentId": "b-200",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Know how these two Firm Values squarely apply</strong> to managing the economics of an engagement: “Adhere to the highest professional standards when managing client and Firm resources cost-effectively” and “Create an unrivaled environment for exceptional people by governing ourselves as one Firm partnership.”</li><li><strong>Demonstrate the Values by:</strong><ul><li><strong>Being a steward for the process</strong> required for your office while ensuring global standardization and support.</li><li><strong>Negotiating responsibly</strong> by pricing engagements to reflect real value.</li><li><strong>Appropriately using charge codes.</strong></li><li><strong>Reviewing the <a href='#' data-glossaryterm='WIP report' tabindex='0'>WIP report</a>  monthly </strong>to ensure that all time and expenses are reflected accurately, because the Firm recognizes revenue when time is charged to a client code.</li><li><strong>Managing billings and <a href='#' data-glossaryterm='Collections' tabindex='0'>collections</a></strong> in order to optimize working capital.</li><li><strong>Minimizing overruns.</strong></li></ul></li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-205",
+		"_parentId": "b-200",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-205.svg",
+			"large": "course/en/images/c-205.svg",
+			"medium": "course/en/images/c-205.svg",
+			"small": "course/en/images/c-205.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-210",
+		"_parentId":"b-205",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-217",
+		"_parentId":"b-215",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-220",
+		"_parentId": "b-217",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "Actions that demonstrate high professional standards include:<br><br><ol class='alpha-list'><li><span>Incorrect: Make securing an engagement the priority, even if you need to significantly discount the price</span><ul class='no-bullet'><li><strong>Correct: Negotiate responsibly by pricing engagements to reflect real value</strong></li></ul></li><li><span>Incorrect: Charge your time to client codes with a credit to fill gaps in your utilization</span><ul class='no-bullet'><li><strong>Correct: Only charge days to the client code for time working for that client</strong></li></ul></li><li>Correct: Manage the WIP report monthly and minimizing overruns</li><li>Correct: Enable the Accounting team to send invoices in a timely manner and directly follow up on collections with your client</li></ol>",
+		"instruction": "",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-225",
+		"_parentId":"b-220",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-235",
+		"_parentId": "b-230",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-235.svg",
+			"large": "course/en/images/c-235.svg",
+			"medium": "course/en/images/c-235.svg",
+			"small": "course/en/images/c-235.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-240",
+		"_parentId": "b-230",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Zoom in",
+		"displayTitle": "",
+		"body": "What can you do to guarantee fairness among Partners and clients?<br><br><ul><li>Seek guidance on <a href='#' data-glossaryterm='Client Investment' tabindex='0'>Client Investment</a> or Fees at Risk up front from office client/investment committees to understand extent of arrangements/risk taking acceptable to the Partner group</li><li>Use Accounting to assist in WIP management, billing, and collection processes</li><li>Be a steward for the process required for your office while ensuring global standardization and support</li><li>Role model and reinforce expense policies; for example, EDs and APs should set guidelines for any team events at engagement start</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+	    "_id": "c-245",
+	    "_parentId": "b-235",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Expert insights",
+	    "displayTitle": "Insights from the Values Task Force",
+	    "body": "",
+		"instruction": "Select to read.",
+	    "_setCompletionOn": "allItems",
+	    "_columns": 2,
+	    "_items": [
+	        {
+	            "title": "Our values keep us focused on having an impact",
+	            "body": "The Firm’s Values require that we are not too internally focused; instead, we spend almost all of our time focused externally, serving clients and delivering the greatest impact and the best of the Firm for them.<br><br>This is why colleagues less tenured than Associate Partners neither need to nor should know details like <a href='#' data-glossaryterm='Per diem' tabindex='0'>per diems</a>, fee levels, or utilization. Words like “WIP” should not be in their vocabulary.",
+	            "_graphic": {
+	                "src": "course/en/images/c-245-1.png",
+	                "srcHover":"course/en/images/c-245-1-hover.png",
+	                "srcVisited":"course/en/images/c-245-1-visited.png",
+	                "alt": "",
+	                "title": "Our values keep us focused on having an impact"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-245-1.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Our values protect our clients",
+	            "body": "With regard to engagement economics, our perspective is analogous to fiduciaries—who put client interests first—rather than traders who hope to benefit at the expense of their counterparties.<br><br>When we say that our own Firm economics are an outcome, not an objective, we’re not making a semantic distinction; we’re making a fundamental philosophical, strategic, and practical choice about the foundation on which we will base our client relationships.<br><br>The health of our economics is a by-product of adhering to our Values; achieving economic results is not our objective in decision-making.",
+	            "_graphic": {
+	                "src": "course/en/images/c-245-2.png",
+	                "srcHover":"course/en/images/c-245-2-hover.png",
+	                "srcVisited":"course/en/images/c-245-2-visited.png",
+	                "alt": "",
+	                "title": "Our values protect our clients"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-245-2.png",
+	                "alt": ""
+	            }
+	        }
+	    ],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-250",
+		"_parentId": "b-240",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Apply Our Financial Guiding Principles: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Execute Contracts in Partnership with Legal and Accounting.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-300",
+		"_parentId": "b-300",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Determine the engagement office or Location of Work (<a href='#' data-glossaryterm='LOW' tabindex='0'>LOW</a>),</strong> the office where the majority of the work will be performed. It is also the office where the engagement should be opened and determines the McKinsey legal entity entering into the contract with the client.</li><li><strong>Ask your CST and engagement office’s Accounting and Legal teams what contracts are needed as early as possible.</strong> Documentation requirements differ significantly between markets, sectors, and clients.</li><li><strong>Syndicate contracts and documentation</strong> with the engagement office's Legal and Accounting teams to avoid risks.</li><li><strong>Ask Accounting to walk you through the contractual and billing terms</strong> so you are clear on what is required to get an invoice approved and paid for each engagement.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-305",
+		"_parentId": "b-300",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-305.svg",
+			"large": "course/en/images/c-305.svg",
+			"medium": "course/en/images/c-305.svg",
+			"small": "course/en/images/c-305.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-307",
+		"_parentId":"b-305",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-310",
+		"_parentId": "b-310",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Identify contracts needed",
+		"displayTitle": "Identify contracts needed",
+		"body": "First, ask your CST and, if necessary, your client what contracts and documentation are required to begin work and to be billed for work. Typically, companies have standard form contracts.<br><br>Next, reach out to the engagement office Accounting and Legal teams to discuss the client’s requirements and verify that no additional contracts are needed.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-315",
+		"_parentId": "b-310",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of a contract",
+			"src": "course/en/images/c-315.svg",
+			"large": "course/en/images/c-315.svg",
+			"medium": "course/en/images/c-315.svg",
+			"small": "course/en/images/c-315.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-320",
+		"_parentId": "b-315",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Rely on Accounting and Legal",
+		"displayTitle": "Rely on Accounting and Legal",
+		"body": "They will know which contract(s) you need to have in place to bill and collect for your engagement. They know what’s required by the market, sectors, and clients their office serves. Engage them early and involve them in the process.",
+		"instruction": "Select the arrow for examples of requirement differences.",
+		"mobileInstruction": "Select the arrow for examples of requirement differences.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Public sector/SOE vs. private sector clients",
+				"body": "Public sector or state-owned enterprises (<a href='#' data-glossaryterm='SOE' tabindex='0'>SOE</a>) typically differ from private sector clients. Public sector/SOE contracts often have strict terms that are hard to change, as well as additional compliance requirements.",
+				"_graphic": {
+					"alt": "Illustrated image of a contract superimposed over an image of the White House",
+					"src": "course/en/images/c-320-1.svg"
+				},
+				"strapline": ""
+			},
+			{
+				"title": "One market may differ from another",
+				"body": "Even private clients in some markets require multiple contracts, along with billing based on deliverables.",
+				"_graphic": {
+					"alt": "Illustrated image of another contract superimposed over a world map",
+					"src": "course/en/images/c-320-2.svg"
+				},
+				"strapline": ""
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-325",
+		"_parentId": "b-320",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Illustration of an MSA document",
+			"src": "course/en/images/c-325.svg",
+			"large": "course/en/images/c-325.svg",
+			"medium": "course/en/images/c-325.svg",
+			"small": "course/en/images/c-325.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-327",
+		"_parentId": "b-320",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "What you need to know about MSAs",
+		"displayTitle": "What you need to know about MSAs",
+		"body": "Master Service Agreements, or <a href='#' data-glossaryterm='MSA' tabindex='0'>MSAs</a>, apply to multiple engagements over a number of years and detail terms of working with the client.<br><br>Due to the nature of the long-term legal commitment of an MSA, you need to register with the MSA hotline as soon as those negotiations begin.<br><br>Email: MSA_Hotline@mckinsey.com<br><br>Phone: VOIP 405-5400 or + 1-800-284-6335",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-330",
+		"_parentId": "b-325",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "What Legal looks for",
+		"displayTitle": "What Legal looks for",
+		"body": "Our clients' standard form contracts (even simple confidentiality agreements) may not reflect our typical working arrangements and often contain <b>unacceptable provisions</b> for the Firm. The Legal Department can identify these issues and propose changes or compromises acceptable to the client and the Firm. These contracts may have a perpetual term or may be used as a template for future contracts, so signing a bad agreement now can have enduring adverse consequences for the Firm beyond the duration of the engagement.<br><br>Legal will review the contracts and <b><a href='#' data-glossaryterm='Redline' tabindex='0'>redline</a></b> (propose changes to) the document(s).",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-335",
+		"_parentId": "b-330",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent legal provisions.",
+			"src": "course/en/images/c-315.svg",
+			"large": "course/en/images/c-315.svg",
+			"medium": "course/en/images/c-315.svg",
+			"small": "course/en/images/c-315.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-340",
+		"_parentId": "b-330",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Unacceptable provisions include",
+		"displayTitle": "Unacceptable provisions include:",
+		"body": "<ul><li>Non-compete provisions that would restrict our ability to serve competitors</li><li>Provisions that would allow the client to publicize our work and involvement without our consent</li><li>Intellectual property provisions that would prevent the Firm from taking generic learning to other clients</li><li>Audit rights or other provisions that could require us to disclose per diems and other sensitive Firm financial information or permit access to client confidential information on our premises or in our systems</li><li>A requirement to itemize and submit detailed receipts for expenses</li><li>Unacceptable liability for the Firm</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},	
+	{
+		"_id": "c-345",
+		"_parentId": "b-335",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Standard practices",
+		"displayTitle": "Standard practices",
+		"body": "",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Accounting’s role",
+				"body": "Accounting should review any contracts or documents that impact how and when we bill and collect.",
+				"_graphic": {
+					"alt": "Image of the contracts",
+					"src": "course/en/images/c-345-1.png"
+				},
+				"strapline": ""
+			},
+			{
+				"title": "The Firm’s practices",
+				"body": "The global preference is for us to invoice monthly and for clients to pay within 30 days.<br><br>Our billing best practice is to send a <a href='#' data-glossaryterm='Pro rata' tabindex='0'>pro rata</a> invoice in the first month and then bill mid-month in subsequent months.",
+				"_graphic": {
+					"alt": "Infographic illustrating invoicing periods",
+					"src": "course/en/images/c-345-2.png"
+				},
+				"strapline": ""
+			},
+			{
+				"title": "Why is it preferred?",
+				"body": "This practice greatly reduces the risk of delayed billing and collections. However, this schedule may not be common in your market or for your client.",
+				"_graphic": {
+					"alt": "Image to illustrate best practice ",
+					"src": "course/en/images/c-345-3.png"
+				},
+				"strapline": ""
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-350",
+		"_parentId": "b-340",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Billing terms",
+		"displayTitle": "",
+		"body": "Billing terms are determined by the engagement office Accounting team in consideration of the client, office preferences, and type of work. Here are the possible billing terms you’ll encounter.",
+		"instruction": "Select a term if you'd like to see the definition.",
+		"_items": [
+			{
+				"title": "Prebilling/mobilization fees",
+				"body": "Invoices are sent upon the signing of a contract.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Mid-month (“in month”) billing",
+				"body": "Invoices are sent mid-month for all services performed during that month.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "End-of-month billing",
+				"body": "Invoices are sent at the end of the month for all services performed during that month.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Deliverables-based billing",
+				"body": "Invoices are sent only after the client receives or approves deliverables.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Deferred Billing Arrangements (DBA)",
+				"body": "This is an agreement between CST and the client to deviate from our standard monthly billing and delay sending invoices for a period of time agreed to in the contract. DBA need to be approved by local Accounting and/or client committees and should be for more than 6 months.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-355",
+		"_parentId": "b-345",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Client review",
+		"displayTitle": "Client review",
+		"body": "Send the <b>redlined</b> document(s) from Legal and Accounting to your client for his or her Legal and Accounting teams to review. If the client does not accept the proposed changes, circle back with the appropriate McKinsey team. Continue this process until both parties agree to the terms.<br><br>If you notice that there is an impasse, inform engagement leadership and suggest setting up a call with each side’s Legal and/or Accounting colleagues to facilitate agreeing to the terms.<br><br>Once all parties agree, a Partner, Senior Partner, or authorized officer can sign for McKinsey.<p/>",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-360",
+		"_parentId": "b-350",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Best practice",
+			"src": "course/en/images/c-360.svg",
+			"large": "course/en/images/c-360.png",
+			"medium": "course/en/images/c-360.png",
+			"small": "course/en/images/c-360.png"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-365",
+		"_parentId": "b-350",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Understand the agreements",
+		"displayTitle": "Understand the agreements",
+		"body": "Once you’ve executed the contracts and other documentation, it’s important that you understand the full contractual obligations and billing terms that are agreed to.<br><br>Simply put: Know what it takes to get all invoices approved so they will be paid. Again, this differs depending on market, client type, and contract structure.<br><br>Ask your CST and, if necessary, your client to describe the billing process to you in practical terms, including if purchase orders are required and who needs to approve the invoices of the estimated amount. Keep in mind that billing policies may change and may be different among divisions within the same company.<br><br>Don’t hesitate to ask Accounting to walk you through all contracts and documentation for an engagement if you need any clarification.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id":"c-368",
+		"_parentId":"b-355",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-370",
+		"_parentId": "b-360",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "All are serious and avoidable risks. Be sure that Legal and Accounting identify and review documentation:<br><br><ol class='alpha-list'><li>Delays in billing and collection</li><li>Errors in taxes applied</li><li>Vague satisfaction criteria in Client Investment/Fees at Risk arrangements</li><li>Un-approved external communications about McKinsey’s services</li><li>Entering a non-compete agreement</li></ol>",
+		"instruction": "",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-380",
+		"_parentId": "b-365",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Answers to common questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Select each question to see the answer.",
+		"_items": [
+			{
+				"title": "Who can sign client contracts?",
+				"body": "Only Partners, Senior Partners, or authorized officers may sign for or otherwise commit the Firm. Typically, the DCS or named-ED for the engagement will sign the contract once it has been reviewed and approved by the Legal Department.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Is it OK for consultants to sign in their individual capacity?",
+				"body": "Clients sometimes request that individual consultants sign confidentiality or other contracts in their individual capacity. The Firm prefers that individual consultants not sign such contracts, which could result in individual consultants having personal liability to a client. In these situations, please contact the Legal Department.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Where can I learn about pricing, including Client Investment and Fees at Risk arrangements?",
+				"body": "Engagements should be priced based on local office team bundle rates. A suite of e-learning courses on pricing and arrangements is available on Learn to all Partners and Senior Partners. APs and equivalent roles are granted access to the training after they have been in the role for one year.<br><br>APs and equivalent roles should work with the named-Ed or DCS on the LOP when determining and negotiating pricing.<br><br>Client Investment and Fees at Risk arrangements must be syndicated with the engagement owning office client/investment committees before agreement is reached with the client.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"appendText": "Still have questions? Reach out to the engagement office Legal and Accounting teams. Find Legal contacts listed by region <a href='http://home.intranet.mckinsey.com/profstandards/legal-department' target='_blank'>here</a>. Find Accounting contacts listed by region and local office <a href='course/en/pdf/Local_Accounting_contacts.pdf' target='_blank'>here</a>.",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-385",
+		"_parentId": "b-370",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Execute Contracts in Partnership with Legal and Accounting: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Accurately Complete the CER.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-400",
+		"_parentId": "b-400",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Request the initiation of the CER</strong> at the local engagement office by contacting the Accounting or Staffing team.</li><li><strong>Complete the CER in the month the engagement starts</strong> so that time and revenue can be recorded for the engagement and you can invoice the client.</li><li><strong>Create an itemized budget</strong> by completing the CER to accurately reflect the terms and scope of the engagement, including as much detail as possible.</li><li><strong>Keep in mind</strong> that the CER budget is reflected in all monthly WIP reports and provides the baseline for actual versus budget reconciliation in event of an overrun.</li><li><strong>Seek the support of the engagement office Accounting team and your EA</strong> to help complete the CER information.</li><li><strong>Know that the CER is an agreement with the Firm</strong> as to what will be billed and incurred for the engagement.</li><li><strong>Enable Accounting to prepare draft invoices</strong> by entering an accurate billing schedule in the CER.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-405",
+		"_parentId": "b-400",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-405.svg",
+			"large": "course/en/images/c-405.svg",
+			"medium": "course/en/images/c-405.svg",
+			"small": "course/en/images/c-405.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-410",
+		"_parentId": "b-405",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "What is the CER?",
+		"displayTitle": "",
+		"body": "The CER is the itemized budget of the engagement and triggers the client code.",
+		"instruction": "Select the arrow to learn more about the CER.",
+		"mobileInstruction": "Select the arrow to learn more about the CER.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Purpose",
+				"body": "The CER is the itemized report used by the Firm to start a client engagement, assign a client code, and record the details of the scope, price, team configuration, industry, function, and risk elements of an engagement.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/c-410-1.svg"
+				},
+				"strapline": "Purpose"
+			},
+			{
+				"title": "CER budget",
+				"body": "Financial information entered into the CER sets the CER budget. This budget is included with other information in the monthly WIP report and facilitates managing the economics throughout the engagement.",
+				"_graphic": {
+					"alt": "An image of a CER column in the WIP entitled “Time Summary”",
+					"src": "course/en/images/c-410-2.svg"
+				},
+				"strapline": "CER budget"
+			},
+			{
+				"title": "Client code",
+				"body": "A client code is assigned after the CER is submitted, reviewed, and approved. The engagement client code is to be used to record all time and expenses related to the engagement.",
+				"_graphic": {
+					"alt": "Part of an infographic showing a client code generating out of an approved CER",
+					"src": "course/en/images/c-410-3.svg"
+				},
+				"strapline": "Client code"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_isOptional": true
+	},
+	{
+		"_id":"c-417",
+		"_parentId":"b-415",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-420",
+		"_parentId": "b-420",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/c-420.svg",
+			"large": "course/en/images/c-420.svg",
+			"medium": "course/en/images/c-420.svg",
+			"small": "course/en/images/c-420.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		},
+		"_isOptional": true
+	},
+	{
+		"_id": "c-425",
+		"_parentId": "b-420",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Think local",
+		"displayTitle": "Think local",
+		"body": "The CER should be opened through the office where the majority of the work will be done. Consult with Accounting to determine the primary Location of Work if you’re unsure.<br><br>The type of agreement required varies by the engagement office. A verbal agreement may be enough in some offices, while others require an executed contract.<br><br>Who to email to open a CER also varies. Either the Staffing or Accounting department opens a draft CER; start with Accounting if you don’t know which.<br><br>In your email request, provide the client name, engagement name, named-ED, BD (if applicable), DCS, industry, and function.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+	    "_id": "c-435",
+	    "_parentId": "b-430",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Where to go and what to find out",
+	    "displayTitle": "Where to go and what to find out",
+	    "body": "There are three key sources for information.",
+		"instruction": "Select each image to learn about them.",
+	    "_columns": 3,
+	    "_items": [
+	        {
+	            "title": "DCS",
+	            "body": "Ask the DCS or named-ED:<br><br><ul><li>For the charge plan, which includes the names of engagement leaders and experts and the number of days each person can charge over the course of the engagement</li><li>If there is a balance to be transferred from a <strong>PE code</strong> and how much</li><li>If a contingency percentage was factored into the pricing and how much</li><li>If the engagement is a Client Investment or a Fees at Risk arrangement; if so, find out what type and by what percent</li><li>If there is a need for any external consultants and in what capacity (rates are marked up by 50%)</li></ul>",
+	            "_graphic": {
+	                "src": "course/en/images/c-435-1.png",
+	                "srcHover":"course/en/images/c-435-1-hover.png",
+	                "srcVisited":"course/en/images/c-435-1-visited.png",
+	                "alt": "",
+	                "title": "DCS"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-435-1.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Contract(s)",
+	            "body": "Review the contract(s) to find out:<br><br><ul><li>The engagement duration</li><li>Risks and legal flags</li><li>The industry/sector/practice information</li><li>Client contact information</li><li>Pricing and arrangement details</li><li>Inclusion of New Client Service Capabilities or Digital</li><li>Expense arrangement</li><li>Billing schedule</li></ul>",
+	            "_graphic": {
+	                "src": "course/en/images/c-435-2.png",
+	                "srcHover":"course/en/images/c-435-2-hover.png",
+	                "srcVisited":"course/en/images/c-435-2-visited.png",
+	                "alt": "",
+	                "title": "Contract(s)"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-435-2.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Staffing",
+	            "body": "Speak now with the Staffing team, if you or the named-ED hasn’t already, to draft a staffing plan to get the details about your team. Relevant details include names, roles, specific per diems, and any per diem overrides.<br><br>Your staffing plan should take into account the 22 billable days per month smoothing (averaging) and absence smoothing, which can vary at the local office level. Ask your engagement office Accounting team for their smoothing thresholds<br><br>Depending on engagement office policies, you may not be able to confirm or finalize your staffing plan until after the CER is approved. See the next topic for more information on working with the Staffing team.",
+	            "_graphic": {
+	                "src": "course/en/images/c-435-3.png",
+	                "srcHover":"course/en/images/c-435-3-hover.png",
+	                "srcVisited":"course/en/images/c-435-3-visited.png",
+	                "alt": "",
+	                "title": "Staffing"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-435-3.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "New Service Capabilities, also called NDMs",
+	            "body": "Reach out to the service line to ensure that the cost is accurately reflected in the CER.<br><br>Obtain written confirmation with the service line regarding the cost and how it will be charged to the WIP (a one time/lump sum charge, time charges throughout the life of the engagement, or a combination).",
+	            "_graphic": {
+	                "src": "course/en/images/c-435-4.png",
+	                "srcHover":"course/en/images/c-435-4-hover.png",
+	                "srcVisited":"course/en/images/c-435-4-visited.png",
+	                "alt": "",
+	                "title": "New Service Capabilities, also called NDMs"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-435-4.png",
+	                "alt": ""
+	            }
+	        }
+	    ],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_isOptional": true
+	},
+	{
+		"_id": "c-440",
+		"_parentId": "b-435",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Client Investment/Fees at Risk arrangements",
+		"displayTitle": "Client Investment/Fees at Risk arrangements",
+		"body": "Client Investment and/or Fees at Risk arrangements are increasingly common across the Firm. When completing the CER, it’s important to know if and how they apply to your engagement because all CSS and only senior CSSS per diems are reduced by an appropriate discount percentage.",
+		"instruction": "Select each Client Investment and Fees at Risk component to learn about it.",
+		"_items": [
+			{
+				"title": "Satisfaction Holdback (HB) or Fees at Risk",
+				"body": "This applies to engagements where all or a portion of fees are not billed until criteria agreed upon with the client are met. The satisfaction criteria can be qualitative (satisfaction), quantitative (contingent on impact), or both.<br><br>Know the criteria type for your engagement.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Client Investment (CI)",
+				"body": "This applies to engagements that are performed for a percentage of the usual per diem rates without an expectation for billing full fees.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Satisfaction Holdback & Investment (SI)",
+				"body": "This applies to engagements that combine a Client Investment and a portion of Fees at Risk.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Social Sector (SS)",
+				"body": "These engagements are a more specific type of client investment. Examples of Social Sector clients include government agencies and non-profits.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Investment amount",
+				"body": "You will be prompted to enter an <a href='#' data-glossaryterm='Investment' tabindex='0'>investment</a> number in the CER, which is a percentage applied to all CSS and senior CSSS on the engagement. Per diems are reduced by this percentage to reflect the level of fees invested or at risk. Reach out to local Accounting to obtain the exact percentage.<br><br>Note that for engagements with Fees at Risk, per diems are reinstated to full value once we confirm that the criteria to bill for our contingent fees are met.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"appendText": "<strong>Note:</strong> These engagements require approval by the Office Manager, local Client Committee, or Regional Pricing Committee, depending on the discount amount. Refer to local Accounting for details about the approval process, committee limits, and for any help completing the CER.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_isOptional": true
+	},
+	{
+		"_id": "c-445",
+		"_parentId": "b-440",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Expense charge arrangement types",
+		"displayTitle": "Expense charge arrangement types",
+		"body": "Engagement pricing typically includes one of three options of structuring expense charges. You need to know which one applies to your engagement.<br><br><ul><li><strong>Include in fees</strong>: The expense charge is included with the team bundle calculation</li><li><strong>Fixed amount:</strong> The expense charge is an agreed-upon fixed amount</li><li><strong>Fixed percentage of fees:</strong> With this arrangement, the total expected expenses are calculated based on a percentage of total fees, which you’ll need to know</li></ul><br><br><strong>Note:</strong> Billing actual expenses is not allowed without appropriate approvals.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-450",
+		"_parentId": "b-445",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Navigate the form",
+		"displayTitle": "",
+		"body": "You can navigate to the draft CER form by clicking the link in the email sent by the engagement office Accounting or Staffing team. Select <a href='course/en/pdf/Navigating_a_CER.pdf' target='_blank'>here</a> for a resource guide with instructions on how to complete the online form.<br><br>Keep in mind that you can give others access to the CER to fill out, such as your EA, but you will need to provide them with all of the information you’ve gathered.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-455",
+		"_parentId": "b-450",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Be thorough!",
+		"displayTitle": "",
+		"body": "Be thorough in gathering and then entering your facts in the CER. Managing the WIP is more difficult when you omit items—like team members, experts, accurate per diems, or New Service Capabilities.<br><br>This is because you won’t:<br><br><ul><li>Have an accurate budget to manage toward—the engagement price is not the engagement budget</li><li>Have a target amount for omitted line items in the WIP report within the CER budget columns</li><li>Know to ask for a Client Investment percentage to be applied to the CSS per diems in cases where the engagement price is less than the engagement budget</li></ul><br>Additionally, if you only enter team members’ roles and not their names in the CER, you will have different line items for the role and the actual team members’ time charges. This makes spotting errors cumbersome.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-460",
+		"_parentId": "b-450",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the CER with columns showing for team members, experts, per diems, and New Service Capabilities",
+			"src": "course/en/images/c-460.svg",
+			"large": "course/en/images/c-460.svg",
+			"medium": "course/en/images/c-460.svg",
+			"small": "course/en/images/c-460.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-465",
+		"_parentId": "b-455",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/c-465.svg",
+			"large": "course/en/images/c-465.svg",
+			"medium": "course/en/images/c-465.svg",
+			"small": "course/en/images/c-465.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-470",
+		"_parentId": "b-455",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Think local",
+		"displayTitle": "Think local",
+		"body": "Once you click “submit” on the CER form, the engagement office Accounting team will review it. You can expect it to be ultimately approved, but keep in mind that:<br><br><ul><li>Finance may need additional information and will reach out to you for supporting documents and/or clarification as needed</li><li>CERs are also reviewed by office leadership</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-475",
+		"_parentId": "b-460",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Answers to common questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Select each question to see the answer.",
+		"_items": [
+			{
+				"title": "Can I update the CER after it’s approved?",
+				"body": "Generally, no. Updating the CER after it’s approved is not possible at most offices. However, contact your local Accounting team if the scope changes from what is originally planned so they can help you track changes offline to manage the WIP.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "What are other local office differences?",
+				"body": "The local Accounting or Staffing team initiates the CER depending on the office.The type of agreement needed to be in place to open it also depends on the local office.<br><br>A verbal agreement may be enough for some offices, while others require an executed contract. This is because the tax and legal requirements differ between locations. Work with the engagement office Accounting team to understand your specific situation.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-480",
+		"_parentId": "b-465",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Accurately Complete the CER: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Confirm the CST and Utilize the Client Code.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-500",
+		"_parentId": "b-500",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><b>Find out what is required to confirm staffing;</b> some offices require an approved CER, while others only require a verbal award of an LOP.</li><li><b>Communicate all staffing plan details</b> with the Staffing team, including notifying them if the engagement is a Client Investment or satisfaction/contingent arrangement.</li><li><b>Ensure that the staffed team</b> meets the budgeted team plan entered in the CER.</li><li><b>Prevent inaccurate time charges during the engagement</b> by confirming and communicating the charge plan with leadership on the engagement (Partners, APs, and experts).</li><li><b>Capture all time and expenses</b> related to the engagement, including any staffing PD investments agreed to.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-505",
+		"_parentId": "b-500",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-505.svg",
+			"large": "course/en/images/c-505.svg",
+			"medium": "course/en/images/c-505.svg",
+			"small": "course/en/images/c-505.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-507",
+		"_parentId":"b-505",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-520",
+		"_parentId": "b-515",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Have a call with the Staffing team",
+		"displayTitle": "",
+		"body": "As soon as you know the staffing requirements for the engagement, contact the Staffing team. Discuss the following.",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Team members",
+				"body": "Describe in detail the team composition, specific skill set, sector, and industry experience required, as well as the duration of the engagement.",
+				"_graphic": {
+					"alt": "Infographic showing “Team Bundle”",
+					"src": "course/en/images/c-520-2.svg"
+				},
+				"strapline": "Team members"
+			},
+			{
+				"title": "Per diems",
+				"body": "<ul><li>Keep in mind that per diems are based on the LOW, or office in which the engagement is set up</li><li>Notify Staffing if the engagement is a Client Investment or satisfaction contingent Fees at Risk arrangement</li><li>Be sure you’re clear on what special agreements or offline approvals there may have been for particular team members, such as PD investment</li></ul>",
+				"_graphic": {
+					"alt": " Infographic showing Leadership Days, Staffing Plan, Expenses, and Client Investment/Fees at Risk",
+					"src": "course/en/images/c-520-3.svg"
+				},
+				"strapline": "Per diems"
+			},
+			{
+				"title": "Staffing plan",
+				"body": "The outcome of the discussion should be a staffing plan that lists team members, their roles, and the amount of days confirmed for the engagement.<br><br>The staffing plan should align with the CER budget.",
+				"_graphic": {
+					"alt": "Staffing plan with “team members” and “per diems” columns showing.",
+					"src": "course/en/images/c-520-4.svg"
+				},
+				"strapline": "Staffing plan"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-522",
+		"_parentId": "b-517",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "alt text",
+			"src": "course/en/images/c-522.svg",
+			"large": "course/en/images/c-522.svg",
+			"medium": "course/en/images/c-522.svg",
+			"small": "course/en/images/c-522.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-523",
+		"_parentId": "b-517",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Think local",
+		"displayTitle": "Think local",
+		"body": "Ask what's required to confirm your team, because requirements vary by office and are one of the following:<br><br><ul><li>A Partner stating there is a bill of work</li><li>A signed contract</li><li>A form of client confirmation, such as an email or LOP</li><li>An approved CER</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+	    "_id": "c-525",
+	    "_parentId": "b-520",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Confirm the leadership charge plan",
+	    "displayTitle": "",
+	    "body": "",
+		"instruction": "Select each image to learn more.",
+	    "_setCompletionOn": "inview",
+	    "_columns": 2,
+	    "_items": [
+	        {
+	            "title": "What it is",
+	            "body": "The leadership charge plan is the number of days each Partner, AP, and expert can charge over the life of the engagement as detailed in the CER.",
+	            "_graphic": {
+	                "src": "course/en/images/c-525-1.png",
+	                "srcHover":"course/en/images/c-525-1-hover.png",
+	                "srcVisited":"course/en/images/c-525-1-visited.png",
+	                "alt": "An illustrated CER with charge plan figures inside",
+	                "title": "What it is"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-525-1.png",
+	                "alt": "An illustrated CER with charge plan figures inside"
+	            }
+	        },
+	        {
+	            "title": "What to do",
+	            "body": "Reach out to each leader, usually by email, confirming the number of days he or she will charge over the life of the engagement. Do not share information regarding the number of days charged among leaders without the DCS’s permission.<br><br>In some offices, the leadership charge plan is automatically sent by Accounting to the engagement leadership once the charge code is assigned.<br><br>If not done already, determine who has responsibility for billing and WIP management.",
+	            "_graphic": {
+	                "src": "course/en/images/c-525-2.png",
+	                "srcHover":"course/en/images/c-525-2-hover.png",
+	                "srcVisited":"course/en/images/c-525-2-visited.png",
+	                "alt": "To-do list",
+	                "title": "What to do"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-525-2.png",
+	                "alt": "To-do list"
+	            }
+	        }
+	    ],
+		"_isOptional":true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-535",
+		"_parentId": "b-530",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Capture expenses already incurred",
+		"displayTitle": "Capture expenses already incurred",
+		"body": "",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Capture expenses already incurred",
+				"body": "All expenses incurred in the development stage, or before the client code is opened, should be moved to the client code and recovered through client billing. Check with local Accounting if this does not happen automatically.",
+				"_graphic": {
+					"alt": "An illustration of the LOP",
+					"src": "course/en/images/c-535-1.svg"
+				},
+				"strapline": "Capture expenses already incurred"
+			},
+			{
+				"title": "Move team time from the PE code to the client code",
+				"body": "Team members’ time charges must be in line with Staffing records and moved from the official engagement start date. Earlier time from the Prospective Engagement (PE) code is moved at the ED’s discretion.",
+				"_graphic": {
+					"alt": "Team members and a calendar that says “Engagement start”",
+					"src": "course/en/images/c-535-2.svg"
+				},
+				"strapline": "Move team time from PE code  to the client code"
+			},
+			{
+				"title": "Instruct the team to use the client code",
+				"body": "After the CER is submitted, reviewed, and approved, a charge code is generated and communicated to the CST by local Accounting. Instruct teams to use it immediately to prevent any time lag in tracking fees and expenses.",
+				"_graphic": {
+					"alt": "A client code on a WIP",
+					"src": "course/en/images/c-535-3.svg"
+				},
+				"strapline": "Instruct team of client code assigned"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-540",
+		"_parentId": "b-535",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "<strong>Confirm the CST and Utilize the Client Code: Complete</strong>",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Get Oriented to the WIP.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-600",
+		"_parentId": "b-600",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Manage the WIP monthly</strong> by reviewing each report, which shows time and expenses submitted as well as any invoices sent by month end.</li><li><strong>Anticipate a detailed engagement budget entered in the CER</strong> to support WIP management over the course of the engagement.</li><li><strong>Request the WIP report monthly from the engagement office Accounting team</strong> if you are an AP or equivalent role responsible for managing it.</li><li><strong>Automatically receive a WIP report only if you are a Partner or above</strong> listed as the BD, ED, or DCS in the CER.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-605",
+		"_parentId": "b-600",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-605.svg",
+			"large": "course/en/images/c-605.svg",
+			"medium": "course/en/images/c-605.svg",
+			"small": "course/en/images/c-605.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+	    "_id": "c-615",
+	    "_parentId": "b-610",
+	    "_type": "component",
+	    "_component": "media",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "What you’ll find in a WIP Report, LC Report",
+	    "displayTitle": "",
+	    "body": "",
+	    "instruction": "Grab your headphones and select play for a quick tour.",
+	    "_setCompletionOn": "inview",
+	    "_useClosedCaptions": false,
+	    "_media": {
+	        "mp4": "course/en/video/c-615.mp4",
+			"ogv": "",
+			"poster": "course/en/video/c-615.jpg",
+	        "cc": [
+	            {
+					"srclang": "en",
+					"src": "course/en/video/media.vtt"
+				}
+	        ]
+	    },
+	    "_transcript": {
+	        "_inlineTranscript": true,
+	        "_externalTranscript": false,
+	        "inlineTranscriptButton": "Transcript",
+	        "inlineTranscriptCloseButton": "Close Transcript",
+	        "inlineTranscriptBody": "The WIP report is your primary tool to manage the economics of an engagement. It’s a three-page document.<br><br>You’ll find the summary of the overall WIP position—what the current WIP balance is—and a list of any outstanding invoices on the first page of the WIP report: the Project Summary page.<br><br>To understand the numbers in the top table, let’s look at the row labels of the WIP column and define some terms: <strong>Total Incurred</strong> refers to the fees and expenses charged to the engagement for that time period; Billed is the amount the client has been invoiced; the <strong>WIP balance</strong> is the difference between the total billed and the sum of the total fees, expenses incurred, and any Net Value Adjustments or Transfers applied; and the <strong>WIP reserve</strong> is the portion of a positive WIP balance that, due to its age, is deemed at risk of not being billed or no longer recognized as revenue.<br><br>Now, looking at the columns from left to right, the Prior column shows the total fees and expenses previously charged to the engagement. The monthly columns show actual fees and expenses incurred each month for the past three months. The CER column shows the itemized budget for the life of the engagement as entered in the CER system.<br><br>The Variance column is the difference between the Total Incurred up to the end of the WIP reporting month and the CER column.<br><br>Now, let's turn to the second page, the Time Summary page, which shows all internal time charges. The CSS time shows team member names, their positions, which offices they're from, and their engagement nominal per diems. The Actuals to Date columns show total days and the effective per diems charged prior and by month; the Effective per diem differs from the engagement nominal per diem if there is an investment or portion of the work that is contingent or satisfaction-based.<br><br>The CER columns reflect what has been entered into the CER budget, including days, effective per diems, and resultant total fees. Actuals Higher/Lower than CER compares time charged to the engagement against what is budgeted. Investment shows the amount the total incurred fees are reduced after applying the Client Investment percentage when applicable.<br><br>The third page is the Expense Summary, which details the expense charges. Here, you have the visibility into the expenses charged by each person broken down by category. That’s it for our quick tour of the WIP.",
+	        "transcriptLinkButton": "Transcript",
+	        "transcriptLink": "assets/transcript.pdf"
+	    },
+	    "_playerOptions": {
+        	"features": ["playpause","current","progress","duration","tracks","volume","fullscreen"],
+        	"showPosterWhenEnded": true
+	    },
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-620",
+		"_parentId": "b-615",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Zoom in",
+		"displayTitle": "",
+		"body": "Let’s revisit the CER columns on the Project Summary page and the Time Summary page.",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Project Summary: Accurate budget of fees",
+				"body": "Here, you can see that when you include New Service Capabilities/Digital (New Service Delivery Fees) when applicable and correctly estimate CSS fees in the CER, the numbers in the <a href='#' data-glossaryterm='Variance' tabindex='0'>Variance</a>  column are useful guides.",
+				"_graphic": {
+					"alt": "A comparison of the WIP and CER columns on the Project Summary page.",
+					"src": "course/en/images/c-620-1.svg"
+				},
+				"strapline": "Project Summary: Budgeted fees"
+			},
+			{
+				"title": "Time Summary: Complete names, days, and per diems",
+				"body": "Here, you can see how it's easy to verify team members’ names, days, and per diems when you fill in all the team member information in the CER. Note that all fields are populated.",
+				"_graphic": {
+					"alt": "A comparison of the Name column with the CER (Life of Study) columns.",
+					"src": "course/en/images/c-620-2.svg"
+				},
+				"strapline": "Time Summary: Complete names, days, and per diems"
+			},
+			{
+				"title": "Time Summary: Missing names, days, or per diems",
+				"body": "In contrast, when you omit the names of team members and include only general roles, you are forced to cross-reference what was budgeted for the role (NO NAME) with the actuals for the team member serving that role (Person #).",
+				"_graphic": {
+					"alt": "A comparison of the Name column with the CER (Life of Study) columns, this time with some missing information.",
+					"src": "course/en/images/c-620-3.svg"
+				},
+				"strapline": "Time Summary: Complete names, days, or per diems"
+			}
+		],
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-625",
+		"_parentId": "b-620",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "The WIP pack",
+		"displayTitle": "The WIP pack",
+		"body": "As part of the monthly WIP pack, the central Accounting team sends out WIP reports via email to Partners listed as ED, BD, or DCS in the CER.<br><br>The WIP pack includes:<br><br><ul><li>The WIP and Accounts Receivable monthly snapshot of all open codes where that Partner is listed as ED, BD, or DCS</li><li>A time utilization report by time period</li><li>Individual WIP reports for all codes listed on the monthly snapshot</li></ul>",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Illustration of a WIP pack email",
+			"src": "course/en/images/c-625.svg",
+			"large": "course/en/images/c-625.svg",
+			"medium": "course/en/images/c-625.svg",
+			"small": "course/en/images/c-625.svg"
+		},
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-630",
+		"_parentId": "b-625",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "How APs can receive the WIP report",
+		"displayTitle": "",
+		"body": "Named-EDs may forward a WIP report, not the full WIP pack, to APs and equivalent roles responsible for managing it.<br><br>To receive a copy of the report directly from the engagement office Accounting team, reply to the original sender of the email from the named-ED or contact your engagement office Accounting team each month.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id":"c-633",
+		"_parentId":"b-630",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-635",
+		"_parentId": "b-635",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "All three should spur you to investigate.<br><br><ol class='alpha-list'><li><span>A positive <a href='#' data-glossaryterm='WIP Balance' tabindex='0'>WIP balance</a> is unfavorable; it means we’ve billed less than incurred.</span></li><li><span>Time charges that exceed the CER budget may be a result of an error in days or per diem charged.</span></li><li><span>Of course you should seek to resolve errors in expenses charged to the engagement.</span></li></ol><br>You’ll learn how to spot and investigate these concerns in the next two topics.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-640",
+		"_parentId": "b-640",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Answers to common questions",
+		"displayTitle": "",
+		"body": "<strong>Select the question to see the answer.</strong>",
+		"instruction": "",
+		"_items": [
+			{
+				"title": "Who is responsible for managing the WIP?",
+				"body": "Managing the WIP is generally the responsibility of the named-ED on the engagement, but it is sometimes delegated to APs. It is a best practice to determine roles and responsibilities at the engagement start.<br><br>APs and AP equivalents should feel comfortable asking for the responsibility of managing the WIP in order to grow their skills.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-645",
+		"_parentId": "b-645",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Get Oriented to the WIP: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Evaluate Whether the Engagement Is on Budget.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-700",
+		"_parentId": "b-700",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Apply your knowledge of the engagement activity and plan</strong> when reviewing the WIP report.</li><li><strong>Review the remaining budget for fees and expenses</strong> by looking at the Variance column.</li><li><strong>Look at the <a href='#' data-glossaryterm='Run Rate' tabindex='0'>run rate</a>, or change in fees and expenses month to month,</strong> to see if it is on target. Investigate any line items that seem high.</li><li><strong>Look for and take note of a positive WIP balance,</strong> as this is generally unfavorable and indicates that the total fees are greater than the total billed.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-705",
+		"_parentId": "b-700",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-705.svg",
+			"large": "course/en/images/c-705.svg",
+			"medium": "course/en/images/c-705.svg",
+			"small": "course/en/images/c-705.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-707",
+		"_parentId": "b-703",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "The Project Summary page",
+		"displayTitle": "The Project Summary page",
+		"body": "For this topic, we’ll be reviewing the first page of the WIP report.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the WIP Project Summary page",
+			"src": "course/en/images/c-707.svg",
+			"large": "course/en/images/c-707.svg",
+			"medium": "course/en/images/c-707.svg",
+			"small": "course/en/images/c-707.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-710",
+		"_parentId":"b-705",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-715",
+		"_parentId": "b-710",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Know your engagement plan",
+		"displayTitle": "",
+		"body": "As you read the WIP, apply your knowledge of the engagement plan, or how fees and expenses will be incurred over time. You should know:<br><br><ul><li>How leaders plan to use their days</li><li>When New Service Capabilities will be brought in</li><li>When experts will be needed</li><li>When team members’ days will be heavy or light; for example, if you start with a larger team and then ramp down</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-720",
+		"_parentId": "b-715",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Assess the CER budget",
+		"displayTitle": "",
+		"body": "If you were not involved in setting up the CER, look at these four key fields on the Project Summary page to understand the basic economics of the engagement.",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Project Classification",
+				"body": "Look at the top-left of the page at the Project Classification. Note whether there is any Client Investment or satisfaction element. If so, the per diems will be adjusted to reflect the level of investment or fees linked to satisfaction. In this example, per diems will be reduced by 20%.",
+				"_graphic": {
+					"alt": "Engagement classification field in the WIP",
+					"src": "course/en/images/c-720-1.svg"
+				},
+				"strapline": "Engagement Classification"
+			},
+			{
+				"title": "Total Incurred",
+				"body": "Look at the <a href='#' data-glossaryterm='Total Incurred' tabindex='0'>Total Incurred</a>  field of the CER column to see the total budget for all project time and expenses. This does not equal the price of the study, meaning what we are planning on billing the client.",
+				"_graphic": {
+					"alt": "Total incurred field in the WIP",
+					"src": "course/en/images/c-720-2.svg"
+				},
+				"strapline": "Total Incurred"
+			},
+			{
+				"title": "Billed",
+				"body": "To find the price of the engagement, look at the <a href='#' data-glossaryterm='Billed' tabindex='0'>Billed</a>  field in the CER column. That shows the total billable amount for the engagement.",
+				"_graphic": {
+					"alt": "Billed CER field in the WIP",
+					"src": "course/en/images/c-720-3.svg"
+				},
+				"strapline": "Billed"
+			},
+			{
+				"title": "WIP Balance",
+				"body": "Look at the amount in WIP balance field in the CER column. That will tell you the difference between the total budgeted incurred and the total to be billed, which is the expected credit hold or <a href='#' data-glossaryterm='Value Bill' tabindex='0'>value bill</a> at the engagement’s end.<br><br>Keep your findings in mind as you review the WIP report monthly.",
+				"_graphic": {
+					"alt": "WIP balance CER row",
+					"src": "course/en/images/c-720-4.svg"
+				},
+				"strapline": "WIP balance CER"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-725",
+		"_parentId": "b-720",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Review the Remaining Budget",
+		"displayTitle": "Look at the remaining budget",
+		"body": "",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Check your costs against the budget",
+				"body": "See if your engagement is operating over or under what was planned and itemized in the CER budget by looking at the Total, the CER, and the Variance columns of the Project Summary.",
+				"_graphic": {
+					"alt": "Three columns from the WIP—Total, CER, Variance Columns",
+					"src": "course/en/images/c-725-1.svg"
+				},
+				"strapline": "Check your costs"
+			},
+			{
+				"title": "Review the Variance Over/(Under) column",
+				"body": "Look at the budget remaining in the Variance column (<strong>Variance=Total (incurred) - CER (budgeted)</strong>) to see if each amount is sufficient in consideration of your engagement plan and timeline.<br><br>Ask yourself:<br><ul><li>Is there enough of a balance for each line item for the duration of the engagement?</li><li>Are there any items over budget or not budgeted at all?</li></ul>",
+				"_graphic": {
+					"alt": "Total incurred field in the CER",
+					"src": "course/en/images/c-725-2.svg"
+				},
+				"strapline": "Review the Variance over/(under) column"
+			},
+			{
+				"title": "Be mindful of New Service Capability fees",
+				"body": "If your engagement contains New Service Capabilities—for example, one of our digital offerings—be sure to budget for them in the CER. In this example WIP, they were not budgeted. Note the 115,000 variance.<br><br>New Delivery Capabilities can either be charged as time (the same as generalist consultants) or shown as a charge under “New Delivery Service Fees.”",
+				"_graphic": {
+					"alt": "New Delivery Service Fees row in the WIP",
+					"src": "course/en/images/c-725-3.svg"
+				},
+				"strapline": "New Service Capability Fees"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-730",
+		"_parentId": "b-725",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Check the Run Rate",
+		"displayTitle": "Check for a reasonable run rate",
+		"body": "",
+		"instruction": "Select the arrow to learn how.",
+		"mobileInstruction": "Select the arrow to learn how.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Read the monthly columns",
+				"body": "Read the monthly columns to check for unexpected sharp changes from one month to the next and verify a reasonable <a href='#' data-glossaryterm='Run Rate' tabindex='0'>run rate</a>.",
+				"_graphic": {
+					"alt": "The Monthly Columns in the WIP report.",
+					"src": "course/en/images/c-730-1.svg"
+				},
+				"strapline": "Read the monthly columns"
+			},
+			{
+				"title": "Look for expected changes",
+				"body": "Start with <a href='#' data-glossaryterm='Prior' tabindex='0'>Prior</a> and look from left to right at the four columns that show changes in fees and expenses incurred over time.<br><br>Prior is the total from all the previous months. The next three columns show the previous two months and the current month.",
+				"_graphic": {
+					"alt": "Prior and Monthly Columns of the WIP report.",
+					"src": "course/en/images/c-730-2.svg"
+				},
+				"strapline": "Look for expected changes"
+			},
+			{
+				"title": "Review the run rate",
+				"body": "The <strong><a href='#' data-glossaryterm='Run Rate' tabindex='0'>run rate</a></strong> is assessed by applying your knowledge of the engagement’s fees and expenses in relation to the trends of fees and expenses incurring month to month shown in the WIP.<br><br>In this example, CSS time gradually reduced toward the end of the engagement as planned, while Fees Incurred increased in September due to a lump sum New Service Delivery Service fee charged to the WIP.<br><br>Keep in mind that, normally, expense charges lag, meaning they are incurred behind schedule up to the end of an engagement.",
+				"_graphic": {
+					"alt": "onthly columns and the CER column in the WIP report.",
+					"src": "course/en/images/c-730-3.svg"
+				},
+				"strapline": "Review the run rate"
+			},
+			{
+				"title": "Forecast the WIP position at the engagement’s end",
+				"body": "Check the current <a href='#' data-glossaryterm='Run Rate' tabindex='0'>run rate</a> against the remaining budget to forecast the ending <a href='#' data-glossaryterm='WIP Position' tabindex='0'>WIP Position</a>. Engage with local Accounting early if you foresee that incurred fees and expenses may exceed total billing and end in an overrun.",
+				"_graphic": {
+					"alt": "Image of a calendar with a plus and minus sign on it.",
+					"src": "course/en/images/c-730-4.svg"
+				},
+				"strapline": "Forecast the WIP position at the engagement’s end"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-733",
+		"_parentId": "b-727",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Reviewing the WIP balance",
+		"displayTitle": "",
+		"body": "Now that you’ve reviewed the fees and expenses on the Project Summary page, look at the WIP balance row.<br><br>WIP balance = (Fees + Expenses) +/- Transfers +/- Net Value Adjustments – Total Billed",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the WIP balance row on the Project Summary Page.",
+			"src": "course/en/images/c-733.svg",
+			"large": "course/en/images/c-733.svg",
+			"medium": "course/en/images/c-733.svg",
+			"small": "course/en/images/c-733.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-735",
+		"_parentId": "b-730",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "What do you look for?",
+		"displayTitle": "What do you look for?",
+		"body": "",
+		"instruction": "",
+		"_items": [
+			{
+				"title": "A negative WIP balance ()",
+				"body": "A negative WIP balance is favorable—this means we’ve billed more than incurred and represents either a prebilling or a potential credit.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "A positive WIP balance",
+				"body": "A positive WIP balance is unfavorable—it’s cause to investigate. This means we’ve billed less than the fees and expenses incurred. It indicates a <a href='#' data-glossaryterm='Debit balance' tabindex='0'>debit balance</a> or possible overrun pending late or final billing.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "What if there is a positive balance?",
+				"body": "If you already noticed high or excess fees or expenses incurred this month, you may not be surprised by the positive balance. You’ll learn how to identify and resolve fee and expense errors in the next topic.<br><br>If you are surprised, then it may be a due to errors in billing. Consider whether you’re following the billing terms agreed to in the contracts and/or outlined in the CER. Reach out to the engagement office Accounting team to find out.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-740",
+		"_parentId": "b-735",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Answers to common questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Select a question to see its answer.",
+		"_items": [
+			{
+				"title": "How can I determine the budgeted credit, or value bill?",
+				"body": "Look at the WIP balance field in the CER column.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "What is the Reevaluation (USD) row?",
+				"body": "WIPs are produced in both local currency and USD. If you are viewing the USD WIPs, the reevaluation line will show a value which represents the movement in rate between the local and US currencies.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-745",
+		"_parentId": "b-740",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Evaluating Whether the Engagement Is on Budget: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Identify and Resolve Errors in Time Charges and Expenses.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-800",
+		"_parentId": "b-800",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Look carefully for errors in reported time charges, including names, days, and per diems each month.</strong> Time charges should match what was previously agreed upon in the staffing and charge plan within the CER budget.</li><li><strong>Verify that expense charges are accurate and reasonable.</strong> Expenses should be charged only by engagement team members.</li><li><strong>Resolve any errors by working with Accounting and Staffing teams.</strong> Communicate all adjustment requests as soon as possible to the engagement office Accounting team to allow enough time to validate and process in the current month. Adjustments can be denied after 60 days.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-805",
+		"_parentId": "b-800",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-805.svg",
+			"large": "course/en/images/c-805.svg",
+			"medium": "course/en/images/c-805.svg",
+			"small": "course/en/images/c-805.svg"
+		},
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-806",
+		"_parentId": "b-803",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "Time Summary and Expense Summary",
+		"body": "For this topic, we'll be reviewing the second and third pages of the WIP report.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the Time Summary and Expense Summary pages of the WIP.",
+			"src": "course/en/images/c-806.svg",
+			"large": "course/en/images/c-806.svg",
+			"medium": "course/en/images/c-806.svg",
+			"small": "course/en/images/c-806.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id":"c-807",
+		"_parentId":"b-805",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-810",
+		"_parentId": "b-810",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Search for errors",
+		"displayTitle": "Look at the Time Summary page",
+		"body": "Here we focus on identifying errors in time charges. Jump to step 3 to find out what to do when you spot an error.",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Name column",
+				"body": "Looking at the Time Summary page, start by reviewing the name column to verify that all team members who charged time are on the engagement. Make a note of any names that do not belong.<br><br>If you see “No Name,” that means that team time in the CER budget was not populated with names, only the roles. Look at the “CER (Life of Study)” section to see per diems and total fee budget.",
+				"_graphic": {
+					"alt": "Time Summary Tab of the WIP showing the Name column.",
+					"src": "course/en/images/c-810-1.svg"
+				},
+				"strapline": "In the Name column"
+			},
+			{
+				"title": "CER (Life of the Study) columns",
+				"body": "Next, look to see if all team members and/or all team roles were budgeted in the CER. Note the fields in this section that are blank, e.g., Person 8. Blank fields indicate that the colleague’s name was not entered into the CER. That colleague’s role, however, may have been entered—e.g., “NO NAME, AP.”<br><br>In this example, the per diem and number of days for an AP were estimated in the CER.",
+				"_graphic": {
+					"alt": "An image of a CER column",
+					"src": "course/en/images/c-810-2.svg"
+				},
+				"strapline": "In CER (Life of the Study)"
+			},
+			{
+				"title": "Matching team members with roles",
+				"body": "When roles are entered into the CER instead of team members’ names, cross reference the blank rows with the populated rows in the CER section. Look at the role or position, per diem, and Total Days information in any “NO NAME” rows. Make note of which rows match.<br><br>If you cannot match a team member with a “NO NAME” row by role, they were not budgeted by name OR role, meaning they were not budgeted at all. Their time charges could result in a positive WIP balance or overrun, depending on the engagement plan.",
+				"_graphic": {
+					"alt": "WIP Report showing NO NAME in various positions across the CER.",
+					"src": "course/en/images/c-810-3.svg"
+				},
+				"strapline": "Investigating “No Name”"
+			},
+			{
+				"title": "In the Actuals to Date section",
+				"body": "Now, verify the accuracy of the actual days listed for this month by comparing the data in the current month column to your knowledge of the number of days each team member worked on the engagement. Keep in mind that adjustments requested to past months are applied to the current month.<br><br>The maximum number of chargeable days per month is 22. At times, it may be more because a team member needs to catch up from a prior time period.",
+				"_graphic": {
+					"alt": "Actuals to Date section of the WIP report.",
+					"src": "course/en/images/c-810-4.svg"
+				},
+				"strapline": "In the Actuals to Date section"
+			},
+			{
+				"title": "Actuals Higher/Lower Than CER section",
+				"body": "For a quick way to compare what was budgeted to what was charged, look at this section.<br><br>Here, you can verify if engagement leaders are following the charge plan. Look at the Total Days field to see how many budgeted days leaders have remaining for the engagement. If the number is low and the engagement may go over budget, reach out to the individual to let them know.<br><br>You can also identify a possible error in per diems by seeing how the actuals compare to CER budget.<br><br>Remember to cross-reference information by role to colleagues not included by name in the CER.",			
+				"_graphic": {
+					"alt": "Close-up of the Actuals Higher/Lower Than CER section of the WIP report.",
+					"src": "course/en/images/c-810-5.svg"
+				},
+				"strapline": "In the Actuals Higher/Lower Than CER section"
+			},
+			{
+				"title": "Investment column",
+				"body": "This column refers to the Client Investment/Fees at Risk percentage entered in the CER when applicable.<br><br>All CSS per diems are reduced by that percentage. Review this section to ensure that the engagement fees are within approval limits entered in the CER.<br><br>Calculate that the actual investment amounts are equal to the investment percentage defined.<br><br>For engagements that have a satisfaction-based “At Risk” arrangement, per diems are reinstated to 100% once the outcome of the engagement is determined.",			
+				"_graphic": {
+					"alt": "Close-up of the investment section in the WIP report",
+					"src": "course/en/images/c-810-6.svg"
+				},
+				"strapline": "In the Investment section"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-815",
+		"_parentId": "b-815",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Three types of per diems",
+		"displayTitle": "",
+		"body": "<strong>Nominal</strong> is the engagement office per diem for the role of that person, such as EM.<br><br><strong>Effective</strong> is the per diem applied to the engagement. It can vary from the nominal for engagements with a client investment or fees that are contingent or satisfaction-based. It can also vary due to a people investment when agreed to by the Staffing team.<br><br><strong>CER per diem,</strong> similar to effective per diem, is the budgeted amount to be applied to the engagement; client investment or contingent/satisfaction elements adjust for this per diem.",
+		"instruction": "",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-820",
+		"_parentId": "b-820",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Per diem adjustments",
+		"displayTitle": "Per diem adjustments",
+		"body": "Now, let’s look at when per diems should be adjusted. Per diems vary between locations are set to align with local team bundles and pricing. Actual per diems appear on the WIP as they are recorded in the CER. However, some variation is acceptable.",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "People investments",
+				"body": "Request an adjustment if the effective per diem is not reflecting the per diem agreed upon with Staffing or PD.",
+				"_graphic": {
+					"alt": "Per diem rates on the WIP report",
+					"src": "course/en/images/c-820-2.svg"
+				},
+				"strapline": "People investments"
+			},
+			{
+				"title": "Rate change",
+				"body": "Don't request an adjustment if and when there are role changes or if the per diem grid for the office is increased. This typically happens in January. Effective per diems can be higher than CER budget in these cases and cannot be adjusted.",
+				"_graphic": {
+					"alt": "Actuals to Date column in the CER portion of the WIP",
+					"src": "course/en/images/c-820-3.svg"
+				},
+				"strapline": "Rate change"
+			},
+			{
+				"title": "External contractors",
+				"body": "Don’t request an adjustment for per diems on the WIP that are at least 50% more than what the contractors charge the Firm. The increase is a Firm policy to ensure that teams do not favor contractors over internal staffing opportunities.",
+				"_graphic": {
+					"alt": "The Amount, GL code, and GL name columns in the Expense Summary",
+					"src": "course/en/images/c-820-4.svg"
+				},
+				"strapline": "External contractors"
+			}
+		],
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-825",
+		"_parentId": "b-825",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "Review CSSS/CSSA time",
+		"body": "Look at the table showing CSSS/CSSA time for reasonableness across months, in total, as percent of CSS fees, and compared to Firm average. Be sure to consider the particular needs of your engagement that would explain higher fees, such as substantial research.<br><br><strong>Note:</strong> Client Investment percentage reduction in per diem only applies to senior CSSS team members.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/c-825.svg",
+			"large": "course/en/images/c-825.svg",
+			"medium": "course/en/images/c-825.svg",
+			"small": "course/en/images/c-825.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-830",
+		"_parentId": "b-830",
+		"_type": "component",
+		"_component": "narrative",
+		"_classes": "",
+		"_layout": "full",
+		"_comment": "setCompletionOn = inview | allItems",
+		"_setCompletionOn": "allItems",
+		"_hasNavigationInTextArea": false,
+		"_isResetOnRevisit": true,
+		"title": "Expense Summary page",
+		"displayTitle": "Look at the Expense Summary page",
+		"body": "",
+		"instruction": "Select the arrow to learn more.",
+		"mobileInstruction": "Select the arrow to learn more.",
+		"_nonStrapline": true,
+		"_items": [
+			{
+				"title": "Current Month Detail for Expenses section",
+				"body": "First, verify that all the people charging expenses are staffed or contributed to the engagement by looking at the Name column.<br><br>Review expense types and amounts for accuracy. <strong>Note:</strong> Only expenses greater than USD 2,500 are shown in the Current Month Detail.",
+				"_graphic": {
+					"alt": "Expense Summary chart in the WIP report",
+					"src": "course/en/images/c-830-1.svg"
+				},
+				"strapline": "Current Month Detail"
+			},
+			{
+				"title": "Project to Date Expense Summary section",
+				"body": "Check reasonableness of expenses by category by looking at the Project to Date Expense Summary section. Expenses are consolidated by name for reporting purposes.",
+				"_graphic": {
+					"alt": "Bottom table of the Expense Summary page in the WIP report",
+					"src": "course/en/images/c-830-2.svg"
+				},
+				"strapline": "Project to Date Expense Summary"
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+	    "_id": "c-835",
+	    "_parentId": "b-835",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "How to resolve errors by type",
+	    "displayTitle": "How to resolve errors by type",
+	    "body": "",
+		"instruction": "Select each image to learn more.",
+	    "_setCompletionOn": "allItems",
+	    "_columns": 3,
+	    "_items": [
+	        {
+	            "title": "Team member time charges and per diems",
+	            "body": "Resolve errors by contacting the local Accounting and Staffing teams of the team member in question. Be sure to describe how the WIP differs from the staffing plan agreed to at the start of the engagement. APs and AP equivalents should always copy other engagement leaders in emails.<br><br>You have <strong>60 days to make adjustments</strong> to any time charges and per diems. This is a firm policy to encourage timely review of WIPs and resolution of issues. In fact, the base office Staffing team can deny the adjustment after 60 days.",
+	            "_graphic": {
+	                "src": "course/en/images/c-835-1.png",
+	                "srcHover":"course/en/images/c-835-1-hover.png",
+	                "srcVisited":"course/en/images/c-835-1-visited.png",
+	                "alt": "",
+	                "title": "Team member time charges and per diems"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-835-1.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Leadership charging",
+	            "body": "Resolve errors by first contacting the local Accounting team. In some cases, when Partners, APs, AP equivalents, or an expert charges more days, it may be best to follow up directly with the individual to adjust his or her timesheets. APs and AP equivalents should copy the named-ED in emails resolving errors.",
+	            "_graphic": {
+	                "src": "course/en/images/c-835-2.png",
+	                "srcHover":"course/en/images/c-835-2-hover.png",
+	                "srcVisited":"course/en/images/c-835-2-visited.png",
+	                "alt": "",
+	                "title": "Leadership charging"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-835-2.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Expenses",
+	            "body": "Resolve errors by notifying your local Accounting team of adjustments as soon as possible. APs and AP equivalents should copy the named-ED in communications to resolve errors.",
+	            "_graphic": {
+	                "src": "course/en/images/c-835-3.png",
+	                "srcHover":"course/en/images/c-835-3-hover.png",
+	                "srcVisited":"course/en/images/c-835-3-visited.png",
+	                "alt": "",
+	                "title": "Expenses"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-835-3.png",
+	                "alt": ""
+	            }
+	        }
+	    ],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-840",
+		"_parentId": "b-840",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Notify Accounting",
+		"displayTitle": "Notify Accounting of the possible need for a WIP reserve",
+		"body": "If, after you try to identify errors and Accounting makes adjustments, the WIP is still positive (meaning that you will exceed your budget), inform your local Accounting team that an overrun/positive ending WIP balance is expected.<br><br>The Firm automatically places WIP reserves on WIP balances aged over 90 days.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-845",
+		"_parentId": "b-840",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the Reserve section in the WIP report",
+			"src": "course/en/images/c-845.svg",
+			"large": "course/en/images/c-845.svg",
+			"medium": "course/en/images/c-845.svg",
+			"small": "course/en/images/c-845.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-850",
+		"_parentId": "b-845",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/c-850.svg",
+			"large": "course/en/images/c-850.svg",
+			"medium": "course/en/images/c-850.svg",
+			"small": "course/en/images/c-850.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-855",
+		"_parentId": "b-845",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Use your knowledge",
+		"displayTitle": "",
+		"body": "When expenses or time charges are not submitted promptly, the WIP balance can be favorable one month and unfavorable the next. Always keep in mind your knowledge of what’s actually taken place during the engagement as you review the WIP report to accurately gauge the economics.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id":"c-860",
+		"_parentId":"b-850",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-865",
+		"_parentId": "b-855",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "The first two are correct. Unresolved errors can lead to an overrun or WIP reserve. Overruns and <a href='#' data-glossaryterm='Reserve' tabindex='0'>reserves</a> remaining at the end of the engagement result in <a href='#' data-glossaryterm='Write-off' tabindex='0'>write-offs</a> of revenue or financial loss to the Firm.<br><br>However, we always put clients’ interests ahead of the Firm’s. Mistakes made in managing the economics of an engagement should not impede us from delivering impact to the client.",
+		"instruction": "",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-870",
+		"_parentId": "b-860",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Use PD Managers",
+		"displayTitle": "",
+		"body": "If you're an AP or equivalent role and encounter difficult situations while resolving errors, PD Managers are a great resource for guidance. They can be especially helpful if you are asked to reduce your own days to make up for some other error. AP and AP equivalent days are protected if they are entered into the CER.<br><br>Be sure your days on the engagement are in the charge plan or agreed to with the named-ED after the charge plan is created and within the CER budget.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-875",
+		"_parentId": "b-865",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Answers to common questions",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Select a question to see the answer.",
+		"_items": [
+			{
+				"title": "Can team members’ days absent show on the WIP?",
+				"body": "Yes. A small number of days marked with codes in timesheets other than the engagement code, such as PTO, are commonly “smoothed” or acceptable to charge to the engagement and show in the WIP. The number of days absent from the engagement but still charged to the engagement varies at the local office level. Reach out to your local Accounting and Staffing teams if you have questions. Firm members should still fill out their timesheets accurately for other record-keeping purposes.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "How can I manage CSSS time charges?",
+				"body": "Work with CSSS colleagues up front to determine time required for work requested in order to estimate and agree to what can be charged to the engagement. Confirm via email so that you have a record of the estimate.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+"appendText": "You'll find a dowmloadable summary about managing the WIP <a href='course/en/pdf/WIP_Resource_Guide.pdf' target='_blank'>here</a>.",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-880",
+		"_parentId": "b-870",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Identify and Resolve Errors in Time Charges and Expenses: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Manage Invoices and Accounts Receivable.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-900",
+		"_parentId": "b-900",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Grant the Accounting team an active role</strong> to ensure that invoices are sent and billings are collected in a timely manner. For tax and Firm audit requirement reasons, invoices dated in a particular month must be sent to clients in that month.</li><li><strong>Get rewarded for invoicing and collecting in a timely manner</strong> by having a credit applied to the engagement. Specifically, you need to bill the WIP balance in the month that it is incurred and collect invoices within 30 days.</li><li><strong>Know that <a href='#' data-glossaryterm='Debit Interest' tabindex='0'>debit interest</a> is charged to an engagement</strong> on both unbilled WIP balances and invoices 31 days past due.</li><li><strong>Be aware when the portion of the WIP balances is aged 90 days.</strong> It will automatically be reserved.</li><li><strong>Be aware when invoices are 121 days past due.</strong> That triggers 50% of the value of the outstanding invoice to automatically be reserved. The remaining 50% will be reserved when the invoice reaches 180 days in age.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-905",
+		"_parentId": "b-900",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "",
+			"src": "course/en/images/c-905.svg",
+			"large": "course/en/images/c-905.svg",
+			"medium": "course/en/images/c-905.svg",
+			"small": "course/en/images/c-905.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-910",
+		"_parentId": "b-905",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "The role of the Accounting team",
+		"displayTitle": "The role of the engagement office Accounting team",
+		"body": "Enable the engagement office Accounting team to play an active role in invoicing and collecting, including sending invoices and directly following up with the client regarding payment.<br><br>Work with Accounting and your EA to generate invoices and actively work with Accounting and the client to stay informed on the status of unpaid invoices.<br><br>To ensure that the client approves the invoice for payment, it’s critical that you know what is required, such as a Purchase Order, deliverable sign-off, or following an invoice approval flow. You must stay involved and communicate frequently with Accounting to provide updates.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "An infographic that shows invoice triggers: a date scheduled in the CER, a signed contract, or a signed-off deliverable. An invoice is sent, and payment is received. If it is not received, there is a reminder, interest charged, and A/R Reserve.",
+			"src": "course/en/images/c-910.svg",
+			"large": "course/en/images/c-910.svg",
+			"medium": "course/en/images/c-910.svg",
+			"small": "course/en/images/c-910-small.svg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id":"c-912",
+		"_parentId":"b-910",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-915",
+		"_parentId": "b-912",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Know what triggers invoices for your engagement",
+		"displayTitle": "",
+		"body": "Be aware of what triggers Accounting to generate invoices for your engagement. Invoicing triggers are determined by the billing terms agreed to in the engagement contract. The trigger will determine the date of the invoice. Avoid tax issues and comply with Firm audit requirements by sending invoices to the client on the same date noted on the invoices.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-920",
+		"_parentId": "b-915",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Billing practices",
+		"displayTitle": "Billing practices",
+		"body": "The invoicing schedule in the CER is determined by the engagement contract. The Firm’s preferred practice is to invoice or bill in advance or mid-month for work performed in that month. However, practices vary depending on the market we are operating in and the terms of contracts. Here are the possible billing practices you’ll encounter.",
+		"instruction": "Select each practice if you'd like to read the definition.",
+		"_items": [
+			{
+				"title": "Prebilling/mobilization fees",
+				"body": "Invoices are sent upon the signing of a contract. This requires you to notify your engagement office Accounting team that the contract was signed.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Mid-month (“in month”) billing",
+				"body": "Invoices are sent at mid-month for work performed during that month.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "End-of-month billing",
+				"body": "Invoices are sent at the end of the month for work done in that month.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Deliverables-based billing",
+				"body": "Invoices are sent only after the client receives or approves deliverables. You must notify your local Accounting team when the deliverables are received.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Deferred Billing Arrangements (DBA)",
+				"body": "This is an agreement between CST and the client to deviate from our standard monthly billing and delay sending invoices for a period of time agreed to in the contract. DBA need to be approved by local Accounting and/or client committees and should be for more than 6 months.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-925",
+		"_parentId": "b-920",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "Look at the bottom table of the WIP to view invoices still outstanding at the end of the last month and aged accordingly.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the invoice row in the WIP",
+			"src": "course/en/images/c-925.svg",
+			"large": "course/en/images/c-925.svg",
+			"medium": "course/en/images/c-925.svg",
+			"small": "course/en/images/c-925.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-935",
+		"_parentId": "b-925",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Follow up on invoices",
+		"displayTitle": "",
+		"body": "You or your engagement office Accounting team need to actively follow up with the client to ensure invoices are received, approved, and paid. First, follow up shortly after the invoice is sent, to ensure receipt. Second, follow up a week or so before the date payment is due.<br><br>Our standard payment terms are 30 days. The due date is noted on the invoice.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-940",
+		"_parentId": "b-930",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Interest",
+		"displayTitle": "Interest",
+		"body": "There are two types of interest in place to encourage timely billing and collections:<br><br><ul><li>Credit interest is earned and added to the engagement budget on any negative WIP balance (Billing > Incurred) and if invoices are paid within 30 days of issue</li><li>Debit interest is charged to the engagement on any positive WIP balance (Billing < Incurred) as well as if there are any outstanding invoices more than 30 days old</li></ul><br>Be aware that interest can add up <em>fast</em>.<br><br>Reach out to your engagement office Accounting team to find out the current credit and debit interest rates, as they change.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Graphic showing the WIP A/R Interest row on the Project Summary page of the WIP.",
+			"src": "course/en/images/c-940.svg",
+			"large": "course/en/images/c-940.svg",
+			"medium": "course/en/images/c-940.svg",
+			"small": "course/en/images/c-940.svg"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-950",
+		"_parentId": "b-945",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "What is a reserve?",
+		"displayTitle": "What is a reserve?",
+		"body": "A reserve is a reduction in revenue and impacts the P&L of the office of the engagement. It is placed when it is deemed there is a risk that a WIP balance may not be billed or an invoice may not be collected. Reserves are automatically placed on studies that have an aging WIP balance or Accounts Receivable balance. They do not accrue interest.<br><br>Reserves are kept on record until they are collected or written off as a loss.<br><br>Reserves impact the finances of only the engagement office and are not shared across offices.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-955",
+		"_parentId": "b-950",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "WIP reserve",
+		"displayTitle": "WIP reserve",
+		"body": "A WIP reserve is established as soon as it becomes probable that the full value of the WIP balance will not be <em>billed or invoiced.</em><br><br>Finance automatically reserves a portion of the WIP balance that remains after 90 days.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-960",
+		"_parentId": "b-950",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Close-up image of the WIP reserve and WIP balance rows on the Project Summary page of the WIP.",
+			"src": "course/en/images/c-960.svg",
+			"large": "course/en/images/c-960.svg",
+			"medium": "course/en/images/c-960.svg",
+			"small": "course/en/images/c-960.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-965",
+		"_parentId": "b-955",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "A/R reserves",
+		"displayTitle": "A/R reserves",
+		"body": "An Accounts Receivable Reserve of 50% of the outstanding invoice value is triggered when an invoice reaches 120 days aged. After 180 days outstanding, the remaining 50% of the balance is reserved.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-970",
+		"_parentId": "b-955",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Close-up image of the A/R Reserve and Invoice no. figures in the WIP",
+			"src": "course/en/images/c-970.svg",
+			"large": "course/en/images/c-970.svg",
+			"medium": "course/en/images/c-970.svg",
+			"small": "course/en/images/c-970.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-975",
+		"_parentId": "b-960",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Manage Invoicing and Collections: Complete",
+		"body": "",
+		"instruction": "Select the right arrow to continue to the next topic, “Close Out the Engagement.” Select the home button to return to the main menu.",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1000",
+		"_parentId": "b-1000",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Key points",
+		"displayTitle": "",
+		"body": "<ul><li><strong>Know that you’ve reached the soft close milestone</strong> when team members roll off the engagement and you’ve sent the final invoice.</li><li><strong>Continue to manage the WIP and collections monthly after soft close</strong> since the client code remains open for up to two years if you have a <a href='#' data-glossaryterm='Value Bill' tabindex='0'>value bill</a>.</li><li><strong>Keep your eye on the WIP balance after soft close.</strong> If you have an overrun, work with the engagement office Accounting team to clear the balance (via an adjustment, transfer, or <a href='#' data-glossaryterm='Write-off' tabindex='0'>write-off</a>).</li><li><strong>Know that the hard close milestone is reached and the charge code is closed</strong> when 1) the code has been soft closed for three months, 2) the WIP balance is less than USD2,500, and 3) all outstanding invoices are paid.</li></ul>",
+		"instruction": "Don't stop here, there's more!",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1005",
+		"_parentId": "b-1000",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent synthesis of information",
+			"src": "course/en/images/c-1005.svg",
+			"large": "course/en/images/c-1005.svg",
+			"medium": "course/en/images/c-1005.svg",
+			"small": "course/en/images/c-1005.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-1010",
+		"_parentId": "b-1005",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "hideOnMobile",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "Closing process at a glance",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image to represent the Closing process at a glance",
+			"src": "course/en/images/c-1010.svg",
+			"large": "course/en/images/c-1010.svg",
+			"medium": "course/en/images/c-1010.svg",
+			"small": "course/en/images/c-1010-small.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+	    "_id": "c-1015",
+	    "_parentId": "b-1010",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "Closing process terms",
+	    "displayTitle": "",
+	    "body": "Not sure what the terms in the graphic mean?",
+		"instruction": "Select each image to see the definition.",
+	    "_setCompletionOn": "allItems",
+	    "_columns": 4,
+	    "_items": [
+	        {
+	            "title": "WIP balance",
+	            "body": "WIP balance = (Fees + Expenses) +/- Transfers +/- Net Value Adjustments – Total Billed<br><br>A negative () WIP balance is favorable. It’s called a credit hold or value bill (Total Billed > Total Incurred).<br><br>Positive WIP balance is unfavorable. It’s called a <a href='#' data-glossaryterm='Debit balance' tabindex='0'>debit balance</a>, or overrun (Total Incurred > Total Billed).<br><br>After hard close status, the WIP balance is 0.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1015-2.png",
+	                "srcHover":"course/en/images/c-1015-2-hover.png",
+	                "srcVisited":"course/en/images/c-1015-2-visited.png",
+	                "alt": "",
+	                "title": "WIP balance"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1015-2.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Value bill",
+	            "body": "A value bill is the remaining credit of the engagement. The credit remains on the code and is typically used for client development, client investment, pre-engagement expenses, and overruns within the same CST.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1015-3.png",
+	                "srcHover":"course/en/images/c-1015-3-hover.png",
+	                "srcVisited":"course/en/images/c-1015-3-visited.png",
+	                "alt": "",
+	                "title": "Value bill"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1015-3.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Overrun",
+	            "body": "Overruns, also called debit balance, are a financial loss to the Firm. Our hope for engagements is that they end within budget.<br><br>However, there are times when exceeding the budget can’t be avoided. Engagement scopes can change, and client impact always comes first.<br><br>Overruns can be covered by a value bill from another code in the same CST, or are written off.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1015-4.png",
+	                "srcHover":"course/en/images/c-1015-4-hover.png",
+	                "srcVisited":"course/en/images/c-1015-4-visited.png",
+	                "alt": "",
+	                "title": "Overrun"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1015-4.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Net Value Adjustment",
+	            "body": "Net Value Adjustments are write-offs (loss) or write-ups (profits). These are shared across offices in proportion to CSS fees.<br><br><ul><li>Any value bill which is not used within the two-year harvesting period will be taken into profit and shared by offices</li><li>Any overrun or uncollectible A/R will be written-off and shared by offices</li></ul><br>The full value adjustment appears on the WIP, while the effect of the split value adjustment is reflected on all participating offices’ P&L statements.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1015-5.png",
+	                "srcHover":"course/en/images/c-1015-5-hover.png",
+	                "srcVisited":"course/en/images/c-1015-5-visited.png",
+	                "alt": "",
+	                "title": "Net Value Adjustment"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1015-5.png",
+	                "alt": ""
+	            }
+	        }
+	    ],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id":"c-1020",
+		"_parentId":"b-1015",
+		"_type":"component",
+		"_component":"blank",
+		"_classes":"",
+		"_layout": "full",
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+		"_id": "c-1025",
+		"_parentId": "b-1020",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Send the final invoice",
+		"displayTitle": "",
+		"body": "First, send the final invoice for the engagement. Next, follow up on any outstanding invoices until they are all paid in full.<br><br><a href='#' data-glossaryterm='Debit Interest' tabindex='0'>Debit interest</a> on invoice balances outstanding by more than 30 days will continue to accrue until the balance is reserved or paid.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1030",
+		"_parentId": "b-1025",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "The client code remains open after the end of the engagement until all invoices are paid and the WIP balance is +-2,500. As long as the client code is open, time charges and expenses may be charged to it, so it is critical that you continue to monitor and manage the WIP.<br><br>Look at the CER budget remaining and compare that to costs as they come in—for example, time, New Service Capabilities, and expenses—as there can be a delay in costs reflected on the WIP.<br><br>Expenses can often have a one-to-three-month lag before hitting the WIP. Continue to look for errors in expenses and time charges. Request adjustments from the engagement office Accounting team as needed.",
+		"instruction": "",
+		"_graphic": {
+			"alt": "Image of the WIP Report showing the Total, CER, and Variance column on the Project Summary page",
+			"src": "course/en/images/c-1030.svg",
+			"large": "course/en/images/c-1030.svg",
+			"medium": "course/en/images/c-1030.svg",
+			"small": "course/en/images/c-1030.svg"
+		},
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+	{
+	    "_id": "c-1040",
+	    "_parentId": "b-1035",
+	    "_type": "component",
+	    "_component": "hotgrid",
+	    "_classes": "",
+	    "_layout": "full",
+	    "title": "WIP balances",
+	    "displayTitle": "",
+	    "body": "After all fees and expenses have been charged and all invoices are paid, look at the WIP balance to determine whether:<br><br><ul><li>You have a negative balance or <a href='#' data-glossaryterm='Value Bill' tabindex='0'>value bill</a> to reinvest in your client</li><li>You have a positive balance or overrun that needs to be addressed to mitigate financial loss</li></ul><br>If your engagement is a Client Investment or Fees at Risk arrangement, reach out to Accounting to help you assess your WIP balance.",
+		"instruction": "Select each image to learn what to do.",
+	    "_setCompletionOn": "allItems",
+	    "_columns": 3,
+	    "_items": [
+	        {
+	            "title": "Value bill to reinvest",
+	            "body": "Consider how you can use the value bill over the two-year harvesting or utilization period. You don’t need to take any action. Know that the value bill will remain on the client code.<br><br>Follow the harvesting policy: 50% of the value bill must be used over the course of the first year, and the remaining 50% must be used by the end of the second year.<br><br>Any unused value bill will be taken into profit and shared by offices according to CSS fees.<br><br>Engagement office Accounting can assist with tracking the age of value bills and will notify CSTs about upcoming credit harvesting deadlines.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1040-1.png",
+	                "srcHover":"course/en/images/c-1040-1-hover.png",
+	                "srcVisited":"course/en/images/c-1040-1-visited.png",
+	                "alt": "",
+	                "title": "Value bill to reinvest"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1040-1.png",
+	                "alt": ""
+	            }
+	        },
+	        {
+	            "title": "Overrun to mitigate",
+	            "body": "Ask the DCS if there is a value bill from another engagement within the same CST that can be applied.<br><br>Check the WIP again to be sure that all fees and expenses incurred in the past 60 days are accurate, including leadership days. Net Value Adjustment cannot be processed until leadership days reflect the charge plan entered in the CER budget.<br><br>Finally, notify engagement office Accounting. They will write off unrecoverable WIP balances or uncollectible A/R as a loss.",
+	            "_graphic": {
+	                "src": "course/en/images/c-1040-2.png",
+	                "srcHover":"course/en/images/c-1040-2-hover.png",
+	                "srcVisited":"course/en/images/c-1040-2-visited.png",
+	                "alt": "",
+	                "title": "Overrun to mitigate"
+	            },
+	             "_itemGraphic": {
+	                "src": "course/en/images/c-1040-2.png",
+	                "alt": ""
+	            }
+	        }
+	    ],
+		"_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1045",
+		"_parentId": "b-1040",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "If APs need to cut hours",
+		"displayTitle": "",
+		"body": "In most cases, the hours of APs and AP equivalents are protected. They should work with their PD managers if they are asked to cut their hours in the event of an overrun.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1050",
+		"_parentId": "b-1045",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Close the client code",
+		"displayTitle": "",
+		"body": "Work with the engagement office Accounting and engagement leadership to get all invoices paid and either clear the overrun or utilize all of the value bill.<br><br>Again: Client codes are closed automatically upon reaching hard close status when the WIP balance +/- USD2,500, invoices are paid, and the engagement has been soft closed for three months. There are no exceptions.<br><br>As long as the client code remains open, WIP reports are generated and should be reviewed for errors. When Accounting stops generating the WIP reports, you know the client code is closed.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1055",
+		"_parentId": "b-1050",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Key tactics",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "Select each section to review the best practices of the course. ",
+		"_items": [
+			{
+				"title": "Initiate documentation",
+				"body": "Work with your CST, client, Legal, and Accounting early to get in place the documentation required to invoice and collect.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Enter the itemized budget",
+				"body": "Take the first step of effective WIP management by setting up the CER for success:<br><br><ol><li>List all team members and per diems to reflect the staffing plan.</li><li>Enter the number of leadership days aligned with the charge plan after obtaining each leader's agreement to the total days he or she can charge.</li><li>List New Client Service Capabilities costs, such as Digital, when applicable.</li><li>Set a realistic expense and support services budget.</li><li>Include room for contingencies, such as additional research, CSSA support, and expert days.</li></ol>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Closely manage the WIP",
+				"body": "Review the WIP monthly and work closely with Accounting to resolve any errors. Communicate changes in engagement scope in a timely manner.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"title": "Bill and collect in a timely manner",
+				"body": "Ensure that we bill on time per the schedule and follow up early on invoices to earn <a href='#' data-glossaryterm='Credit Interest' tabindex='0'>credit interest</a> and avoid <a href='#' data-glossaryterm='Debit Interest' tabindex='0'>debit interest</a> charged to the engagement.<br><br>Reach out early to engagement office Accounting and empower them to interact with the client on billing and collections.",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+	    "_isOptional": true,
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-1060",
+		"_parentId": "b-1055",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Conclusion",
+		"displayTitle": "Close Out the Engagement: Complete",
+		"body": "<strong>Select the home button to return to the main menu.</strong>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]

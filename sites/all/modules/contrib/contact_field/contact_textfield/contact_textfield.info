@@ -1,0 +1,11 @@
+name = Contact form Text field
+description = Add text box on contact form. This module supports textbox and textarea fields.
+package = Contact fields
+core = 7.x
+dependencies[] = contact_field
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "contact_field"
+datestamp = "1380566791"
+

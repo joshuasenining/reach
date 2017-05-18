@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ourbrand_showcase_view feature.
+ */
+
+include_once 'ourbrand_showcase_view.features.inc';

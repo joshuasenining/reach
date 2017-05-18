@@ -1,0 +1,15 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+sites/nvc.*
+sites/all/themes/nvc/.sass-cache*
+.DS*
+sites/nvc.dev.animusint.com
+
+# Ignore composer files downloaded by Composer for behat testing.
+bin/behat
+vendor/
+cache/

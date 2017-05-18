@@ -1,0 +1,133 @@
+<?php
+
+/**
+* Implements hook_block_info().
+*/
+function ourbrand_blocks_block_info() {
+  $blocks = array();
+  $blocks['showcase_slideshow'] = array( //creating block so ID will be static
+    'info' => t('Showcase Slideshow'),
+  );
+  $blocks['footer_info'] = array(
+    'info' => t('Footer info'),
+    );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_configure().
+ */
+function ourbrand_blocks_block_configure($delta='') {
+  $form = array();
+  
+  switch($delta) {
+    case 'showcase_slideshow' :
+      // Text field form element
+      $form['text_body'] = array(
+        '#type' => 'text_format',
+        '#title' => t('Enter your text here in WYSIWYG format'),
+        '#default_value' => variable_get('text_variable', ''),
+      );
+
+     break;
+
+     case 'footer_info' :
+
+     $form['footer_body'] = array(
+        '#type' => 'text_format',
+        '#title' => t('Enter your text here in WYSIWYG format'),
+        '#default_value' => variable_get('footer_text'),
+      );
+  }
+  return $form;
+}
+
+/**
+ * Implements hook_block_save().
+ */
+function ourbrand_blocks_block_save($delta = '', $edit = array()) {
+  switch($delta) {
+    case 'showcase_slideshow' :
+      // Saving the WYSIWYG text      
+      
+      variable_set('text_variable', $edit['text_body']);
+
+      break;
+
+      case 'footer_info' :
+      // Saving the WYSIWYG text      
+    	
+      variable_set('footer_text', $edit['footer_body']['value']);
+
+      break;
+  }
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function ourbrand_blocks_block_view($delta='') {
+  $block = array();
+  
+  switch($delta) {
+    case 'showcase_slideshow' :
+
+  		// kpr($format); die();
+  		$block['content'] = "mee";
+      	// $block['content'] = showcase_block_view();
+      break;
+
+    case 'footer_info':
+      $block['content'] = get_footer();
+  }
+
+  
+  return $block;
+}
+
+/**
+ * Custom function to assemble renderable array for block content.
+ * Returns a renderable array with the block content.
+ * @return
+ *   returns a renderable array of block content.
+ */
+function showcase_block_view() {
+  $block = array();
+  
+  kpr($block);
+  // Capture WYSIWYG text from the variable
+  // $text = variable_get('text_variable', '');
+  // $format = isset($test['format']) ? $test['format'] : 'plain_text';
+
+  // Block output in HTML with div wrapper
+  $block = array(
+    'message' => array(
+      '#type' => 'markup',
+      '#markup' => check_markup($text, $format),
+      '#suffix' => '',
+    ),
+  );
+
+  return $block;
+}
+
+function ourbrand_blocks_block_info_alter(&$blocks, $theme, $code_blocks) { 
+
+	$blocks['system']['main']['weight'] = 9999; 
+} 
+
+function get_footer() {
+  $block = array(); 
+
+  $text = variable_get('footer_text');
+
+  $block = array(
+      'message' => array(
+      '#type' => 'markup',
+      '#markup' => $text,
+      '#suffix' => '',
+    ),
+  );
+
+  return $block;
+}

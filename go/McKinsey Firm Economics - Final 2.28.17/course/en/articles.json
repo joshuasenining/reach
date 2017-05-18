@@ -1,0 +1,1193 @@
+[
+	{
+		"_id": "a-100",
+		"_parentId": "co-100",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-100",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-105",
+		"_parentId": "co-100",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-105",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-200",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-200",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-205",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-205",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-207",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "darkBlueBG",
+		"title": "a-205",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "greyBG",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Select to find out…",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-210",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-210",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-215",
+		"_parentId": "co-200",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-215",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-300",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-300",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-305",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-305",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "greyBG",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "1",
+		    "_icon-text": "Work with your CST, client, Accounting, and Legal to identify contracts needed.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-310",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-310",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "2",
+		    "_icon-text": "Have Legal review all client contracts.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-315",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-315",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "3",
+		    "_icon-text": "Have Accounting review all client contracts.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-320",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-320",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "4",
+		    "_icon-text": "Have your client review the redlined contracts and sign.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-325",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-325",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-330",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "darkBlueBG",
+		"title": "a-330",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Select to find out…",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-332",
+		"_parentId": "co-300",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-325",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-400",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-400",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-405",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-405",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-410",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-410",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "1",
+		    "_icon-text": "Reach out to Accounting or Staffing to open the CER.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-415",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-415",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "2",
+		    "_icon-text": "Gather the information you’ll need.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-420",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-420",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "3",
+		    "_icon-text": "Fill out the online form.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-425",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-425",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "4",
+		    "_icon-text": "Submit the itemized CER for approval.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-430",
+		"_parentId": "co-400",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-430",
+		"displayTitle": "",
+		"body": ""
+		
+	},
+	{
+		"_id": "a-500",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-500",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-510",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-510",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Have a call with the Staffing team.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content.",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-515",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-515",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Confirm the leadership charge plan.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-520",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-520",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Utilize the client code.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-525",
+		"_parentId": "co-500",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-525",
+		"displayTitle": "",
+		"body": "",
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		
+	},
+	{
+		"_id": "a-600",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-600",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-605",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-605",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-610",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-610",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-615",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-615",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Select to find out…",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-620",
+		"_parentId": "co-600",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-620",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-700",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-700",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-703",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-703",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-705",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-705",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-710",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-710",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "1",
+		    "_icon-text": "Know your engagement plan.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-715",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-715",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "2",
+		    "_icon-text": "Assess the CER budget.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-720",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-720",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "3",
+		    "_icon-text": "Verify that the engagement’s fees and expenses are on track.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-725",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-725",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "4",
+		    "_icon-text": "Assess the overall WIP position.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-730",
+		"_parentId": "co-700",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-730",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-800",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-800",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-805",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-805",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "1",
+		    "_icon-text": "Verify that all time charges are correct.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-810",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-810",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "2",
+		    "_icon-text": "Verify that charged expenses are accurate and reasonable.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-815",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-815",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "3",
+		    "_icon-text": "Resolve errors.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-820",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-820",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-825",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-825",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-830",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-830",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Select to find out…",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-835",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-835",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-840",
+		"_parentId": "co-800",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-845",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-900",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-900",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-905",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-905",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-910",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-910",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Know what triggers invoices for your engagement.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-912",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-912",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Identify and follow up on outstanding invoices.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-913",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-913",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "",
+		    "_icon-text": "Earn credit interest and avoid debit interest.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-915",
+		"_parentId": "co-900",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-915",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-1000",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-1000",
+		"displayTitle": "",
+		"body": ""
+	},
+	{
+		"_id": "a-1005",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-1005",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "1",
+		    "_icon-text": "Send the final invoice and manage collections.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-1010",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-1010",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "2",
+		    "_icon-text": "Manage the WIP until the client code is closed.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-1015",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-1015",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "3",
+		    "_icon-text": "Assess and handle your WIP balance.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-1020",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "greyBG",
+		"title": "a-1020",
+		"displayTitle": "",
+		"body": "",
+		"_articleReveal":{
+		    "_classes": "",
+		    "_height": 200,
+		    "_mobileHeight": 200,
+		    "_num-text": "4",
+		    "_icon-text": "Trigger the client code to close.",
+		    "_closeButtonText": "",
+		    "_triggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_mobileTriggerPosition": {
+		        "_top": 30,
+		        "_left": 50
+		    },
+		    "_ariaLabels": {
+		        "openArticle": "Open Article. Select here to reveal article content. ",
+		        "closeArticle": "Close Article"
+		    },
+		    "_backgroundImage": "",
+		    "_mobileBackgroundImage": ""
+		}
+	},
+	{
+		"_id": "a-1025",
+		"_parentId": "co-1000",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-1025",
+		"displayTitle": "",
+		"body": ""
+	}
+]

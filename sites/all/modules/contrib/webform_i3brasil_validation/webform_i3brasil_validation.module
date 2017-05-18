@@ -1,0 +1,145 @@
+<?php
+
+/**
+ * @file
+ * Adds rules integration for webform submissions.
+ */
+
+/**
+ * Implementation of hook_webform_submission_insert().
+ *
+ * @param $node
+ *   The webform node.
+ * @param $submission
+ *   The webform submission.
+ */
+
+function webform_i3brasil_validation_webform_submission_presave($node, &$submission) {
+
+  //return theme('node--210', array('output' => $submission));
+  // print "<pre>";
+  // print_r($submission);
+  // print "</pre>";
+
+
+  //exit();
+
+  $submitted_data = $submission->data;
+    //User Name
+    $full_name = $submitted_data[1]["value"][0];
+
+    // Email address
+    $user_name = $submitted_data[2]["value"][0];
+
+    // Organization
+    $organization = $submitted_data[3]["value"][0];
+    
+    //Generate Password for the user.
+    // Connect Full Name with three random digits.
+    //Remove all spaces    
+    $full_name_clean = preg_replace('/\s*/', '', $full_name);
+    // convert the string to all lowercase
+    $full_name_clean = strtolower($full_name_clean);
+
+    //append it with three digit random digits for a pwd.
+    $password = $full_name_clean. randomWithLength(3);
+
+    //print $password;
+
+    
+    // Need to populate following data for registering the user.
+    
+    $user_data = array();
+    $user_data['init'] = $user_name;
+    $user_data['mail'] = $user_name;
+    $user_data['field_full_name']['und'][0]['value'] = $full_name;
+    $user_data['field_organization']['und'][0]['value'] = $organization;
+    $user_data['pass'] = $password;
+
+    // Keep it disabled.
+    $user_data['status'] = 0;
+    
+    $user_data['roles'] = array(); // You can specify any roles which you need
+
+
+
+    // print "------";
+    // print "<pre>";
+    // print_r (user_load_by_mail($email));
+    // print "</pre>";
+    // print "------";
+
+    $previous_user = user_load_by_mail($user_name);
+    $previous_user_by_name = user_load_by_name($full_name);
+    
+     //exit();
+    if(!empty($previous_user)) {
+      echo "<h2 style='font-size: 18px; font-family: Helvetica Neue, sans-serif !important; color: #0065bd; '>User with same Email address exists. Either change your Email address or Login with your existing credentials. </h2>";
+      exit();
+    }
+
+    else {
+
+        
+        if(!empty($previous_user_by_name)) {
+        
+          // A user exists already with a same User Name, 
+          // Hence change it with the generated one.
+          $user_data['name'] = $password;
+          
+        }
+        else {
+
+          // Since Full Name doesn't exist already, the Username can be the Full Name.
+          $user_data['name'] = $full_name;
+        }
+
+      $final_username =   $user_data['name'];
+      //It'll add a new user here.
+      user_save('', $user_data);
+      
+      $new_user = user_load_by_mail($user_name);
+      //print_r($new_user);
+
+      
+    }
+   
+    $submission->data[4]["value"][0] = $password;
+    $submission->data[5]["value"][0] = $final_username;
+
+    //return theme('access-request-form', array('output' => $submission));
+
+
+
+
+
+}
+
+
+function webform_i3brasil_validation_webform_submission_insert($node, $submission) {
+  // Invoke event.
+  //drupal_set_message(''. print_r($submission, TRUE) .'');  
+
+}
+
+function randomWithLength($length){
+
+    $number = '';
+    for ($i = 0; $i < $length; $i++){
+        $number .= rand(0,9);
+    }
+
+    return (int)$number;
+
+}
+
+function webform_i3brasil_validation_theme($submission) {
+  return array(
+    'usuarbuild' => array(
+        'variables' => array('profilesloaded' => array()),
+        'template' => 'usuarbuild',
+     ),
+  );
+}
+
+

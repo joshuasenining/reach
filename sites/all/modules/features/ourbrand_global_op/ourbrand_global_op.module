@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ourbrand Global Op feature.
+ */
+
+include_once 'ourbrand_global_op.features.inc';

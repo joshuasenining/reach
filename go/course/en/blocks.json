@@ -1,0 +1,1225 @@
+[
+    {
+        "_id": "b-100",
+        "_parentId": "a-100",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-100",
+        "displayTitle": "Key points",
+        "body": "What should you do and know about the flow of economic data?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 0
+    },
+    {
+        "_id": "b-105",
+        "_parentId": "a-105",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-105",
+        "displayTitle": "Zoom in",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 106
+    },
+    {
+        "_id": "b-110",
+        "_parentId": "a-105",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-110",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 107
+    },
+    {
+        "_id": "b-200",
+        "_parentId": "a-200",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-200",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when applying our financial guiding principles?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 108
+    },
+    {
+        "_id": "b-205",
+        "_parentId": "a-205",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-205",
+        "displayTitle": "Adhere to the highest professional standards",
+        "body": "Manage client and Firm resources cost effectively by:<br><br><strong>Bringing the best of the Firm</strong><br><br><p class='text-indent'>We seek to deliver the best of the Firm to every client as cost-effectively as we can. All members of the Firm share responsibility for the efficient and productive use of client resources.</p><br><strong>Following our golden rule</strong><br><br><p class='text-indent'>We apply the same care in deciding how to spend Firm resources. When Firm members are faced with a proposal that entails spending the client’s or the Firm’s time, money, or energy, they should weigh the decision as if their own resources were at stake.</p><br><strong>Fulfilling your responsibility</strong><br><br><p class='text-indent'>Senior Partners, Partners, APs, and equivalents are role models to their CSTs. Senior Partners and Partners are accountable and stewards of the process. Offices ensure standardization and support.</p>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 36
+    },
+    {
+        "_id": "b-215",
+        "_parentId": "a-205",
+        "_type": "block",
+        "_classes": "no-components darkBlueBG",
+        "title": "b-215",
+        "displayTitle": "What do you think?",
+        "body": "<strong>Which of the following actions demonstrate high professional standards?</strong><ol class='alpha-list'><li><span>Make securing an engagement the priority, even if you need to significantly discount the price</span></li><li><span>Charge your time to client codes with a credit to fill gaps in your utilization</span></li><li><span>Manage the WIP Report monthly and minimize overruns</span></li><li><span>Enable Accounting to send invoices in a timely manner and directly follow up on collections with your client</span></li></ol>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/what_you_think.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 37
+    },
+    {
+        "_id": "b-217",
+        "_parentId": "a-207",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-217",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 46
+    },
+    {
+        "_id": "b-220",
+        "_parentId": "a-210",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-220",
+        "displayTitle": "Create an unrivaled environment for exceptional people",
+        "body": "We govern ourselves as a “One-Firm” partnership where fairness among partners and clients should be guaranteed.<br><br><strong>We have a global Firm economics pool.</strong><br><br><p class='text-indent'>Our “One-Firm” partnership is shown by our single balance sheet and operating statement—or unified global Firm economics pool.</p><br><strong>We recognize our time in service of clients as revenue.</strong><br><br><p class='text-indent'>Revenue is recognized on our P&L on a monthly basis by valuing client hours billed at each individual consultant’s per diem.</p>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 38
+    },
+    {
+        "_id": "b-230",
+        "_parentId": "a-210",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-230",
+        "displayTitle": "Zoom in",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": ""
+        },
+        "_trackingId": 40
+    },
+    {
+        "_id": "b-235",
+        "_parentId": "a-210",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-235",
+        "displayTitle": "Get advice",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_advice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 41
+    },
+    {
+        "_id": "b-240",
+        "_parentId": "a-215",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-240",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 42
+    },
+    {
+        "_id": "b-300",
+        "_parentId": "a-300",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-300",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when executing contracts?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 43
+    },
+    {
+        "_id": "b-305",
+        "_parentId": "a-300",
+        "_type": "block",
+        "_classes": "no-components greyBG",
+        "title": "b-301",
+        "displayTitle": "See how it’s done: How to execute contracts",
+        "body": "<b>Select each step below to learn more.</b>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/see_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 1
+    },
+    {
+        "_id": "b-310",
+        "_parentId": "a-305",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 44
+    },
+    {
+        "_id": "b-315",
+        "_parentId": "a-305",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-315",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 3
+    },
+    {
+        "_id": "b-320",
+        "_parentId": "a-305",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-320",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 4
+    },
+    {
+        "_id": "b-325",
+        "_parentId": "a-310",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-310",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 5
+    },
+    {
+        "_id": "b-330",
+        "_parentId": "a-310",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-320",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 6
+    },
+    {
+        "_id": "b-335",
+        "_parentId": "a-315",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-315",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 7
+    },
+    {
+        "_id": "b-340",
+        "_parentId": "a-315",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-320",
+        "displayTitle": "Think local",
+        "body": "What are the different possible billing terms?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/think_local.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 8
+    },
+    {
+        "_id": "b-345",
+        "_parentId": "a-320",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-120",
+        "displayTitle": "",
+        "_trackingId": 9
+    },
+    {
+        "_id": "b-350",
+        "_parentId": "a-325",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-350",
+        "displayTitle": "",
+        "body": "",
+        "_blockIcon": {
+            "icon": "",
+            "alt": "alt text"
+        },
+        "_trackingId": 10
+    },
+    {
+        "_id": "b-355",
+        "_parentId": "a-325",
+        "_type": "block",
+        "_classes": "darkBlueBG no-components",
+        "title": "b-355",
+        "displayTitle": "What do you think?",
+        "body": "Which of the following are risks that you can avoid through partnering with Accounting and Legal when executing contracts?<br><br><ol class='alpha-list'><li>Delays in billing and collection</li><li>Errors in taxes applied</li><li>Vague satisfaction criteria in Client Investment/<a href='#' data-glossaryterm='Fees at Risk arrangement' tabindex='0'>Fees at Risk arrangements</a></li><li>Un-approved external communications about McKinsey’s services</li><li>Entering a non-compete agreement</li></ol>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/what_you_think.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 11
+    },
+    {
+        "_id": "b-360",
+        "_parentId": "a-330",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-360",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 12
+    },
+    {
+        "_id": "b-365",
+        "_parentId": "a-332",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-120",
+        "displayTitle": "Answers to common questions",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/stll_have_questions.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 13
+    },
+    {
+        "_id": "b-370",
+        "_parentId": "a-332",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-370",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 45
+    },
+    {
+        "_id": "b-400",
+        "_parentId": "a-400",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-400",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when completing the CER?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 14
+    },
+    {
+        "_id": "b-405",
+        "_parentId": "a-405",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-405",
+        "displayTitle": "Zoom in: What is the CER?",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 15
+    },
+    {
+        "_id": "b-415",
+        "_parentId": "a-405",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-415",
+        "displayTitle": "See how it’s done: How to complete the CER",
+        "body": "<b>Select each step below to learn more.</b>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/see_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 17
+    },
+    {
+        "_id": "b-420",
+        "_parentId": "a-410",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-420",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 18
+    },
+    {
+        "_id": "b-430",
+        "_parentId": "a-415",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-430",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 20
+    },
+    {
+        "_id": "b-435",
+        "_parentId": "a-415",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-435",
+        "displayTitle": "Zoom in",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 21
+    },
+    {
+        "_id": "b-440",
+        "_parentId": "a-415",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-440",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 22
+    },
+    {
+        "_id": "b-445",
+        "_parentId": "a-420",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-445",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 23
+    },
+    {
+        "_id": "b-450",
+        "_parentId": "a-420",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-450",
+        "displayTitle": "Tip: Enter all team member information",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 24
+    },
+    {
+        "_id": "b-455",
+        "_parentId": "a-425",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-455",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 25
+    },
+    {
+        "_id": "b-460",
+        "_parentId": "a-430",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-460",
+        "displayTitle": "Answers to common questions",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/stll_have_questions.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 26
+    },
+    {
+        "_id": "b-465",
+        "_parentId": "a-430",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-465",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 27
+    },
+    {
+        "_id": "b-500",
+        "_parentId": "a-500",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-500",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when confirming team members and utilizing the charge code?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 28
+    },
+    {
+        "_id": "b-505",
+        "_parentId": "a-500",
+        "_type": "block",
+        "_classes": "no-components greyBG",
+        "title": "b-505",
+        "displayTitle": "Get it done",
+        "body": "Line up your team members' and leaders' time and expenses.<br><strong>Select each to-do item below to learn more.</strong>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 29
+    },
+    {
+        "_id": "b-515",
+        "_parentId": "a-510",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-515",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 31
+    },
+    {
+        "_id": "b-517",
+        "_parentId": "a-510",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-517",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 109
+    },
+    {
+        "_id": "b-520",
+        "_parentId": "a-515",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-520",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 32
+    },
+    {
+        "_id": "b-530",
+        "_parentId": "a-520",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-530",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 34
+    },
+    {
+        "_id": "b-535",
+        "_parentId": "a-525",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-315",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 35
+    },
+    {
+        "_id": "b-600",
+        "_parentId": "a-600",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-600",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when getting oriented to the WIP?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 47
+    },
+    {
+        "_id": "b-610",
+        "_parentId": "a-605",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-610",
+        "displayTitle": "Zoom in: What you’ll find in a WIP Report",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 49
+    },
+    {
+        "_id": "b-615",
+        "_parentId": "a-610",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-615",
+        "displayTitle": "Zoom in: How the itemized CER budget simplifies reading the WIP",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 50
+    },
+    {
+        "_id": "b-620",
+        "_parentId": "a-610",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-620",
+        "displayTitle": "Zoom in: Who automatically receives the WIP report",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 51
+    },
+    {
+        "_id": "b-625",
+        "_parentId": "a-610",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-625",
+        "displayTitle": "Tip: How APs or equivalent roles can receive the WIP report",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 52
+    },
+    {
+        "_id": "b-630",
+        "_parentId": "a-610",
+        "_type": "block",
+        "_classes": "no-components greyBG",
+        "title": "b-630",
+        "displayTitle": "What do you think?",
+        "body": "<strong>Which of the following would you want to investigate if you spotted it in your WIP report?</strong><ol class='alpha-list'><li><span>A positive WIP balance</span></li><li><span>Time charges greater than the CER budget</span></li><li><span>Expenses incurred for CSS not associated with the engagement</span></li></ol>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/what_you_think.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 53
+    },
+    {
+        "_id": "b-635",
+        "_parentId": "a-615",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-635",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 54
+    },
+    {
+        "_id": "b-640",
+        "_parentId": "a-620",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-640",
+        "displayTitle": "Answers to common questions",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/stll_have_questions.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 55
+    },
+    {
+        "_id": "b-645",
+        "_parentId": "a-620",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-645",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 56
+    },
+    {
+        "_id": "b-700",
+        "_parentId": "a-700",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-700",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when evaluating whether an engagement is on budget?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 57
+    },
+    {
+        "_id": "b-703",
+        "_parentId": "a-703",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-703",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 112
+    },
+    {
+        "_id": "b-705",
+        "_parentId": "a-705",
+        "_type": "block",
+        "_classes": "no-components greyBG",
+        "title": "b-705",
+        "displayTitle": "See how it’s done: How to evaluate whether the engagement is on budget",
+        "body": "<strong>Select each step below to learn more.</strong>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/see_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 58
+    },
+    {
+        "_id": "b-710",
+        "_parentId": "a-710",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-710",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 59
+    },
+    {
+        "_id": "b-715",
+        "_parentId": "a-715",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-715",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 60
+    },
+    {
+        "_id": "b-720",
+        "_parentId": "a-720",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-720",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 61
+    },
+    {
+        "_id": "b-725",
+        "_parentId": "a-720",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-725",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 62
+    },
+    {
+        "_id": "b-727",
+        "_parentId": "a-725",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-727",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 110
+    },
+    {
+        "_id": "b-730",
+        "_parentId": "a-725",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-730",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 63
+    },
+    {
+        "_id": "b-735",
+        "_parentId": "a-730",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-735",
+        "displayTitle": "Answers to common questions",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/stll_have_questions.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 64
+    },
+    {
+        "_id": "b-740",
+        "_parentId": "a-730",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-740",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 65
+    },
+    {
+        "_id": "b-800",
+        "_parentId": "a-800",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-800",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when identifying and resolving errors in time charges and expenses?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 78
+    },
+    {
+        "_id": "b-803",
+        "_parentId": "a-800",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-803",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 113
+    },
+    {
+        "_id": "b-805",
+        "_parentId": "a-800",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-805",
+        "displayTitle": "See how it’s done: Identify and resolve errors",
+        "body": "<strong>Select each step below to learn more.</strong>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/see_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 69
+    },
+    {
+        "_id": "b-810",
+        "_parentId": "a-805",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-810",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 67
+    },
+    {
+        "_id": "b-815",
+        "_parentId": "a-805",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-815",
+        "displayTitle": "Tip: What is the difference among the per diem columns?",
+        "body": "There are three types of per diems.",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 79
+    },
+    {
+        "_id": "b-820",
+        "_parentId": "a-805",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-820",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 80
+    },
+    {
+        "_id": "b-825",
+        "_parentId": "a-805",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-825",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 81
+    },
+    {
+        "_id": "b-830",
+        "_parentId": "a-810",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-830",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 82
+    },
+    {
+        "_id": "b-835",
+        "_parentId": "a-815",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-835",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 83
+    },
+    {
+        "_id": "b-840",
+        "_parentId": "a-815",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-840",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 84
+    },
+    {
+        "_id": "b-845",
+        "_parentId": "a-820",
+        "_type": "block",
+        "_classes": "",
+        "title": "Use Your Knowledge of the Engagement",
+        "displayTitle": "Tip: Apply your knowledge of the engagement",
+        "body": "",
+        "_trackingId": 85
+    },
+    {
+        "_id": "b-850",
+        "_parentId": "a-825",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-850",
+        "displayTitle": "What do you think?",
+        "body": "<strong>Which of the following are ways unresolved errors could impact the engagement and the Firm?</strong><ol class='alpha-list'><li><span>The engagement could end in an overrun</span></li><li><span>The office might have to write off a portion of its revenue</span></li><li><span>It would prevent the CST from delivering the most impact to the client for the engagement</span></li></ol>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/what_you_think.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 86
+    },
+    {
+        "_id": "b-855",
+        "_parentId": "a-830",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-855",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 87
+    },
+    {
+        "_id": "b-860",
+        "_parentId": "a-835",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-860",
+        "displayTitle": "Tip: APs and AP equivalents can seek advice from their PD managers",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 88
+    },
+    {
+        "_id": "b-865",
+        "_parentId": "a-840",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "",
+        "displayTitle": "Answers to common questions",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/stll_have_questions.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 89
+    },
+    {
+        "_id": "b-870",
+        "_parentId": "a-840",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-870",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 90
+    },
+    {
+        "_id": "b-900",
+        "_parentId": "a-900",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-900",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when managing invoicing and collections?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 66
+    },
+    {
+        "_id": "b-905",
+        "_parentId": "a-905",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-905",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 93
+    },
+    {
+        "_id": "b-910",
+        "_parentId": "a-905",
+        "_type": "block",
+        "_classes": "no-components greyBG",
+        "title": "b-910",
+        "displayTitle": "Get it done",
+        "body": "<strong>Select each to-do item below to learn more.</strong>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 94
+    },
+    {
+        "_id": "b-912",
+        "_parentId": "a-910",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-912",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 95
+    },
+    {
+        "_id": "b-915",
+        "_parentId": "a-910",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-915",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 111
+    },
+    {
+        "_id": "b-920",
+        "_parentId": "a-912",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-920",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 96
+    },
+    {
+        "_id": "b-925",
+        "_parentId": "a-912",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-925",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 97
+    },
+    {
+        "_id": "b-930",
+        "_parentId": "a-913",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-930",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 98
+    },
+    {
+        "_id": "b-945",
+        "_parentId": "a-915",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-945",
+        "displayTitle": " Tip: Be aware of WIP reserves and A/R reserves",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 101
+    },
+    {
+        "_id": "b-950",
+        "_parentId": "a-915",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-950",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 102
+    },
+    {
+        "_id": "b-955",
+        "_parentId": "a-915",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-955",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 103
+    },
+    {
+        "_id": "b-960",
+        "_parentId": "a-915",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-960",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 104
+    },
+    {
+        "_id": "b-1000",
+        "_parentId": "a-1000",
+        "_type": "block",
+        "_classes": "intro",
+        "title": "b-1000",
+        "displayTitle": "Key points",
+        "body": "What should you do and know when closing out the engagement?",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_the_point.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 105
+    },
+    {
+        "_id": "b-1005",
+        "_parentId": "a-1000",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1005",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 91
+    },
+    {
+        "_id": "b-1010",
+        "_parentId": "a-1000",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-1010",
+        "displayTitle": "Zoom in: Closing process terms",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/zoom_in.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 68
+    },
+    {
+        "_id": "b-1015",
+        "_parentId": "a-1000",
+        "_type": "block",
+        "_classes": "greyBG no-components",
+        "title": "b-1015",
+        "displayTitle": "See how it’s done",
+        "body": "<strong>Select each step below to learn more.</strong>",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/see_it_done.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 92
+    },
+    {
+        "_id": "b-1020",
+        "_parentId": "a-1005",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1020",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 70
+    },
+    {
+        "_id": "b-1025",
+        "_parentId": "a-1010",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1025",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 71
+    },
+    {
+        "_id": "b-1035",
+        "_parentId": "a-1015",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1035",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 73
+    },
+    {
+        "_id": "b-1040",
+        "_parentId": "a-1015",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1040",
+        "displayTitle": "Tip: AP and AP equivalent hours are protected",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/tip_practice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 74
+    },
+    {
+        "_id": "b-1045",
+        "_parentId": "a-1020",
+        "_type": "block",
+        "_classes": "greyBG",
+        "title": "b-1045",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 75
+    },
+    {
+        "_id": "b-1050",
+        "_parentId": "a-1025",
+        "_type": "block",
+        "_classes": "darkBlueBG",
+        "title": "b-1050",
+        "displayTitle": "Review engagement economics best practices",
+        "body": "",
+        "_blockIcon": {
+            "icon": "course/en/images/icons/get_advice.svg",
+            "alt": "alt text"
+        },
+        "_trackingId": 76
+    },
+    {
+        "_id": "b-1055",
+        "_parentId": "a-1025",
+        "_type": "block",
+        "_classes": "",
+        "title": "b-1055",
+        "displayTitle": "",
+        "body": "",
+        "_trackingId": 77
+    }
+]

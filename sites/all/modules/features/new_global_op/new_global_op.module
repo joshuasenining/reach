@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the New Global op feature.
+ */
+
+include_once 'new_global_op.features.inc';

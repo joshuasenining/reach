@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#3F57A6;stroke-width:4;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#3F57A6;}
+	.st2{fill:none;stroke:#3F57A6;stroke-width:4;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#3F57A6;stroke-width:4;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#3F57A6;stroke-width:4;stroke-linecap:square;stroke-linejoin:bevel;}
+	.st5{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;}
+	.st8{fill:none;stroke:#010101;stroke-width:4;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#010101;stroke-width:4;}
+	.st10{fill:none;stroke:#010101;stroke-width:4;stroke-linecap:round;}
+	.st11{fill:none;stroke:#010101;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#000000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:#3F57A6;}
+</style>
+<path class="st2" d="M70.9,57.3V45.4c0-3.1-2-5.9-5-6.9l-5.4-1.8L50.2,47L39.9,36.6l-5.4,1.8c-3,1-5,3.8-5,6.9v11.9"/>
+<circle class="st2" cx="50.2" cy="22.1" r="10.3"/>
+<line class="st2" x1="37.8" y1="57.3" x2="37.8" y2="49"/>
+<line class="st2" x1="62.6" y1="49" x2="62.6" y2="57.3"/>
+<polyline class="st2" points="31.6,73.9 19.2,73.9 15,57.3 85.4,57.3 81.2,73.9 68.8,73.9 "/>
+<path class="st2" d="M31.6,89c0.5-8,0.5-15.8,0.5-23.6c12.3,0,24.5,0,36.8,0c0,7.8,0,15.6,0,23.6"/>
+</svg>

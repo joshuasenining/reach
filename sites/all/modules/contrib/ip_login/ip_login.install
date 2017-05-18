@@ -1,0 +1,62 @@
+<?php
+/**
+ * @file
+ * Install file of the IP Login module.
+ */
+
+/**
+ * Implementation of hook_install().
+ */
+function ip_login_install() {
+//  drupal_install_schema('ip_login');  // not needed anymore in Drupal 7
+  drupal_set_message(
+    st('IP Login settings are available under <a href="@link">Administer > Configuration > People > IP Login settings</a>.',
+    array(
+      '@link' => 'admin/config/people/ip_login'
+    )
+  ));
+  variable_set('ip_login_enabled', 1);
+}
+
+/**
+ * Implementation of hook_schema().
+ */
+function ip_login_schema() {
+  $schema['ip_login_user'] = array(
+    'description' => t('Stores the IP Login address and range matches for users'),
+    'fields' => array(
+      'uid' => array(
+        'description' => t('ID of user for IP Login'),
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+      'ip_match' => array(
+        'description' => t('IP ranges and addresses'),
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => ''
+      ),
+    ),
+    'primary key' => array('uid'),
+  );
+  return $schema;
+}
+
+/*
+ * Implementation of hook_uninstall().
+ */
+function ip_login_uninstall() {
+  drupal_uninstall_schema('ip_login');
+  variable_del('ip_login_active_pages');
+  variable_del('ip_login_enabled');
+  variable_del('ip_login_destination');
+  variable_del('ip_login_link_login_block');
+  variable_del('ip_login_link_login_block_weight');
+  variable_del('ip_login_link_login_page');
+  variable_del('ip_login_link_login_page_help');
+  variable_del('ip_login_link_login_page_weight');
+  variable_del('ip_login_suppress_messages');
+}
