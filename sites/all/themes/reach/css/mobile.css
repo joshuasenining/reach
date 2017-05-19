@@ -21,7 +21,7 @@
     display:block;
   }
    nav.nav-extended .nav-wrapper {
-    min-height: 55px;
+    min-height: 50px;
   }
 }
 @media(min-width:1024px){
