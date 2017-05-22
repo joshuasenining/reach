@@ -76,7 +76,7 @@
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="../../images/logo.png"></a>
+            <a href="index.html" class="brand-logo"><img src="images/logo.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
@@ -90,7 +90,7 @@
 
             <ul class="menutabs" id="nav-mobile">
 
-                <li class="portaltitle"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
+                <li class="portaltitle active"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
                 <li class="active"><a href="index.html">What is R&amp;R</a></li>
                 <li><a href="getinspired.html">Get Inspired</a></li>
                 <li><a href="playbook.html">Playbook</a></li>
@@ -110,8 +110,14 @@
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
+        <?php
+                $block = module_invoke('block', 'block_view', '1');
+                print render($block['content']);
 
-    <section class="<?php print $main_grid; ?> main container" role="main">
+
+         ?>
+                           </div>
+    <section class="<?php print $main_grid; ?> main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
