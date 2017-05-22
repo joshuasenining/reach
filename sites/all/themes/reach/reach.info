@@ -4,6 +4,6 @@ base theme = materialize
 core = 7.x
 
 
-stylesheets[all][] = css/materialize.css
+stylesheets[all][] = css/materialize-new.css
 stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/mobile.css

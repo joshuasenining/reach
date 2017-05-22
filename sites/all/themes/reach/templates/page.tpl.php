@@ -76,7 +76,7 @@
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="images/logo.png"></a>
+            <a href="index.html" class="brand-logo"><img src="../../images/logo.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
@@ -90,7 +90,7 @@
 
             <ul class="menutabs" id="nav-mobile">
 
-                <li class="portaltitle active"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
+                <li class="portaltitle"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
                 <li class="active"><a href="index.html">What is R&amp;R</a></li>
                 <li><a href="getinspired.html">Get Inspired</a></li>
                 <li><a href="playbook.html">Playbook</a></li>

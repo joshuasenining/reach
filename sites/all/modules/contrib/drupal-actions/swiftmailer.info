@@ -1,0 +1,13 @@
+name = Drupal Actions
+description = Installs pre-requisite Drupal APIs.
+core = 7.x
+package = Mail
+files[] = includes/classes/SWIFTMailSystem.inc
+files[] = includes/classes/html2text.inc
+dependencies[] = mailsystem
+
+; Information added by drupal.org packaging script on 2013-06-18
+version = "7.x-1.5"
+core = "7.x"
+project = "swiftmailer"
+datestamp = "1371531052"
