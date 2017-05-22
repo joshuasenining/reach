@@ -117,7 +117,8 @@
 
          ?>
                            </div>
-    <section class="<?php print $main_grid; ?> main" role="main">
+    <section role="main">
+        <div class="<?php print $main_grid; ?> main container">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
@@ -141,6 +142,7 @@
       <?php endif; ?>
       <?php print render($tabs_secondary); ?>
       <?php print render($page['content']); ?>
+    </div>
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
