@@ -74,15 +74,21 @@
  */
 ?>
 
+  
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="images/logo.png"></a>
+            <a href="index.html" class="brand-logo"><img src="../../images/logo.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
-            <ul class="side-nav" id="mobile-demo" style="transform: translateX(-100%);">
-                <li><a href="index.html">What is R&amp;R</a></li>
-                <li><a href="getinspired.html">Get Inspired</a></li>
-                <li><a href="playbook.html">Playbook</a></li>
+            <ul class="side-nav" id="mobile-demo">
+                 <?php
+                      print theme('links__system_main_menu', array(
+                        'links' => $main_menu,
+                        'attributes' => array(
+                          'class' => array('navbar', 'clearfix'),
+                        )
+                      )); ?>
+         
 
             </ul>
         </div>
@@ -90,12 +96,23 @@
 
             <ul class="menutabs" id="nav-mobile">
 
-                <li class="portaltitle active"><a href="index.html">Reach and Relevance<span class="separator"></span></a></li>
-                <li class="active"><a href="index.html">What is R&amp;R</a></li>
-                <li><a href="getinspired.html">Get Inspired</a></li>
-                <li><a href="playbook.html">Playbook</a></li>
-
-                <li id="magic-line" style="width: 156px; left: 27px; display: none;"></li></ul>
+                 <?php if ($main_menu): ?>
+                  <nav class="main-menu" role="navigation">
+                    <?php
+                    print theme('links__system_main_menu', array(
+                      'links' => $main_menu,
+                      'attributes' => array(
+                        'class' => array('navbar'),
+                      ),
+                      'heading' => array(
+                        'text' => t('Reach and Relevance '),
+                        'level' => 'span',
+                        'class' => array('portaltitle','pull-left'),
+                      ),
+                    )); ?>
+                  </nav>
+              <?php endif; ?>
+    </ul>
         </div>
     </nav>
   <?php if (!empty($page['header'])): ?>
@@ -154,16 +171,20 @@
 
   <?php if (!empty($page['footer'])): ?>
     <div class="divider"></div>
-    <footer class="page-footer">
-      <div class="container">
-        <?php print render($page['footer']); ?>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          @2015 copyright text
-        </div>
-      </div>
-    </footer>
+     <footer class="page-footer">
+
+  <div class="footer-copyright">
+    <div class="container">
+
+        <span class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"/></span>
+   
+          <a class="blue-text" href="#">Your support network</a>
+          <a class="blue-text" href="playbook.html">R&R Playbook</a> 
+          <a class="blue-text" href="getinspired.html">Get Inspired</a>
+          <a class="blue-text" href="#">Contact Us</a>                
+    </div>
+  </div>
+</footer>
   <?php endif; ?>
 
 
