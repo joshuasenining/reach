@@ -269,3 +269,14 @@ a{
 	color: #000;
 	font-family: inherit;
 }
+div#admin-menu-shortcuts-responsive {
+	display: none;
+}
+
+.collapsible li.active p {
+	color:#00ADEF;
+}
+.collapsible-body ul li.active .sidebarfilter-button i{
+font-size:12px;
+margin-left:-12px;
+}

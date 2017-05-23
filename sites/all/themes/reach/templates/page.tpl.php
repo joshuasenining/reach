@@ -105,27 +105,20 @@
   <?php endif; ?><!-- /.header  -->
 
   <div class="row page grid">
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="<?php print $sidebar_left; ?> sidebar-first" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
 
-    <section class="<?php print $main_grid; ?> main container" role="main">
+
+    <section class="main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
 
-      <?php print render($secondary_navigation); ?>
 
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?>
+
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
-      <?php if (!empty($tabs['#primary'])): ?>
-        <?php print render($tabs_primary); ?>
-      <?php endif; ?>
+
 
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
@@ -136,7 +129,9 @@
       <?php print render($tabs_secondary); ?>
       <?php print render($page['content']); ?>
     </section>
-
+      <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="<?php print $sidebar_right; ?> sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>

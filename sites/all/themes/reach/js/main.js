@@ -3,9 +3,9 @@
 jQuery( document ).ready(function($) {
 	reveal();
 	// mobile menu slideout
-     $('.button-collapse').sideNav({
-      draggable: true
-    });
+     // $('.button-collapse').sideNav({
+     //  draggable: true
+    // });
 
 	//sidebar filter
     $('.collapsible').collapsible();
@@ -43,10 +43,10 @@ jQuery( document ).ready(function($) {
 		// }
 		// filter functions
 		var filterFns = {
-		 
+
 		};
 
-		
+
 		var $filterButtonGroup = $('#filters');
 			$filterButtonGroup.on( 'click', '.filter-button', function() {
 			  var filterAttr = $( this ).attr('data-filter');
@@ -100,6 +100,14 @@ jQuery( document ).ready(function($) {
 
 	$(window).on( 'hashchange', onHashchange );
 	onHashchange();
+
+    //add active class to sidebar filters
+    $(".collapsible-body ul li").click(function(){
+        $(".collapsible-body ul li").removeClass("active");
+        $(".collapsible-body ul li div i").remove();
+        $(this).addClass("active");
+        $(this).find("div").prepend("<i class='material-icons dp48'>play_arrow</i>");
+    });
 
 
 });

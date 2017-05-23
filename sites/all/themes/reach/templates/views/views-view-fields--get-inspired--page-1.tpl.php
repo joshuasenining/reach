@@ -41,7 +41,7 @@ if($parent){
 
 
 ?>
-    <div class="col xl4 l6 m6 s6 element-item rr" id="<?php print $tname;?>" data-category="<?php print isset($pname) ? $pname : $tname; ?>">
+    <div class="col xl4 l6 m6 s6 element-item <?php print isset($pname) ? $pname : NULL; print " ".$tname;?>" id="<?php print $tname;?>" data-category="<?php print isset($pname) ? $pname : $tname; ?>">
         <div class="card">
             <div class="card-image">
                 <?php print $fields['field_image']->content; ?>
@@ -49,7 +49,7 @@ if($parent){
             </div>
             <div class="card-content">
                 <small><?php print $term->name; ?></small>
-                <a href="story.html"><h5><?php print $fields['title']->raw; ?></h5></a>
+                <a href="node/<?php print $fields['nid']->raw;?>"><h5><?php print $fields['title']->raw; ?></h5></a>
                 <p><i>February 2017</i> - <?php print $fields['body']->content; ?></p>
             </div>
         </div>

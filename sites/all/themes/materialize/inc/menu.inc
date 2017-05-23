@@ -48,13 +48,13 @@ function materialize_menu_local_tasks(&$variables) {
   $output = '';
   if (!empty($primary)) {
     $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
-    $variables['primary']['#prefix'] .= '<ul class="tabs z-depth-1">';
+    $variables['primary']['#prefix'] .= '<ul class="tabs">';
     $variables['primary']['#suffix'] = '</ul>';
     $output .= drupal_render($variables['primary']);
   }
   if (!empty($secondary)) {
     $variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
-    $variables['secondary']['#prefix'] .= '<ul class="tabs z-depth-1">';
+    $variables['secondary']['#prefix'] .= '<ul class="tabs">';
     $variables['secondary']['#suffix'] = '</ul>';
     $output .= drupal_render($variables['secondary']);
   }
