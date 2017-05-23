@@ -26,22 +26,12 @@
  * @see template_preprocess_entity()
  * @see template_process()
  */
-
-$banneruri = $content['field_banner_image'][0]['#item']['uri'];
-$bannerurl = file_create_url($banneruri);
 ?>
+<div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-<div id="index-banner">
-    <div class="container">
-        <div class="row">
-            <div class="intro-text col xl7 l7 m8 s8">
-                <h1><?php print $content['field_banner_title'][0]['#markup']; ?></h1>
-                <h3><?php print $content['field_banner_subtitle'][0]['#markup'];?></h3>
-            </div>
-            <div class="col xl5 l5 m4 s4">
-                <img src="<?php print $bannerurl;?>" class="pull-right responsive-img"/>
-            </div>
-        </div><!--row-->
-    </div>
-
+  <div class="content"<?php print $content_attributes; ?>>
+    <?php
+      print render($content);
+    ?>
+  </div>
 </div>

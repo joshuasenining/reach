@@ -87,8 +87,7 @@ $links = render($content['links']);
 
 <?php
 //dpm($node);
-$banneruri = $node->field_banner_image['und'][0]['uri'];
-$bannerurl = file_create_url($banneruri);
+
 ?>
 
 <div id="index-banner">

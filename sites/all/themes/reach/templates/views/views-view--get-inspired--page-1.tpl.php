@@ -27,7 +27,11 @@
  * @ingroup views_templates
  */
 ?>
-
+<?php if ($header): ?>
+    <div class="view-header">
+        <?php print $header; ?>
+    </div>
+<?php endif; ?>
 <?php if ($rows): ?>
 <div class="view-content section filters lightgraybk">
     <div class="container">
