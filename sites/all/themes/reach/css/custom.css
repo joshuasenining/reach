@@ -90,17 +90,19 @@ hr{
     background-position: right, left;
     background-repeat: no-repeat;
 }
-.intro-text{
+.intro-text,.headline .lightgraybk{
 	font-family: HelveticaNeueLight;
 }
 .headline .aquabk,.headline .lightgraybk{
 	padding:5px 7px;
 	float:left;
+	font-size:14px;
 }
 #index-banner h1{
 	color:#00ADEF;
 	margin:0;	
 	font-family: HelveticaNeueLight;
+	max-width: 500px;
 }
 #index-banner .container{
 	padding:50px 0 20px 0;

@@ -666,7 +666,7 @@
 }
 
 .blue-text {
-  color: #37DEE7 !important;
+  color: #2E60AD !important;
 }
 
 .blue.lighten-5 {
@@ -5611,7 +5611,7 @@ button.btn-floating {
   cursor: pointer;
   line-height: inherit;
   padding: 0 1rem;
-  color:#fff;
+  color:inherit;
 
 }
 .collapsible li{
