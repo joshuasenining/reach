@@ -50,7 +50,7 @@ if($parent){
             <div class="card-content">
                 <small><?php print $term->name; ?></small>
                 <a href="node/<?php print $fields['nid']->raw;?>"><h5><?php print $fields['title']->raw; ?></h5></a>
-                <p><i>February 2017</i> - <?php print $fields['body']->content; ?></p>
+                <p><?php print $fields['body']->content; ?></p>
             </div>
         </div>
     </div><!-- rr-->
