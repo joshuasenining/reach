@@ -72,11 +72,12 @@
  *
  * @ingroup themeable
  */
+
 ?>
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="../../images/logo.png"></a>
+            <a href="/" class="brand-logo"><img src="<?php print $logo; ?>"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -87,7 +88,7 @@
                           'class' => array('navbar', 'clearfix'),
                         )
                       )); ?>
-         
+
 
             </ul>
         </div>
@@ -104,7 +105,7 @@
                         'class' => array('navbar'),
                       ),
                       'heading' => array(
-                        'text' => t('Reach and Relevance '),
+                        'text' => t(''),
                         'level' => 'span',
                         'class' => array('portaltitle','pull-left'),
                       ),
@@ -120,7 +121,7 @@
     </div>
   <?php endif; ?><!-- /.header  -->
 
-  <div class="row page grid">
+  <div class="row page">
 
 
     <section class="main" role="main">
@@ -155,22 +156,27 @@
     <?php endif; ?>
   </div> <!-- /main  -->
 
-  <?php if (!empty($page['footer'])): ?>
+
     <div class="divider"></div>
-     <footer class="page-footer">
+      <footer class="page-footer">
 
-  <div class="footer-copyright">
-    <div class="container">
+          <div class="footer-copyright">
+              <div class="container">
+                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
 
-        <span class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"/></span>
-   
-          <a class="blue-text" href="#">Your support network</a>
-          <a class="blue-text" href="playbook.html">R&R Playbook</a> 
-          <a class="blue-text" href="getinspired.html">Get Inspired</a>
-          <a class="blue-text" href="#">Contact Us</a>                
-    </div>
-  </div>
-</footer>
-  <?php endif; ?>
+                  <?php
+                  $footer_menu = menu_navigation_links('menu-footer-menu');
+                  print theme('links__menu_menu_footer_menu', array(
+                      'links' => $footer_menu,
+                      'attributes' => array(
+                          'id' => 'footer-links',
+                          'class' => array('blue-text'),
+                      ),
+                  ));
+                   ?>
+              </div>
+          </div>
+      </footer>
+
 
 

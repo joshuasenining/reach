@@ -282,3 +282,12 @@ div#admin-menu-shortcuts-responsive {
 font-size:12px;
 margin-left:-12px;
 }
+#footer-links li {
+	float: left;
+}
+#footer-links li a {
+	color:#2E60AD !important;
+}
+.page-footer .brand-logo {
+	float: left;
+}

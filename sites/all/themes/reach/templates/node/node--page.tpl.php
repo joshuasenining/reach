@@ -90,21 +90,21 @@ $links = render($content['links']);
 
 ?>
 
-<div id="index-banner">
-    <div class="container">
-        <div class="row">
-            <div class="intro-text col xl7 l7 m8 s8">
-
-                <h1><?php print $node->field_banner_title['und'][0]['value'];?></h1>
-                <h3><?php print $node->field_banner_subtitle['und'][0]['value']; ?></h3>
-            </div>
-            <div class="col xl5 l5 m4 s4">
-                <img src="<?php print $bannerurl;?>" class="pull-right responsive-img"/>
-            </div>
-        </div><!--row-->
-    </div>
-
-</div>
+<!--<div id="index-banner">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="intro-text col xl7 l7 m8 s8">-->
+<!---->
+<!--                <h1>--><?php //print $node->field_banner_title['und'][0]['value'];?><!--</h1>-->
+<!--                <h3>--><?php //print $node->field_banner_subtitle['und'][0]['value']; ?><!--</h3>-->
+<!--            </div>-->
+<!--            <div class="col xl5 l5 m4 s4">-->
+<!--                <img src="--><?php //print $bannerurl;?><!--" class="pull-right responsive-img"/>-->
+<!--            </div>-->
+<!--        </div><!--row-->
+<!--    </div>-->
+<!---->
+<!--</div>-->
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> card-panel hoverable"<?php print $attributes; ?>>
     <div class="content card-content">

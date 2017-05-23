@@ -1,17 +1,21 @@
 <?php
 
-function reach_preprocess_page($vars){
+function reach_preprocess_page($variables){
 
     drupal_add_js(drupal_get_path('theme','reach') . "/js/isotope.pkgd.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/foundation.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/scrollreveal.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/materialize.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/main.js");
-    if (isset($vars['node']->type)) {
+    if (isset($variables['node']->type)) {
         // If the content type's machine name is "my_machine_name" the file
         // name will be "page--my-machine-name.tpl.php".
-        $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
+        $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
     }
+
+//    $variables['footer_menu'] = menu_navigation_links('menu-footer-menu');
+    $variables['custom'] = "hi";
+    kpr($variables);
 }
 
 function sanitizename($name){
