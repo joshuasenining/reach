@@ -12,10 +12,6 @@ function reach_preprocess_page($variables){
         // name will be "page--my-machine-name.tpl.php".
         $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
     }
-
-//    $variables['footer_menu'] = menu_navigation_links('menu-footer-menu');
-    $variables['custom'] = "hi";
-    kpr($variables);
 }
 
 function sanitizename($name){
