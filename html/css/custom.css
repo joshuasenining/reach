@@ -77,6 +77,9 @@
 .aquabk{
 	background-color: #00ADEF
 }
+.lightbluebk{
+	background-color: rgba(0,101,189,.12);
+}
 .text-uppercase{
 	    text-transform: uppercase;
 }
@@ -144,7 +147,7 @@ hr{
 	color:#1D335E;
 	margin-top:0;
 }
-.card small{
+.card small,.charts small{
 	font:14px HelveticaNeueMedium;
 	color:#9B9B9B;
 	padding: 0 0 20px 0
@@ -255,6 +258,7 @@ a{
 	padding:12px;
 	z-index: 3
 }
+
 .thoughts-rr .blue-overlay{
 	background: rgba(0,41,96,.3);
     position: absolute;
@@ -268,7 +272,7 @@ a{
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
-.history img{
+.history .valign-wrapper img{
 	padding: 0 10px 0 0;
 }
 .history .xl12{
@@ -293,9 +297,7 @@ a{
 	font-size: 26px;
 	padding:10px 0;
 }
-.build .browser-default{
-	padding:0 15px;
-}
+
 .build .browser-default li{
 	list-style-type: disc;
 }
@@ -305,10 +307,45 @@ a{
 .build .card .card-content{
 	min-height: 215px;
 }
-.build .collapsible{
-
+.build .browser-default{
+	padding:0 40px;
 }
+.build .collapsible {
+    top: -20px;
+    position: relative;
+}
+.charts .white{
+	padding:30px;
+	float:left;
+	width: 100%;
+}
+.charts .lightbluebk{
+	float:left;
+	width: 100%;
+	padding:15px 30px;
+}
+.charts i{
+	color:#666666;
+	font:14px HelveticaNeueLight;
+	font-style: italic;
+}
+.charts small{
+	margin:0 0 20px 0;
+	float:left;
+	width: 100%
+}
+
 /* what is rr ends*/
+/* comp page*/
+.comp img{
+	padding:0 40px 0 0;
+}
+h3.graytext{
+	font:24px HelveticaNeueLight;
+	color:#9C9D9D;
+}
+
+/*comp page ends*/
 /* story*/
 .story-title{
 	font:40px HelveticaNeue;
@@ -349,6 +386,7 @@ a{
 .valign-wrapper small a{
 	color:#000;
 }
+
 /* story ends*/
 .footer {
   position: absolute;
