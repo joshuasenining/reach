@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the People content type feature.
+ */
+
+include_once 'people_content_type.features.inc';

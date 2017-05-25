@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the get inspired page feature.
+ */
+
+include_once 'get_inspired_page.features.inc';

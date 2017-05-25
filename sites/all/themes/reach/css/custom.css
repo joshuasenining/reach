@@ -68,6 +68,9 @@
 .lightgraybk{
 	background-color: #f5f5f5
 }
+.aquabk{
+	background-color: #00ADEF
+}
 .text-uppercase{
 	    text-transform: uppercase;
 }
@@ -87,13 +90,19 @@ hr{
     background-position: right, left;
     background-repeat: no-repeat;
 }
-.intro-text{
+.intro-text,.headline .lightgraybk{
 	font-family: HelveticaNeueLight;
+}
+.headline .aquabk,.headline .lightgraybk{
+	padding:5px 7px;
+	float:left;
+	font-size:14px;
 }
 #index-banner h1{
 	color:#00ADEF;
 	margin:0;	
 	font-family: HelveticaNeueLight;
+	max-width: 500px;
 }
 #index-banner .container{
 	padding:50px 0 20px 0;
@@ -114,6 +123,12 @@ hr{
 .intro h5{
 	line-height: 30px;
 	font-size: 20px;
+}
+.intro .blue-text{
+	font-family:HelveticaNeueMedium;
+}
+.headline{
+	text-transform: uppercase;
 }
 .card{
 	margin:0 0 30px 0;
@@ -255,4 +270,24 @@ a{
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	color: #000;
 	font-family: inherit;
+}
+div#admin-menu-shortcuts-responsive {
+	display: none;
+}
+
+.collapsible li.active p {
+	color:#00ADEF;
+}
+.collapsible-body ul li.active .sidebarfilter-button i{
+font-size:12px;
+margin-left:-12px;
+}
+#footer-links li {
+	float: left;
+}
+#footer-links li a {
+	color:#2E60AD !important;
+}
+.page-footer .brand-logo {
+	float: left;
 }

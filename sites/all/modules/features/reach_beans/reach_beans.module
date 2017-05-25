@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Reach Beans feature.
+ */
+
+include_once 'reach_beans.features.inc';

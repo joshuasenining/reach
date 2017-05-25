@@ -1,0 +1,10 @@
+name = Reach Menus
+core = 7.x
+package = reach
+version = 7.x-1.0
+project = reach_menus
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_custom][] = menu-footer-menu

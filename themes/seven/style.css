@@ -988,3 +988,4 @@ div.add-or-remove-shortcuts {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
+div#admin-menu-shortcuts-responsive {display:none;}

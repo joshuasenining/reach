@@ -72,11 +72,16 @@
  *
  * @ingroup themeable
  */
+
 ?>
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
+<<<<<<< HEAD
             <a href="index.html" class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"></a>
+=======
+            <a href="/" class="brand-logo"><img src="<?php print $logo; ?>"></a>
+>>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -87,7 +92,11 @@
                           'class' => array('navbar', 'clearfix'),
                         )
                       )); ?>
+<<<<<<< HEAD
          
+=======
+
+>>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
 
             </ul>
         </div>
@@ -120,7 +129,27 @@
   
             
 
+<<<<<<< HEAD
                </li></ul>
+=======
+                 <?php if ($main_menu): ?>
+                  <nav class="main-menu" role="navigation">
+                    <?php
+                    print theme('links__system_main_menu', array(
+                      'links' => $main_menu,
+                      'attributes' => array(
+                        'class' => array('navbar'),
+                      ),
+                      'heading' => array(
+                        'text' => t(''),
+                        'level' => 'span',
+                        'class' => array('portaltitle','pull-left'),
+                      ),
+                    )); ?>
+                  </nav>
+              <?php endif; ?>
+    </ul>
+>>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
         </div>
     </nav>
   <?php if (!empty($page['header'])): ?>
@@ -129,28 +158,21 @@
     </div>
   <?php endif; ?><!-- /.header  -->
 
-  <div class="row page grid">
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="<?php print $sidebar_left; ?> sidebar-first" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
+  <div class="row page">
 
-    <section class="<?php print $main_grid; ?> main container" role="main">
+
+    <section class="main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
 
-      <?php print render($secondary_navigation); ?>
 
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?>
+
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
-      <?php if (!empty($tabs['#primary'])): ?>
-        <?php print render($tabs_primary); ?>
-      <?php endif; ?>
+
 
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
@@ -161,7 +183,9 @@
       <?php print render($tabs_secondary); ?>
       <?php print render($page['content']); ?>
     </section>
-
+      <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="<?php print $sidebar_right; ?> sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
@@ -169,8 +193,9 @@
     <?php endif; ?>
   </div> <!-- /main  -->
 
-  <?php if (!empty($page['footer'])): ?>
+
     <div class="divider"></div>
+<<<<<<< HEAD
  
     <footer class="page-footer">
 
@@ -188,6 +213,28 @@
 </footer>
 
   <?php endif; ?>
+=======
+      <footer class="page-footer">
+
+          <div class="footer-copyright">
+              <div class="container">
+                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
+
+                  <?php
+                  $footer_menu = menu_navigation_links('menu-footer-menu');
+                  print theme('links__menu_menu_footer_menu', array(
+                      'links' => $footer_menu,
+                      'attributes' => array(
+                          'id' => 'footer-links',
+                          'class' => array('blue-text'),
+                      ),
+                  ));
+                   ?>
+              </div>
+          </div>
+      </footer>
+
+>>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
 
 
 
