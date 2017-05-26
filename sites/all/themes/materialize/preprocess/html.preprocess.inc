@@ -23,7 +23,7 @@ function materialize_preprocess_html(&$vars) {
     );
   }
   else {
-    drupal_set_message(t('Please download the latest version of <a href="http://materializecss.com/getting-started.html">Materialize</a> and place all content after extract to a new libraries folder <em>/materialize</em> within your drupal installation. %css_file and %js_file', array('%css_file' => 'sites/all/libraries/materialize/css/materialize.min.css', '%js_file' => 'sites/all/libraries/materialize/js/materialize.min.js')), 'error');
+    drupal_set_message(t('Please download the latest version of <a href="http://materializecss.com/getting-started.html">Materialize</a> and place all content after extract to a new libraries folder <em>/materialize</em> within your drupal installation. %css_file and %js_file', array('%css_file' => 'sites/all/libraries/materialize/css/materialize.css', '%js_file' => 'sites/all/libraries/materialize/js/materialize.min.js')), 'error');
   }
   if (!module_exists('jquery_update')) {
     drupal_set_message(t('Materialize requires the <a href="@url">jQuery Update module</a> to be installed.',

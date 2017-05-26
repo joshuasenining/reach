@@ -72,7 +72,6 @@
  *
  * @ingroup themeable
  */
-
 ?>
 
     <nav class="nav-extended">
@@ -177,6 +176,3 @@
               </div>
           </div>
       </footer>
-
-
-
