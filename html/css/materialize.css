@@ -2269,7 +2269,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
-  font-family: HelveticaNeueBold;
+ /* font-family: HelveticaNeueBold;*/
 }
 
 /**
@@ -3406,6 +3406,7 @@ nav ul a span.badge {
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  clear:both;
 }
 
 .section.no-pad {
@@ -4770,11 +4771,14 @@ small {
 
 .card .card-action {
   position: relative;
-  background-color: inherit;
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px 24px;
+  color:#4A4A4A;
+  font-size:12px;
 }
-
+.card-action a{
+  color:inherit;
+}
+/*
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 24px;
@@ -4784,7 +4788,7 @@ small {
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
-}
+}*/
 
 .card .card-reveal {
   padding: 24px;
@@ -4946,7 +4950,7 @@ small {
   color: #9B9B9B;
   width: 100%;
   height: 100%;
-  padding: 0 7px;
+  padding: 0 7px 0 0;
   font:16px HelveticaNeueBold;
   text-overflow: ellipsis;
   overflow: hidden;

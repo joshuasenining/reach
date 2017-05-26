@@ -72,16 +72,11 @@
  *
  * @ingroup themeable
  */
-
 ?>
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-<<<<<<< HEAD
-            <a href="index.html" class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"></a>
-=======
             <a href="/" class="brand-logo"><img src="<?php print $logo; ?>"></a>
->>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -92,46 +87,14 @@
                           'class' => array('navbar', 'clearfix'),
                         )
                       )); ?>
-<<<<<<< HEAD
-         
-=======
 
->>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
 
             </ul>
         </div>
         <div class="nav-content">
 
             <ul class="menutabs" id="nav-mobile">
-   
-        <!-- <a href="index.html">Reach and Relevance<span class="separator"></span></a> -->
-       <?php if ($main_menu): ?>
-        <nav class="main-menu" role="navigation">
-          <?php
-          // This code snippet is hard to modify. We recommend turning off the
-          // "Main menu" on your sub-theme's settings form, deleting this PHP
-          // code block, and, instead, using the "Menu block" module.
-          // @see https://drupal.org/project/menu_block
-          print theme('links__system_main_menu', array(
-            'links' => $main_menu,
-            'attributes' => array(
-              'class' => array('navbar'),
-            ),
-            'heading' => array(
-              'text' => t('Reach and Relevance '),
-              'level' => 'span',
-              'class' => array('portaltitle','pull-left'),
-            ),
-          )); ?>
-        </nav>
-      <?php endif; ?>
-       
-  
-            
 
-<<<<<<< HEAD
-               </li></ul>
-=======
                  <?php if ($main_menu): ?>
                   <nav class="main-menu" role="navigation">
                     <?php
@@ -149,7 +112,6 @@
                   </nav>
               <?php endif; ?>
     </ul>
->>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
         </div>
     </nav>
   <?php if (!empty($page['header'])): ?>
@@ -195,25 +157,6 @@
 
 
     <div class="divider"></div>
-<<<<<<< HEAD
- 
-    <footer class="page-footer">
-
-  <div class="footer-copyright">
-    <div class="container">
-
-        <span class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"/></span>
-   
-          <a class="blue-text" href="#">Your support network</a>
-          <a class="blue-text" href="playbook.html">R&R Playbook</a> 
-          <a class="blue-text" href="getinspired.html">Get Inspired</a>
-          <a class="blue-text" href="#">Contact Us</a>                
-    </div>
-  </div>
-</footer>
-
-  <?php endif; ?>
-=======
       <footer class="page-footer">
 
           <div class="footer-copyright">
@@ -233,8 +176,3 @@
               </div>
           </div>
       </footer>
-
->>>>>>> f631f52d0a52509d1125ffc5ec1f71c07ea636d0
-
-
-
