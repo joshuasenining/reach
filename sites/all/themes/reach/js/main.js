@@ -1,4 +1,4 @@
-// $(document).foundation();
+jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
 	reveal();
@@ -6,7 +6,29 @@ jQuery( document ).ready(function($) {
      // $('.button-collapse').sideNav({
      //  draggable: true
     // });
-
+	 $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav:true,
+                pager:false,
+                navText: ["<span class='mck-icon__arrow-left'></span>","<span class='mck-icon__arrow-right'></span>"],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: false
+                  },
+                  600: {
+                    items: 1,
+                    nav: true
+                  },
+                  1000: {
+                    items: 1,
+                    nav: true,
+                    loop: false
+                  }
+                }
+       });
 	//sidebar filter
     $('.collapsible').collapsible();
 
