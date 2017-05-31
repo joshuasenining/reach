@@ -138,14 +138,16 @@
         <div class="container">
            <div class="row" data-equalizer="thoughts" data-equalize-by-row="true">
         
+     
                 <?php
-
-                                        $block = module_invoke('views', 'block_view', 'whatisrr-block_2');
-                                        print render($block['content']);
-                                 
-                                    
-                     
-                ?> 
+                                        
+                                          $blockObject = block_load('views', 'whatisrr-block_1');
+                                          
+                                          $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+                                          
+                                          $output = drupal_render($block);
+                                          print $output;
+                ?>
 
           </div>
         </div>

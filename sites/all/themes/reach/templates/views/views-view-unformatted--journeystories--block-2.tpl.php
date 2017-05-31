@@ -15,7 +15,7 @@ $link = $row->field_field_know_link[0]['raw']['value'];
 <div class="col xl6 l6 m12 s12">
            <div class="card">
                <div class="card-image">
-                  <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=423%C3%97143&w=423&h=143" alt="" class="responsive-img"> 
+                  <img src="<?php print $main_imageurl;?>" alt="" class="responsive-img"> 
                
               </div>
               <div class="card-content" data-equalizer-watch="otherjourney">

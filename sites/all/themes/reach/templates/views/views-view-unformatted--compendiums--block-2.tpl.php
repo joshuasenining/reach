@@ -6,7 +6,7 @@ $title = $row->node_title;
 $main_image = $row->field_field_image[0]['rendered']['#item']['uri'];
 $main_imageurl = file_create_url($main_image);
 $body = $row->field_body[0]['raw']['value'];
-
+$image_caption = $row->field_field_image[0]['raw']['image_field_caption']['value'];
 
 ?>
 <div class="item">  
@@ -18,7 +18,7 @@ $body = $row->field_body[0]['raw']['value'];
             </div>
             <div class="col xl6 l6 m6 s12">
                 <img src="<?php print $main_imageurl;?>" class="responsive-image"/>
-             <p>NY and NJ Post-Hurricane Sandy Pro Bono</p>
+             <p><?php print $image_caption;?></p>
             </div>
     </div>
 
