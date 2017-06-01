@@ -134,6 +134,9 @@ hr{
 #index-banner h1, #index-banner h3, .intro h5,.card h5,.filters .card-panel p{
 	transition: font 0.3s ease
 }
+.front .hoverable:hover{
+	box-shadow: none
+}
 /* get inspired*/
 .intro h5{
 	line-height: 30px;
@@ -452,6 +455,13 @@ h5.blacktext{
   padding:0 0 20px 0;
 }
 /* journey story ends*/
+.page-footer .brand-logo{
+  float:left;
+  margin-top:7px;
+}
+.page-footer ul{
+  margin:0;
+}
 .footer {
   position: absolute;
   bottom: 0;

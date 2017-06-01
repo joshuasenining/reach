@@ -27,31 +27,19 @@
  * @ingroup views_templates
  */
 ?>
-<?php if ($header): ?>
-    <div class="view-header">
-        <?php print $header; ?>
+
+
+
+
+
+  <?php if ($rows): ?>
+
+      <?php print $rows; ?>
+
+  <?php elseif ($empty): ?>
+    <div class="view-empty">
+      <?php print $empty; ?>
     </div>
-<?php endif; ?>
-<?php if ($rows): ?>
-<div class="view-content section filters lightgraybk">
-    <div class="container">
-        <div class="row">
-            <div class="col xl9 19 m7 s6">
-                <div id="main-content">
-                    <div id="container2" class="grid">
-                        <div id="stories-section">
-                            <?php print $rows; ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <?php build_filter_sidebar(); ?>
-        </div>
-    </div>
+  <?php endif; ?>
 
-    <?php endif; ?>
-
-
-
-
-
+ 

@@ -2269,7 +2269,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
-  font-family: HelveticaNeueBold;
+ /* font-family: HelveticaNeueBold;*/
 }
 
 /**
@@ -3340,6 +3340,14 @@ span.badge[data-badge-caption]::after {
   content: " " attr(data-badge-caption);
 }
 
+nav ul li.active:after {
+    background-color: #0065BD;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 8px;
+    position: relative;
+}
 nav ul a span.badge {
   display: inline-block;
   float: none;
@@ -3406,6 +3414,7 @@ nav ul a span.badge {
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  clear:both;
 }
 
 .section.no-pad {
@@ -3423,7 +3432,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+/*  margin-bottom: 20px;*/
 }
 
 .row:after {
@@ -4150,11 +4159,11 @@ nav ul a span.badge {
 }
 
 nav {
-  color: #fff;
-  background-color: #002960;
+  color: #000;
+  background-color: #ffffff;
   width: 100%;
   height: 56px;
-  line-height: 56px;
+  line-height: 64px;
 }
 
 nav.nav-extended {
@@ -4274,9 +4283,8 @@ nav ul li {
 }
 
 nav ul a {
-  transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -4348,7 +4356,7 @@ nav .input-field label.active i {
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 70px;
+    min-height: 65px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
@@ -4770,11 +4778,14 @@ small {
 
 .card .card-action {
   position: relative;
-  background-color: inherit;
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 16px 24px;
+  color:#4A4A4A;
+  font-size:12px;
 }
-
+.card-action a{
+  color:inherit;
+}
+/*
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 24px;
@@ -4784,7 +4795,7 @@ small {
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
-}
+}*/
 
 .card .card-reveal {
   padding: 24px;
@@ -4933,7 +4944,7 @@ small {
   flex-grow: 1;
 }
 
-.tabs .tab, .menutabs li,.linktabs li {
+.tabs .tab, .menutabs li,.linktabs li,#footer-links li {
   display: inline-block;
   text-align: center;
   line-height: 48px;
@@ -4946,11 +4957,7 @@ small {
   color: #9B9B9B;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   padding: 0 7px 0 0;
-=======
-  padding: 0 7px;
->>>>>>> 4364d117686642baed3d71a5628de54c94b7a619
   font:16px HelveticaNeueBold;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -4959,7 +4966,7 @@ small {
 .tabs .tab a.active,.linktabs a.active{
   font:16px HelveticaNeueBold;
  }
-.tabs .tab a:hover, .tabs .tab a.active,.linktabs a.active,.linktabs a:hover  {
+.tabs .tab a:hover, .tabs .tab a.active,.linktabs a.active,.linktabs a:hover{
   background-color: transparent;
   color: #2E60AD;
 }
@@ -8881,8 +8888,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4364d117686642baed3d71a5628de54c94b7a619
