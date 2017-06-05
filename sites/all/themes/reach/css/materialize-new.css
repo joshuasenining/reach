@@ -3339,7 +3339,9 @@ span.badge.new:after {
 span.badge[data-badge-caption]::after {
   content: " " attr(data-badge-caption);
 }
-
+#mobile-demo ul li.active:after,#mobile-demo .portaltitle{
+  display:none;
+}
 nav ul li.active:after {
     background-color: #0065BD;
     bottom: 0;
@@ -4182,7 +4184,7 @@ nav.nav-extended .nav-content {
 }
 
 nav a {
-  color: #fff;
+  color: #000;
 }
 
 nav i,
@@ -4214,8 +4216,8 @@ nav .button-collapse {
 }
 
 nav .button-collapse i {
-  height: 56px;
-  line-height: 56px;
+  height: 67px;
+  line-height: 67px;
 }
 
 nav .brand-logo {
@@ -4359,8 +4361,8 @@ nav .input-field label.active i {
     min-height: 65px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 67px;
+    line-height: 67px;
   }
   .navbar-fixed {
     height: 64px;
