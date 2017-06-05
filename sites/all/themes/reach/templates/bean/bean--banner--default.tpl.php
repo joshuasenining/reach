@@ -41,9 +41,9 @@ $bannerurl = file_create_url($banneruri);
             <div class="col xl5 l5 m4 s4">
                
             
-          <!--   <?php if (!empty($banneruri)): ?> -->
+            <?php if (!empty($banneruri)): ?>
                 <img src="<?php print $bannerurl;?>" class="pull-right responsive-img"/>
-             <!--  <?php endif; ?> -->
+              <?php endif; ?>
 
             </div>
         </div><!--row-->
