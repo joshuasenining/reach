@@ -95,6 +95,22 @@
 hr{
 	border-top:rgba(151,151,151,.6);
 }
+.field-name-field-banner-image{
+	 background-image:linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+
+  	background-image: -moz-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image: -webkit-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image: -webkit-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image: -o-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+	background-image:-ms-linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
+    background-size: cover;
+    height: 335px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.field-name-field-banner-image img{
+	float:right;
+}
 #index-banner {		
     background-image:url('../images/patterns.png'), linear-gradient(to right, rgba(0,41,96,1) 0%, rgba(0,41,96,1) 13%, #00adef 84%);
 
@@ -203,6 +219,12 @@ a{
 .sidebarfilter-button{
 	color:#fff!important;
 	cursor: pointer;
+}	
+.sidebarfilter-button .material-icons.dp48{
+	display:none;
+}
+.sidebar li.active .sidebarfilter-button{
+	color:#00ADEF!important;
 }
 .description{
 	padding-top:10px;

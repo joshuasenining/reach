@@ -18,7 +18,15 @@ $image_caption = $row->field_field_image[0]['raw']['image_field_caption']['value
             </div>
             <div class="col xl6 l6 m6 s12">
                 <img src="<?php print $main_imageurl;?>" class="responsive-image"/>
-             <p><?php print $image_caption;?></p>
+               <?php if (!empty($image_caption)): ?>
+                <p><?php print $image_caption;?></p>
+              <?php endif; ?>
+
+             
+           
+
+
+
             </div>
     </div>
 

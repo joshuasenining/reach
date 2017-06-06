@@ -2,10 +2,10 @@ jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
 	reveal();
-	// mobile menu slideout
-     // $('.button-collapse').sideNav({
-     //  draggable: true
-    // });
+	//mobile menu slideout
+     $('.button-collapse').sideNav({
+      draggable: true
+    });
 	 $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
