@@ -3095,14 +3095,15 @@ td, th {
   color: #fff;
 }
 
-.collection a.collection-item {
+/*.collection a.collection-item {
   display: block;
   transition: .25s;
   color: #26a69a;
 }
-
+*/
 .collection a.collection-item:not(.active):hover {
-  background-color: #ddd;
+  background-color: transparent;
+      color: #2E60AD;
 }
 
 .collection.with-header .collection-header {
@@ -3390,20 +3391,20 @@ nav ul a span.badge {
     -webkit-font-smoothing: antialiased;
 }
 
-.container {
+.container,.block-menu {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
-  .container {
+  .container,.block-menu {
     width: 85%;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  .container {
+  .container,.block-menu {
     width: 70%;
   }
 }
@@ -4946,7 +4947,7 @@ small {
   flex-grow: 1;
 }
 
-.tabs .tab, .menutabs li,.linktabs li,#footer-links li {
+.tabs .tab, .menutabs li,.linktabs li,#footer-links li,.block-menu li {
   display: inline-block;
   text-align: center;
   line-height: 48px;
@@ -4955,7 +4956,7 @@ small {
   margin: 0;
 }
 
-.tabs .tab a,.linktabs a,.linktabs span {
+.tabs .tab a,.linktabs a,.linktabs span,.block-menu a,.block-menu .nolink {
   color: #9B9B9B;
   width: 100%;
   height: 100%;
@@ -4965,10 +4966,10 @@ small {
   overflow: hidden;
   transition: color .28s ease;
 }
-.tabs .tab a.active,.linktabs a.active{
+.tabs .tab a.active,.linktabs a.active,.block-menu li .active{
   font:16px HelveticaNeueBold;
  }
-.tabs .tab a:hover, .tabs .tab a.active,.linktabs a.active,.linktabs a:hover{
+.tabs .tab a:hover, .tabs .tab a.active,.linktabs a.active,.linktabs a:hover,.block-menu li .active,.collection .collection-item.active{
   background-color: transparent;
   color: #2E60AD;
 }

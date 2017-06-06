@@ -3,10 +3,10 @@
   $base_url  = variable_get('base_url', '');
 ?>
 
-  
+
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="<?php echo $base_url; ?>" class="brand-logo"><img src="../../images/mckinseylogo.png"></a>
+            <a href="<?php echo $base_url; ?>" class="brand-logo"><img src="<?php print $logo; ?>"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -17,7 +17,7 @@
                           'class' => array('navbar', 'clearfix'),
                         )
                       )); ?>
-         
+
 
             </ul>
         </div>
@@ -34,7 +34,7 @@
                         'class' => array('navbar'),
                       ),
                       'heading' => array(
-                        'text' => t('Reach and Relevance '),
+                        'text' => t(''),
                         'level' => 'span',
                         'class' => array('portaltitle','pull-left'),
                       ),
@@ -50,35 +50,21 @@
     </div>
   <?php endif; ?><!-- /.header  -->
 
-  <div class="row page grid">
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="<?php print $sidebar_left; ?> sidebar-first" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
-        <?php
-                $block = module_invoke('block', 'block_view', '1');
-                print render($block['content']);
+  <div class="row page">
 
 
-         ?>
-                           </div>
-    <section role="main">
-        <div class="<?php print $main_grid; ?> main container">
+    <section class="main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
 
-      <?php print render($secondary_navigation); ?>
 
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif; ?>
+
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
-      <?php if (!empty($tabs['#primary'])): ?>
-        <?php print render($tabs_primary); ?>
-      <?php endif; ?>
+
 
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
@@ -88,9 +74,10 @@
       <?php endif; ?>
       <?php print render($tabs_secondary); ?>
       <?php print render($page['content']); ?>
-    </div>
     </section>
-
+      <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="<?php print $sidebar_right; ?> sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
@@ -98,22 +85,24 @@
     <?php endif; ?>
   </div> <!-- /main  -->
 
-  <?php if (!empty($page['footer'])): ?>
+
     <div class="divider"></div>
-     <footer class="page-footer">
+      <footer class="page-footer">
 
-  <div class="footer-copyright">
-    <div class="container">
+          <div class="footer-copyright">
+              <div class="container">
+                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
 
-        <span class="brand-logo"><img src="sites/all/themes/reach/images/logo.png"/></span>
-   
-          <a class="blue-text" href="#">Your support network</a>
-          <a class="blue-text" href="playbook.html">R&R Playbook</a> 
-          <a class="blue-text" href="getinspired.html">Get Inspired</a>
-          <a class="blue-text" href="#">Contact Us</a>                
-    </div>
-  </div>
-</footer>
-  <?php endif; ?>
-
-
+                  <?php
+                  $footer_menu = menu_navigation_links('menu-footer-menu');
+                  print theme('links__menu_menu_footer_menu', array(
+                      'links' => $footer_menu,
+                      'attributes' => array(
+                          'id' => 'footer-links',
+                          'class' => array('blue-text'),
+                      ),
+                  ));
+                   ?>
+              </div>
+          </div>
+      </footer>

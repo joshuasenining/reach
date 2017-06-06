@@ -81,40 +81,50 @@
  */
 ?>
 <?php
-$links = render($content['links']);
+  $links = render($content['links']);
 ?>
+ 
+<div class="container">
+<div class="row">
+<div class="col xl9 l9 m8 s6">
+<div id="node-<?php print $node->nid; ?>" class="story white <?php print $classes; ?> card-panel hoverable"<?php print $attributes; ?>>
+  <div class="content card-content">
+    <?php print render($title_prefix); ?>
+      <h3 class="story-title"><?php print $title; ?></h3>
+    <?php print render($title_suffix); ?>
 
+    <?php if ($display_submitted): ?>
+      <p class="submitted">
+        <span class="label">
+          <?php print $submitted; ?>
+        </span>
+      </p>
+    <?php endif; ?>
 
-<?php
-//dpm($node);
+    <?php if (!empty($user_picture)): ?>
+      <div class="user image">
+        <?php print $user_picture; ?>
+      </div>
+    <?php endif; ?>
 
-?>
-
-<!--<div id="index-banner">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="intro-text col xl7 l7 m8 s8">-->
-<!---->
-<!--                <h1>--><?php //print $node->field_banner_title['und'][0]['value'];?><!--</h1>-->
-<!--                <h3>--><?php //print $node->field_banner_subtitle['und'][0]['value']; ?><!--</h3>-->
-<!--            </div>-->
-<!--            <div class="col xl5 l5 m4 s4">-->
-<!--                <img src="--><?php //print $bannerurl;?><!--" class="pull-right responsive-img"/>-->
-<!--            </div>-->
-<!--        </div><!--row-->
-<!--    </div>-->
-<!---->
-<!--</div>-->
-
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> card-panel hoverable"<?php print $attributes; ?>>
-    <div class="content card-content">
-
-        <div <?php print $content_attributes; ?>>
-            <?php
-            hide($content['comments']);
-            print render($content);
-            ?>
-        </div>
+    <div <?php print $content_attributes; ?>>
+      <?php
+        // We hide the comments and links now so that we can render
+        // them later.
+        hide($content['comments']);
+        print render($content);
+      ?>
     </div>
-
+  </div>
+  <?php if ($links): ?>
+    <?php print $links; ?>
+  <?php endif; ?>
+  <?php print render($content['comments']); ?>
 </div>
+</div>
+
+
+  <?php build_filter_sidebar(); ?>
+  </div>
+  </div>
+
