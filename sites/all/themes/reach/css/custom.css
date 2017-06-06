@@ -216,6 +216,9 @@ a{
 .filter-button{
 	cursor: pointer
 }
+.sidebarfilter-button li.active .child{
+	color:#fff!important;
+}
 .sidebarfilter-button{
 	color:#fff!important;
 	cursor: pointer;
@@ -223,7 +226,7 @@ a{
 .sidebarfilter-button .material-icons.dp48{
 	display:none;
 }
-.sidebar li.active .sidebarfilter-button{
+.sidebarfilter-button.active,.sidebarfilter-button.is-checked{
 	color:#00ADEF!important;
 }
 .description{
