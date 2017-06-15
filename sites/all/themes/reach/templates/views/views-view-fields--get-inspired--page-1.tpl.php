@@ -42,7 +42,7 @@ if($parent){
 
 ?>
     <div class="col xl4 l6 m6 s6 element-item <?php print isset($pname) ? $pname : NULL; print " ".$tname;?>" id="<?php print $tname;?>" data-category="<?php print isset($pname) ? $pname : $tname; ?>">
-        <div class="card">
+        <div class="card" data-equalizer-watch="getinspired">
             <div class="card-image">
                 <?php print $fields['field_image']->content; ?>
 

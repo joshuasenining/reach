@@ -53,9 +53,10 @@
   <div class="row page">
 
 
-    <section class="main" role="main">
-    	<div class="container">
-          <div class="row">
+         ?>
+                           </div>
+    <section role="main">
+        <div class="<?php print $main_grid; ?> main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>

@@ -2269,7 +2269,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
- /* font-family: HelveticaNeueBold;*/
+  font-family: HelveticaNeueBold;
 }
 
 /**
@@ -3032,7 +3032,7 @@ td, th {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
-  overflow: hidden;
+/*  overflow: hidden;*/
   position: relative;
 }
 
@@ -3041,7 +3041,7 @@ td, th {
   line-height: 1.5rem;
   padding: 10px 20px;
   margin: 0;
-  border-bottom: 1px solid #e0e0e0;
+ /* border-bottom: 1px solid #e0e0e0;*/
 }
 
 .collection .collection-item.avatar {
@@ -3343,7 +3343,7 @@ span.badge[data-badge-caption]::after {
 #mobile-demo ul li.active:after,#mobile-demo .portaltitle{
   display:none;
 }
-nav ul li.active:after {
+nav ul li.active:after,.page-node-203 .menu-451:after,.page-node-202 .menu-451:after,.page-compendiums .menu-450:after,.page-journey-stories .menu-450:after,.page-whyitmatters .menu-448:after,.page-node-189 .menu-532:after,.page-node-190 .menu-532:after,.page-support-network .menu-532:after,.page-node-172 .menu-532:after,.page-node-170 .menu-532:after{
     background-color: #0065BD;
     bottom: 0;
     content: '';
@@ -3391,20 +3391,20 @@ nav ul a span.badge {
     -webkit-font-smoothing: antialiased;
 }
 
-.container,.block-menu {
+.container,.block-menu,.page-knowledge-to-share .main .region {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
-  .container,.block-menu {
+  .container,.block-menu,.page-knowledge-to-share .main .region {
     width: 85%;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  .container,.block-menu {
+  .container,.block-menu,.page-knowledge-to-share .main .region {
     width: 70%;
   }
 }
@@ -4787,6 +4787,7 @@ small {
 }
 .card-action a{
   color:inherit;
+  text-transform: uppercase;
 }
 /*
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
@@ -5374,7 +5375,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: #9B9B9B;
   display: block;
   line-height: 22px;
   padding: 14px 16px;

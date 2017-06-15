@@ -35,7 +35,7 @@
 <?php if ($rows): ?>
 <div class="view-content section filters lightgraybk">
     <div class="container">
-        <div class="row">
+        <div class="row" data-equalizer="playbook">
             <div class="col xl9 19 m7 s6">
                 <div id="main-content">
                     <div id="container2" class="grid">

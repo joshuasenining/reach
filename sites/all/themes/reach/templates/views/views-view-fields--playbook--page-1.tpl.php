@@ -42,13 +42,13 @@ if($parent){
 
 ?>
     <div class="col xl4 l6 m6 s6 element-item <?php print isset($pname) ? $pname : NULL; print " ".$tname;?>" id="<?php print $tname;?>" data-category="<?php print isset($pname) ? $pname : $tname; ?>">
-        <div class="card">
+        <div class="card" data-equalizer-watch="playbook">
             <div class="card-image">
                 <?php print $fields['field_image']->content; ?>
 
             </div>
             <div class="card-content">
-                <small><?php print $term->name; ?></small>
+                <small><!--<?php print $term->name; ?>--><?php print isset($term->name) ? $term->name : NULL;?></small>
                 <a href="node/<?php print $fields['nid']->raw;?>"><h5><?php print $fields['title']->raw; ?></h5></a>
                 <p><?php print $fields['body']->content; ?></p>
             </div>
