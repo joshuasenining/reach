@@ -93,14 +93,14 @@ jQuery( document ).ready(function($) {
 		//   filterValue = filterFns[ filterValue ] || filterValue;
 		//   $grid.isotope({ filter: filterValue });
 		// });
-		// change is-checked class on buttons
-		// $('#filters').each( function( i, buttonGroup ) {
-		//   var $buttonGroup = $( buttonGroup );
-		//   $buttonGroup.on( 'click', '.filter-button', function() {
-		//     $buttonGroup.find('.is-checked').removeClass('is-checked');
-		//     $( this ).addClass('is-checked');
-		//   });
-		// });
+		//change is-checked class on buttons
+		$('#sidebarfilters').each( function( i, buttonGroup ) {
+		  var $buttonGroup = $( buttonGroup );
+		  $buttonGroup.on( 'click', '.collapsible-body .sidebarfilter-button', function() {
+		    $buttonGroup.find('.is-checked').removeClass('is-checked');
+		    $( this ).addClass('is-checked');
+		  });
+		});
 
 		var isIsotopeInit = false;
 

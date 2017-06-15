@@ -134,7 +134,7 @@ hr{
 #index-banner h1, #index-banner h3, .intro h5,.card h5,.filters .card-panel p{
 	transition: font 0.3s ease
 }
-.front .hoverable:hover{
+.front .hoverable:hover,.page-node .hoverable:hover{
 	box-shadow: none
 }
 /* get inspired*/

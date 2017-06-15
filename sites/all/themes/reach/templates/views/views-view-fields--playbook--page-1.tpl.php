@@ -31,7 +31,6 @@ $parent = taxonomy_get_parents($tid);
 $tname = str_replace(" ","_",strtolower($term->name));
 $tname = preg_replace('/[^A-Za-z0-9\-]/', '', $tname);
 
-
 if($parent){
     foreach($parent as $parent){
         $pname = $parent->name;

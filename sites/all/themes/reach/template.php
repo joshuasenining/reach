@@ -52,7 +52,7 @@ function build_filter_sidebar(){
             foreach($childrens as $children) {
                 $child = sanitizename($children->name);
 
-                print '<li><div class="sidebarfilter-button" role="button" data-filter=".'.$child.'" data-layout-mode="fitRows">'.$children->name.'</div></li>';
+                print '<li><div class="child sidebarfilter-button" role="button" data-filter=".'.$child.'" data-layout-mode="fitRows">'.$children->name.'</div></li>';
 
             }
 
