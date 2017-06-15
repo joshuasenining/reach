@@ -16,7 +16,7 @@ $duration = $row->field_field_video_duration[0]['raw']['value'];
  <div class="col xl3 l3 m6 s6">
                             <div class="card" data-equalizer-watch="thoughts">
                               <div class="card-image">
-                                   <a href="#" class="waves-effect waves-light">
+                                   <a href="#" class="waves-effect">
                                 <div class="blue-overlay"></div>
                                  <img src="<?php print $main_imageurl;?>"/>
                                 <span class="card-title valign-wrapper"><i class="material-icons">play_circle_outline</i> <?php print $duration;?></span>

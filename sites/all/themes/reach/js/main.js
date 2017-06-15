@@ -1,8 +1,12 @@
 jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
-	reveal();
+	//reveal();
 	//mobile menu slideout
+	
+	$("#block-views-tools-and-resources-block-1 .collapsible").collapsible('open', 0);
+       
+ 
      $('.button-collapse').sideNav({
       draggable: true
     });
@@ -123,6 +127,7 @@ jQuery( document ).ready(function($) {
 	$(window).on( 'hashchange', onHashchange );
 	onHashchange();
 
+	
     //add active class to sidebar filters
     $(".collapsible-body ul li").click(function(){
         $(".collapsible-body ul li").removeClass("active");
@@ -187,14 +192,11 @@ function magicline(){
 	}
 }
 
-function reveal(){
-  window.sr = ScrollReveal();
+// function reveal(){
+//   window.sr = ScrollReveal();
   
-  sr.reveal('#index-banner',{ duration: 600,mobile:false,reset:false,useDelay: 'always' },200);
-   sr.reveal('#index-banner h1,#index-banner h3,#index-banner img,.intro,.filters,.linktabs,.card-panel',{ duration: 500,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',delay:50,mobile:false,reset:false,useDelay: 'always' },150);
- // sr.reveal('.info,.ourpeople .white.shadow',{ duration: 700,delay: 600,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile:false,useDelay:'onload',reset:false},200);
- sr.reveal('.card,.story',{ duration: 700,delay: 300,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile:false,useDelay:'always',reset:false},300);
- // sr.reveal('.supportmodel',{ duration: 700,delay: 300,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile:false,useDelay:'onload',reset:false},200);
- // sr.reveal('.client,.proposition .container',{ duration: 900,delay: 400,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile:false,useDelay:'onload',reset:false},200);
+//   sr.reveal('#index-banner',{ duration: 600,mobile:false,reset:false,useDelay: 'always' },200);
+//    sr.reveal('#index-banner h1,#index-banner h3,#index-banner img,.intro,.filters,.linktabs,.card-panel',{ duration: 500,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',delay:50,mobile:false,reset:false,useDelay: 'always' },150);
+//  sr.reveal('.card,.story',{ duration: 700,delay: 300,easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',mobile:false,useDelay:'always',reset:false},300);
 
- }
+//  }

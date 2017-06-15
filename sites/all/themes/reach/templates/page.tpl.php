@@ -74,6 +74,16 @@
       <?php endif; ?>
       <?php print render($tabs_secondary); ?>
       <?php print render($page['content']); ?>
+      <?php if (!empty($page['graysectioncontent'])): ?>
+          
+      <div class="section lightgraybk">
+          <div class="container">
+
+               <?php print render($page['graysectioncontent']); ?>
+          </div>
+      </div>
+      <?php endif; ?>
+
     </section>
       <?php if (!empty($tabs['#primary'])): ?>
           <?php print render($tabs_primary); ?>
@@ -91,7 +101,8 @@
 
           <div class="footer-copyright">
               <div class="container">
-                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
+                
+                  <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
 
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');

@@ -82,11 +82,14 @@
 ?>
 <?php
 $links = render($content['links']);
+$title = $node->title;
+//$body = render($content['body']);
+//$body = $node->body['und'][0]['value'];
 ?>
 
 
 <?php
-//dpm($node);
+ //kpr($node);
 
 ?>
 
@@ -105,16 +108,18 @@ $links = render($content['links']);
 <!--    </div>-->
 <!---->
 <!--</div>-->
-
+<div class="container main">
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> card-panel hoverable"<?php print $attributes; ?>>
     <div class="content card-content">
 
-        <div <?php print $content_attributes; ?>>
+    	<h2 class="section-title"><?php print $title; ?></h2>
+       <div <?php print $content_attributes; ?>>
             <?php
             hide($content['comments']);
             print render($content);
             ?>
-        </div>
+        </div> 
     </div>
 
+</div>
 </div>
