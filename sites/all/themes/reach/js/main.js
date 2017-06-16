@@ -3,10 +3,9 @@ jQuery(document).foundation();
 jQuery( document ).ready(function($) {
 	//reveal();
 	//mobile menu slideout
-	
 	$("#block-views-tools-and-resources-block-1 .collapsible").collapsible('open', 0);
        
- 
+ 	 
      $('.button-collapse').sideNav({
       draggable: true
     });

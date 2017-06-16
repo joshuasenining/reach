@@ -10,7 +10,8 @@ sites/nvc.*
 sites/all/themes/nvc/.sass-cache*
 .DS*
 sites/nvc.dev.animusint.com
-
+sites/all/themes/reach/video/*
+sites/all/themes/reach/files
 # Ignore composer files downloaded by Composer for behat testing.
 bin/behat
 vendor/

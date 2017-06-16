@@ -28,7 +28,8 @@
 $tid = $fields['field_category']->content;
 $term = taxonomy_term_load($tid);
 $parent = taxonomy_get_parents($tid);
-$tname = str_replace(" ","_",strtolower($term->name));
+//$tname = str_replace(" ","_",strtolower($term->name));
+$tname = str_replace(" ","_",strtolower(isset($term->name) ? $term->name : NULL));
 $tname = preg_replace('/[^A-Za-z0-9\-]/', '', $tname);
 
 if($parent){

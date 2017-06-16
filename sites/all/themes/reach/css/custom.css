@@ -161,10 +161,10 @@ h5.hlbluetitle{
 #index-banner h1, #index-banner h3, .intro h5,.card h5,.filters .card-panel p{
 	transition: font 0.3s ease
 }
-.front .hoverable:hover,.page-node .hoverable:hover{
+.front .hoverable:hover,.page-node .hoverable:hover,.page-node-204 .hoverable:hover{
 	box-shadow: none
 }
-.front .row,.front .hoverable..page-node .hoverable{
+.front .row,.front .hoverable..page-node .hoverable,.page-node-204 .hoverable{
 	margin-bottom: 0;
 	padding:0;
 }
@@ -322,12 +322,17 @@ a{
 .node-type-get-inspired .card-panel{
   margin:0;
 }
+/*.page-get-inspired .main.container,.page-compendiums .main.container,.page-whyitmatters .main.container,.page-playbook .main.container{
+  max-width: inherit;
+  margin:0;
+  width: 100%
+}*/
 /* get inspire ends*/
 /*what is rr*/
 .block-views .collection-header{
 	margin:1.78rem 0 1.424rem 0;
 }
-.section-title,.block-views .collection-header{
+.section-title,.block-views .collection-header,.page-node-204 h4.card-title a,.page-node-204 .sidebar-last .collection-header{
 	font:36px HelveticaNeueLight;
 	color:#2E60AD;
 }
@@ -629,6 +634,66 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 
 /* support network ends*/
+/*contact page*/
+.page-node-204 .main{
+  max-width: 66.6666666667%;
+  float:left;
+  margin-top:60px;
+}
+.page-node-204 .sidebar-last{
+  margin-top:80px;
+}
+.sidebar-last .collection-header{
+  padding:0 0 20px 0;
+}
+.page-node-204 label{
+      font-family: 'Whitney SSm','Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;
+    display: inline-block;
+    width: auto!important;
+    font-weight: 700;
+    font-size: .75em;
+    text-transform: uppercase;
+    color: #333;
+}
+.page-node-204 #edit-submit{
+      font-family: 'Whitney SSm','Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;
+    font-size: .875em;
+    min-width: 150px;
+    min-height: 41px;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 120ms linear;
+    text-transform: uppercase;
+    border-radius:0;
+}
+.page-node-204  {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.row.page {
+    flex: 1 0 auto;
+  }
+
+/* contact page ends*/
+/*expanded menu*/
+
+.block-menu #dropdown-menu{
+  background-color: #fff
+}
+.block-menu #dropdown-menu li{
+  height: 100%;
+   border-bottom: 1px solid #e0e0e0;
+}
+.block-menu #dropdown-menu li:last-child{
+  border-bottom:0;
+}
+/*expanded menu ends*/
+
 .page-footer .brand-logo img{
 	float:left;
 	margin-top:7px;

@@ -87,6 +87,8 @@
     margin: 0 0 20px 0;
   }
   /* playbook ends*/
+  /*contact*/
+  
 }
 @media(max-width:480px){
   .row .col.s6{
@@ -113,6 +115,9 @@
   }
   .ems .card-panel >.valign-wrapper{
     display:block;
+  }
+.page-node-204 .main{
+    max-width:100%;
   }
 
 }
