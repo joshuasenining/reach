@@ -2,11 +2,15 @@
 
 function reach_preprocess_page($variables){
 
+    drupal_add_css(drupal_get_path('theme','reach') . "/css/iziModal.css");
+
     drupal_add_js(drupal_get_path('theme','reach') . "/js/isotope.pkgd.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/foundation.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/scrollreveal.min.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/owl.carousel.min.js");
-    drupal_add_js(drupal_get_path('theme','reach') . "/js/materialize.js");
+//    drupal_add_js(drupal_get_path('theme','reach') . "/js/materialize.js");
+    drupal_add_js(drupal_get_path('theme','reach') . "/js/iziModal.js");
+//    drupal_add_js(drupal_get_path('theme','reach') . "/js/jquery-migrate-1.2.1.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/main.js");
     if (isset($variables['node']->type)) {
         // If the content type's machine name is "my_machine_name" the file

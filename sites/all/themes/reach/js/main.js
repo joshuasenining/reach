@@ -132,6 +132,26 @@ jQuery( document ).ready(function($) {
     });
 
 
+    $(".trigger").click(function(){
+        event.preventDefault();
+
+        $('.videowrapper').iziModal('open');
+
+    });
+    $("#modal").iziModal();
+
+    $(document).on('click', '.trigger', function (event) {
+        event.preventDefault();
+        var videourl = $(this).find("a").attr("href");
+        var video = $('.popup-video')[0];
+        video.src = videourl;
+        video.load();
+        $('#modal').iziModal('open');
+
+        video.play();
+
+    });
+
 });
 function getHashFilter() {
   var hash = location.hash;

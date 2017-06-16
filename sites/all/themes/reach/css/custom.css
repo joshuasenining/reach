@@ -791,3 +791,18 @@ h5.blacktext,.page-journey-stories .xl9 .block-views .collection-header{
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+.videowrapper {
+	display: none;
+}
+#modal {
+	width:500px;
+}
+.popup-video{
+	width:100%;
+}
+
+.iziModal .iziModal-header-buttons {
+	top:-20px;
+	right:0;
+}
