@@ -175,8 +175,7 @@
 
           <div class="footer-copyright">
               <div class="container">
-                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
-
+                     <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');
                   print theme('links__menu_menu_footer_menu', array(

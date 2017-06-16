@@ -4,7 +4,7 @@ base theme = materialize
 core = 7.x
 
 regions[left] = Left sidebar
-regions[right] = Right sidebar
+regions[sidebar_second] = Right sidebar
 regions[content] = Content
 regions[graysectioncontent] = Gray Section Content
 regions[header] = Header

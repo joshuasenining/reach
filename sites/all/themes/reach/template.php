@@ -26,7 +26,7 @@ function sanitizename($name){
 }
 
 function build_filter_sidebar(){
-    $vocab = taxonomy_vocabulary_machine_name_load('inspired_category');
+    $vocab = taxonomy_vocabulary_machine_name_load('inspired_stories_category');
     $vid = $vocab->vid;
 
     $tree = taxonomy_get_tree($vid);

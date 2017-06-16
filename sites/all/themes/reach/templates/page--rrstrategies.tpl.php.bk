@@ -121,27 +121,36 @@
     </div>
   <?php endif; ?><!-- /.header  -->
 
-    <div class="section lightgraybk">
-          <div class="container">
+
+ <div class="section lightgraybk">
+         <div class="container">
+        
             <div class="row">
-                <div class="white">
-                    <div class="owl-carousel">
-                        
-                 
-                      <?php
-
-                                              $block = module_invoke('views', 'block_view', 'compendiums-block_2');
-                                              print render($block['content']);
-
+              <?php
+                                        
+                                          $blockObject = block_load('views', 'playbook-block_2');
                                           
-                           
-                      ?> <!--slider-->
+                                          $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+                                          
+                                          $output = drupal_render($block);
+                                          print $output;
+                                          
+             ?>
+        <?php
 
-                    </div>
-                </div>
-            </div>
-          </div>
-    </div><!--section-->
+                      $block = module_invoke('block', 'block_view', '20');
+                      print render($block['content']);
+                  
+   
+        ?>
+        
+              
+              
+        </div><!-- row-->
+  </div><!-- container--> 
+</div><!-- section-->
+
+
 
 
     <div class="divider"></div>
@@ -149,7 +158,7 @@
 
           <div class="footer-copyright">
               <div class="container">
-                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
+                     <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
 
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');

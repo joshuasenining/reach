@@ -1,4 +1,4 @@
-<?php
+  <?php
   $theme_url = variable_get('theme_url', '');
   $base_url  = variable_get('base_url', '');
 ?>
@@ -44,21 +44,21 @@
     </ul>
         </div>
     </nav>
+   
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
 
-  <div class="row page">
 
+  <div class="row page">
+    <div>
 
     <section class="main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
-
-
 
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
@@ -69,29 +69,43 @@
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
       <?php endif; ?>
-      <?php if (!empty($action_links)): ?>
-        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
-      <?php endif; ?>
+     
       <?php print render($tabs_secondary); ?>
+
       <?php print render($page['content']); ?>
-    </section>
-      <?php if (!empty($tabs['#primary'])): ?>
-          <?php print render($tabs_primary); ?>
+      <?php if (!empty($page['graysectioncontent'])): ?>
+          
+      <div class="section lightgraybk">
+          <div class="container">
+
+               <?php print render($page['graysectioncontent']); ?>
+          </div>
+      </div>
       <?php endif; ?>
+
+    </section>
+    
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="<?php print $sidebar_right; ?> sidebar-last" role="complementary">
+      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
   </div> <!-- /main  -->
+   <?php if (!empty($action_links)): ?>
+        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
+      <?php endif; ?>
+    <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
 
-
+</div>
     <div class="divider"></div>
       <footer class="page-footer">
 
           <div class="footer-copyright">
               <div class="container">
-                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
+                
+                  <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
 
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');

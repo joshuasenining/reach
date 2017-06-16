@@ -14,7 +14,7 @@ $duration = $row->field_field_video_duration[0]['raw']['value'];
 
             <div class="card">
                      <div class="card-image">
-                        <a href="#" class="waves-effect waves-light">
+                        <a href="#" class="waves-effect">
                            <img src="<?php print $main_imageurl;?>"/>
                            <span class="card-title valign-wrapper">
                                   <i class="material-icons dp48">play_circle_outline</i>
