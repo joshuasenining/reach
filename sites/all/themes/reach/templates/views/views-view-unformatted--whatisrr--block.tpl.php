@@ -16,11 +16,9 @@ $videourl = $row->field_field_video[0]['rendered']['#markup'];
  <div class="col xl3 l3 m6 s6">
                             <div class="card trigger" data-equalizer-watch="thoughts">
                               <div class="card-image">
-<<<<<<< HEAD
-                                   <a href="<?php print $videourl;?>" class="">
-=======
-                                   <a href="#" class="waves-effect">
->>>>>>> 1e0829872bc04f12168beda18d7c3efe672fd66e
+
+                                   <a href="<?php print $videourl;?>" class="waves-effect">
+
                                 <div class="blue-overlay"></div>
                                  <img src="<?php print $main_imageurl;?>"/>
                                 <span class="card-title valign-wrapper"><i class="material-icons">play_circle_outline</i> <?php print $duration;?></span>
