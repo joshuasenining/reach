@@ -142,7 +142,12 @@ jQuery( document ).ready(function($) {
         $('.videowrapper').iziModal('open');
 
     });
-    $("#modal").iziModal();
+    $("#modal").iziModal({
+        onClosing: function(){
+            var video = $('.popup-video')[0];
+            video.pause();
+        }
+    });
 
     $(document).on('click', '.trigger', function (event) {
         event.preventDefault();
@@ -151,9 +156,7 @@ jQuery( document ).ready(function($) {
         video.src = videourl;
         video.load();
         $('#modal').iziModal('open');
-
         video.play();
-
     });
 
 });
