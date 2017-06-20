@@ -2,8 +2,98 @@ jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
 	//reveal();
+  //image map
+  $('img[usemap]').rwdImageMaps();
+
+
+  $(".flowchart").hover(function(){
+    var href = $(this).attr("href");
+    var index = $(this).index(); //ohh
+
+    $(this).removeClass("hide"); 
+    $(".hover-content").eq(index).addClass("show");
+  
+  }, function(){
+       $(".hover-content").removeClass("show").addClass("hide");
+   // $(this).removeClass("show");
+   // $(this).addClass("test");
+   // $(this).css("display","none!important");
+  });
+
+    // $(".firstsection").hover(function () {
+    //     $fsection = $(this).attr("href");
+
+    //     $($fsection).removeClass("hide"); //thats weird isnyteah that what u have here?? only shortened
+    //     $(".firstsection-content").addClass("show");
+    // }, function(){
+    //   $(".firstsection-content").removeClass("show");
+    //     $(".firstsection-content").addClass("hide");
+    // });
+
+    // $(".secondsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".secondsection-content").addClass("show");
+    // }, function(){
+    //   $(".secondsection-content").removeClass("show");
+    //     $(".secondsection-content").addClass("hide");
+    // });
+
+    // $(".thirdsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".thirdsection-content").addClass("show");
+    // }, function(){
+    //   $(".thirdsection-content").removeClass("show");
+    //     $(".thirdsection-content").addClass("hide");
+    // });
+    // $(".fourthsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".fourthsection-content").addClass("show");
+    // }, function(){
+    //   $(".fourthsection-content").removeClass("show");
+    //     $(".fourthsection-content").addClass("hide");
+    // });
+    // $(".fifthsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".fifthsection-content").addClass("show");
+    // }, function(){
+    //   $(".fifthsection-content").removeClass("show");
+    //     $(".fifthsection-content").addClass("hide");
+    // });
+    // $(".sixthsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".sixthsection-content").addClass("show");
+    // }, function(){
+    //   $(".sixthsection-content").removeClass("show");
+    //     $(".sixthsection-content").addClass("hide");
+    // });
+    // $(".seventhsection").hover(function () {
+
+    //     $ssection = $(this).attr("href");
+
+    //     $($ssection).removeClass("hide");
+    //     $(".seventhsection-content").addClass("show");
+    // }, function(){
+    //   $(".seventhsection-content").removeClass("show");
+    //     $(".seventhsection-content").addClass("hide");
+    // });
+
 	//mobile menu slideout
-	$("#block-views-tools-and-resources-block-1 .collapsible").collapsible('open', 0);
+$("#block-views-tools-and-resources-block-1 .collapsible").collapsible('open', 0);
        
  	 
      $('.button-collapse').sideNav({

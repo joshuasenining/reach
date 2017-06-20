@@ -76,7 +76,7 @@
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo"><img src="<?php print $logo; ?>"></a>
+           <a href="http://home.intranet.mckinsey.com/" target="_blank" class="brand-logo"><img src="<?php print $logo; ?>"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -121,7 +121,7 @@
   <?php endif; ?><!-- /.header  -->
 
 
-  <?php print render($page['content']['system_main']['main']['#markup']); ?> -->
+  <?php print render($page['content']['system_main']['main']['#markup']); ?>
 
       <div class="container">
         

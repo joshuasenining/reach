@@ -1,4 +1,4 @@
-  <?php
+<?php
   $theme_url = variable_get('theme_url', '');
   $base_url  = variable_get('base_url', '');
 ?>
@@ -6,7 +6,7 @@
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="http://home.intranet.mckinsey.com/" target="_blank" class="brand-logo"><img src="<?php print $logo; ?>"></a>
+            <a href="<?php echo $base_url; ?>" class="brand-logo"><img src="<?php print $logo; ?>"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -44,20 +44,24 @@
     </ul>
         </div>
     </nav>
-   
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
 
-
   <div class="row page">
-    
-    <section class="main" role="main">
+
+
+         ?>
+                           </div>
+    <section role="main">
+        <div class="<?php print $main_grid; ?> main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
+
+
 
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
@@ -68,47 +72,30 @@
       <?php if (!empty($page['help'])): ?>
         <?php print render($page['help']); ?>
       <?php endif; ?>
-     
-      <?php print render($tabs_secondary); ?>
-
-      <?php print render($page['content']); ?>
-      <?php if (!empty($page['graysectioncontent'])): ?>
-          
-      <div class="section lightgraybk">
-          <div class="container">
-
-               <?php print render($page['graysectioncontent']); ?>
-          </div>
-      </div>
+      <?php if (!empty($action_links)): ?>
+        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
       <?php endif; ?>
-      <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
+      <?php print render($tabs_secondary); ?>
+      <?php print render($page['content']); ?>
+  </div>
+</div>
+    </section>
+      <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
+    <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="<?php print $sidebar_right; ?> sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
- 
+  </div> <!-- /main  -->
 
-
-    </section>
-</div>
-<div class="row">
-    
-
-   <?php if (!empty($action_links)): ?>
-        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
-      <?php endif; ?>
-    <?php if (!empty($tabs['#primary'])): ?>
-          <?php print render($tabs_primary); ?>
-      <?php endif; ?>
-
-</div>
     <div class="divider"></div>
       <footer class="page-footer">
 
           <div class="footer-copyright">
               <div class="container">
-                
-                  <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
+                  <span class="brand-logo"><img src="<?php print $logo;?>"></span>
 
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');

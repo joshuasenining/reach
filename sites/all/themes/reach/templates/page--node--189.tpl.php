@@ -53,7 +53,8 @@
 
 
   <div class="row page">
-    
+    <div>
+
     <section class="main" role="main">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
@@ -72,28 +73,37 @@
       <?php print render($tabs_secondary); ?>
 
       <?php print render($page['content']); ?>
-      <?php if (!empty($page['graysectioncontent'])): ?>
-          
+
       <div class="section lightgraybk">
           <div class="container">
+            <div class="white">
+                    <div class="owl-carousel">
+                        
+                 
+                      <?php
 
-               <?php print render($page['graysectioncontent']); ?>
-          </div>
+                                              $block = module_invoke('views', 'block_view', 'compendiums-block_2');
+                                              print render($block['content']);
+
+                                          
+                           
+                      ?>
+                          
+ <!--slider-->
+                    </div>
+                </div>
+          
+          </div>  
       </div>
-      <?php endif; ?>
-      <?php if (!empty($page['sidebar_second'])): ?>
+
+    </section>
+    
+    <?php if (!empty($page['sidebar_second'])): ?>
       <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
- 
-
-
-    </section>
-</div>
-<div class="row">
-    
-
+  </div> <!-- /main  -->
    <?php if (!empty($action_links)): ?>
         <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
       <?php endif; ?>
@@ -102,6 +112,7 @@
       <?php endif; ?>
 
 </div>
+
     <div class="divider"></div>
       <footer class="page-footer">
 

@@ -1,0 +1,281 @@
+  <?php
+  $theme_url = variable_get('theme_url', '');
+  $base_url  = variable_get('base_url', '');
+?>
+
+
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="<?php echo $base_url; ?>" class="brand-logo"><img src="<?php print $logo; ?>"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <ul class="side-nav" id="mobile-demo">
+                 <?php
+                      print theme('links__system_main_menu', array(
+                        'links' => $main_menu,
+                        'attributes' => array(
+                          'class' => array('navbar', 'clearfix'),
+                        )
+                      )); ?>
+
+
+            </ul>
+        </div>
+        <div class="nav-content">
+
+            <ul class="menutabs" id="nav-mobile">
+
+                 <?php if ($main_menu): ?>
+                  <nav class="main-menu" role="navigation">
+                    <?php
+                    print theme('links__system_main_menu', array(
+                      'links' => $main_menu,
+                      'attributes' => array(
+                        'class' => array('navbar'),
+                      ),
+                      'heading' => array(
+                        'text' => t(''),
+                        'level' => 'span',
+                        'class' => array('portaltitle','pull-left'),
+                      ),
+                    )); ?>
+                  </nav>
+              <?php endif; ?>
+    </ul>
+        </div>
+    </nav>
+   
+  <?php if (!empty($page['header'])): ?>
+    <div class="top">
+      <?php print render($page['header']); ?>
+    </div>
+  <?php endif; ?><!-- /.header  -->
+
+
+  <div class="row page">
+    
+    <section class="main" role="main">
+      <?php if (!empty($page['highlighted'])): ?>
+        <div class="highlighted"><?php print render($page['highlight']); ?></div>
+      <?php endif; ?>
+
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php print render($title_suffix); ?>
+      <?php print $messages; ?>
+
+
+      <?php if (!empty($page['help'])): ?>
+        <?php print render($page['help']); ?>
+      <?php endif; ?>
+     
+      <?php print render($tabs_secondary); ?>
+
+      <?php print render($page['content']); ?>
+      <?php if (!empty($page['graysectioncontent'])): ?>
+          
+      <div class="section lightgraybk">
+          <div class="container">
+
+               <?php print render($page['graysectioncontent']); ?>
+          </div>
+      </div>
+      <?php endif; ?>
+      <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+    <?php endif; ?>
+ 
+
+
+    </section>
+</div>
+  <div class="col xl12 l12 m12 s12">
+       
+      
+           <div class="col xl6 l6 m12 s12">
+        <ul>
+          <li class="white"><div class="darkbluenumbers xl1">1</div><div class="col xl10 l9 m10 s9"><strong>Have R&R on the cell’s strategic agenda</strong><br>
+            Review and assess the annual R&R strategy; review impact and metrics in the cell’s Performance & Health dialog and to shape discussions around Reach and Relevance opportunities and strategies
+          </div>
+          </li>
+          <li class="white"><div class="darkbluenumbers">2</div><div class="col xl10 l9 m10 s9"><strong>Ensure leadership commitment and appoint one active partner champion</strong><br>
+              R&R-trained and skilled, who is accountable for driving, sharing and delivering the cell R&R strategy, and for engaging leadership and other partners in the journey
+              </div>
+          </li>
+          <li class="white"><div class="darkbluenumbers">3</div><div class="col xl10 l9 m10 s9"><strong>Hire or leverage a dedicated R&R / Communications Manager</strong><br>A senior expert in marketing communications, who is accountable for developing the R&R strategy, building the plan and coordinating execution of R&R activities across multiple channels, with the support of a team, firm communications experts or external agencies</div>
+          </li>
+          <li class="white"><div class="darkbluenumbers">4</div><div class="col xl10 l9 m10 s9"><strong>Set clear priority audiences</strong><br>
+            which should be focused on unlocking client opportunities and supporting the office / practice’s growth and development priorities</div>
+          </li>
+           <li class="white"><div class="darkbluenumbers">5</div><div class="col xl10 l9 m10 s9"><strong>Develop the cell’s Reach and Relevance strategy</strong><br>
+            Define the cell’s priority segments (according to the Client Opportunity Map) and build the list of the top 100 key decision makers and influencers the cell needs to engage with. Segment how to address your priority audiences, understanding the specific opportunities or issues to address, and identifying for each, how Reach and Relevance can support these goals. </div>
+
+          </li>
+        </ul>
+      </div>
+        <div class="col xl6 l6 m12 s12">
+          <ul>
+          <li class="white">
+            <div class="darkbluenumbers">6</div><div class="col xl10 l9 m10 s9"><strong>Develop a strong content pipeline on a few key themes, for regular dissemination</strong><br>
+            Define what the cell wants to be known for, a distinctive positioning (specific space to own or an overarching idea for engaging our communities), and prioritize the cell’s knowledge agenda to bring regular perspectives and insights on this topic to share with clientele. Keep in mind, short, digital formats are preferred!</div>
+          </li>
+         
+          
+          <li class="white"><div class="darkbluenumbers">7</div><div class="col xl10 l9 m10 s9"><strong>Think multi-channel</strong><br>
+            Think beyond publishing. Events, conferences, and in-person interactions are highly valued by clientele</div>
+          </li>
+          <li class="white"> <div class="darkbluenumbers">8</div><div class="col xl10 l9 m10 s9"><strong>Leverage ClientLink to share content or event news regularly and in an easy way</strong><br>
+            Keep in mind, our research shows that emails from us with targeted insights are valued by our clients and clientele.</div>
+          </li>
+          <li class="white"><div class="darkbluenumbers">9</div><div class="col xl10 l9 m10 s9"><strong>Set up a proactive media strategy</strong><br>
+            Build and sustain durable relationships with target media editors, senior journalists, and media outlets, rather than fostering reactive and tactical engagements based on when we want coverage.  Apart from the main media global titles (Economist, FT, WSJ, etc), industry and specialist media matter, including industry analyst reports!</div>
+          </li>
+          <li class="white"><div class="darkbluenumbers">10</div><div class="col xl10 l9 m10 s9"><strong>Have a clear and centralized R&R budget</strong><br>
+            It should be aligned with your office / practice R&R strategy, and should support your plan across all activities, and be owned by the R&R manager</div>
+          </li>
+        </ul>
+
+     
+         
+      </div>
+  <div class="col xl12 l12 m12 s12">
+       
+      
+      
+      <ul class="collapsible" data-collapsible="accordion">
+          <li class="white">
+            <div class="collapsible-header">
+                <div class="valign-wrapper">
+                    <div class="darkbluenumbers xl1">1</div>
+                    <strong>Have R&R on the cell’s strategic agenda</strong><div class="mck-icon__plus pull-right"></div>
+                </div>
+            </div>
+            <div class="collapsible-body">
+                Review and assess the annual R&R strategy; review impact and metrics in the cell’s Performance & Health dialog and to shape discussions around Reach and Relevance opportunities and strategies
+            </div>
+          
+          </li>
+          <li class="white">
+              <div class="collapsible-header">
+                   <div class="valign-wrapper">
+                      <div class="darkbluenumbers">2</div><strong>Ensure leadership commitment and appoint one active partner champion</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              </div>
+              <div class="collapsible-body">
+                  R&R-trained and skilled, who is accountable for driving, sharing and delivering the cell R&R strategy, and for engaging leadership and other partners in the journey
+
+              </div>
+          </li>
+          <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                      <div class="darkbluenumbers">3</div><strong>Hire or leverage a dedicated R&R / Communications Manager</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              </div>
+              <div class="collapsible-body">A senior expert in marketing communications, who is accountable for developing the R&R strategy, building the plan and coordinating execution of R&R activities across multiple channels, with the support of a team, firm communications experts or external agencies</div>
+          </li>
+          <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                       <div class="darkbluenumbers">4</div><strong>Set clear priority audiences</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              </div>
+              <div class="collapsible-body">
+                   which should be focused on unlocking client opportunities and supporting the office / practice’s growth and development priorities</div>
+          </li>
+           <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper"><div class="darkbluenumbers">5</div><strong>Develop the cell’s Reach and Relevance strategy</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              </div>
+              <div class="collapsible-body">
+                  Define the cell’s priority segments (according to the Client Opportunity Map) and build the list of the top 100 key decision makers and influencers the cell needs to engage with. Segment how to address your priority audiences, understanding the specific opportunities or issues to address, and identifying for each, how Reach and Relevance can support these goals. 
+              </div>
+
+          </li>
+       
+          <li class="white">
+              <div class="collapsible-header">
+                 <div class="valign-wrapper">
+                   <div class="darkbluenumbers">6</div><strong>Develop a strong content pipeline on a few key themes, for regular dissemination</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              </div>
+              <div class="collapsible-body">
+                Define what the cell wants to be known for, a distinctive positioning (specific space to own or an overarching idea for engaging our communities), and prioritize the cell’s knowledge agenda to bring regular perspectives and insights on this topic to share with clientele. Keep in mind, short, digital formats are preferred!</div>
+          </li>
+         
+          
+          <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                      <div class="darkbluenumbers">7</div><strong>Think multi-channel</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+            </div>
+            
+            <div class="collapsible-body">Think beyond publishing. Events, conferences, and in-person interactions are highly valued by clientele</div>
+          </li>
+          <li class="white"> 
+               <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                      <div class="darkbluenumbers">8</div><strong>Leverage ClientLink to share content or event news regularly and in an easy way</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+             </div>
+              <div class="collapsible-body">
+            Keep in mind, our research shows that emails from us with targeted insights are valued by our clients and clientele.</div>
+          </li>
+          <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                      <div class="darkbluenumbers">9</div><strong>Set up a proactive media strategy</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+            </div>
+            <div class="collapsible-body">
+            Build and sustain durable relationships with target media editors, senior journalists, and media outlets, rather than fostering reactive and tactical engagements based on when we want coverage.  Apart from the main media global titles (Economist, FT, WSJ, etc), industry and specialist media matter, including industry analyst reports!</div>
+          </li>
+          <li class="white">
+              <div class="collapsible-header">
+                  <div class="valign-wrapper">
+                      <div class="darkbluenumbers">10</div><strong>Have a clear and centralized R&R budget</strong><div class="mck-icon__plus pull-right"></div>
+                  </div>
+              <div class="collapsible-body">
+            It should be aligned with your office / practice R&R strategy, and should support your plan across all activities, and be owned by the R&R manager</div>
+          </li>
+        </ul>
+
+     
+         
+     
+<div class="row">
+    
+
+   <?php if (!empty($action_links)): ?>
+        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
+      <?php endif; ?>
+    <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
+
+</div>
+    <div class="divider"></div>
+      <footer class="page-footer">
+
+          <div class="footer-copyright">
+              <div class="container">
+                
+                  <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
+
+                  <?php
+                  $footer_menu = menu_navigation_links('menu-footer-menu');
+                  print theme('links__menu_menu_footer_menu', array(
+                      'links' => $footer_menu,
+                      'attributes' => array(
+                          'id' => 'footer-links',
+                          'class' => array('blue-text'),
+                      ),
+                  ));
+                   ?>
+              </div>
+          </div>
+      </footer>

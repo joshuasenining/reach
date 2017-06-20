@@ -6,7 +6,7 @@
 
     <nav class="nav-extended">
         <div class="nav-wrapper">
-            <a href="http://home.intranet.mckinsey.com/" target="_blank" class="brand-logo"><img src="<?php print $logo; ?>"></a>
+            <a href="<?php echo $base_url; ?>" class="brand-logo"><img src="<?php print $logo; ?>"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul class="side-nav" id="mobile-demo">
@@ -50,7 +50,7 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-
+dsadasa
 
   <div class="row page">
     
@@ -81,18 +81,17 @@
           </div>
       </div>
       <?php endif; ?>
-      <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
- 
 
 
     </section>
 </div>
 <div class="row">
-    
+    <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+    <?php endif; ?>
+ 
 
    <?php if (!empty($action_links)): ?>
         <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>

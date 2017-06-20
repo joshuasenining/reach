@@ -86,7 +86,8 @@
  
 <div class="container">
 <div class="row">
-<div class="col xl9 l9 m8 s6">
+<div class="col xl12 l9 m8 s6">
+
 <div id="node-<?php print $node->nid; ?>" class="story white <?php print $classes; ?> card-panel hoverable"<?php print $attributes; ?>>
   <div class="content card-content">
     <?php print render($title_prefix); ?>

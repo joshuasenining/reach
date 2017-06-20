@@ -18,7 +18,8 @@
   .supportnetwork .card{
     min-height: 400px
   }
- 
+  /*what is rr*/
+  
 }
 @media(min-width:992px){
   #nav-mobile{
@@ -26,6 +27,16 @@
   }
    nav.nav-extended .nav-wrapper {
     min-height: 50px;
+  }
+  .build .numbers {
+    left: 42%;
+    top:26%;
+  }
+  .numbers {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
   }
 }
 @media(min-width:1024px){
@@ -46,9 +57,50 @@
   .supportnetwork .card{
     min-height: 370px
   }
+  /*what is rr*/
+  .build .card .card-content {
+    min-height: 150px;
+  }
+  .build .numbers {
+    left: 42%;
+    top:26%;
+  }
+  .numbers {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+  }
+ 
+  
 }
-@media(min-width:1200px){
-   
+@media(min-width:1250px){
+  .build .card .card-content {
+    min-height: 120px;
+  }
+  .numbers {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .build .numbers {
+    top:26px;
+  }
+}
+@media(min-width:1500px){
+  .build .numbers {
+      left: 40%;
+  }
+  .build .card .card-content {
+    min-height: 120px;
+  }
+  .numbers {
+      width: 90px;
+      height: 90px;
+      font-size: 50px;
+      line-height: 90px;
+  }
 }
 @media(max-width:767px){
   #nav-mobile{
@@ -87,8 +139,36 @@
     margin: 0 0 20px 0;
   }
   /* playbook ends*/
-  /*contact*/
-  
+  /*what is rr*/
+    .numbers {
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+      line-height: 70px;
+  }
+   .build .numbers {
+    top: 16%;
+    left: 36%;
+  }
+    /*firm gold page*/
+  .page-node-202 .collapsible-header{
+    padding:0;
+  }
+  .page-node-202 .darkbluenumbers{
+    width: 40px;
+    height:35px;
+    line-height: 35px;
+    font-size: 18px;
+  }
+  /* firm gold page ends*/
+    /* rr strategy*/
+  .firstsection-content,.secondsection-content,.thirdsection-content,.fourthsection-content,.fifthsection-content,.sixthsection-content,.seventhsection-content{
+    top:-730px;
+    left:0;
+    right:0;
+    max-width: 100%
+  }
+
 }
 @media(max-width:480px){
   .row .col.s6{
@@ -119,5 +199,34 @@
 .page-node-204 .main{
     max-width:100%;
   }
+   .numbers {
+      width: 90px;
+      height: 90px;
+      font-size: 50px;
+      line-height: 90px;
+  }
+   .build .numbers {
+    top: 26px;
+    left: 37%;
+  }
+  /* rr strategy*/
+  .firstsection-content,.secondsection-content,.thirdsection-content,.fourthsection-content,.fifthsection-content,.sixthsection-content,.seventhsection-content{
+    top:-490px;
+    left:0;
+    right:0;
+  }
 
 }
+
+@media (max-width:600px) and (min-width:482px) {
+    .numbers {
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+      line-height: 70px;
+  }
+   .build .numbers {
+    top: 30%;
+    left: 42%;
+  }
+}​

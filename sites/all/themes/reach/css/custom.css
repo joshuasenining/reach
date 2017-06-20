@@ -48,7 +48,7 @@
 .mck-icon__plus:before {
     content: "\e649";
 }
-.mck-icon__minus:before,.supportnetwork .collapsible-header.active .mck-icon__plus:before,.build .collapsible-header.active .mck-icon__plus:before {
+.mck-icon__minus:before,.supportnetwork .collapsible-header.active .mck-icon__plus:before,.build .collapsible-header.active .mck-icon__plus:before,.page-node-202 .collapsible-header.active .mck-icon__plus:before {
     content: "\e63f";
 }
 .mck-icon__plus-circle:before {
@@ -173,6 +173,12 @@ h5.hlbluetitle{
   margin:0;
   width:100%;
 }
+.menu-452 a{
+  padding:0;
+}
+.front .menu-452.active:after,.front .menu-452.active a:hover{
+  background-color: transparent;
+}
 /* get inspired*/
 .element-item .card .card-image img{
   max-height: 152px;
@@ -251,7 +257,7 @@ a{
 	color:#fff!important;
 	cursor: pointer;
 }	
-.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header{
+.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
 	display:none;
 }
 .sidebarfilter-button.active,.sidebarfilter-button.is-checked{
@@ -332,7 +338,7 @@ a{
 .block-views .collection-header{
 	margin:1.78rem 0 1.424rem 0;
 }
-.section-title,.block-views .collection-header,.page-node-204 h4.card-title a,.page-node-204 .sidebar-last .collection-header{
+.section-title,.block-views .collection-header,.page-node-204 h4.card-title a,.page-node-204 .sidebar-last .collection-header,.content.card-content .card-title a{
 	font:36px HelveticaNeueLight;
 	color:#2E60AD;
 }
@@ -397,6 +403,12 @@ a{
     font-family: HelveticaNeueLight;
     line-height: 90px;
 }
+.build .numbers{
+  position: absolute;
+  top: 26px;
+  left:37%;
+
+}
 .build .mck-icon__plus{
 	margin:auto;
 	color:#00ADEF;
@@ -412,7 +424,7 @@ a{
 	padding:10px 0;
 }
 .build .card .card-content{
-	min-height: 215px;
+	min-height: 120px;
 }
 .build .browser-default{
 	padding:0 40px;
@@ -458,7 +470,7 @@ h5.graytext,#block-block-24 .collection-header{
 	text-transform:uppercase;
 	padding:0 0 20px 0;
 }
-h5.graytext, h5.blacktext,#block-views-journeystories-block-1 .collection-header,#block-block-24 .collection-header{
+h5.graytext, h5.blacktext,#block-views-journeystories-block-1 .collection-header,#block-block-24 .collection-header,h5.bluetext{
   font:24px HelveticaNeueLight;
 }
 h5.blacktext{
@@ -472,13 +484,13 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 .story-title{
 	font:40px HelveticaNeue;
 	line-height: 52px;
-  margin-top:0;
+  margin:0;
 }
 .story{
 	padding: 0;
 }
 .story .xl9 img{
-	padding:0 15px 15px 15px;
+	/*padding:0 15px 15px 15px;*/
 }
 .quote .card-panel{
 	background-color: transparent;
@@ -597,7 +609,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 .supportnetwork hr{
   border-top:1px solid rgba(151,151,151,.4);
 }
-.supportnetwork .mck-icon__plus{ 
+.supportnetwork .mck-icon__plus,.page-node-202 .mck-icon__plus{ 
   color:#00ADEF;
   font-size: 20px;
 }
@@ -634,6 +646,60 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 
 /* support network ends*/
+/*node type pages*/
+.node-type-get-inspired .lightgraybk, .lightgraybk.numbers
+{ 
+  padding:30px;
+  float:left;
+  width: 100%;
+}
+.node-type-get-inspired #block-system-main{
+  margin:30px 0 0 0;
+}
+.node-type-get-inspired .browser-default,.node-type-get-inspired .lightgraybk,.lightgraybk.numbers {
+  margin-bottom:30px;
+}
+.node-type-get-inspired  .leftsection{
+  width:60%;
+  float:left;
+}
+
+ol.custom {
+  list-style-type: none;
+  margin-left: 0;
+    padding:0;
+}
+
+ol.custom > li {
+  counter-increment: customlistcounter;
+  width: 100%;
+  float: left;
+  margin: 0 0 20px 0;
+
+}
+.darkbluenumbers,ol.custom > li:before {
+   width: 50px;
+  height:50px;
+  background: #2E60AD;
+  border: 1px solid #00ADEF;
+  font-family: HelveticaNeueLight;
+  font-size: 26px;
+  color: #FFFFFF;
+  border-radius: 100%; 
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+
+}
+ol.custom > li:before {
+  content: counter(customlistcounter) " ";
+    margin: 0 20px 0 0;
+}
+
+ ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
 /*contact page*/
 .page-node-204 .main{
   max-width: 66.6666666667%;
@@ -669,7 +735,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
     text-transform: uppercase;
     border-radius:0;
 }
-.page-node-204  {
+/*.page-node-204  {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -677,7 +743,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 
 .row.page {
     flex: 1 0 auto;
-  }
+  }*/
 
 /* contact page ends*/
 /*expanded menu*/
@@ -693,7 +759,87 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
   border-bottom:0;
 }
 /*expanded menu ends*/
+/*gold standard page*/
+.page-node-202 #block-system-main{
+  background: url(../images/howtogetstarted-bk.jpg) no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:30px 0;
+}
+.page-node-202 .custom li{
+  width: 50%
+}
+.page-node-202 ul li.white{
+  padding:20px;
+  margin:0 0 20px 0;
+  float:left;
+  width: 100%;
+  font-size: 16px;
+}
+.page-node-202 ul li.white strong{
+  color:#2E60AD;
+  padding:0 20px;
+  width: 100%
+}
+.page-node-202 .collapsible-body{
+  margin:20px 0;
+}
+/* gold standard page ends*/
+/*assessing rr*/
+.page-node-189 .shadow{
+  padding:20px 0;
+}
+/* assessing rr ends*/
+/* rr strategies*/
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.show{
+  display:block!important;
+}
+.firstsection-content,.secondsection-content,.thirdsection-content,.fourthsection-content,.fifthsection-content,.sixthsection-content,.seventhsection-content{
+  max-width: 400px;
+  padding:20px;
+  position: absolute;
+  font-size:15px;
+  background-color: #fff;
+}
+.firstsection-content{
+  top:-913px;
+  left:80px;
+}
+.secondsection-content{
+  top:-900px;
+  right:90px;
+}
 
+.thirdsection-content{
+  top:-600px;
+  right:-15px;
+}
+.fourthsection-content{
+  top: -300px;
+    right: 0;
+}
+.fifthsection-content{
+    top: -195px;
+    left: 240px;
+}
+.sixthsection-content{
+  top:-380px;
+}
+.seventhsection-content{
+  top:-700px;
+}
+.chart-container{
+  position: relative;
+}
+/* rr strategies end*/
 .page-footer .brand-logo img{
 	float:left;
 	margin-top:7px;
@@ -711,6 +857,48 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
 	color: #000;
 	font-family: inherit;
+}
+
+@media only screen and (min-width: 1790px) {
+.publishing-col {
+      min-height: 330px;
+ }
+}
+
+@media only screen and (max-width: 1790px) {
+.publishing-col {
+      min-height: 420px;
+ }
+}
+
+@media only screen and (max-width: 1300px) {
+.publishing-col {
+      min-height: 520px;
+ }
+}
+
+@media only screen and (max-width: 1100px) {
+.publishing-col {
+      min-height: 550px;
+ }
+}
+
+@media only screen and (max-width: 950px) {
+.publishing-col {
+      min-height: 610px;
+ }
+}
+
+@media only screen and (max-width: 800px) {
+.publishing-col {
+      min-height: 680px;
+ }
+}
+
+@media only screen and (max-width: 750px) {
+.publishing-col {
+      min-height: 1000px;
+ }
 }
 
 /**
