@@ -3,11 +3,11 @@
 foreach ($view->result as $row) {
 
 $title = $row->node_title;
-$main_image = $row->field_field_thumbnail[0]['rendered']['#item']['uri'];
-$main_imageurl = file_create_url($main_image);
-$body = $row->field_field_bio_info[0]['raw']['value'];
-$duration = $row->field_field_video_duration[0]['raw']['value'];
-$videourl = $row->field_field_video[0]['rendered']['#markup'];
+$main_image = isset($row->field_field_thumbnail[0]['rendered']['#item']['uri']) ? $row->field_field_thumbnail[0]['rendered']['#item']['uri'] : NULL;
+$main_imageurl = isset($main_image) ? file_create_url($main_image) : NULL;
+$body = isset($row->field_field_bio_info[0]['raw']['value']) ? $row->field_field_bio_info[0]['raw']['value'] : NULL;
+$duration = isset($row->field_field_video_duration[0]['raw']['value']) ? $row->field_field_video_duration[0]['raw']['value'] : NULL;
+$videourl = isset($row->field_field_video[0]['rendered']['#markup']) ? $row->field_field_video[0]['rendered']['#markup'] : NULL;
 
 
 ?>
