@@ -1,0 +1,12 @@
+name = Reach Views - video views
+core = 7.x
+package = reach
+version = 7.x-1.0
+project = reach_views_video_views
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = journeystories
+features[views_view][] = whatisrr
+features[views_view][] = whyitmatter
+features_exclude[dependencies][ctools] = ctools

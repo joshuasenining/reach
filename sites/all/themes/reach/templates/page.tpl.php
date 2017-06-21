@@ -123,3 +123,13 @@
               </div>
           </div>
       </footer>
+  <div id="modal" class="videowrapper">
+
+      <div class="iziModal-header-buttons">
+          <a href="javascript:void(0)" class="iziModal-button iziModal-button-close" data-izimodal-close=""></a>
+      </div>
+      <video class="popup-video" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support HTML5 video.
+      </video>
+  </div>
