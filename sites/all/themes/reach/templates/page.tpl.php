@@ -44,13 +44,13 @@
     </ul>
         </div>
     </nav>
-   
+   <div class="white">
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-
+</div>
 
   <div class="row page">
     
@@ -70,8 +70,9 @@
       <?php endif; ?>
      
       <?php print render($tabs_secondary); ?>
-
+<div class="white">
       <?php print render($page['content']); ?>
+</div>
       <?php if (!empty($page['graysectioncontent'])): ?>
           
       <div class="section lightgraybk">
@@ -82,7 +83,7 @@
       </div>
       <?php endif; ?>
       <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
+      <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>

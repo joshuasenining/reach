@@ -74,6 +74,9 @@
 .pull-left{
 	float:left;
 }
+.node-get-inspired .pull-right, .pull-left {
+    padding: 0 6px 0 6px;
+}
 .paddingtopnone{
   padding-top:0;
 }
@@ -173,11 +176,11 @@ h5.hlbluetitle{
   margin:0;
   width:100%;
 }
+.front .menu-452.active:after,.menu-452 a:hover{
+  background-color: transparent;
+}
 .menu-452 a{
   padding:0;
-}
-.front .menu-452.active:after,.front .menu-452.active a:hover{
-  background-color: transparent;
 }
 /* get inspired*/
 .element-item .card .card-image img{
@@ -647,14 +650,19 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 
 /* support network ends*/
 /*node type pages*/
+.node-type-get-inspired{
+  background-color:   #fff;
+}
 .node-type-get-inspired .lightgraybk, .lightgraybk.numbers
 { 
   padding:30px;
   float:left;
   width: 100%;
 }
-.node-type-get-inspired #block-system-main{
+.node-type-get-inspired #block-system-main,.node-type-webform #block-system-main{
   margin:30px 0 0 0;
+      width: 69%;
+    float: left;
 }
 .node-type-get-inspired .browser-default,.node-type-get-inspired .lightgraybk,.lightgraybk.numbers {
   margin-bottom:30px;
@@ -663,7 +671,35 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
   width:60%;
   float:left;
 }
+.node-type-get-inspired .row.page,.node-type-webform .row.page{
+   width: 70%;
+  margin:auto;
+}
+.node-type-get-inspired #block-system-main .container,.node-type-webform .main .container{
+  width: 100%
+}
+.node-type-get-inspired .row .col.xl8,.node-type-webform .row .col.xl8{
+    width: 95%;
+}
+.node-type-get-inspired .sidebar-last{
+  margin:40px 0 0 0;
+}
+.node-type-get-inspired .row.page,.node-type-webform .row.page{
+      margin: 0 auto;
+    max-width: 1280px;
+}
+.sidebarlinks .shadow{
+  padding:20px;
+}
+.sidebarlinks{
+  margin:0 0 20px 0;
+  float:left;
+  width: 100%
+}
 
+.sidebarlinks ul.browser-default{
+  padding: 0 0 0 20px;
+}
 ol.custom {
   list-style-type: none;
   margin-left: 0;
@@ -701,15 +737,20 @@ ol.custom > li:before {
   counter-reset: customlistcounter;
 }
 /*contact page*/
+.node-type-webform #block-system-main{
+  padding:0 15px;
+}
+#block-block-27 p{
+  margin:0;
+}
 .page-node-204 .main{
-  max-width: 66.6666666667%;
   float:left;
   margin-top:60px;
 }
 .page-node-204 .sidebar-last{
-  margin-top:80px;
+  margin-top:50px;
 }
-.sidebar-last .collection-header{
+.sidebar-last .collection-header,#block-block-27 .row{
   padding:0 0 20px 0;
 }
 .page-node-204 label{
@@ -734,6 +775,9 @@ ol.custom > li:before {
     transition: background-color 120ms linear;
     text-transform: uppercase;
     border-radius:0;
+}
+.row.page {
+   min-height:  100vh;
 }
 /*.page-node-204  {
     display: flex;
@@ -790,6 +834,9 @@ ol.custom > li:before {
 /*assessing rr*/
 .page-node-189 .shadow{
   padding:20px 0;
+}
+#node-189 img{
+  padding:10px;
 }
 /* assessing rr ends*/
 /* rr strategies*/
