@@ -2176,8 +2176,8 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0;/*
-  background-color: #F4F4F4*/
+  margin: 0;
+  background-color: #F4F4F4
 }
 
 /* HTML5 display definitions
@@ -3392,20 +3392,20 @@ nav ul a span.badge {
     -webkit-font-smoothing: antialiased;
 }
 
-.container,.block-menu,.page-knowledge-to-share .main .region{
+.container,.block-menu,.page-knowledge-to-share .main .region,.node-type-get-inspired .row.page{
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
-  .container,.block-menu,.page-knowledge-to-share .main .region {
+  .container,.block-menu,.page-knowledge-to-share .main .region,.node-type-get-inspired .row.page {
     width: 85%;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  .container,.block-menu,.page-knowledge-to-share .main .region{
+  .container,.block-menu,.page-knowledge-to-share .main .region,.node-type-get-inspired .row.page{
     width: 70%;
   }
 }
