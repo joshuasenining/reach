@@ -44,13 +44,13 @@
     </ul>
         </div>
     </nav>
-   
+   <div class="white">
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-
+</div>
 
   <div class="row page">
     <div>

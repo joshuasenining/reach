@@ -2170,6 +2170,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  overflow-x: hidden;
 }
 
 /**
@@ -2177,7 +2178,8 @@ html {
  */
 body {
   margin: 0;
-  background-color: #F4F4F4
+  background-color: #F4F4F4;
+    overflow-x: hidden;
 }
 
 /* HTML5 display definitions

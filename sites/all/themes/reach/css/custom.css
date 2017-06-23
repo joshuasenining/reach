@@ -86,6 +86,9 @@
 .lightgraybk{
 	background-color: #f5f5f5
 }
+.front{
+    background-color: #f5f5f5!important
+}
 .aquabk{
 	background-color: #00ADEF
 }
@@ -650,7 +653,14 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 
 /* support network ends*/
 /*node type pages*/
-.node-type-get-inspired{
+.node-type-get-inspired .field-type-file .file{
+  background-color: #00ADEF; 
+  padding:7px 20px;
+}
+.node-type-get-inspired .field-type-file .file a{
+  color: #fff;
+}
+.node-type-get-inspired,.node-type-page{
   background-color:   #fff;
 }
 .node-type-get-inspired .lightgraybk, .lightgraybk.numbers

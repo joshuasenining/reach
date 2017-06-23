@@ -115,6 +115,7 @@
     </ul>
         </div>
     </nav>
+    <div class="white">
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
@@ -133,6 +134,7 @@
                           ?> <!--R&R Journey Stories-->
                 </div>
     </div><!--section-->
+    </div>
                
  <div class="section lightgraybk">
          <div class="container">
@@ -177,6 +179,15 @@
                                 ?><!-- other journey stories from senior partners-->
                       </div>
                 </div>
+               <?php if (!empty($page['graysectioncontent'])): ?>
+          
+                  <div>
+                      
+
+                           <?php print render($page['graysectioncontent']); ?>
+                    
+                  </div>
+                  <?php endif; ?>
             
             </div><!--l9-->
           <div class="col xl3 l3 m4 s12 sidebar">

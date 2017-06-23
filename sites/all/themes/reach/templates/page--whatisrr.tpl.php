@@ -114,12 +114,12 @@
     </ul>
         </div>
     </nav>
+    <div class="white">
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-
 
   <?php print render($page['content']['system_main']['main']['#markup']); ?>
 
@@ -133,7 +133,7 @@
                      
                           ?>
       </div>
-
+</div>
       <div class="section lightgraybk thoughts-rr">
         <div class="container">
            <div class="row" data-equalizer="thoughts" data-equalize-by-row="true">
@@ -152,6 +152,7 @@
           </div>
         </div>
       </div><!--Thoughts on Reach and Relevance-->
+      <div class="white">
          <?php
 
                                         $block = module_invoke('block', 'block_view', '4');
@@ -159,6 +160,7 @@
                                     
                      
         ?> <!-- history and achievements-->
+        </div>
          <?php
 
                                         $block = module_invoke('block', 'block_view', '5');

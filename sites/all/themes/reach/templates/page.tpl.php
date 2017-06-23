@@ -50,12 +50,7 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-</div>
-
-  <div class="row page">
-    
-    <section class="main" role="main">
-      <?php if (!empty($page['highlighted'])): ?>
+  <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
 
@@ -70,6 +65,12 @@
       <?php endif; ?>
      
       <?php print render($tabs_secondary); ?>
+</div>
+
+  <div class="row page">
+    
+    <section class="main" role="main">
+      
 <div class="white">
       <?php print render($page['content']); ?>
 </div>
@@ -82,15 +83,18 @@
           </div>
       </div>
       <?php endif; ?>
-      <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
- 
+
 
 
     </section>
+          <?php if (!empty($page['sidebar_second'])): ?>
+   
+      <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+
+    <?php endif; ?>
+ 
 </div>
 <div class="row">
     
