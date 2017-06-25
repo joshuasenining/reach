@@ -86,7 +86,7 @@ $links = render($content['links']);
 
 
     <div id="node-<?php print $node->nid; ?>" <?php print $attributes; ?>>
-        <div class="content card-content">
+        <div class="content">
             <?php print render($title_prefix); ?>
 
             <?php print render($title_suffix); ?>

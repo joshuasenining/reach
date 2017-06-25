@@ -11,7 +11,7 @@ $icon2url = isset($icon2uri) ? file_create_url($icon2uri) : NULL;
 <div class="row" data-equalizer="assessing" data-resize="assessing" data-mutate="assessing">
     <div class="col xl6 l6 m12 s12">
 
-        <div class="card shadow" data-equalizer-watch="assessing" style="height: 141px;">
+        <div class="" data-equalizer-watch="assessing" style="height: 141px;">
             <div class="col xl2 l2 m2 s3">  <img src="<?php print $icon1url;?>" class="responsive-img"></div>
             <div class="col xl10 l10 m10 s9">
                 <h5 class="bluetext"><?php print $content['field_content_title'][0]['#markup']; ?></h5>
@@ -25,7 +25,7 @@ $icon2url = isset($icon2uri) ? file_create_url($icon2uri) : NULL;
 
     </div><!--xl6-->
     <div class="col xl6 l6 m12 s12">
-        <div class="card shadow" data-equalizer-watch="assessing" style="height: 141px;">
+        <div class="" data-equalizer-watch="assessing" style="height: 141px;">
             <div class="col xl2 l2 m2 s3"><img src="<?php print $icon2url;?>" class="responsive-img"></div>
             <div class="col xl10 l10 m10 s9">
                 <h5 class="bluetext"><?php print $content['field_content_title'][1]['#markup']; ?></h5>
