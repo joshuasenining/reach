@@ -8,7 +8,6 @@ function reach_custom_field_attach_view_alter(&$output, $context)
 {
     // First check we're dealing with a field collection field.
     if (!empty($output['field_slide'])) {
-        ddl($output);
         // Now check for our specific field collection field.
         if ($output['field_slide']['#field_name'] === 'field_slide') {
 
