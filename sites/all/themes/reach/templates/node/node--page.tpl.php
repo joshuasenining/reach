@@ -81,43 +81,43 @@
  */
 ?>
 <?php
-  $links = render($content['links']);
+$links = render($content['links']);
 ?>
 
 
-<div id="node-<?php print $node->nid; ?>" <?php print $attributes; ?>>
-  <div class="content card-content">
-    <?php print render($title_prefix); ?>
-      <h4 class="card-title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h4>
-    <?php print render($title_suffix); ?>
+    <div id="node-<?php print $node->nid; ?>" <?php print $attributes; ?>>
+        <div class="content card-content">
+            <?php print render($title_prefix); ?>
 
-    <?php if ($display_submitted): ?>
-      <p class="submitted">
+            <?php print render($title_suffix); ?>
+
+            <?php if ($display_submitted): ?>
+                <p class="submitted">
         <span class="label">
           <?php print $submitted; ?>
         </span>
-      </p>
-    <?php endif; ?>
+                </p>
+            <?php endif; ?>
 
-    <?php if (!empty($user_picture)): ?>
-      <div class="user image">
-        <?php print $user_picture; ?>
-      </div>
-    <?php endif; ?>
+            <?php if (!empty($user_picture)): ?>
+                <div class="user image">
+                    <?php print $user_picture; ?>
+                </div>
+            <?php endif; ?>
 
-    <div <?php print $content_attributes; ?>>
-      <?php
-        // We hide the comments and links now so that we can render
-        // them later.
-        hide($content['comments']);
-        print render($content);
-      ?>
+            <div <?php print $content_attributes; ?>>
+                <?php
+                // We hide the comments and links now so that we can render
+                // them later.
+                hide($content['comments']);
+                print render($content);
+                ?>
+            </div>
+        </div>
+        <?php if ($links): ?>
+            <?php print $links; ?>
+        <?php endif; ?>
+        <?php print render($content['comments']); ?>
     </div>
-  </div>
-  <?php if ($links): ?>
-    <?php print $links; ?>
-  <?php endif; ?>
-  <?php print render($content['comments']); ?>
-</div>
 
 

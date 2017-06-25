@@ -1,6 +1,6 @@
 <?php
 
-function reach_preprocess_page($variables){
+function reach_preprocess_page(&$variables){
 
     drupal_add_css(drupal_get_path('theme','reach') . "/css/iziModal.css");
 
@@ -13,10 +13,19 @@ function reach_preprocess_page($variables){
     drupal_add_js(drupal_get_path('theme','reach') . "/js/jquery.rwdImageMaps.min.js");
 //    drupal_add_js(drupal_get_path('theme','reach') . "/js/jquery-migrate-1.2.1.js");
     drupal_add_js(drupal_get_path('theme','reach') . "/js/main.js");
+
+
     if (isset($variables['node']->type)) {
         // If the content type's machine name is "my_machine_name" the file
         // name will be "page--my-machine-name.tpl.php".
-        $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
+
+        if($variables['node']->type == "page"){
+            $variables['theme_hook_suggestions'][] = 'page__type__' . "basic_page";
+
+        } else {
+            $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
+        }
+
     }
 }
 
