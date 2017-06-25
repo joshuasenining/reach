@@ -1,0 +1,26 @@
+<?php
+/*
+ * Remove the default container class provided by field collection
+ * add the proper class to make the field into a owl-carousel
+ * --rajiv
+ */
+function reach_custom_field_attach_view_alter(&$output, $context)
+{
+    // First check we're dealing with a field collection field.
+    if (!empty($output['field_slide'])) {
+        ddl($output);
+        // Now check for our specific field collection field.
+        if ($output['field_slide']['#field_name'] === 'field_slide') {
+
+            // Alter the prefix
+            $output['field_slide']['#prefix'] = '<div class="owl-carousel white">';
+        }
+    }
+
+//    if ($output['field_accordion']['#field_name'] === 'field_accordion') {
+//
+//        // Alter the prefix
+//        $output['field_accordion']['#prefix'] = '<ul class="collapsible" data-collapsible="accordion">';
+//    }
+
+}
