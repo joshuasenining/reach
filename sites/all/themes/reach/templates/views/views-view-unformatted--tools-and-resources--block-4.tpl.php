@@ -5,7 +5,7 @@ foreach ($view->result as $row) {
     $title = $row->node_title;
     $main_image = $row->field_field_thumbnail[0]['rendered']['#item']['uri'];
     $main_imageurl = file_create_url($main_image);
-    $body = $row->field_field_title[0]['rendered']['#title'];
+    $body = $row->field_field_tags[0]['rendered']['#markup'];
 
 
 
