@@ -1317,3 +1317,6 @@ img[usemap] {
 	top:-20px;
 	right:0;
 }
+.page-playbook .sidebar{
+	display: none;
+}
