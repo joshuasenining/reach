@@ -2142,7 +2142,8 @@
 }
 
 .white {
-  background-color: #FFFFFF !important;
+  background-color: #fff!important;
+
 }
 
 .white-text {
@@ -2596,7 +2597,10 @@ ul:not(.browser-default) li {
 }
 
 .z-depth-1, nav, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .side-nav {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 22px 0 rgba(190, 190, 190, 0.14), 0 0px 4px 0 rgba(190, 190, 190, 0.12), 0 3px 1px -2px rgba(100, 100, 100, 0.2);
+
+
+
 }
 
 .z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
@@ -3408,7 +3412,7 @@ nav ul a span.badge {
 
 @media only screen and (min-width: 993px) {
   .container,.block-menu,.page-knowledge-to-share .main .region,.node-type-get-inspired .row.page{
-    width: 70%;
+    width: 90%;
   }
 }
 
@@ -4769,7 +4773,7 @@ small {
 
 .card .card-content p {
   margin: 0;
-  color: inherit;
+  color: initial;
 }
 
 .card .card-content .card-title {
@@ -5801,7 +5805,7 @@ button.btn-floating {
           transform: translateY(-140%);
 }
 
-.materialboxed {
+.materialboxed,.zoomin {
   display: block;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
@@ -5810,11 +5814,11 @@ button.btn-floating {
   -webkit-backface-visibility: hidden;
 }
 
-.materialboxed:hover:not(.active) {
+.materialboxed:hover:not(.active),.zoomin:hover:not(.active) {
   opacity: .8;
 }
 
-.materialboxed.active {
+.materialboxed.active,.zoomin.active {
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }

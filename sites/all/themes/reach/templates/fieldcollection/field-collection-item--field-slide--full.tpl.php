@@ -37,7 +37,10 @@
     </div>
 
     <div class="col xl6 l6 m6 s12">
-        <?php print render($content['field_slide_image']); ?>
+    			
+							<?php print render($content['field_slide_image']); ?>
+					
+
     </div>
 </div>
 

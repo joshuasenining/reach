@@ -52,5 +52,5 @@
       $key = key($item['entity']['paragraphs_item']);
       $bg = $item['entity']['paragraphs_item'][$key]['field_bg_gray']['#items'][0]['value'];
     ?>
-    <div class="section field-item <?php print $delta % 2 ? 'odd' : 'even'; if($bg) print " lightgraybk"; ?>"<?php print $item_attributes[$delta]; ?>><?php print render($item); ?></div>
+    <div class="field-item <?php print $delta % 2 ? 'odd' : 'even'; if($bg) print " lightgraybk"; ?>"<?php print $item_attributes[$delta]; ?>><?php print render($item); ?></div>
 <?php endforeach; ?>

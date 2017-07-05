@@ -13,7 +13,8 @@ foreach ($view->result as $row) {
 
     ?>
 
-            <div class="card trigger">
+ <div class="col xl4 l6 m12 s12">
+                   <div class="card trigger" data-equalizer-watch="journey">
                      <div class="card-image">
                         <a href="<?php print $videourl;?>" class="waves-effect">
                            <img src="<?php print $main_imageurl;?>"/>
@@ -23,13 +24,15 @@ foreach ($view->result as $row) {
                             </span>
                         </a>
                     </div>
-                    <div class="card-content">
+                    <div class="card-content" >
                       <small>Video</small>
                       <h6><?php print $title;?></h6>
                         <p><?php print $body;?></p>
                     </div>
-            </div>
+            </div> 
+</div>
 
+          
 <?php
 } 
  ?> 

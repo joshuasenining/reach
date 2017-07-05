@@ -634,9 +634,29 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 /* knowledge to share ends*/
 /* support network*/
+#block-views-tools-and-resources-block-6 .collapsible-body{
+	padding:0px!important;
+}
+#block-views-tools-and-resources-block-6{
+	display:none;
+}
+#block-views-tools-and-resources-block-6 .collapsible{
+	margin:0;
+}
+#block-views-tools-and-resources-block-5 hr{
+	display:none;
+}
+#block-views-tools-and-resources-block-5 h6{
+	border-bottom: 1px solid rgba(151,151,151,.4);
+	    padding-bottom: 7px;
+}
+#block-views-tools-and-resources-block-5 .view-header p{
+    padding:0;
+    display:none;
+}
 .supportnetwork h6{
   font:16px HelveticaNeue;
-  color:000000;
+  color:#000000;
   text-transform: uppercase;
 }
 .supportnetwork hr{
@@ -716,7 +736,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
   float:left;
 }
 .node-type-get-inspired .row.page,.node-type-webform .row.page{
-   width: 70%;
+   width: 85%;
   margin:auto;
 }
 .node-type-get-inspired #block-system-main .container,.node-type-webform .main .container{
@@ -958,8 +978,16 @@ ol.custom > li:before {
 img[usemap] {
     border: none;
     height: auto;
-    max-width: 100%;
+    max-width: 75%;
     width: auto;
+}
+/*.zoomin.initialized.active img{
+	    width: 72%;
+    margin: auto;
+}*/
+.page-node-203 .center-align{
+	max-width: 100%;
+	margin:auto;
 }
 .show{
   display:block!important;
@@ -972,12 +1000,12 @@ img[usemap] {
   background-color: #fff;
 }
 .firstsection-content{
-  top:-913px;
-  left:80px;
+  top:-820px;
+  left:5px;
 }
 .secondsection-content{
-  top:-900px;
-  right:90px;
+   top: -820px;
+   right: -65px;
 }
 
 .thirdsection-content{
@@ -993,10 +1021,10 @@ img[usemap] {
     left: 240px;
 }
 .sixthsection-content{
-  top:-380px;
+  top:-300px;
 }
 .seventhsection-content{
-  top:-700px;
+  top:-445px;
 }
 .chart-container{
   position: relative;
@@ -1078,7 +1106,7 @@ img[usemap] {
  	font-size:14px;
  }
  .owl-carousel .item{
- 	padding: 50px;
+ 	padding: 20px;
     float: left;
     width: 100%;
  }
@@ -1177,6 +1205,7 @@ img[usemap] {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
+
     display: block;
     /*width: 100%;*/
         max-width: 100%;
@@ -1317,6 +1346,9 @@ img[usemap] {
 	top:-20px;
 	right:0;
 }
-.page-playbook .sidebar{
-	display: none;
+
+
+.active-trail { 
+	background-color: transparent !important;
+    color: #2E60AD !important;
 }

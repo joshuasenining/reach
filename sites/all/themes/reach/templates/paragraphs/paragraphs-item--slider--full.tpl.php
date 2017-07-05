@@ -26,9 +26,12 @@
  * @see template_process()
  */
 ?>
-
-<div class="container <?php print $classes; ?>"<?php print $attributes; ?>>
+<div class="<?php print $classes; ?>">
+<div class="container"<?php print $attributes; ?>>
+	<div class="section">
     <div class="content"<?php print $content_attributes; ?>>
         <?php print render($content); ?>
     </div>
+</div>
+</div>
 </div>

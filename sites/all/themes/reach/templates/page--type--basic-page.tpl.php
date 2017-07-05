@@ -69,10 +69,15 @@ $base_url  = variable_get('base_url', '');
 
 <div class="row page">
 
+
     <section class="main" role="main">
 
         <div class="white">
+      <!--   <div class="container"> -->
+            
             <?php print render($page['content']); ?>
+        <!-- </div> -->
+ 
         </div>
         <?php if (!empty($page['graysectioncontent'])): ?>
 
