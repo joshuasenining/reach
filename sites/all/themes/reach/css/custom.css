@@ -262,7 +262,19 @@ a{
 .field-name-field-inspirational-examples .field-label,.field-name-field-key-contacts .field-label,.field-name-field-tips-helpful-info .field-label
 {
 	text-transform:uppercase;
-	border-bottom: 1px solid #979797
+	border-bottom: 1px solid #979797;
+	color:#2E60AD;
+}
+.resetfilters{
+	background-color: #00306E;
+    border: 0;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 0 1rem;
+    font-size: 12px;
+}
+.resetfilters:active,.resetfilters:focus,.resetfilters:hover{
+	background-color: #37DEE7
 }
 .sidebarfilter-button li.active .child{
 	color:#fff!important;

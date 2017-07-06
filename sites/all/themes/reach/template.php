@@ -82,8 +82,10 @@ function build_filter_sidebar(){
 
     print '</ul>';
     print '</div>';
+    print '<button class="resetfilters">Reset Filters</button>';
     print '</div>';
     print '</div>';
+
 }
 
 function reach_preprocess_field(&$variables){
