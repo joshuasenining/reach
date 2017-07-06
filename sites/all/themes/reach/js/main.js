@@ -185,12 +185,13 @@ $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
     });
 
 
-
-    $().fancybox({
-        selector : '[data-fancybox="images"]',
-        thumbs   : false,
-        hash     : false,
-    });
+    if(jQuery().fancybox) {
+        $().fancybox({
+            selector: '[data-fancybox="images"]',
+            thumbs: false,
+            hash: false,
+        });
+    }
 
 
     $(document).on('click', '.trigger', function (event) {
