@@ -2,6 +2,22 @@
 
 function reach_preprocess_page(&$variables){
 
+
+    if (isset($variables['node']->type)) {
+        // If the content type's machine name is "my_machine_name" the file
+        // name will be "page--my-machine-name.tpl.php".
+
+        if($variables['node']->type == "page"){
+            $variables['theme_hook_suggestions'][] = 'page__type__' . "basic_page";
+            drupal_add_js(drupal_get_path('theme','reach') . "/js/jquery.fancybox.min.js");
+            drupal_add_css(drupal_get_path('theme','reach') . "/css/jquery.fancybox.min.css");
+
+        } else {
+            $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
+        }
+
+    }
+
     drupal_add_css(drupal_get_path('theme','reach') . "/css/iziModal.css");
 
     drupal_add_js(drupal_get_path('theme','reach') . "/js/isotope.pkgd.min.js");
@@ -15,18 +31,7 @@ function reach_preprocess_page(&$variables){
     drupal_add_js(drupal_get_path('theme','reach') . "/js/main.js");
 
 
-    if (isset($variables['node']->type)) {
-        // If the content type's machine name is "my_machine_name" the file
-        // name will be "page--my-machine-name.tpl.php".
 
-        if($variables['node']->type == "page"){
-            $variables['theme_hook_suggestions'][] = 'page__type__' . "basic_page";
-
-        } else {
-            $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
-        }
-
-    }
 }
 
 function sanitizename($name){
@@ -79,4 +84,8 @@ function build_filter_sidebar(){
     print '</div>';
     print '</div>';
     print '</div>';
+}
+
+function reach_preprocess_field(&$variables){
+//  ddl($variables);
 }

@@ -166,6 +166,15 @@ $("#block-views-tools-and-resources-block-1 .collapsible").collapsible('open', 0
         }
     });
 
+
+
+    $().fancybox({
+        selector : '[data-fancybox="images"]',
+        thumbs   : false,
+        hash     : false,
+    });
+
+
     $(document).on('click', '.trigger', function (event) {
         event.preventDefault();
         var videourl = $(this).find("a").attr("href");
