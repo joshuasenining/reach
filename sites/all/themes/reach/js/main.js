@@ -5,7 +5,6 @@ jQuery( document ).ready(function($) {
   //image map
   $('img[usemap]').rwdImageMaps();
 
-
   $(".flowchart").hover(function(){
     var href = $(this).attr("href");
     var index = $(this).index(); 
@@ -60,7 +59,7 @@ jQuery( document ).ready(function($) {
     $('.collapsible').collapsible();
 
   //support network slideout
-$("#block-views-tools-and-resources-block-2 .collapsible").collapsible('open', 0);
+//$("#block-views-tools-and-resources-block-2 .collapsible").collapsible('open', 0);
 
 $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
  
@@ -70,14 +69,6 @@ $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
 
 });
 
-$( "#block-views-tools-and-resources-block-5 .collapsible").click(function() {
-  
-
-    $('#block-views-tools-and-resources-block-5 .collapsible').collapsible({
-        onOpen: function(el) {  $("#block-views-tools-and-resources-block-5 .view-header p").css("display", "block"); }, 
-        onClose: function(el) {  $("#block-views-tools-and-resources-block-5 .view-header p").css("display", "none");} 
-      });
-});
 
     //menu nav
     // magicline();
