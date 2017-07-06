@@ -61,13 +61,13 @@ jQuery( document ).ready(function($) {
   //support network slideout
 //$("#block-views-tools-and-resources-block-2 .collapsible").collapsible('open', 0);
 
-$( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
- 
-   $("#block-views-tools-and-resources-block-6").css("display", "block");
+    $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
+     
+       $("#block-views-tools-and-resources-block-6").css("display", "block");
 
-  $("#block-views-tools-and-resources-block-6 .collapsible").collapsible("open", 0);
+      $("#block-views-tools-and-resources-block-6 .collapsible").collapsible("open", 0);
 
-});
+    });
 
 
     //menu nav
@@ -160,6 +160,16 @@ $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
 
 	$(window).on( 'hashchange', onHashchange );
 	onHashchange();
+  
+      //reset isoptope filters
+      $(".resetfilters").click(function(){
+          $(".grid").isotope({
+              filter: '*'
+          });
+
+          $('#sidebarfilters ul li,#sidebarfilters .sidebarfilter-button').removeClass('active');
+         
+      });
 
 	
     //add active class to sidebar filters
