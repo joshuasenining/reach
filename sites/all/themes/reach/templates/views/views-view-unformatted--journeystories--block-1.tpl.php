@@ -11,7 +11,7 @@ $link = isset($row->field_field_know_link[0]['raw']['value']) ? $row->field_fiel
 ?>
 
 
- <div class="col xl4 l6 m12 s12">
+<!--  <div class="col xl12 l12 m12 s12">
                     <div class="card center" data-equalizer-watch="sp">
                                   <a href="<?php print $link;?>">
                                   <img class="circle responsive-img" src="<?php print $main_imageurl;?>">
@@ -23,8 +23,25 @@ $link = isset($row->field_field_know_link[0]['raw']['value']) ? $row->field_fiel
                                 </div>
                                 </a>
                     </div>
-</div>
+</div> -->
+ <div class="col xl12 l12 m12 s12">
+  <div class="valign-wrapper">
+     
+            <a href="<?php print $link;?>">
+                                  <img class="circle responsive-img" src="<?php print $main_imageurl;?>">
+            </a>
 
+      
+          <div class="card-content">
+                                    <h6 class="name"><?php print $title;?></h6>
+                                
+                                     <p><?php print $body;?></p>
+                                </div>
+      </div>
+ 
+  <hr>
+               
+</div>
                     
 <?php
 } 

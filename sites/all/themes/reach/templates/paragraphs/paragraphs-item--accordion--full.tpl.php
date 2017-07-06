@@ -28,6 +28,7 @@
 ?>
 
 <div class="container <?php print $classes; ?>"<?php print $attributes; ?>>
+	<!-- <h5 class="section-title"><?php print $content['field_section_title'][0]['#markup']; ?></h5> -->
     <div class="content"<?php print $content_attributes; ?>>
         <?php print render($content); ?>
     </div>

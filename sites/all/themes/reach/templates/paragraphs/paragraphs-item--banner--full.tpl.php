@@ -10,7 +10,8 @@ $bgurl = isset($bg) ? file_create_url($bg) : NULL;
             <div class="intro-text col xl7 l7 m8 s8">
                 <h1><?php print $variables['field_banner_title'][0]['value']; ?></h1>
 
-                <h3><?php print $variables['field_banner_subtitle'][0]['value']; ?></h3>
+                <h3><?php if (isset($variables['field_banner_subtitle'][0]['value'])) {
+                print $variables['field_banner_subtitle'][0]['value']; }?></h3>
 
             </div>
             <div class="col xl5 l5 m4 s4">

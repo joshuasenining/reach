@@ -1,5 +1,5 @@
 <?php foreach ($items as $delta => $item): ?>
     <div class="card-content">
-    <h5 class="bluetext"><?php print render($item); ?></h5>
+    <h2 class="section-title"><?php print render($item); ?></h2>
     </div>
 <?php endforeach; ?>

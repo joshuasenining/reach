@@ -140,11 +140,11 @@
          <div class="container">
         
             <div class="row">
-            <div class="col xl9 l9 m8 s12 lightgraybk">
+            <div class="col xl9 l8 m7 s12 lightgraybk">
              <div class="row seniorpartners" data-equalizer="sp">
                    <?php
                                   
-                                    $blockObject = block_load('views', 'journeystories-block_1');
+                                    $blockObject = block_load('views', 'journeystories-block_3');
                                     
                                     $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
                                     
@@ -190,10 +190,11 @@
                   <?php endif; ?>
             
             </div><!--l9-->
-          <div class="col xl3 l3 m4 s12 sidebar">
+          <div class="col xl3 l4 m5 s12 sidebar">
+            <div class="white">
              <?php
                                   
-                                    $blockObject = block_load('views', 'journeystories-block_3');
+                                    $blockObject = block_load('views', 'journeystories-block_1');
                                     
                                     $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
                                     
@@ -201,6 +202,7 @@
                                     print $output;
                                     
                           ?><!-- other journey stories from senior partners-->
+                        </div>
                         
         </div><!-- sidebar-->
         </div><!-- row-->

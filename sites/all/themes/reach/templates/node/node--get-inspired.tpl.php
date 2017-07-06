@@ -83,8 +83,10 @@
 <?php
 $links = render($content['links']);
 $title = $node->title;
+$document = render($content['field_document']);
 //$body = render($content['body']);
 //$body = $node->body['und'][0]['value'];
+
 ?>
  
 <div class="container">
@@ -94,6 +96,7 @@ $title = $node->title;
   <div class="content card-content">
     <?php print render($title_prefix); ?>
       <h3 class="story-title"><?php print $title; ?></h3>
+      <?php print $document; ?>
     <?php print render($title_suffix); ?>
 
     <?php if ($display_submitted): ?>
