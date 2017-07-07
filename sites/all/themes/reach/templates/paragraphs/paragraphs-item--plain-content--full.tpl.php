@@ -25,9 +25,11 @@
  * @see template_preprocess_entity()
  * @see template_process()
  */
+
+$anchor = isset($content['field_anchor_target'][0]['#markup']) ? $content['field_anchor_target'][0]['#markup'] : NULL;
 ?>
 <!-- 	<div class="section"> -->
-<div class="<?php print $classes; ?>">
+<div id="<?php print $anchor;?>" class="<?php print $classes; ?>">
 <div class="container"<?php print $attributes; ?>>
 <div class="section">
     <div class="content"<?php print $content_attributes; ?>>

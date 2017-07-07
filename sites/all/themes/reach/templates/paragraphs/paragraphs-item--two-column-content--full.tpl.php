@@ -6,11 +6,14 @@ $icon1url = isset($icon1uri) ? file_create_url($icon1uri) : NULL;
 $icon2uri = isset($content['field_iconx2'][1]['#item']['uri']) ? $content['field_iconx2'][1]['#item']['uri']: NULL;
 $icon2url = isset($icon2uri) ? file_create_url($icon2uri) : NULL;
 
-$bluetext1 =  $content['field_content_title'][0]['#markup'];
-$textunderbluetext1 =  $content['field_contentx2'][0]['#markup'];
+$bluetext1 =  isset($content['field_content_title'][0]['#markup']) ? $content['field_content_title'][0]['#markup'] : NULL;
+$textunderbluetext1 =  isset($content['field_contentx2'][0]['#markup']) ? $content['field_contentx2'][0]['#markup'] : NULL;
 
-$bluetext2 =  $content['field_content_title'][1]['#markup'];
-$textunderbluetext2 =  $content['field_contentx2'][1]['#markup']; 
+$bluetext2 =  isset($content['field_content_title'][1]['#markup']) ? $content['field_content_title'][1]['#markup'] : NULL;
+$textunderbluetext2 = isset($content['field_contentx2'][1]['#markup']) ? $content['field_contentx2'][1]['#markup'] : NULL;
+$anchor1 = isset($content['field_anchor_name'][0]['#markup']) ? $content['field_anchor_name'][0]['#markup'] : NULL;
+$anchor2 = isset($content['field_anchor_name'][1]['#markup']) ? $content['field_anchor_name'][1]['#markup'] : NULL;
+
 ?>
 <div class="twocolumns">
 <div class="container">
@@ -25,7 +28,7 @@ $textunderbluetext2 =  $content['field_contentx2'][1]['#markup'];
 
             
             <div class="col xl10 l10 m10 s9">
-                <h5 class="bluetext"><?php print $bluetext1; ?></h5>
+                <a href="#<?php print $anchor1; ?>"><h5 class="bluetext"><?php print $bluetext1; ?></h5></a>
 
                 <?php print $textunderbluetext1; ?>
 
@@ -42,7 +45,7 @@ $textunderbluetext2 =  $content['field_contentx2'][1]['#markup'];
             <?php endif; ?>
           
                      <div class="col xl10 l10 m10 s9">
-                        <h5 class="bluetext"><?php print $bluetext2?></h5>
+                         <a href="#<?php print $anchor2; ?>"><h5 class="bluetext"><?php print $bluetext2; ?></h5></a>
                         <?php print $textunderbluetext2; ?>
                     </div>
           
