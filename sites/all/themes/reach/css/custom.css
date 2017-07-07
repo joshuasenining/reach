@@ -949,6 +949,13 @@ ol.custom > li:before {
 .twocolumns .shadow{
   padding:20px;
 }
+.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.history-section-title,.build .section-title{
+	font:30px HelveticaNeueLight;
+}
+.page-node-240 .paragraphs-item-slider .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title{
+	font:24px HelveticaNeueLight;
+	text-transform: uppercase;
+}
 .page-node-240 .field-type-text-long .col.m2{
   min-height: 140px;
 }

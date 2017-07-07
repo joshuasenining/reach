@@ -47,6 +47,7 @@ function build_filter_sidebar(){
     $tree = taxonomy_get_tree($vid);
     print '<div class="col xl3 l3 m4 s6 sidebar">';
     print '<div class="blue">';
+    print '<button class="resetfilters">See All</button>';
     print '<small class="text-uppercase">filter by:</small>';
     print '<div class="button-group" id="sidebarfilters">';
     print '<ul class="collapsible" data-collapsible="accordion">';
@@ -82,7 +83,6 @@ function build_filter_sidebar(){
 
     print '</ul>';
     print '</div>';
-    print '<button class="resetfilters">Reset Filters</button>';
     print '</div>';
     print '</div>';
 
