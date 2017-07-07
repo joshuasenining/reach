@@ -3354,7 +3354,7 @@ span.badge[data-badge-caption]::after {
 #mobile-demo ul li.active:after,#mobile-demo .portaltitle{
   display:none;
 }
-nav ul li.active:after,.page-node-203 .menu-451:after,.page-node-202 .menu-451:after,.page-compendiums .menu-450:after,.page-journey-stories .menu-450:after,.page-whyitmatters .menu-448:after,.page-node-189 .menu-532:after,.page-node-190 .menu-532:after,.page-support-network .menu-532:after,.page-node-172 .menu-532:after,.page-node-170 .menu-532:after{
+nav ul li.active:after,.page-node-203 .menu-451:after,.page-node-202 .menu-451:after,.page-compendiums .menu-450:after,.page-journey-stories .menu-450:after,.page-whyitmatters .menu-448:after,.page-node-189 .menu-532:after,.page-node-190 .menu-532:after,.page-support-network .menu-532:after,.page-node-172 .menu-532:after,.page-node-170 .menu-532:after,.page-node-242 .menu-532:after,.page-playbook .menu-451:after{
     background-color: #0065BD;
     bottom: 0;
     content: '';

@@ -2,6 +2,7 @@ jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
 	//reveal();
+  
   //image map
   $('img[usemap]').rwdImageMaps();
 
@@ -38,6 +39,7 @@ jQuery( document ).ready(function($) {
                 responsiveClass: true,
                 nav:true,
                 pager:false,
+                autoHeight:true,
                 navText: ["<span class='mck-icon__arrow-left'></span>","<span class='mck-icon__arrow-right'></span>"],
                 responsive: {
                   0: {
@@ -214,6 +216,8 @@ jQuery( document ).ready(function($) {
         video.play();
     });
 
+
+
 });
 function getHashFilter() {
   var hash = location.hash;
@@ -223,7 +227,6 @@ function getHashFilter() {
   return hashFilter && decodeURIComponent( hashFilter );
 }
 
-	
 
 function getParameterByName(name)
 {

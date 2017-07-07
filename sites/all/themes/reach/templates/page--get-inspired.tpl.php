@@ -103,7 +103,7 @@ $documenturl = file_create_url($document);
           <?php if (!empty($page['sidebar_second'])): ?>
    
       <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
-        <p>Please download the ppt to see the full content.</p>
+        <p>Please download the ppt to learn about key success factors.</p>
       <div class="documentfile">
         <a href="<?php print $documenturl; ?>"><img src="/media-services/reach/modules/file/icons/x-office-document.png"/><?php print $documentdescrp; ?></a>
       </div>

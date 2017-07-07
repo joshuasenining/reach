@@ -487,7 +487,9 @@ a{
 	float:left;
 	width: 100%
 }
-
+.page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr .circle{
+	min-width: 162px;
+}
 /* what is rr ends*/
 /* comp page*/
 .section.comp{

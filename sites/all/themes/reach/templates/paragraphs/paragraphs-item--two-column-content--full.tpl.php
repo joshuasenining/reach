@@ -28,7 +28,7 @@ $anchor2 = isset($content['field_anchor_name'][1]['#markup']) ? $content['field_
 
             
             <div class="col xl10 l10 m10 s9">
-                <a href="#<?php print $anchor1; ?>"><h5 class="bluetext"><?php print $bluetext1; ?></h5></a>
+                <a href="#<?php print $anchor1; ?>" class="scrolling"><h5 class="bluetext"><?php print $bluetext1; ?></h5></a>
 
                 <?php print $textunderbluetext1; ?>
 
@@ -45,7 +45,7 @@ $anchor2 = isset($content['field_anchor_name'][1]['#markup']) ? $content['field_
             <?php endif; ?>
           
                      <div class="col xl10 l10 m10 s9">
-                         <a href="#<?php print $anchor2; ?>"><h5 class="bluetext"><?php print $bluetext2; ?></h5></a>
+                         <a href="#<?php print $anchor2; ?>" class="scrolling"><h5 class="bluetext"><?php print $bluetext2; ?></h5></a>
                         <?php print $textunderbluetext2; ?>
                     </div>
           
