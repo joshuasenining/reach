@@ -67,11 +67,13 @@ function get_inspired_page_views_default_views() {
   $handler->display->display_options['fields']['field_image']['field'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['label'] = '';
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => 'medium',
+    'image_style' => '',
     'image_link' => 'content',
   );
+  $handler->display->display_options['fields']['field_image']['delta_offset'] = '0';
   /* Field: Content: Body */
   $handler->display->display_options['fields']['body']['id'] = 'body';
   $handler->display->display_options['fields']['body']['table'] = 'field_data_body';
@@ -107,6 +109,16 @@ function get_inspired_page_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'get_inspired' => 'get_inspired',
   );
+  /* Filter criterion: Content: Section (field_lead_or_exp) */
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['id'] = 'field_lead_or_exp_tid';
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['table'] = 'field_data_field_lead_or_exp';
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['field'] = 'field_lead_or_exp_tid';
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['operator'] = 'and';
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['value'] = array(
+    40 => '40',
+  );
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_lead_or_exp_tid']['vocabulary'] = 'leadership_or_expertise_type';
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page_1');

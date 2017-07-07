@@ -98,7 +98,7 @@ function basic_page_content_type_field_default_field_instances() {
     'label' => 'Slide Content',
     'required' => 0,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -331,6 +331,48 @@ function basic_page_content_type_field_default_field_instances() {
       'settings' => array(),
       'type' => 'paragraphs_embed',
       'weight' => -2,
+    ),
+  );
+
+  // Exported field_instance: 'node-page-field_uploads'
+  $field_instances['node-page-field_uploads'] = array(
+    'bundle' => 'page',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_uploads',
+    'label' => 'uploads',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'jpg png pdf ppt pptx',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => -3,
     ),
   );
 
@@ -814,6 +856,46 @@ function basic_page_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'paragraphs_item-plain_content-field_anchor_target'
+  $field_instances['paragraphs_item-plain_content-field_anchor_target'] = array(
+    'bundle' => 'plain_content',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_anchor_target',
+    'label' => 'Anchor Target',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'paragraphs_item-plain_content-field_bg_gray'
   $field_instances['paragraphs_item-plain_content-field_bg_gray'] = array(
     'bundle' => 'plain_content',
@@ -1003,7 +1085,7 @@ function basic_page_content_type_field_default_field_instances() {
     'label' => 'After files content',
     'required' => 0,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1210,7 +1292,7 @@ function basic_page_content_type_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => 'slide-files',
-      'file_extensions' => 'pdf doc docx xls xlsx txt',
+      'file_extensions' => 'pdf doc docx xls xlsx txt ppt pptx',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -1222,6 +1304,46 @@ function basic_page_content_type_field_default_field_instances() {
       ),
       'type' => 'file_generic',
       'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'paragraphs_item-two_column_content-field_anchor_name'
+  $field_instances['paragraphs_item-two_column_content-field_anchor_name'] = array(
+    'bundle' => 'two_column_content',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
+      'paragraphs_editor_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'paragraphs_item',
+    'field_name' => 'field_anchor_name',
+    'label' => 'Anchor name',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 6,
     ),
   );
 
@@ -1264,7 +1386,7 @@ function basic_page_content_type_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 6,
+      'weight' => 5,
     ),
   );
 
@@ -1334,7 +1456,7 @@ function basic_page_content_type_field_default_field_instances() {
     'label' => 'Content',
     'required' => 0,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -1395,7 +1517,7 @@ function basic_page_content_type_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 1,
+      'weight' => 0,
     ),
   );
 
@@ -1458,6 +1580,8 @@ function basic_page_content_type_field_default_field_instances() {
   t('Accordion title');
   t('Afer Slide Content');
   t('After files content');
+  t('Anchor Target');
+  t('Anchor name');
   t('BG Gray');
   t('Banner Image');
   t('Banner Subtitle');
@@ -1478,6 +1602,7 @@ function basic_page_content_type_field_default_field_instances() {
   t('Slider content');
   t('Slider content title');
   t('Title');
+  t('uploads');
 
   return $field_instances;
 }
