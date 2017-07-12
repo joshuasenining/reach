@@ -283,7 +283,12 @@ a{
 	color:#fff!important;
 	cursor: pointer;
 }	
-.field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
+.page-node-230 .row .col.xl8,.page-node-232 .row .col.xl8,.page-node-224 .row .col.xl8,.page-node-231 .row .col.xl8,.page-node-250 .row .col.xl8,
+.page-node-230 #block-system-main,.page-node-232 #block-system-main,.page-node-224 #block-system-main,.page-node-231 #block-system-main,.page-node-250 #block-system-main
+{
+	width:100%!important;
+}
+.page-node-230 .sidebar-last,.page-node-232 .sidebar-last,.page-node-224 .sidebar-last,.page-node-231 .sidebar-last,.page-node-250 .sidebar-last, .field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
 	display:none;
 }
 .sidebarfilter-button.active,.sidebarfilter-button.is-checked{
@@ -498,12 +503,17 @@ a{
 .comp img{
 	padding:0 40px 0 0;
 }
-h5.graytext,#block-block-24 .collection-header{
+#block-block-24 .collection-header,.page-journey-stories h5.blacktext{
+	color:#2E60AD!important;
+	text-transform:uppercase;
+	padding:0 0 20px 0;
+}
+h5.graytext{
 	color:#9C9D9D;
 	text-transform:uppercase;
 	padding:0 0 20px 0;
 }
-h5.graytext, h5.blacktext,#block-views-journeystories-block-1 .collection-header,#block-block-24 .collection-header,h5.bluetext{
+h5.graytext, h5.blacktext,#block-views-journeystories-block-1 .collection-header,h5.bluetext{
   font:24px HelveticaNeueLight;
 }
 h5.blacktext{
@@ -804,12 +814,18 @@ ol.custom {
 }
 
 ol.custom > li {
-  counter-increment: customlistcounter;
-  width: 100%;
-  float: left;
-  margin: 0 0 20px 0;
-
+    counter-increment: customlistcounter;
+    width: 92%;
+    float: left;
+    margin: 0 0 20px 50px;
+    position: relative;
+        min-height: 38px;
 }
+ol.custom li:before{
+    position: absolute;
+    left: -60px;
+}
+
 .darkbluenumbers,ol.custom > li:before {
    width: 50px;
   height:50px;
@@ -951,11 +967,15 @@ ol.custom > li:before {
 .twocolumns .shadow{
   padding:20px;
 }
-.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.history-section-title,.build .section-title{
+.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.page-whatisrr .history .section-title,.build .section-title,#block-views-journeystories-block-3 .collection-header{
 	font:30px HelveticaNeueLight;
 }
-.page-node-240 .paragraphs-item-slider .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title{
+.page-node-240 .paragraphs-item-slider .section-title,#block-views-journeystories-block-2 .collection-header{
 	font:24px HelveticaNeueLight;
+	text-transform: uppercase;
+}
+.page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-journey-stories h5.blacktext,#block-block-24 .collection-header{
+font:20px HelveticaNeueLight;
 	text-transform: uppercase;
 }
 .page-node-240 .field-type-text-long .col.m2{
