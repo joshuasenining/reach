@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the reach_pathauto_configs feature.
+ */
+
+include_once 'reach_pathauto_configs.features.inc';

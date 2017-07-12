@@ -334,6 +334,43 @@ function basic_page_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-page-field_node_residence'
+  $field_instances['node-page-field_node_residence'] = array(
+    'bundle' => 'page',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_node_residence',
+    'label' => 'Node Residence',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 31,
+    ),
+  );
+
   // Exported field_instance: 'node-page-field_uploads'
   $field_instances['node-page-field_uploads'] = array(
     'bundle' => 'page',
@@ -1592,6 +1629,7 @@ function basic_page_content_type_field_default_field_instances() {
   t('Content');
   t('Content Title');
   t('Icon');
+  t('Node Residence');
   t('Section title');
   t('Slide');
   t('Slide Content');
