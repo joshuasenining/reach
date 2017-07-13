@@ -50,7 +50,7 @@ if($parent){
             </div>
             <div class="card-content">
                 <small><?php print isset($term->name) ? $term->name : NULL;?></small>
-                <a href="node/<?php print $fields['nid']->raw;?>"><h5><?php print $fields['title']->raw; ?></h5></a>
+                <a href=<?php global $base_path; print $base_path . drupal_get_path_alias("node/".$fields['nid']->raw);?>><h5><?php print $fields['title']->raw; ?></h5></a>
                 <p><?php print $fields['body']->content; ?></p>
             </div>
         </div>
