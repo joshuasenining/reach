@@ -503,6 +503,9 @@ a{
 .comp img{
 	padding:0 40px 0 0;
 }
+.owl-carousel .item .boxshadow > .col.xl6{
+		padding:0 30px;
+}
 #block-block-24 .collection-header,.page-journey-stories h5.blacktext{
 	color:#2E60AD!important;
 	text-transform:uppercase;
@@ -1267,7 +1270,7 @@ img[usemap] {
   .owl-carousel .owl-item img {
 
     display: block;
-    /*width: 100%;*/
+    width: 100%;
         max-width: 100%;
     height: auto; }
   .owl-carousel .owl-nav.disabled,
