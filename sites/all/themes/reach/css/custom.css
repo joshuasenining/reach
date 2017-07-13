@@ -1412,3 +1412,18 @@ img[usemap] {
 	background-color: transparent !important;
     color: #2E60AD !important;
 }
+
+
+.page-how-to-get-started-playbook li.first.leaf a{
+    color:#9B9B9B;
+}
+
+.main-menu li.active-trail a.active-trail::after {
+    background-color: #0065BD;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 8px;
+    position: relative;
+}
+
