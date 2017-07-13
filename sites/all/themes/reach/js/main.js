@@ -216,6 +216,17 @@ jQuery( document ).ready(function($) {
         video.play();
     });
 
+    if($("#block-menu-menu-playbook-submenu li a").hasClass("active")){
+        $("#nav-mobile li.menu-451").addClass("active-trail");
+        $("#nav-mobile li.menu-451 a").addClass("active-trail");
+
+    }
+    if($("#block-menu-menu-submenu li a").hasClass("active")){
+        $("#nav-mobile li.menu-737").addClass("active-trail");
+        $("#nav-mobile li.menu-737 a").addClass("active-trail");
+
+    }
+
 
 
 });
