@@ -73,6 +73,18 @@
  * @ingroup themeable
  */
 
+
+$node = node_load('253');
+//ddl($node);
+foreach($node->field_components['und'] as $i){
+    $pid = $i['value'];
+    $entities = entity_load('paragraphs_item', array($pid));
+    $paragraphs_render = entity_view('paragraphs_item', $entities, 'full');
+    $paragraphs[] = $paragraphs_render;
+}
+
+
+
 ?>
 
     <nav class="nav-extended">
@@ -122,14 +134,14 @@
     </div>
   <?php endif; ?><!-- /.header  -->
 
-   <div class="section description">        
+   <div class="section description clearfix">
 
                  <div class="container">
                            <?php
-
-                                        $block = module_invoke('block', 'block_view', '12');
-                                        print render($block['content']);
-                                    
+//
+//                                        $block = module_invoke('block', 'block_view', '12');
+//                                        print render($block['content']);
+                                    print render($paragraphs[0]);
                      
                           ?> <!--R&R Journey Stories-->
                 </div>
@@ -144,12 +156,13 @@
              <div class="row seniorpartners" data-equalizer="sp">
                    <?php
                                   
-                                    $blockObject = block_load('views', 'journeystories-block_3');
-                                    
-                                    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-                                    
-                                    $output = drupal_render($block);
-                                    print $output;
+//                                    $blockObject = block_load('views', 'journeystories-block_3');
+//
+//                                    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+//
+//                                    $output = drupal_render($block);
+//                                    print $output;
+                   print render($paragraphs[1]);
                                     
                           ?><!--highlights from senior partners-->
 
@@ -159,48 +172,57 @@
 
                        <?php
 
-                                    $block = module_invoke('block', 'block_view', '10');
-                                    print render($block['content']);
-                                
+//                                    $block = module_invoke('block', 'block_view', '10');
+//                                    print render($block['content']);
+//                       print render($paragraphs[2]);
                  
                       ?> <!--HIGHLIGHTS FROM EMS AND APS-->
               </div>
-               <div class="section otherjourney">
-                      <div class="row" data-equalizer="otherjourney" data-equalize-by-row="true">    
-                           <?php
-                                        
-                                          $blockObject = block_load('views', 'journeystories-block_2');
-                                          
-                                          $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-                                          
-                                          $output = drupal_render($block);
-                                          print $output;
-                                          
-                                ?><!-- other journey stories from senior partners-->
-                      </div>
-                </div>
+
                <?php if (!empty($page['graysectioncontent'])): ?>
           
                   <div>
-                      
+
 
                            <?php print render($page['graysectioncontent']); ?>
                     
                   </div>
                   <?php endif; ?>
+
+
+                <!--- video section -->
+
+                <div class="field-item even lightgraybk">
+                    <?php print render($paragraphs[5]); ?>
+                    <?php
+
+                    $blockObject = block_load('views', 'journeystories-block_3');
+
+                    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+
+                    $output = drupal_render($block);
+                    print $output;
+
+                    ?><!-- other journey stories from senior partners-->
+                </div>
+                <!--- video section -->
+
+
             
             </div><!--l9-->
+
+
           <div class="col xl3 l4 m5 s12 sidebar">
             <div class="white">
              <?php
                                   
                                     $blockObject = block_load('views', 'journeystories-block_1');
-                                    
+
                                     $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-                                    
+
                                     $output = drupal_render($block);
                                     print $output;
-                                    
+
                           ?><!-- other journey stories from senior partners-->
                         </div>
                         
