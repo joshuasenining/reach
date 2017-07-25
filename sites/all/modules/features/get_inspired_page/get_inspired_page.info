@@ -13,4 +13,4 @@ features[features_api][] = api:2
 features[field_instance][] = node-get_inspired-field_node_residence
 features[views_view][] = get_inspired
 features_exclude[dependencies][ctools] = ctools
-mtime = 1499427925
+mtime = 1499909846
