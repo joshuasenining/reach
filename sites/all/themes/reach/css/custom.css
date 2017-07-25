@@ -288,7 +288,7 @@ a{
 {
 	width:100%!important;
 }
-.page-node-230 .sidebar-last,.page-node-232 .sidebar-last,.page-node-224 .sidebar-last,.page-node-231 .sidebar-last,.page-node-250 .sidebar-last, .field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
+.node-type-get-inspired .field-name-field-content,.page-node-230 .sidebar-last,.page-node-232 .sidebar-last,.page-node-224 .sidebar-last,.page-node-231 .sidebar-last,.page-node-250 .sidebar-last, .field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
 	display:none;
 }
 .sidebarfilter-button.active,.sidebarfilter-button.is-checked{
@@ -567,6 +567,15 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 .valign-wrapper small a{
 	color:#000;
+}
+.page-node-253 #block-views-journeystories-block-3 .card{
+	min-height:390px;
+}
+.page-node-253 .field-item.even .twocolumns .shadow{
+	box-shadow:none;
+}
+.page-node-253 .twocolumns .row .col.xl10{
+	width:100%;
 }
 
 /* story ends*/
@@ -970,14 +979,14 @@ ol.custom > li:before {
 .twocolumns .shadow{
   padding:20px;
 }
-.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.page-whatisrr .history .section-title,.build .section-title,#block-views-journeystories-block-3 .collection-header{
+.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.page-whatisrr .history .section-title,.build .section-title,#block-views-journeystories-block-3 .collection-header,.page-node-253 .field-item:nth-child(4) .section-title{
 	font:30px HelveticaNeueLight;
 }
 .page-node-240 .paragraphs-item-slider .section-title,#block-views-journeystories-block-2 .collection-header{
 	font:24px HelveticaNeueLight;
 	text-transform: uppercase;
 }
-.page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-journey-stories h5.blacktext,#block-block-24 .collection-header{
+.page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-journey-stories h5.blacktext,#block-block-24 .collection-header,.page-node-252 .lightgraybk .section-title{
 font:20px HelveticaNeueLight;
 	text-transform: uppercase;
 }
@@ -1096,6 +1105,10 @@ img[usemap] {
   font-size:18px;
 }
 /* rr strategies end*/
+.page-footer{
+	float:left;
+	width:100%;
+}
 .page-footer .brand-logo img{
 	float:left;
 	margin-top:7px;
@@ -1430,3 +1443,7 @@ img[usemap] {
     position: relative;
 }
 
+#back-link a {
+    font: 15px HelveticaNeue;
+    padding-bottom: 1em;
+}

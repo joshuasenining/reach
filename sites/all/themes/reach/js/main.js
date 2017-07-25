@@ -3,6 +3,15 @@ jQuery(document).foundation();
 jQuery( document ).ready(function($) {
 	//reveal();
   
+  $("<div id='back-link'><a href=\"javascript:history.go(-1)\">&laquo; Back</a></div>").insertAfter('#subheader-menu');
+
+  $('#sidebarfilters ul.collapsible li').click(function(e) {
+      if($(this).hasClass('active')) {
+          e.preventDefault();
+          $("button.resetfilters").trigger('click');
+      }
+  });
+
   //image map
   $('img[usemap]').rwdImageMaps();
 
@@ -18,8 +27,7 @@ jQuery( document ).ready(function($) {
 
   });
 
-
-
+  
 // $( "#block-views-tools-and-resources-block-5 .collapsible" ).click(function() {
 //    $("#block-views-tools-and-resources-block-5 .view-header p").css("display", "block");
 // });

@@ -15,7 +15,7 @@ function materialize_menu_tree__primary(&$variables) {
  * Implements theme_menu_tree().
  */
 function materialize_menu_tree(&$variables) {
-  return '<div class="collection with-header">' . $variables['tree'] . '</div>';
+  return '<div id="subheader-menu" class="collection with-header">' . $variables['tree'] . '</div>';
 }
 
 /**

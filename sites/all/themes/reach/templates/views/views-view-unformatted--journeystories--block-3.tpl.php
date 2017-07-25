@@ -13,7 +13,7 @@ foreach ($view->result as $row) {
 
     ?>
 
- <div class="col xl4 l6 m12 s12">
+ <div class="col xl3 l4 m12 s12">
                    <div class="card trigger" data-equalizer-watch="journey">
                      <div class="card-image">
                         <a href="<?php print $videourl;?>" class="waves-effect">

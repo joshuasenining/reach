@@ -76,7 +76,7 @@ $documenturl = file_create_url($document);
      
       <?php print render($tabs_secondary); ?>
 </div>
-
+<?php global $base_url; ?>
   <div class="row page">
     
     <section class="main" role="main">
@@ -125,12 +125,12 @@ $documenturl = file_create_url($document);
 
 </div>
     <div class="divider"></div>
-      <footer class="page-footer">
+     <footer class="page-footer">
 
           <div class="footer-copyright">
               <div class="container">
                 
-                  <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
+                  <span class="brand-logo"><img src="<?php print $base_url; ?>/sites/all/themes/reach/images/logo-main-fff.svg"></span>
 
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');
