@@ -150,7 +150,11 @@
   }
 }
 @media(max-width:767px){
-
+.ems .card-image{
+   max-width: 100%;
+    float: none;
+    padding-left:0;
+}
   img[usemap]{
     max-width: 100%
   }

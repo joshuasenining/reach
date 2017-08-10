@@ -21,12 +21,24 @@
 	src: url(../fonts/helvetica-neue/bold.eot);
 	src: url(../fonts/helvetica-neue/bold.eot?#iefix) format('embedded-opentype'), url(../fonts/helvetica-neue/bold.woff) format('woff'), url(../fonts/helvetica-neue/bold.ttf) format('truetype'), url(../fonts/helvetica-neue/bold.svg#HelveticaNeueBold) format('svg')
 }
+
 @font-face {
+ font-family: 'Material Icons';
+ font-style: normal;
+ font-weight: 400;
+ src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
+ src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
+      url(../fonts/MaterialIcons-Regular.woff) format('woff'),
+      url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+/*@font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
-}
+}*/
 @font-face {
   font-family: mck-icons;
   src: url(../fonts/icons/mck-icons.eot?urk1lg);
@@ -188,6 +200,12 @@ h5.hlbluetitle{
 .menu-452 a{
   padding:0;
 }
+#subheader-menu li{
+	padding:0 20px 0 0;
+}
+#subheader-menu li a {
+	font:18px HelveticaNeueBold;
+}
 /* get inspired*/
 .element-item .card .card-image img{
   max-height: 152px;
@@ -288,7 +306,7 @@ a{
 {
 	width:100%!important;
 }
-.node-type-get-inspired .field-name-field-content,.page-node-230 .sidebar-last,.page-node-232 .sidebar-last,.page-node-224 .sidebar-last,.page-node-231 .sidebar-last,.page-node-250 .sidebar-last, .field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
+.field-name-field-anchor-target,.node-type-get-inspired .field-name-field-content,.page-node-230 .sidebar-last,.page-node-232 .sidebar-last,.page-node-224 .sidebar-last,.page-node-231 .sidebar-last,.page-node-250 .sidebar-last, .field-name-field-slider-files .file-icon,.submitted,.sidebarfilter-button .material-icons.dp48,.front .card-title,.block-menu .collection-header,.front .section-title,.page-support-network .collection-header,.page-node-202 #node-202 .content > .card-title{
 	display:none;
 }
 .sidebarfilter-button.active,.sidebarfilter-button.is-checked{
@@ -378,6 +396,19 @@ a{
 	font:36px HelveticaNeueLight;
 	color:#2E60AD;
 }
+
+#node-257 .card-content h2 {
+	font:20px HelveticaNeueLight !important;
+}
+
+#McKinsey-Today h2 {
+	font:30px HelveticaNeueLight;
+}
+
+#Unique-charting-tools h2 {
+	font:30px HelveticaNeueLight;
+}
+
 .name{
 	font-size:18px;
 	color:#2E60AD;
@@ -525,6 +556,10 @@ h5.blacktext{
 h5.blacktext,#block-views-journeystories-block-1 .collection-header{
   color:#000000;
 }
+.bluetext {
+  color:#2E60AD !important;
+}
+
 /*comp page ends*/
 /* story*/
 .story-title{
@@ -577,14 +612,30 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 .page-node-253 .twocolumns .row .col.xl10{
 	width:100%;
 }
+.page-node-253 .twocolumns p,.page-journey-stories .twocolumns p{
+	margin:5px 0 0 0;
+}
 
 /* story ends*/
 /* journey story*/
+.page-journey-stories .twocolumns .row .col.xl2,.page-journey-stories .twocolumns .row .col.xl10{
+	width:100%;
+	margin:0 0 20px 0;
+}
+.page-journey-stories .lightgraybk {
+	padding: 35px 0 0 12px;
+}
+
+.page-journey-stories .twocolumns .container{
+	width:100%;
+}
 .page-journey-stories .row .col.xl9{
   padding:0 35px 0 0;
 }
+
 #block-views-journeystories-block-1 .collection-header{
   padding:15px;
+  margin:0!important;
 }
 #block-views-journeystories-block-1 .xl12:last-child hr{
   border:none;
@@ -593,7 +644,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
   padding-left: 20px
 }
 #block-views-journeystories-block-1 img{
-  max-width: 55px;
+  max-width: 75px;
 }
 #block-views-journeystories-block-1 .name{
   font-size:16px;
@@ -618,14 +669,22 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 
 .ems .card-panel .card{
-  box-shadow: none
+  box-shadow: none;
+  background-color:transparent;
+}
+.ems .card-image{
+	 max-width: 400px;
+    float: right;
+    padding-left: 20px
 }
 .ems p,.font16{
   font-size:16px;
 }
 .ems .card-panel
 {
-  margin:30px 0 0 0;
+  margin:0;
+  padding:0;
+  background-color:transparent;
 }
 .ems .card{
   margin:0;
@@ -644,7 +703,7 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 .otherjourney [class*=mck-icon__], .otherjourney [class^=mck-icon__] {
   font-size:20px;
 }
-#block-views-journeystories-block-3 .card-title{
+#block-views-journeystories-block-3 .card-title, #block-views-journeystories-block-3--2 .card-title{
   font-size:12px;
 }
 #block-views-journeystories-block-3 .card{
@@ -680,6 +739,9 @@ h5.blacktext,#block-views-journeystories-block-1 .collection-header{
 }
 /* knowledge to share ends*/
 /* support network*/
+.page-support-network .collapsible img{
+	max-height:165px
+}
 #block-views-tools-and-resources-block-6 .collapsible-body{
 	padding:0px!important;
 }
@@ -979,11 +1041,11 @@ ol.custom > li:before {
 .twocolumns .shadow{
   padding:20px;
 }
-.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.page-whatisrr .history .section-title,.build .section-title,#block-views-journeystories-block-3 .collection-header,.page-node-253 .field-item:nth-child(4) .section-title{
+.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-240 .paragraphs-items-full .field-item.odd:nth-child(8) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(5) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .section-title,#block-views-whatisrr-block-2 .collection-header,#block-views-whatisrr-block-1 .collection-header,.page-whatisrr .history .section-title,.build .section-title,#block-views-journeystories-block-3 .collection-header,.page-node-253 .field-item:nth-child(4) .section-title,.page-journey-stories #block-views-journeystories-block-3--2 .collection-header{
 	font:30px HelveticaNeueLight;
 }
 .page-node-240 .paragraphs-item-slider .section-title,#block-views-journeystories-block-2 .collection-header{
-	font:24px HelveticaNeueLight;
+	font:20px HelveticaNeueLight;
 	text-transform: uppercase;
 }
 .page-node-242 .field-item:nth-child(6) .paragraphs-item-plain-content .section-title,.page-node-242 .field-item:nth-child(8) .paragraphs-item-slider .field-name-field-slider-content .section-title,.page-journey-stories h5.blacktext,#block-block-24 .collection-header,.page-node-252 .lightgraybk .section-title{
@@ -1036,7 +1098,7 @@ font:20px HelveticaNeueLight;
   width: 100%
 }
 .paragraphs-item-plain-content .section {
-  padding:0 0 20px 0;
+  padding:0 0 10px 0;
   float:left;
   width: 100%
 }
@@ -1112,6 +1174,7 @@ img[usemap] {
 .page-footer .brand-logo img{
 	float:left;
 	margin-top:7px;
+	max-height: 22px
 }
 .page-footer ul{
 	margin:0;
@@ -1446,4 +1509,8 @@ img[usemap] {
 #back-link a {
     font: 15px HelveticaNeue;
     padding-bottom: 1em;
+}
+
+.field-item ol {
+	font-size: 13px;
 }

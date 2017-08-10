@@ -134,26 +134,21 @@ foreach($node->field_components['und'] as $i){
     </div>
   <?php endif; ?><!-- /.header  -->
   <?php global $base_url; ?>
-   <div class="section description clearfix">
 
-                 <div class="container">
                            <?php
 //
-//                                        $block = module_invoke('block', 'block_view', '12');
-//                                        print render($block['content']);
+//                              
                                     print render($paragraphs[0]);
                      
-                          ?> <!--R&R Journey Stories-->
-                </div>
-    </div><!--section-->
-    </div>
+                          ?>
+ 
                
- <div class="section lightgraybk">
+ <div class="lightgraybk">
          <div class="container">
         
             <div class="row">
-            <div class="col xl9 l8 m7 s12 lightgraybk">
-             <div class="row seniorpartners" data-equalizer="sp">
+            <div class="col xl9 l8 m7 s12">
+        
                    <?php
                                   
 //                                    $blockObject = block_load('views', 'journeystories-block_3');
@@ -167,8 +162,7 @@ foreach($node->field_components['und'] as $i){
                           ?><!--highlights from senior partners-->
 
 
-              </div><!--seniorpartners-->
-               <div class="section">
+            
 
                        <?php
 
@@ -177,7 +171,7 @@ foreach($node->field_components['und'] as $i){
 //                       print render($paragraphs[2]);
                  
                       ?> <!--HIGHLIGHTS FROM EMS AND APS-->
-              </div>
+          
 
                <?php if (!empty($page['graysectioncontent'])): ?>
           
@@ -190,22 +184,6 @@ foreach($node->field_components['und'] as $i){
                   <?php endif; ?>
 
 
-                <!--- video section -->
-
-                <div class="field-item even lightgraybk">
-                    <?php print render($paragraphs[5]); ?>
-                    <?php
-
-                    $blockObject = block_load('views', 'journeystories-block_3');
-
-                    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-
-                    $output = drupal_render($block);
-                    print $output;
-
-                    ?><!-- other journey stories from senior partners-->
-                </div>
-                <!--- video section -->
 
 
             
@@ -227,9 +205,38 @@ foreach($node->field_components['und'] as $i){
                         </div>
                         
         </div><!-- sidebar-->
+        
+             
         </div><!-- row-->
   </div><!-- container--> 
 </div><!-- section-->
+
+<div class="section">
+<div class="container">
+
+   <!--- video section -->
+                <div class="row" data-equalizer="journey">
+                  <div class="field-item even">
+                      <?php print render($paragraphs[5]); ?>
+                      <?php
+
+                      $blockObject = block_load('views', 'journeystories-block_3');
+
+                      $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+
+                      $output = drupal_render($block);
+                      print $output;
+
+                      ?><!-- other journey stories from senior partners-->
+                  </div>
+                </div>
+                <!--- video section -->
+
+
+</div>
+
+</div>
+
 <?php global $base_url; ?>
 
 
