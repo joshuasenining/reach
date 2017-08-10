@@ -1,15 +1,10 @@
+<?php
 
-
-  <?php
-$nid = arg(1);  
 $node = menu_get_object();
-  $theme_url = variable_get('theme_url', '');
-  $base_url  = variable_get('base_url', '');
-$documentdescrp =render($variables['page']['content']['system_main']['nodes'][$nid]['field_document'][0]['#file']->description);
-$document = render($variables['page']['content']['system_main']['nodes'][$nid]['field_document'][0]['#file']->uri);
-$documenturl = file_create_url($document);
 
-
+$documentdescrp = isset($node->field_document['und'][0]['description']) ? $node->field_document['und'][0]['description'] : NULL;
+$document = isset($node->field_document['und'][0]['uri']) ? $node->field_document['und'][0]['uri'] : NULL;
+$documenturl = isset($document) ? file_create_url($document) : NULL;
 
 ?>
 
@@ -101,7 +96,7 @@ $documenturl = file_create_url($document);
 
 
           <?php if (!empty($page['sidebar_second'])): ?>
-   
+        <?php if($documenturl) { ?>
       <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
         <p><b>Please download the ppt to learn about key success factors.</b></p>
       <div class="documentfile">
@@ -109,7 +104,7 @@ $documenturl = file_create_url($document);
       </div>
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
-
+        <?php }?>
     <?php endif; ?>
  
 </div>
