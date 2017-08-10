@@ -50,13 +50,7 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-</div>
-<?php global $base_url; ?>
-  <div class="row page">
-    <div>
-
-    <section class="main" role="main">
-      <?php if (!empty($page['highlighted'])): ?>
+  <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted"><?php print render($page['highlight']); ?></div>
       <?php endif; ?>
 
@@ -71,39 +65,60 @@
       <?php endif; ?>
      
       <?php print render($tabs_secondary); ?>
-
+</div>
+<?php global $base_url; ?>
+  <div class="row page">
+      <div class="row">
+            <div class="col xl9 l8 m7 s12 lightgraybk">
+    <section class="main" role="main">
+      
+<div class="white">
       <?php print render($page['content']); ?>
-
+</div>
+      <?php if (!empty($page['graysectioncontent'])): ?>
+          
       <div class="section lightgraybk">
           <div class="container">
-            <div class="white">
-                    <div class="owl-carousel">
-                        
-                 
-                      <?php
 
-                                              $block = module_invoke('views', 'block_view', 'compendiums-block_2');
-                                              print render($block['content']);
-
-                                          
-                           
-                      ?>
-                          
- <!--slider-->
-                    </div>
-                </div>
-          
-          </div>  
+               <?php print render($page['graysectioncontent']); ?>
+          </div>
       </div>
+      <?php endif; ?>
+
+
 
     </section>
-    
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col xl4 l4 m4 s12 sidebar-last" role="complementary">
+   
+    <div class="col xl3 l4 m5 s12 sidebar">
+            <div class="white">
+             <?php
+                                  
+                                    $blockObject = block_load('views', 'journeystories-block_1');
+                                    
+                                    $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+                                    
+                                    $output = drupal_render($block);
+                                    print $output;
+                                    
+                          ?><!-- other journey stories from senior partners-->
+                        </div>
+                        
+        </div><!-- sidebar-->
+         </div><!-- container-->
+    </div><!-- row-->
+
+          <?php if (!empty($page['sidebar_second'])): ?>
+   
+      <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
+
     <?php endif; ?>
-  </div> <!-- /main  -->
+ 
+</div>
+<div class="row">
+    
+
    <?php if (!empty($action_links)): ?>
         <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
       <?php endif; ?>
@@ -112,7 +127,6 @@
       <?php endif; ?>
 
 </div>
-
     <div class="divider"></div>
       <footer class="page-footer">
 
@@ -134,3 +148,13 @@
               </div>
           </div>
       </footer>
+  <div id="modal" class="videowrapper">
+
+      <div class="iziModal-header-buttons">
+          <a href="javascript:void(0)" class="iziModal-button iziModal-button-close" data-izimodal-close=""></a>
+      </div>
+      <video class="popup-video" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support HTML5 video.
+      </video>
+  </div>

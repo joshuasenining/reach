@@ -150,7 +150,11 @@
   }
 }
 @media(max-width:767px){
-
+.ems .card-image{
+   max-width: 100%;
+    float: none;
+    padding-left:0;
+}
   img[usemap]{
     max-width: 100%
   }
@@ -173,7 +177,14 @@
     font-size:2.2rem;
   }
   
-
+  /* learning and training*/
+  .page-node-252 .material-placeholder img{
+    width:100%;
+    padding-bottom: 25px;
+  }
+  .page-node-252 .ems .valign-wrapper{
+    display:block;
+  }
   /* get inspired page*/
   .page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr .circle{
     min-width: inherit;

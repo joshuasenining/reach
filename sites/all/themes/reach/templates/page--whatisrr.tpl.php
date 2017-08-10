@@ -120,13 +120,11 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?><!-- /.header  -->
-
-  <?php print render($page['content']['system_main']['main']['#markup']); ?>
+  <?php global $base_url; ?>
+  <?php print render($page['content']['system_main']['main']['#markup']); ?> 
 
       <div class="container">
-        
                     <?php
-
                                         $block = module_invoke('block', 'block_view', '7');
                                         print render($block['content']);
                                     
@@ -136,18 +134,16 @@
 </div>
       <div class="section lightgraybk thoughts-rr">
         <div class="container">
-           <div class="row" data-equalizer="thoughts" data-equalize-by-row="true">
+           <div class="row">
         
-     
-                <?php
-                                        
-                                          $blockObject = block_load('views', 'whatisrr-block_1');
-                                          
-                                          $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
-                                          
-                                          $output = drupal_render($block);
-                                          print $output;
-                ?>
+           <?php
+
+                                        $block = module_invoke('block', 'block_view', '5');
+                                        print render($block['content']);
+                                    
+                     
+        ?> <!-- building excellence-->
+               
 
           </div>
         </div>
@@ -161,14 +157,22 @@
                      
         ?> <!-- history and achievements-->
         </div>
-         <?php
+         <div class="container">
+           <div class="row" data-equalizer="thoughts" data-equalize-by-row="true">
+        
+          
+                <?php
+                                        
+                                          $blockObject = block_load('views', 'whatisrr-block_1');
+                                          
+                                          $block = _block_get_renderable_array(_block_render_blocks(array($blockObject)));
+                                          
+                                          $output = drupal_render($block);
+                                          print $output;
+                ?>
 
-                                        $block = module_invoke('block', 'block_view', '5');
-                                        print render($block['content']);
-                                    
-                     
-        ?> <!-- building excellence-->
-
+          </div>
+        </div>
  
 
 
@@ -177,7 +181,9 @@
 
           <div class="footer-copyright">
               <div class="container">
-                     <span class="brand-logo"><img src="sites/all/themes/reach/images/logo-main-fff.svg"></span>
+                
+                  <span class="brand-logo"><img src="<?php print $base_url; ?>/sites/all/themes/reach/images/logo-main-fff.svg"></span>
+
                   <?php
                   $footer_menu = menu_navigation_links('menu-footer-menu');
                   print theme('links__menu_menu_footer_menu', array(
