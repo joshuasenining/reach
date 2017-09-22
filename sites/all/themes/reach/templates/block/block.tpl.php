@@ -43,7 +43,7 @@ $node = menu_get_object();
 $document = isset($node->field_document['und'][0]['uri']) ? $node->field_document['und'][0]['uri'] : NULL;
 
 ?>
-<section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> <?php isset($document) ? NULL : print 'style="width:100% !important;"'; ?>>
+<section id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> clearfix getinspired-articles"<?php print $attributes; ?> <?php isset($document) ? NULL : print 'style="width:100% !important;"'; ?>>
   <?php print render($title_suffix['contextual_links']); ?>
   <a class="element-invisible">Block title</a>
   <div>

@@ -10,16 +10,23 @@
   }
 
   /* get inspired*/
+
   .page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr .circle{
     min-width: inherit;
   }
   .filters .card-panel p{
     font-size: 16px;
   }
+  .node-type-get-inspired .valign-wrapper .circle,.page-whatisrr .valign-wrapper .circle,.page-see-what-others-are-doing .valign-wrapper .circle,.page-node-240 .valign-wrapper .circle,.page-node-202 .valign-wrapper .circle{
+		max-width: 100%!important;
+	}
+  .page-how-to-get-started .element-item .card .card-image img {
+      max-height: 135px;
+  }
   /* get inspired ends*/
   /*support network*/
   .supportnetwork .card{
-    min-height: 400px
+    min-height: 340px
   }
   /*what is rr*/
    /*node pages*/
@@ -28,7 +35,7 @@
   }
   .story-title {
       font: 34px HelveticaNeue;
-      line-height: 46px;
+      line-height: 30px;
       margin: 0;
   }
   .node-type-webform #block-system-main{
@@ -40,6 +47,14 @@
     right:0;
     max-width: 100%
   }
+  img.get-inspired-img {
+    max-width: 320px;
+}
+  /*submenu*/
+ /* .block-menu .collection{
+    width:85%;
+    margin:auto;
+  }*/
 }
 @media(min-width:992px){
   #nav-mobile{
@@ -60,27 +75,39 @@
   }
 }
 @media(min-width:1024px){
+   img.get-inspired-img {
+    max-width: 410px;
+        padding-bottom: 12px;
+}
   #index-banner h1{
-    font-size: 4.2rem
+    font-size: 3.4rem
   }
   #index-banner h3{
     font-size: 36px;
   }
+
   
 
   /* get inspired*/
-  .page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr .circle{
+  .page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr /*.circle*/{
     min-width: 165px;
   }
+  .page-how-to-get-started .element-item .card .card-image img {
+      max-height: 160px;
+  }
+
   .filters .card-panel p{
     font-size:18px;
   }
   /* get inspired ends*/
   /*support network*/
   .supportnetwork .card{
-    min-height: 370px
+    min-height: 340px
   }
   /*what is rr*/
+  .node-type-get-inspired .valign-wrapper .circle,.page-whatisrr .valign-wrapper .circle,.page-see-what-others-are-doing .valign-wrapper .circle,.page-node-240 .valign-wrapper .circle,.page-node-202 .valign-wrapper .circle{
+		max-width: 125px!important;
+	}
   .build .card .card-content {
     min-height: 150px;
   }
@@ -100,7 +127,7 @@
   }
   .story-title {
     font: 40px HelveticaNeue;
-      line-height: 52px;
+      line-height: 28px;
       margin: 0;
   }
   .node-type-get-inspired .row .col.xl8 {
@@ -119,6 +146,9 @@
   
 }
 @media(min-width:1250px){
+  img.get-inspired-img {
+    max-width: 410px;
+}
   .build .card .card-content {
     min-height: 120px;
   }
@@ -150,6 +180,12 @@
   }
 }
 @media(max-width:767px){
+	 .hide-desktop{
+  	display:block;
+  }
+  .show-desktop{
+  	display:none;
+  }
 .ems .card-image{
    max-width: 100%;
     float: none;
@@ -176,6 +212,9 @@
   #index-banner h3{
     font-size:2.2rem;
   }
+  .node-type-get-inspired .valign-wrapper .circle{
+  	width:100%;
+  }
   
   /* learning and training*/
   .page-node-252 .material-placeholder img{
@@ -186,6 +225,13 @@
     display:block;
   }
   /* get inspired page*/
+
+  .node-type-get-inspired .pull-right.get-inspired-img,.node-type-get-inspired .pull-left.get-inspired-img{
+    float:left;
+    width:100%;
+    max-width:initial;
+    margin:20px 0;
+  }
   .page-get-inspired .valign-wrapper .s2 .circle,.page-whatisrr .circle{
     min-width: inherit;
   }
@@ -194,6 +240,10 @@
   }
   .grid .element-item{
     width:100%!important;
+  }
+  .quote .col.s2 {
+      text-align: center;
+      width:25%;
   }
   /* get inspired page ends*/
   /* playbook*/
@@ -205,6 +255,9 @@
   }
   /* playbook ends*/
   /*what is rr*/
+  .page-whatisrr .valign-wrapper .circle,.page-see-what-others-are-doing .valign-wrapper .circle,.page-node-240 .valign-wrapper .circle,.page-node-202 .valign-wrapper .circle{
+		max-width: 100%!important;
+	}
     .numbers {
       width: 70px;
       height: 70px;
@@ -246,6 +299,9 @@
   .owl-carousel .item{
     padding:20px;
   }
+  .supportnetwork .card {
+	    min-height: 340px;
+	}
   /* tools end*/
 
 }

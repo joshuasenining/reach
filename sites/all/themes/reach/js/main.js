@@ -71,11 +71,11 @@ jQuery( document ).ready(function($) {
   //support network slideout
 //$("#block-views-tools-and-resources-block-2 .collapsible").collapsible('open', 0);
 
-    $( "#block-views-tools-and-resources-block-3 .collapsible" ).click(function() {
+    $("#block-views-tools-and-resources-block-3 .collapsible").click(function() {
      
-       $("#block-views-tools-and-resources-block-6").css("display", "block");
-
-      $("#block-views-tools-and-resources-block-6 .collapsible").collapsible("open", 0);
+      // $("#block-views-tools-and-resources-block-6").css("display", "block");
+       $("#block-views-tools-and-resources-block-6").addClass("expand-accordion");
+       $("#block-views-tools-and-resources-block-6 .collapsible").collapsible("open", 0);
 
     });
 

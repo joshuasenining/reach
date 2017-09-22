@@ -64,5 +64,11 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
   <?php print $scripts; ?>
+  <script language="JavaScript" type="text/javascript" src="<?php echo $GLOBALS['base_url']; ?>/sites/all/themes/reach/js/s_code.js"></script>
+ <script language="JavaScript" type="text/javascript" src="<?php echo $GLOBALS['base_url']; ?>/sites/all/themes/reach/js/om_vars.js"></script>
+    
+    <script language="JavaScript" type="text/javascript"><!--
+    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+    //--></script><noscript><img src="http://mckinseyknowledge.122.2o7.net/b/ss/mckinseyrnrdev/1/H.25.4--NS/0" height="1" width="1" border="0" alt=""></noscript><!--/DO NOT REMOVE/-->
 </body>
 </html>
