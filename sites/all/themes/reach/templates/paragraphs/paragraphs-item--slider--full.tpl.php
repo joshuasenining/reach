@@ -25,11 +25,13 @@
  * @see template_preprocess_entity()
  * @see template_process()
  */
+$id = $variables['id'];
 ?>
+
 <div class="<?php print $classes; ?>">
 <div class="container"<?php print $attributes; ?>>
 	<div class="section">
-    <div class="content"<?php print $content_attributes; ?>>
+    <div rel="gallery<?php print $id;?>" class="fancygroup content"<?php print $content_attributes; ?>>
         <?php print render($content); ?>
     </div>
 </div>

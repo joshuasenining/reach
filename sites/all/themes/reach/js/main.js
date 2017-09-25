@@ -204,13 +204,17 @@ jQuery( document ).ready(function($) {
         }
     });
 
+    $(".fancygroup").each(function(){
+        $id = $(this).attr('rel');
+        $(this).find(".fancybox").attr("data-fancybox",$id);
+        // console.log($(this).find(".fancybox").attr("href"));
+
+    });
+
 
     if(jQuery().fancybox) {
-        $().fancybox({
-            selector: '[data-fancybox="images"]',
-            thumbs: false,
-            hash: false,
-        });
+        $('.fancybox').fancybox();
+
     }
 
 
