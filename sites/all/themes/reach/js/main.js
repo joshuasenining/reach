@@ -1,6 +1,19 @@
 jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
+
+   $(".page-events .monthview").hover(
+  function() {
+    $( this ).addClass("calendarhover");
+     $(this).find(".contents").addClass("fillcolor");
+
+  }, function() {
+    $( this ).removeClass("calendarhover");
+     $(this).find(".contents").removeClass("fillcolor");
+
+  }
+);
+   
 	//reveal();
   
   $("<div id='back-link'><a href=\"javascript:history.go(-1)\">&laquo; Back</a></div>").insertAfter('#subheader-menu');

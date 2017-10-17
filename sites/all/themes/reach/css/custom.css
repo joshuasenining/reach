@@ -401,6 +401,117 @@ a{
 	margin:auto;
 
 }
+/*calendar*/
+.page-events .card h4 {
+    font-family: HelveticaNeueMedium;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top:0;
+}
+.page-events .card h4 a{
+	color:inherit;
+}
+.upcomingeventspage .container {
+    width: 100%;
+    max-width: inherit
+}
+.upcoming-events {
+    padding: 0.3em 0;
+    border-bottom: 1px solid #d0cfcf;
+    display: block;
+    width: 100%;
+    margin: 2em 0em 2em 0em;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #6e6e6e;
+}
+.view-calendar .date {
+    font: 13px HelveticaNeue;
+    color: #37dee7;
+    padding: 0;
+}
+.col.xl4 .view-calendar .view-content {
+    max-height: 650px;
+    overflow: auto;
+}
+
+.calendarmap div {
+    margin: 0 0 10px 0;
+}
+.calendarmap .brown{
+	background-color: #eca067;
+}
+.calendarmap .purple{
+	background-color: #66307C;
+}
+.calendarmap .lightblue{
+	background-color: #7FD6F7;
+}
+
+.calendarmap .brightblue{
+	background-color: #0065bd;
+}
+
+.calendarmap .cyan{
+	background-color: #00adef;
+}
+
+.calendarmap .turquoise{
+	background-color: #009aa6;
+}
+
+.calendarmap .gray{
+	background-color: #7F94AF;
+}
+
+.calendarmap .red{
+	background-color: #AD005B;
+}
+
+
+
+
+.calendarmap .brown, .calendarmap .purple, .calendarmap .red, .calendarmap .lightblue, .calendarmap .brightblue, .calendarmap .cyan, .calendarmap .turquoise, .calendarmap .gray{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+.view-calendar .card{
+	float:left;
+	width:100%;
+	padding:15px 5px;
+	margin:0 0 15px 0;
+}
+.view-calendar .continues{
+	display:none;
+}
+.upcomingeventspage{
+	margin:30px 0 0 0;
+}
+.calendarhover{
+     
+  overflow: visible!important;
+  z-index: 9!important ;
+  position: relative!important;
+}
+.fillcolor{
+     background: inherit!important;
+    padding: 5px 5px!important;
+    top: 0px!important;
+    max-width: 100%;
+    width: auto!important;
+    left: 0!important;
+    border-radius: 4px;
+
+}
+.upcomingeventspage .xl4 .date-nav-wrapper{
+	display: none
+}
+
 /*what is rr*/
 .block-views .collection-header{
 	margin:1.78rem 0 1.424rem 0;
@@ -1572,4 +1683,182 @@ img[usemap] {
 
 .field-item ol {
 	font-size: 13px;
+}
+
+/* Matrix fields  on multi step form */
+
+.page-node-268 .webform-component-matrix table tr th{ 
+	background-color: #10B8F7; 
+	border: solid 1px #333333;
+	padding: 5px;
+	font-weight: bold; 
+	font-size: 13px;	
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	text-align: center;
+	vertical-align: middle; 
+	width: 13%; 
+}
+
+.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td{
+	border-right: solid 1px #333;
+	vertical-align: top;
+
+}
+
+.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:first-child{
+	border-left: solid 1px #333;
+
+}
+
+/* Hide 2nd, 3rd and last td descriptions*/
+.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:nth-child(2n) .input-field,
+.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:last-child .input-field{ 
+	display: none;
+ }
+
+
+
+.page-node-268 .webform-component-matrix .form-type-radios{ margin-top: 0; }
+
+
+.page-node-268 .webform-client-form .form-item .form-type-radios .form-item{ 
+	border: solid 1px #333333; 
+	padding: 5px; 
+	font-weight: normal;
+	font-size: 13px; 
+	color: #333333; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left ; 
+	vertical-align: top; 
+	margin-top: 0;
+	float: left;
+	width: 20%;
+	border-right: 0;
+}
+
+
+.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] {
+    padding-top: 60px;
+}
+
+
+.page-node-268 .webform-component-matrix[id$="-options"] {
+    margin-top: -30px;
+}
+
+
+
+.page-node-268 [id*="webform-component-questions-"] label, .page-node-268 #webform-component-role label, .page-node-268 .webform-component-textfield label{ 
+    padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #002960;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+}
+
+.page-node-268  #edit-submitted-role label{
+	color: #333;
+	font-size: 14px;
+	padding-left: 32px;
+	vertical-align: top;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] table tr th{ 
+	display : none; 
+}
+
+.page-node-268 .webform-client-form [id$="-options"]  .bordered > thead { 
+	border-bottom: 0 none;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] td{ 
+	width: 13.45%; 
+	margin-top: 0;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child{ 
+	width: 80%;
+	margin-top: 0;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child .form-item.form-type-radios .form-item{
+  width: 16.65%;
+  border-bottom: 0;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child .form-item.form-type-radios .form-item:last-child{
+  width: 16.6%;
+}
+
+
+.page-node-268 .webform-client-form [id$="-options"] table tr.odd td:last-child {
+    border: solid 1px #333;
+    border-bottom: 0;
+}
+
+.page-node-268 .webform-client-form [id$="-options"] table tr.odd td:last-child .form-text{
+	margin: 0;
+}
+
+.page-node-268  [id$="-options"] td { 
+	padding: 0!important; 
+}
+
+.page-node-268 .webform-component-matrix table tr td, .page-node-268  [id$="-options"] .form-item{ 
+	border-top: 0; 
+	border-bottom: 0; 
+	margin-top: 0;
+}
+
+
+.page-node-268 .webform-client-form .form-item.form-type-radios .form-item {
+    float: left;
+    width: 20%; 
+    text-align: center; 
+    height: 60px; 
+}
+
+.page-node-268 .webform-component-matrix table tr.odd{
+   border-color: #333;
+}
+
+.page-node-268 .webform-component-matrix table tr.odd td{
+   border-left: 0;
+}
+
+.webform-component--question-1 tr.odd{
+    border-left: solid 1px #333
+}
+
+.page-node-268 .webform-component-matrix[id$="-options"] label{
+  color: transparent;
+}
+
+.page-node-268 .webform-steps-buttons{
+	padding-top: 70px;
+	position: relative!important;
+}
+
+/* specific css for margin top of radio buttons */
+.page-node-268 .webform-component-matrix#webform-component-question-2-options{
+  margin-top: -47px;
+}
+
+
+.page-node-268  .messages.error{
+	width: 80%;
+	margin: 0 auto;
+	color: red;
+}
+
+
+.page-node-268  .messages.error li{
+	 list-style-type: circle;
+}
+
+.page-node-268  .white{
+	background-color: transparent!important;
 }
