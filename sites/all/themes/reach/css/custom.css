@@ -413,9 +413,12 @@ a{
 .page-events .card h4 a{
 	color:inherit;
 }
-.upcomingeventspage .container {
+/*.upcomingeventspage .container {
     width: 100%;
     max-width: inherit
+}*/
+.upcomingeventspage .xl4{
+	padding:0 15px 0 0;
 }
 .upcoming-events {
     padding: 0.3em 0;
@@ -1684,72 +1687,93 @@ img[usemap] {
 .field-item ol {
 	font-size: 13px;
 }
+/* grid fields for survey form */
 
-/* Matrix fields  on multi step form */
-
-.page-node-268 .webform-component-matrix table tr th{ 
-	background-color: #10B8F7; 
-	border: solid 1px #333333;
-	padding: 5px;
-	font-weight: bold; 
-	font-size: 13px;	
-	color: #FFFFFF; 
-	font-family: Verdana, Arial, Helvetica, sans-serif;	
-	text-align: center;
-	vertical-align: middle; 
-	width: 13%; 
+.page-node-265 .webform-component-webform_grid[id$="-rating"] {
+  padding-bottom: 20px;
 }
 
-.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td{
-	border-right: solid 1px #333;
-	vertical-align: top;
-
-}
-
-.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:first-child{
-	border-left: solid 1px #333;
-
-}
-
-/* Hide 2nd, 3rd and last td descriptions*/
-.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:nth-child(2n) .input-field,
-.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] table tr.odd td:last-child .input-field{ 
-	display: none;
- }
-
-
-
-.page-node-268 .webform-component-matrix .form-type-radios{ margin-top: 0; }
-
-
-.page-node-268 .webform-client-form .form-item .form-type-radios .form-item{ 
-	border: solid 1px #333333; 
-	padding: 5px; 
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table th, .page-node-265 .webform-component-webform_grid[id$="-rating"] table td {
+    display: inline-block;
+	padding: 8px 0.5%!important;
+	border: 0 none!important;
+	border-right: solid 1px black!important;
+	border-top: solid 1px black!important;
+	width: 14.5%!important;
+	border-radius: 0!important;
+	text-align: left;
+	word-wrap: break-word;
 	font-weight: normal;
-	font-size: 13px; 
-	color: #333333; 
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	text-align: left ; 
-	vertical-align: top; 
-	margin-top: 0;
-	float: left;
-	width: 20%;
-	border-right: 0;
+}
+.page-node-265 .webform-client-form .webform-grid-option{
+	display: inline-block!important;
+	padding: 8px 0.5%!important;
+	border: 0 none!important;
+	border-right: solid 1px black!important;
+	min-width: 12%;
+	width: 14.5%!important;
+	border-radius: 0!important;
+	word-wrap: break-word;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] table,.page-node-265 .webform-component-webform_grid[id$="-rating"] table{
+	min-width: 320px;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] table tr th{
+	border-top: solid 1px black!important;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td{
+	border-bottom: solid 1px black!important;
+}
+
+.page-node-265 .webform-component-webform_grid table tr{
+	border: 0 none;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] tr.odd{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] {
+	padding-bottom: 0;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table.sticky-header{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table.sticky-header{
+	position: relative !important;
+    left: 88.7969px;
+}
+
+.page-node-265 .webform-client-form label{
+	color: #333;
+	font-size: 14px;
 }
 
 
-.page-node-268 .webform-component-matrix[id*="webform-component-questions-"] {
-    padding-top: 60px;
+.page-node-265 .webform-component-webform_grid table tr td, .page-node-265 .webform-component-webform_grid table tr th{
+	border-right: solid 1px #333;
+	border-top: solid 1px #333;
+	border-bottom: solid 1px #333;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 13px;
 }
 
-
-.page-node-268 .webform-component-matrix[id$="-options"] {
-    margin-top: -30px;
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td:nth-child(2n+3), .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr th:nth-child(2n+3){
+	color: transparent;
 }
 
+.page-node-265 .webform-component-webform_grid table tr{
+	border-left: solid 1px #333;
+	padding: 0;
+}
 
-
-.page-node-268 [id*="webform-component-questions-"] label, .page-node-268 #webform-component-role label, .page-node-268 .webform-component-textfield label{ 
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] label{ 
     padding: 4px;
     font-weight: normal;
     font-style: normal;
@@ -1757,108 +1781,379 @@ img[usemap] {
     color: #002960;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     width: 99%;
+    display: block;
+    padding: 20px 0 20px  0;
 }
 
-.page-node-268  #edit-submitted-role label{
-	color: #333;
-	font-size: 14px;
-	padding-left: 32px;
-	vertical-align: top;
+.page-node-265 .webform-progressbar{
+	padding: 20px 0 40px 0;
 }
 
-.page-node-268 .webform-client-form [id$="-options"] table tr th{ 
-	display : none; 
+.page-node-265 .webform-component{
+	padding: 0 0 30px 0;
 }
 
-.page-node-268 .webform-client-form [id$="-options"]  .bordered > thead { 
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] {
+  padding-bottom: 20px;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] tr.odd{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] {
+	padding-bottom: 0;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] tr th{
+	background-color: #10B8F7; 
+	border: solid 1px #333333;
 	border-bottom: 0 none;
-}
-
-.page-node-268 .webform-client-form [id$="-options"] td{ 
-	width: 13.45%; 
-	margin-top: 0;
-}
-
-.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child{ 
-	width: 80%;
-	margin-top: 0;
-}
-
-.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child .form-item.form-type-radios .form-item{
-  width: 16.65%;
-  border-bottom: 0;
-}
-
-.page-node-268 .webform-client-form [id$="-options"] tr.odd td:first-child .form-item.form-type-radios .form-item:last-child{
-  width: 16.6%;
+	padding: 5px;
+	font-weight: bold; 
+	font-size: 13px;	
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	text-align: center;
+	vertical-align: middle; 
+	width: 15%; 
 }
 
 
-.page-node-268 .webform-client-form [id$="-options"] table tr.odd td:last-child {
-    border: solid 1px #333;
-    border-bottom: 0;
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table.sticky-header{
+	position: relative !important;
+    left: 88.7969px;
+}
+.page-node-265 .webform-client-form textarea, .page-node-265 .webform-client-form input{
+	border:solid 1px #333;
+	color: #666;
+	padding: 4px;
 }
 
-.page-node-268 .webform-client-form [id$="-options"] table tr.odd td:last-child .form-text{
+.page-node-265 .webform-client-form textarea{
+	width: 92%;
+	min-width: 320px;
+}
+
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector label{
+ 	font-weight: bold;
+ 	font-size: 16px;
+}
+
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector  .form-radios label{
+ 	font-weight: normal;
+ 	font-size: 14px;
+ 	color: #666;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] label{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid .webform-grid-question{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid tr th, .page-node-265 .webform-component-webform_grid tr td{
+	width: 16.6%;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td:nth-child(2n+3), .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr th:nth-child(2n+3){
+	color: transparent;
+}
+
+.page-node-265 .webform-component-webform_grid table tr{
+	border-left: solid 1px #333;
+
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] label{ 
+    padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #002960;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+    display: block;
+    padding: 20px 0 20px  0;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] {
+  padding-bottom: 20px;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] tr.odd{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] {
+	padding-bottom: 0;
+}
+
+
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table.sticky-header{
+	position: relative !important;
+    left: 88.7969px;
+}
+
+
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector label{
+ 	font-weight: bold;
+ 	font-size: 16px;
+}
+
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector  .form-radios label{
+ 	font-weight: normal;
+ 	font-size: 14px;
+ 	color: #666;
+}
+
+.page-node-265 .webform-component-webform_grid table{
+  table-layout: fixed;
+}
+.page-node-265 .webform-component-webform_grid[id$="-rating"] label{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid .webform-grid-question{
+	display: none;
+}
+
+.page-node-265 .webform-component-webform_grid tr th, .page-node-265 .webform-component-webform_grid tr td{
+	width: 16.6%;
+}
+
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td:nth-child(2n+3), .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr th:nth-child(2n+3){
+	color: transparent;
+}
+
+.page-node-265 .webform-component-webform_grid table tr{
+	border-left: solid 1px #333;
+
+}
+
+.page-node-265 .webform-component-webform_grid .input-field{
+	text-align: center;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] label{ 
+    padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #002960;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+    display: block;
+    padding: 20px 0 20px  0;
+}
+
+.page-node-265 .webform-progressbar{
+	padding: 20px 0 40px 0;
+}
+
+.page-node-265 #edit-step-buttons input, .page-node-265 .form-submit {
+  border: 0 none!important;
+  padding: 5px 10px!important;
+  height: auto;
+}
+
+.page-node-265 .webform-component-markup{
+	background: #0580ad;
+	padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.page-node-265 .webform-component-markup p {
 	margin: 0;
 }
 
-.page-node-268  [id$="-options"] td { 
-	padding: 0!important; 
+
+.page-node-265 .webform-client-form .webform-grid-option .input-field{
+    text-align: center;
 }
 
-.page-node-268 .webform-component-matrix table tr td, .page-node-268  [id$="-options"] .form-item{ 
-	border-top: 0; 
-	border-bottom: 0; 
-	margin-top: 0;
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector label{
+ 	font-weight: bold;
+ 	font-size: 16px;
 }
 
-
-.page-node-268 .webform-client-form .form-item.form-type-radios .form-item {
-    float: left;
-    width: 20%; 
-    text-align: center; 
-    height: 60px; 
+.page-node-265 .webform-client-form #webform-component-role-in-function-sector  .form-radios label{
+ 	font-weight: normal;
+ 	font-size: 14px;
+ 	color: #666;
 }
 
-.page-node-268 .webform-component-matrix table tr.odd{
-   border-color: #333;
-}
-
-.page-node-268 .webform-component-matrix table tr.odd td{
-   border-left: 0;
-}
-
-.webform-component--question-1 tr.odd{
-    border-left: solid 1px #333
-}
-
-.page-node-268 .webform-component-matrix[id$="-options"] label{
-  color: transparent;
-}
-
-.page-node-268 .webform-steps-buttons{
-	padding-top: 70px;
-	position: relative!important;
-}
-
-/* specific css for margin top of radio buttons */
-.page-node-268 .webform-component-matrix#webform-component-question-2-options{
-  margin-top: -47px;
+.page-node-265 .webform-component-webform_grid[id$="-rating"] label{
+	display: none;
 }
 
 
-.page-node-268  .messages.error{
-	width: 80%;
-	margin: 0 auto;
-	color: red;
+
+.page-node-265 .webform-component-webform_grid tr th, .page-node-265 .webform-component-webform_grid tr td{
+	width: 16.6%;
+	float: none!important;
+}
+
+.page-node-265 .webform-component-webform_grid .webform-grid-question{
+	display: none!important;
+}
+.page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td:nth-child(2n+3), .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr th:nth-child(2n+3){
+	color: transparent;
+}
+
+.page-node-265 .webform-component-webform_grid table tr{
+	border-left: solid 1px #333;
+
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] label{ 
+    padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #002960;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+    display: block;
+    padding: 20px 0 20px  0;
+}
+
+.page-node-265 .webform-progressbar{
+	padding: 20px 0 40px 0;
+}
+
+.page-node-265 #edit-step-buttons input, .page-node-265 .form-submit {
+  border: 0 none!important;
+  padding: 5px 10px!important;
+  height: auto;
+}
+
+ .page-node-265 .form-submit {
+  color: #fff!important;
 }
 
 
-.page-node-268  .messages.error li{
-	 list-style-type: circle;
+.page-node-265 .webform-component-markup{
+	background: #0580ad;
+	padding: 4px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
-.page-node-268  .white{
-	background-color: transparent!important;
+.page-node-265 .webform-component-markup p {
+	margin: 0;
+}
+
+.page-node-265 .webform-client-form input{
+    border: solid 1px #333;
+    color: #666;
+    padding: 4px;
+}
+
+.page-node-265 .webform-client-form .webform-grid-option{
+    position: relative;
+    opacity: 1;
+    left: 0;
+    display: table-cell;
+}
+
+.page-node-265 table.responsive-table thead {
+   clear: both;
+    float: none!important;
+    border: 0 none;
+}
+
+.page-node-265 .webform-client-form *,.page-node-265 .webform-client-form *:before,.page-node-265 .webform-client-form *:after{
+	box-sizing: unset;
+}
+
+.page-node-265 table.responsive-table.bordered tbody tr {
+    border-right: 0 none;
+}
+
+.page-node-265 #webform-component-survey-intro {
+    background: none;
+    color: #000;
+}
+
+.page-node-265 .webform-client-form .webform-grid-option input {
+    position: relative;
+    opacity: 1;
+    left: 0;
+}
+
+@media only screen and (max-width: 767px){
+
+
+	.page-node-265 .webform-component-webform_grid table {
+	  font-size: 11px!important;
+	}
+
+	.page-node-265 table.responsive-table tbody tr {
+	  display: table-row;
+	}
+   
+    .page-node-265 .content{
+    	min-width: 320px;
+    }
+
+	.page-node-265 .webform-client-form textarea{
+		width: 100%;
+		min-width: 320px;
+	}
+
+}
+@media only screen and (max-width: 992px){
+
+	.page-node-265 table.responsive-table th {
+	  font-size: 0.9em!important;
+	}
+
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table {
+	    display: table!important;
+	    width: auto;
+	    position: unset;
+	    overflow-x: unset;
+	    white-space: unset;
+      }
+
+	.page-node-265 .webform-component[id$="-rating"]	table.responsive-table thead tr {
+	    display: table-row!important;
+	}
+
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table tbody ,
+	.page-node-265 .webform-component[id$="-rating"]	table.responsive-table thead {
+	    display: table-row-group!important;
+	    width: auto;
+	    position: unset;
+	    overflow-x: unset;
+	    white-space: unset;
+	}
+
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table tbody tr,
+	.page-node-265 .webform-component[id$="-rating"]	table.responsive-table thead tr {
+	    display: table-row!important;
+	}
+
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table tbody tr td,
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table thead  tr th{
+	    display: table-cell!important;
+	}
 }

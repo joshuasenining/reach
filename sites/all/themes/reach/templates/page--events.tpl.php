@@ -90,11 +90,16 @@
 
                                                            ?>
       </div>
-     
-      
+    
+         
+    
     </div>
 </section>
-
+<section class="white-bk">
+    <div class="container">
+         <?php print render($page['graysectioncontent']); ?>
+    </div>
+</section>
 </div>
     <div class="divider"></div>
       <footer class="page-footer">

@@ -127,7 +127,7 @@
   }
   .story-title {
     font: 40px HelveticaNeue;
-      line-height: 28px;
+      line-height: 36px;
       margin: 0;
   }
   .node-type-get-inspired .row .col.xl8 {
@@ -303,6 +303,89 @@
 	    min-height: 340px;
 	}
   /* tools end*/
+  /* calendar*/
+  .calendarhover{
+       
+    overflow: visible!important;
+    z-index: 9!important ;
+    position: relative!important;
+  }
+
+  .view .date-nav-wrapper .date-next,.view .date-nav-wrapper .date-prev{
+    top:30px;
+  }
+  .calendar-calendar .month-view .full tr.single-day .no-entry, .calendar-calendar .month-view .full tr.single-day .no-entry .inner{
+    display:none;
+  }
+  .calendar-calendar .month-view .full tr.date-box{
+    height:initial;
+    line-height:initial;  
+  }
+  .calendar-calendar{
+    overflow: auto;padding:20px;
+  }
+   .view .date-nav-wrapper .date-heading {
+    text-align: left;
+  }
+  .calendar-calendar .month-view .full tr.multi-day td{
+    max-height: 100%
+  }
+  .calendar-calendar td{
+    border:0;
+  }
+  .calendar-calendar .month-view .full tr.date-box, .calendar-calendar .month-view .full tr.date-box td, .calendar-calendar .month-view .full tr.multi-day, .calendar-calendar .month-view .full tr.multi-day td{
+    min-height:75px;
+  }
+  .calendar-calendar .month-view table.full {
+    position: relative; 
+  }
+  .calendar-calendar .month-view .full tr td {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .calendar-calendar tbody tr:hover td {
+    background: none;
+  }
+
+
+   .calendar-calendar .month-view .full .multi-day { 
+    float:left;
+    margin: 0 0 20px 0;
+    width:  100%
+   }
+  .calendar-calendar .month-view .full tr td.single-day:before,.calendar-calendar .month-view .full tr td.multi-day:before  { 
+    content: attr(data-date); 
+    font-weight: bold;
+  }
+  .calendar-calendar .month-view .full thead tr,
+  .calendar-calendar .month-view .full tr th.days,
+  .calendar-calendar .month-view .full tr td.date-box,
+  .calendar-calendar .month-view .full tr td.no-entry,
+  .calendar-calendar .month-view .full tr td.empty {
+    display: none;
+  }
+ 
+  .calendar-calendar .month-view .full tr td.multi-day.ends-today{
+    border-right:0;
+  }
+  .calendar.monthview {
+     
+  overflow: visible!important;
+  z-index: 9!important ;
+  position: relative!important;
+}
+ .calendar.monthview  > .contents{
+     background: inherit!important;
+    padding: 5px 5px!important;
+    top: 0px!important;
+    max-width: 100%;
+    width: auto!important;
+    left: 0!important;
+    border-radius: 4px;
+
+}
+  /*calendar ends*/
 
 }
 @media(max-width:480px){
