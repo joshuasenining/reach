@@ -167,6 +167,46 @@ function people_content_type_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-people-field_sidebar_link'
+  $field_instances['node-people-field_sidebar_link'] = array(
+    'bundle' => 'people',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 14,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_sidebar_link',
+    'label' => 'Sidebar Link',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 32,
+    ),
+  );
+
   // Exported field_instance: 'node-people-field_sorting'
   $field_instances['node-people-field_sorting'] = array(
     'bundle' => 'people',
@@ -434,6 +474,7 @@ function people_content_type_field_default_field_instances() {
   t('Location');
   t('Role/Position');
   t('Section');
+  t('Sidebar Link');
   t('Sorting');
   t('Thumbnail');
   t('Video');

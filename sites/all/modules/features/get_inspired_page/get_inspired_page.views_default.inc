@@ -83,8 +83,10 @@ function get_inspired_page_views_default_views() {
     'image_style' => '',
     'image_link' => 'content',
   );
+  $handler->display->display_options['fields']['field_image']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_image']['delta_offset'] = '0';
-  /* Field: Field: Content */
+  $handler->display->display_options['fields']['field_image']['multi_type'] = 'ul';
+  /* Field: Field: Teaser */
   $handler->display->display_options['fields']['field_content']['id'] = 'field_content';
   $handler->display->display_options['fields']['field_content']['table'] = 'field_data_field_content';
   $handler->display->display_options['fields']['field_content']['field'] = 'field_content';

@@ -117,7 +117,7 @@ function reach_views_video_views_views_default_views() {
         </div><!-- container-->
       </div><!-- section-->';
   $handler->display->display_options['header']['area']['format'] = 'php_code';
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -196,10 +196,10 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['fields']['nothing']['element_label_colon'] = FALSE;
   $handler->display->display_options['path'] = 'journey-stories';
 
-  /* Display: Highlights From Senior Partners */
-  $handler = $view->new_display('block', 'Highlights From Senior Partners', 'block_1');
+  /* Display: Journey Highlights */
+  $handler = $view->new_display('block', 'Journey Highlights', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Highlights From Senior Partners';
+  $handler->display->display_options['title'] = 'Journey Highlights';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['style_options']['row_class'] = 'container2';
@@ -211,7 +211,7 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -262,13 +262,12 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['nid']['link_to_node'] = TRUE;
-  /* Field: Content: Link */
-  $handler->display->display_options['fields']['field_know_link']['id'] = 'field_know_link';
-  $handler->display->display_options['fields']['field_know_link']['table'] = 'field_data_field_know_link';
-  $handler->display->display_options['fields']['field_know_link']['field'] = 'field_know_link';
-  $handler->display->display_options['fields']['field_know_link']['label'] = '';
-  $handler->display->display_options['fields']['field_know_link']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_know_link']['element_label_colon'] = FALSE;
+  /* Field: Content: Sidebar Link */
+  $handler->display->display_options['fields']['field_sidebar_link']['id'] = 'field_sidebar_link';
+  $handler->display->display_options['fields']['field_sidebar_link']['table'] = 'field_data_field_sidebar_link';
+  $handler->display->display_options['fields']['field_sidebar_link']['field'] = 'field_sidebar_link';
+  $handler->display->display_options['fields']['field_sidebar_link']['label'] = '';
+  $handler->display->display_options['fields']['field_sidebar_link']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -395,7 +394,7 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -582,7 +581,7 @@ function reach_views_video_views_views_default_views() {
         </div><!-- container-->
       </div><!-- section-->';
   $handler->display->display_options['header']['area']['format'] = 'php_code';
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -672,7 +671,7 @@ function reach_views_video_views_views_default_views() {
   /* Display: Thoughts on Reach and Relevance: */
   $handler = $view->new_display('block', 'Thoughts on Reach and Relevance:', 'block_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Thoughts on Reach and Relevance:';
+  $handler->display->display_options['title'] = 'Thoughts on Reach and Relevance';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['style_options']['row_class'] = 'container2';
@@ -684,7 +683,7 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -765,7 +764,7 @@ function reach_views_video_views_views_default_views() {
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -938,7 +937,7 @@ function reach_views_video_views_views_default_views() {
         </div><!-- container-->
       </div><!-- section-->';
   $handler->display->display_options['header']['area']['format'] = 'php_code';
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';
@@ -1067,7 +1066,7 @@ function reach_views_video_views_views_default_views() {
            ';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: Content: Thumbnail */
+  /* Field: Field: Thumbnail */
   $handler->display->display_options['fields']['field_thumbnail']['id'] = 'field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['table'] = 'field_data_field_thumbnail';
   $handler->display->display_options['fields']['field_thumbnail']['field'] = 'field_thumbnail';

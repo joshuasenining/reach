@@ -17,4 +17,4 @@ features[field_base][] = field_banner_title
 features[field_instance][] = bean-banner-field_banner_image
 features[field_instance][] = bean-banner-field_banner_subtitle
 features[field_instance][] = bean-banner-field_banner_title
-mtime = 1499427914
+mtime = 1500942924
