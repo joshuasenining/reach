@@ -44,7 +44,7 @@
     </ul>
         </div>
     </nav>
-   <div>
+   <div class="white">
   <?php if (!empty($page['header'])): ?>
     <div class="top">
       <?php print render($page['header']); ?>
@@ -57,7 +57,9 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php print render($title_suffix); ?>
+      <div class="survey-form-messages">
       <?php print $messages; ?>
+      </div>
 
 
       <?php if (!empty($page['help'])): ?>
@@ -67,48 +69,45 @@
       <?php print render($tabs_secondary); ?>
 </div>
 <?php global $base_url; ?>
- 
-<div class="row page">
+  <div class="row page">
     
-<section class="upcomingeventspage">
-    <div class="container">
+    <section class="main" role="main">
+      
+<div class="white">
+      <?php print render($page['content']); ?>
+</div>
+      <?php if (!empty($page['graysectioncontent'])): ?>
+          
+      <div class="section lightgraybk">
+          <div class="container">
 
-
-      <div class="col xl4 l4 m4 s12">
-      <div class="calendarmap">
-           <?php print render($page['left']); ?>
+               <?php print render($page['graysectioncontent']); ?>
+          </div>
       </div>
-         <div id="event-listing-mark" class="upcoming-events">Upcoming Events</div>
-        <?php print render($page['content']); ?>
-      </div>
-      <div class="col xl8 m8 s12">
-             
-              <?php
-                                       
-                                                       
-                                                             print views_embed_view('calendar', 'page_1');
+      <?php endif; ?>
 
-                                                           ?>
 
-                                                           
-      </div>
-         <?php
 
-                      $block = module_invoke('block', 'block_view', '39');
-                      print render($block['content']);
-                  
+    </section>
+          <?php if (!empty($page['sidebar_second'])): ?>
    
-        ?>
+      <aside class="col xl3 l4 m12 s12 sidebar-last" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </aside>  <!-- /#sidebar-second -->
+
+    <?php endif; ?>
+ 
+</div>
+<div class="row">
     
-         
-    
-    </div>
-</section>
-<section class="bottom-white-calendar">
-    <div class="container">
-         <?php print render($page['graysectioncontent']); ?>
-    </div>
-</section>
+
+   <?php if (!empty($action_links)): ?>
+        <div class="action-links"><i class="mdi-action-note-add small"></i><?php print render($action_links); ?></div>
+      <?php endif; ?>
+    <?php if (!empty($tabs['#primary'])): ?>
+          <?php print render($tabs_primary); ?>
+      <?php endif; ?>
+
 </div>
     <div class="divider"></div>
       <footer class="page-footer">

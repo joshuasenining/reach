@@ -420,15 +420,81 @@ a{
 .upcomingeventspage .xl4{
 	padding:0 15px 0 0;
 }
+.upcomingeventspage{
+	
+	float:left;
+	width: 100%
+}
+.upcomingeventspage .xl8 .view-calendar{
+	background-color: #F4F4F4;
+	padding:20px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.08);
+}
+/*.upcomingeventspage .view .date-nav-wrapper .date-prev{
+	left:0;
+	right:inherit;
+}*/
+.bottom-white-calendar{
+	background-color: #F4F4F4;
+}
+.upcomingeventspage .view .date-nav-wrapper .date-prev,.upcomingeventspage .view .date-nav-wrapper .date-next{
+	background-color:#00ADEF;
+	color:#fff;
+	    padding:10px;
+	border-radius:0;
+}
+.upcomingeventspage .view .date-nav-wrapper .date-prev a
+{
+	margin-left:0
+}
+ .upcomingeventspage .view .date-nav-wrapper .date-next a{
+margin-right:0;
+}
+.upcomingeventspage .mck-icon__arrow-right:before{
+	padding-left:0;
+}
+.upcomingeventspage .mck-icon__arrow-right:before, .upcomingeventspage .mck-icon__arrow-left:before{
+    font-size: 20px;
+    color:#fff;
+
+}
+.upcomingeventspage .calendar-calendar,.upcomingeventspage .calendar-calendar .month-view .full td.single-day .calendar-empty, .upcomingeventspage .calendar-calendar .month-view .full td.single-day.empty,.upcomingeventspage .calendar-calendar .month-view .full td.date-box.empty,.upcomingeventspage .calendar-calendar tr,.upcomingeventspage .calendar-calendar th.days {
+    background-color: #F4F4F4;
+}
+.upcomingeventspage .pager{
+    position: absolute;
+    top: 315px;
+    width: 100%;
+    list-style:none;
+}
+.upcomingeventspage .pager li{
+	list-style-type: 	none!important	
+}
+.upcomingeventspage .view .date-nav-wrapper .date-prev{
+	    left: -46px;
+	    right:inherit;
+}
+.upcomingeventspage .view .date-nav-wrapper .date-next{
+	    right: -52px;
+}
+.page-events{
+	background-color: #fff!important;
+
+}
 .upcoming-events {
     padding: 0.3em 0;
     border-bottom: 1px solid #d0cfcf;
     display: block;
     width: 100%;
-    margin: 2em 0em 2em 0em;
+     margin: 0 0em 2em 0em;
     text-transform: uppercase;
     font-size: 1.1em;
     color: #6e6e6e;
+}
+.keyglobal{
+	padding:30px 0;
 }
 .view-calendar .date {
     font: 13px HelveticaNeue;
@@ -488,12 +554,23 @@ a{
 	width:100%;
 	padding:15px 5px;
 	margin:0 0 15px 0;
+	box-shadow:none
+}
+.view-calendar .card:last-child{
+	border:0;
 }
 .view-calendar .continues{
 	display:none;
 }
 .upcomingeventspage{
-	margin:30px 0 0 0;
+	padding:0 0 30px 0;
+}
+.upcomingeventspage .xl8{
+	margin-bottom: 40px;
+}
+.bottom-white-calendar{
+	padding:30px 0;
+	clear:both;
 }
 .calendarhover{
      
@@ -501,12 +578,18 @@ a{
   z-index: 9!important ;
   position: relative!important;
 }
+.full-title+a,.view-item-calendar .date-display-range + a,.view-item-calendar .date-display-range,.view-item-calendar .calendarhover .short-title{		
+ 		display:none;		
+ }
+.calendarhover .full-title+a,.view-item-calendar .calendarhover .date-display-range + a,.view-item-calendar .calendarhover .date-display-range{		
+ 	display:block		
+ }
 .fillcolor{
      background: inherit!important;
     padding: 5px 5px!important;
     top: 0px!important;
     max-width: 100%;
-    width: auto!important;
+    /*width: auto!important;*/
     left: 0!important;
     border-radius: 4px;
 
@@ -1186,10 +1269,10 @@ ol.custom > li:before {
 /* gold standard page ends*/
 /*engaging*/
 
-.page-node-242 .paragraphs-item-plain-content .field-type-text-long a:before{
+.page-node-242 .paragraphs-item-plain-content .field-type-text-long .cl-access a:before{
   padding-right: 10px
 }
-.page-node-242 .paragraphs-item-plain-content .field-type-text-long a {
+.page-node-242 .paragraphs-item-plain-content .field-type-text-long .cl-access a {
   padding-right:15px;
 }
 /* engaging ends*/
@@ -1695,11 +1778,11 @@ img[usemap] {
 
 .page-node-265 .webform-component-webform_grid[id$="-rating"] table th, .page-node-265 .webform-component-webform_grid[id$="-rating"] table td {
     display: inline-block;
-	padding: 8px 0.5%!important;
+	padding: 8px 1%!important;
 	border: 0 none!important;
 	border-right: solid 1px black!important;
 	border-top: solid 1px black!important;
-	width: 14.5%!important;
+	width: 16%!important;
 	border-radius: 0!important;
 	text-align: left;
 	word-wrap: break-word;
@@ -1707,17 +1790,17 @@ img[usemap] {
 }
 .page-node-265 .webform-client-form .webform-grid-option{
 	display: inline-block!important;
-	padding: 8px 0.5%!important;
+	padding: 8px 1%!important;
 	border: 0 none!important;
 	border-right: solid 1px black!important;
 	min-width: 12%;
-	width: 14.5%!important;
+	width: 16%!important;
 	border-radius: 0!important;
 	word-wrap: break-word;
 }
 
 .page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] table,.page-node-265 .webform-component-webform_grid[id$="-rating"] table{
-	min-width: 320px;
+	min-width: 600px;
 }
 
 .page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] table tr th{
@@ -1832,8 +1915,8 @@ img[usemap] {
 }
 
 .page-node-265 .webform-client-form textarea{
-	width: 92%;
-	min-width: 320px;
+	width: 95%;
+	min-width: 600px;
 }
 
 .page-node-265 .webform-client-form #webform-component-role-in-function-sector label{
@@ -2005,9 +2088,6 @@ img[usemap] {
 	float: none!important;
 }
 
-.page-node-265 .webform-component-webform_grid .webform-grid-question{
-	display: none!important;
-}
 .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr td:nth-child(2n+3), .page-node-265 .webform-component-webform_grid[id$="-rating"] table tr th:nth-child(2n+3){
 	color: transparent;
 }
@@ -2081,8 +2161,14 @@ img[usemap] {
 }
 
 .page-node-265 .webform-client-form *,.page-node-265 .webform-client-form *:before,.page-node-265 .webform-client-form *:after{
-	box-sizing: unset;
+	content: '';
 }
+.page-node-265 .webform-component table.responsive-table tr:before,
+.page-node-265 .webform-component-webform_grid table tr:before{
+	box-sizing: inherit;
+	content: unset;
+}
+
 
 .page-node-265 table.responsive-table.bordered tbody tr {
     border-right: 0 none;
@@ -2098,6 +2184,72 @@ img[usemap] {
     opacity: 1;
     left: 0;
 }
+
+.page-node-265 .webform-component[id$="-rating"] table.responsive-table tbody tr td.webform-grid-question,
+.page-node-265 .webform-component[id$="-rating"] table.responsive-table thead  tr th.webform-grid-question{
+		display: none!important;
+ }
+
+.page-node-265 #block-system-main{	
+	background-color:#F4F4F4;
+	padding:50px;
+}
+
+.page-node-265 .survey-webform-confirmation{
+	background-color:#FFF;
+	width: 85%!important;
+	margin: 0 auto;
+    max-width: 1280px;
+    padding: 50px;
+}
+
+.page-node-265 .survey-webform-confirmation h4{
+	color: #2E60AD
+}
+
+.page-node-265 .webform-progressbar-outer  span.webform-progressbar-page:nth-child(3){
+  visibility:hidden;
+}
+.page-node-265 #block-system-main{
+	max-width: unset;
+}
+.page-node-265 .collection-header{
+	display: none;
+}
+
+.page-node-265 table.striped > tbody > tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] tr th:last-child{
+    background-color: #7D9AAA;
+}
+
+.page-node-265 .survey-form-messages {
+	max-width: 1280px;
+	margin:0 auto;
+	width: 80%;
+	background: #fff;
+	padding: 50px;
+}
+
+.page-node-265 .messages.error{
+   color: red;
+}
+
+.page-node-265 .messages.error ul li{
+   list-style: disc;
+}
+
+.page-node-265 .row.page {
+    overflow: auto;
+}
+
+/* page node submission edit */
+.page-node-265.page-node-submission-edit .webform-grid thead{
+ 	display: none;
+}
+
 
 @media only screen and (max-width: 767px){
 
@@ -2116,16 +2268,11 @@ img[usemap] {
 
 	.page-node-265 .webform-client-form textarea{
 		width: 100%;
-		min-width: 320px;
+		min-width: 600px;
 	}
 
 }
 @media only screen and (max-width: 992px){
-
-	.page-node-265 table.responsive-table th {
-	  font-size: 0.9em!important;
-	}
-
 	.page-node-265 .webform-component[id$="-rating"] table.responsive-table {
 	    display: table!important;
 	    width: auto;
@@ -2156,4 +2303,24 @@ img[usemap] {
 	.page-node-265 .webform-component[id$="-rating"] table.responsive-table thead  tr th{
 	    display: table-cell!important;
 	}
+
+	.page-node-265 .webform-component[id$="-rating"] table.responsive-table tbody tr td.webform-grid-question,
+	 .page-node-265 .webform-component[id$="-rating"] table.responsive-table thead  tr th.webform-grid-question{
+		display: none!important;
+    }
 }
+
+.calendar-image {
+	width: 70%;
+    margin: auto 10%;
+    float: right;
+}
+
+.upcomingeventspage li {
+	list-style-type: disc !important;
+}
+
+.bottom-white-calendar li {
+	list-style-type: disc !important;
+}
+

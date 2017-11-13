@@ -2,6 +2,7 @@ jQuery(document).foundation();
 
 jQuery( document ).ready(function($) {
 
+
    $(".page-events .monthview").hover(
   function() {
     $( this ).addClass("calendarhover");
@@ -13,6 +14,24 @@ jQuery( document ).ready(function($) {
 
   }
 );
+
+
+    // Survey Form 
+
+  $('.page-node-265 .webform-component-webform_grid tr th, .page-node-265 .webform-component-webform_grid tr td').attr('colspan','1');
+  $('.page-node-265 .webform-component-webform_grid tr th, .page-node-265 .webform-component-webform_grid tr td').attr('style','width: 16%');
+  $(".page-node-265 .webform-client-form input#edit-submitted-cell").attr('placeholder','State Office OR Function / Sector / Growth Platform');
+
+      $('.page-node-265 .webform-component-webform_grid[id*="webform-component-question-"] table tr').each(function(){
+          var currentTable = $(this);
+          currentTable.find('th').css('height', currentTable.innerHeight());
+    });
+     $('.page-node-265 .webform-component-webform_grid[id$="-rating"] table').each(function(){
+          var currentTable = $(this);
+          currentTable.find('th').css('height', currentTable.innerHeight());
+    });
+
+/* end of survey form*/
    
 	//reveal();
   
@@ -255,6 +274,9 @@ jQuery( document ).ready(function($) {
 
 
 });
+
+
+
 function getHashFilter() {
   var hash = location.hash;
   // get filter=filterName
@@ -307,6 +329,8 @@ function magicline(){
 	   $('#magic-line').css('display','none');
 	}
 }
+
+
 
 // function reveal(){
 //   window.sr = ScrollReveal();

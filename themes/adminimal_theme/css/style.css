@@ -3055,3 +3055,51 @@ body.adminimal-skin-alternative.adminimal-theme.page-admin-structure-features #e
 .fpa-container .dummy-checkbox {
   display: none !important;
 }
+
+/* customizing survey form edit page of form results */
+
+.page-node-265 #webform-client-form-265 [id*='webform-component-question-'] tbody{
+  display: none;
+}
+
+.page-node-265 #webform-client-form-265 [id*='webform-component-question-'] thead th{
+  border-right: solid 1px #000;
+}
+
+.page-node-265 #webform-client-form-265 [id*='webform-component-question-'] label{
+  font-size: 16px;
+}
+
+.page-node-265 #webform-client-form-265 [id$='-rating'] label{
+  display: none;
+}
+
+.page-node-265 #webform-client-form-265 [id$='-rating'] thead{
+  display: none;
+}
+
+.page-node-265 #webform-client-form-265 [id$='-rating'] tbody td:first-child{
+  display: none;
+}
+
+.page-node-265 #webform-client-form-265 [id$='-rating'] tbody td{
+ border-right: solid 1px #000;
+}
+
+.page-node-265 #webform-client-form-265 [id$='-comments']{
+  margin-bottom: 20px;
+}
+
+.page-node-265 #webform-client-form-265 .webform-component-markup{
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
